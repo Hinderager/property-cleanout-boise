@@ -26,28 +26,28 @@ export const metadata: Metadata = {
 const signs = [
   {
     number: 1,
-    title: 'They No Longer Invite People Over',
-    content: 'One of the earliest signs of a hoarding problem is social withdrawal. If your loved one used to host gatherings but now always makes excuses or insists on meeting elsewhere, it could be because they\'re embarrassed about the state of their home. They may decline help with repairs, refuse to let family visit, or become defensive when asked about their living situation.',
+    title: 'They\'ve Stopped Having People Over',
+    content: 'This one sneaks up on you. Maybe your mom used to love hosting Thanksgiving, but now she always wants to meet at a restaurant instead. Or your brother makes excuses every time you suggest stopping by. People dealing with hoarding often feel ashamed of their home, even if they won\'t admit it. They\'ll get defensive if you push, or change the subject. It\'s not that they don\'t want to see you—they just don\'t want you to see their house.',
   },
   {
     number: 2,
-    title: 'Living Spaces Are No Longer Usable',
-    content: 'When rooms can no longer be used for their intended purpose, it\'s a serious warning sign. A dining room buried under boxes, a bedroom where the bed is covered in items, or a kitchen where cooking is impossible all indicate that hoarding has progressed beyond simple clutter. If your loved one is sleeping on a couch because their bedroom is full, it\'s time to seek help.',
+    title: 'Rooms Aren\'t Being Used for What They\'re For',
+    content: 'A dining room table buried under stuff. A bed you can\'t actually sleep in. A kitchen where making dinner isn\'t really possible anymore. When clutter takes over to the point where rooms lose their purpose, that\'s a red flag. I\'ve seen situations where someone\'s been sleeping on a tiny corner of their couch for months because their bedroom is completely full. That\'s not just being messy—that\'s a problem.',
   },
   {
     number: 3,
-    title: 'There Are Safety Hazards',
-    content: 'Hoarding creates dangerous conditions including blocked exits, fire hazards from items near heaters or stoves, tripping hazards from piled items, and structural stress from weight. If you notice blocked doorways, pathways through rooms, or items stacked precariously high, these are serious safety concerns that warrant immediate attention.',
+    title: 'The Home Has Become Unsafe',
+    content: 'This is the one that really worries me. Stacks of newspapers blocking the door. Stuff piled near the furnace. Pathways through rooms that are barely wide enough to walk through. Hoarding creates real dangers—fire hazards, tripping risks, even structural issues if things get heavy enough. If you can\'t easily get out in an emergency, or if you\'re worried about things falling, it\'s time to take action.',
   },
   {
     number: 4,
-    title: 'Their Health Is Declining',
-    content: 'Hoarding environments can cause or worsen health problems. Watch for signs like respiratory issues from dust or mold, pest infestations, inability to prepare healthy meals, missed medications buried under clutter, or declining personal hygiene. If your loved one seems more tired, sick, or generally unwell, their living environment could be a contributing factor.',
+    title: 'Their Health Is Getting Worse',
+    content: 'Hoarding takes a toll on the body, not just the mind. Dust and mold build up. Pests move in. It becomes hard to cook real meals or find medications. I\'ve talked to families who noticed their parent seemed more tired, was getting sick more often, or just looked run down. Sometimes the living situation is making things worse and nobody\'s connected the dots yet.',
   },
   {
     number: 5,
-    title: 'They Get Extremely Distressed About Discarding Items',
-    content: 'While most of us have some attachment to possessions, people with hoarding disorder experience extreme anxiety at the thought of letting things go. If your loved one becomes angry, tearful, or panicked when discussing getting rid of items—even obvious trash like empty containers or junk mail—this emotional response indicates hoarding disorder rather than simple collecting or messiness.',
+    title: 'Getting Rid of Anything Causes a Meltdown',
+    content: 'Look, we all have stuff we\'re attached to. That\'s normal. But if suggesting you throw away an empty yogurt container causes tears or a full-blown argument? That\'s different. People with hoarding disorder feel genuine panic at the thought of losing things—even things most of us would call garbage. It\'s not stubbornness or laziness. There\'s real anxiety there, and it\'s a sign that something deeper is going on.',
   },
 ]
 
@@ -85,19 +85,22 @@ export default function BlogPost() {
             </h1>
 
             <p className="text-xl text-gray-600">
-              Recognizing when a family member needs professional help with hoarding can be difficult.
-              Here are the key warning signs that indicate it may be time to seek assistance.
+              It&apos;s hard to watch someone you care about struggle with hoarding. Here&apos;s how to tell when it&apos;s gone beyond &quot;messy&quot; and into territory where they really need help.
             </p>
           </header>
 
           {/* Article Content */}
           <article className="prose prose-lg max-w-none">
             <p>
-              Watching a loved one struggle with hoarding is heartbreaking. You may have noticed changes over time—more clutter, less willingness to have visitors, increased anxiety about possessions. But how do you know when it&apos;s crossed the line from &quot;a bit messy&quot; to a serious problem requiring professional help?
+              Nobody wants to admit their parent, sibling, or friend has a hoarding problem. It&apos;s easy to make excuses—they&apos;re just a collector, they&apos;ve always been a bit of a pack rat, they&apos;ll get around to cleaning eventually. I get it. It&apos;s a tough thing to face.
             </p>
 
             <p>
-              Here are five key signs that your loved one may need hoarding help:
+              But there&apos;s a difference between someone who has too much stuff and someone who genuinely needs help. And the longer you wait, the harder it gets—both for them and for you. So how do you know when it&apos;s crossed that line?
+            </p>
+
+            <p>
+              Here are five things to watch for:
             </p>
 
             {signs.map((sign) => (
@@ -114,40 +117,52 @@ export default function BlogPost() {
               </div>
             ))}
 
-            <h2>What to Do If You Recognize These Signs</h2>
+            <h2>So What Do You Actually Do?</h2>
 
             <p>
-              If you&apos;ve identified one or more of these signs in your loved one, here are some steps you can take:
+              Okay, so you&apos;ve read through this list and you&apos;re thinking, &quot;yep, that sounds like my dad.&quot; Now what?
+            </p>
+
+            <p>
+              First off, don&apos;t go in guns blazing. Seriously. Showing up and demanding they throw everything away is only going to backfire. Hoarding is a mental health issue, not a character flaw, and approaching it with judgment will just make them shut down.
+            </p>
+
+            <p>
+              Instead, try something like:
             </p>
 
             <ol>
-              <li><strong>Approach with compassion.</strong> Remember that hoarding is a mental health condition, not a choice or character flaw.</li>
-              <li><strong>Express concern, not criticism.</strong> Focus on their wellbeing and safety rather than the mess.</li>
-              <li><strong>Encourage professional help.</strong> A therapist specializing in hoarding can address the underlying issues.</li>
-              <li><strong>Consider professional cleanup.</strong> Compassionate hoarding cleanup services can help restore the home safely.</li>
-              <li><strong>Be patient.</strong> Recovery from hoarding takes time and often involves setbacks.</li>
+              <li><strong>Lead with concern, not criticism.</strong> &quot;I&apos;m worried about you&quot; lands a lot better than &quot;this place is disgusting.&quot;</li>
+              <li><strong>Focus on safety.</strong> Talk about blocked exits or fire hazards. It&apos;s harder to argue with concrete dangers.</li>
+              <li><strong>Suggest they talk to someone.</strong> A therapist who specializes in hoarding can help in ways you can&apos;t.</li>
+              <li><strong>Offer to help find professional cleaners.</strong> Not just any cleaning service—people who actually understand hoarding and won&apos;t shame them.</li>
+              <li><strong>Be patient.</strong> This isn&apos;t going to get fixed in a weekend. There will probably be setbacks. That&apos;s just how it goes.</li>
             </ol>
 
             <div className="bg-yellow-50 border-l-4 border-brand-yellow p-6 my-8 rounded-r-lg">
               <div className="flex items-start gap-3">
                 <AlertTriangle className="w-6 h-6 text-brand-yellow flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-bold text-gunmetal mt-0 mb-2">When It&apos;s an Emergency</h3>
+                  <h3 className="font-bold text-gunmetal mt-0 mb-2">When You Can&apos;t Wait</h3>
                   <p className="mb-0 text-gray-700">
-                    If there are immediate safety concerns—no running water, blocked exits, pest infestations, or health code violations—don&apos;t wait. Contact professional hoarding cleanup services immediately to address the urgent issues while working on long-term solutions.
+                    Sometimes the situation is urgent. No running water. Pests everywhere. Health inspectors threatening to condemn the property. If it&apos;s gotten to that point, you need to act fast. Call a professional hoarding cleanup service to deal with the immediate crisis while you figure out the longer-term stuff.
                   </p>
                 </div>
               </div>
             </div>
 
-            <h2>We&apos;re Here to Help</h2>
+            <h2>We Can Help</h2>
 
             <p>
-              At Hoarding Cleanup Pros, we understand the sensitive nature of hoarding situations. We work with families throughout Boise, Meridian, Nampa, Caldwell, and Eagle to provide compassionate, discreet cleanup services that treat your loved one with dignity.
+              We&apos;ve been doing this for a while now, all across the Treasure Valley—Boise, Meridian, Nampa, Caldwell, Eagle. We&apos;ve seen just about every situation you can imagine.
             </p>
 
             <p>
-              If you&apos;re concerned about a family member and would like to discuss options, we offer free, confidential consultations. There&apos;s no pressure—just honest advice about how we can help.
+              What we&apos;ve learned is that the cleanup part is actually the easy part. The hard part is doing it in a way that respects your loved one and doesn&apos;t make them feel like garbage themselves. That&apos;s what we focus on.
+            </p>
+
+            <p>
+              If you want to talk through what you&apos;re dealing with, just give us a call. No sales pitch, no pressure. Sometimes people just need to hear from someone who&apos;s seen this before and can tell them it&apos;s going to be okay.
             </p>
           </article>
 
@@ -166,10 +181,10 @@ export default function BlogPost() {
           {/* CTA */}
           <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Concerned About a Loved One?
+              Worried About Someone You Love?
             </h3>
             <p className="text-gray-300 mb-6">
-              Free, confidential consultations. We can help you understand your options.
+              We&apos;re happy to talk it through with you. No obligation.
             </p>
             <a
               href="tel:2083611982"
