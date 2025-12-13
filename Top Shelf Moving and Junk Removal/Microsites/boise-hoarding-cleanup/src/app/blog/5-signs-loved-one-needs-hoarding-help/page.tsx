@@ -26,28 +26,28 @@ export const metadata: Metadata = {
 const signs = [
   {
     number: 1,
-    title: 'They Don\'t Want Visitors Anymore',
-    content: 'Used to be your mom hosted every holiday. Now she wants to meet at Applebee\'s instead. Your brother dodges every time you mention stopping by. This happens a lot with hoarding. People feel embarrassed, even if they\'d never say it out loud. Push too hard and they get defensive or just change the subject. They still want to see you. They just don\'t want you seeing their place.',
+    title: 'They Stopped Having People Over',
+    content: 'Your mom used to host Thanksgiving every year. Now she insists on meeting at a restaurant. Your brother always has an excuse when you want to stop by. People dealing with hoarding get embarrassed about their home. They won\'t say that directly. But if someone who used to welcome visitors suddenly doesn\'t, pay attention.',
   },
   {
     number: 2,
-    title: 'Rooms Have Lost Their Purpose',
-    content: 'The dining table is buried. The bed has stuff piled on it. The kitchen? Good luck cooking anything in there. When rooms stop working the way they\'re supposed to, that\'s worth paying attention to. We\'ve worked with families where someone had been sleeping on half a couch for months because their bedroom was packed floor to ceiling. That\'s beyond messy.',
+    title: 'Rooms Don\'t Work Anymore',
+    content: 'The dining table is covered. The bed has no space to sleep. The kitchen is unusable. We worked with a family last year where dad had been sleeping on a corner of his couch for six months. His bedroom was packed to the ceiling. When rooms lose their purpose, that\'s more than clutter.',
   },
   {
     number: 3,
-    title: 'It\'s Becoming Dangerous',
-    content: 'This one keeps us up at night. Newspapers stacked against the door. Boxes near the water heater. Narrow paths winding through each room. These are real hazards. Fire risks. Tripping risks. Sometimes the floors start sagging from all the weight. If getting out quickly in an emergency would be tough, that\'s serious.',
+    title: 'Safety Is a Concern',
+    content: 'Newspapers blocking the front door. Boxes stacked near the furnace. Narrow paths through every room. These things worry us. Fire hazards, tripping hazards, sometimes even floors buckling from the weight. If someone couldn\'t get out quickly in an emergency, that\'s a problem that needs attention.',
   },
   {
     number: 4,
-    title: 'Their Health Is Slipping',
-    content: 'Hoarding affects the body too. Dust builds up. Mold grows. Pests find their way in. Cooking becomes impossible, so nutrition suffers. Medications get lost in the clutter. We hear from families who notice their parent looking more tired lately, catching colds more often, seeming generally worn down. Sometimes the home is part of the problem.',
+    title: 'Health Is Declining',
+    content: 'Hoarding affects the body. Dust accumulates. Mold grows in places you can\'t see. Pests move in. Cooking real food becomes impossible. Medications get buried. Families tell us they noticed their parent seemed tired all the time, or kept getting sick. The living situation was making it worse.',
   },
   {
     number: 5,
-    title: 'Throwing Away Anything Is a Crisis',
-    content: 'We all hang onto things. That\'s human. But there\'s a difference between sentimental attachment and panic. If tossing an empty butter container leads to tears or a shouting match, something else is going on. People with hoarding disorder feel real fear about losing things. Even stuff that looks like trash to everyone else. It\'s anxiety, not stubbornness.',
+    title: 'Discarding Anything Causes Distress',
+    content: 'Everyone keeps things they probably shouldn\'t. That\'s normal. But when throwing away an empty container causes real distress—crying, yelling, panic—that\'s different. People with hoarding disorder feel genuine fear about losing possessions. Even things that look like garbage to others. It\'s not laziness. It\'s anxiety.',
   },
 ]
 
@@ -85,26 +85,30 @@ export default function BlogPost() {
             </h1>
 
             <p className="text-xl text-gray-600">
-              When does clutter become something more? Here&apos;s what to watch for.
+              How to tell when clutter has become something more serious.
             </p>
           </header>
 
           {/* Article Content */}
-          <article className="prose prose-lg max-w-none">
+          <article className="prose prose-lg max-w-none [&>p]:mb-6">
             <p>
-              You&apos;ve probably noticed things piling up at their place. Maybe you&apos;ve made excuses for it. They&apos;re collectors. They grew up without much. They&apos;ll clean it up eventually.
+              You&apos;ve noticed things piling up at their place.
             </p>
 
             <p>
-              But something feels off and you can&apos;t shake it.
+              Maybe you&apos;ve told yourself it&apos;s fine. They&apos;re collectors. They grew up during hard times. They&apos;ll get around to cleaning eventually.
             </p>
 
             <p>
-              There&apos;s a line between having too much stuff and having a hoarding problem. Figuring out where that line is? That&apos;s hard. Especially when it&apos;s someone you love.
+              But something doesn&apos;t feel right.
             </p>
 
             <p>
-              Here are five signs that things may have gone past clutter:
+              There&apos;s a difference between having too much stuff and needing help. Figuring out which one you&apos;re looking at can be hard, especially when it&apos;s someone you care about.
+            </p>
+
+            <p>
+              Here are five things we see that usually mean it&apos;s time to step in:
             </p>
 
             {signs.map((sign) => (
@@ -121,56 +125,56 @@ export default function BlogPost() {
               </div>
             ))}
 
-            <h2>Now What?</h2>
+            <h2>What To Do Next</h2>
 
             <p>
-              So some of this sounds familiar. What do you do about it?
+              If some of this sounds familiar, you&apos;re probably wondering what to do.
             </p>
 
             <p>
-              The worst thing you can do is show up and start throwing stuff out. That never works. It usually makes things worse.
+              The worst approach is showing up and throwing things away. We&apos;ve seen families try that. It backfires every time.
             </p>
 
             <p>
-              Hoarding is a mental health thing, not a laziness thing. Treating it like a character flaw just pushes people away.
+              Hoarding is a mental health issue. It&apos;s not laziness or stubbornness. Treating it that way just creates conflict.
             </p>
 
             <p>
-              Some things that actually help:
+              What actually works:
             </p>
 
             <ul>
-              <li><strong>Start with worry, not judgment.</strong> &quot;I&apos;m concerned about you&quot; goes further than &quot;this place is a disaster.&quot;</li>
-              <li><strong>Talk about safety.</strong> Blocked exits and fire hazards are hard to argue with.</li>
-              <li><strong>Mention therapy.</strong> Therapists who specialize in hoarding exist. They can help in ways family can&apos;t.</li>
-              <li><strong>Find the right cleanup help.</strong> Not every cleaning company gets it. You want people who won&apos;t make your loved one feel ashamed.</li>
-              <li><strong>Give it time.</strong> This won&apos;t be fixed next week. Or next month. Progress happens slowly.</li>
+              <li><strong>Lead with concern.</strong> &quot;I&apos;m worried about you&quot; works better than criticism.</li>
+              <li><strong>Talk about safety first.</strong> Blocked exits and fire risks are hard to argue with.</li>
+              <li><strong>Suggest professional help.</strong> Therapists who specialize in hoarding can do things family members can&apos;t.</li>
+              <li><strong>Find cleanup people who understand.</strong> You want a crew that won&apos;t make your loved one feel judged.</li>
+              <li><strong>Expect it to take time.</strong> This doesn&apos;t get fixed in a weekend.</li>
             </ul>
 
             <div className="bg-yellow-50 border-l-4 border-brand-yellow p-6 my-8 rounded-r-lg">
               <div className="flex items-start gap-3">
                 <AlertTriangle className="w-6 h-6 text-brand-yellow flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-bold text-gunmetal mt-0 mb-2">When It&apos;s Urgent</h3>
+                  <h3 className="font-bold text-gunmetal mt-0 mb-2">When It Can&apos;t Wait</h3>
                   <p className="mb-0 text-gray-700">
-                    Some situations can&apos;t wait. No water. Pests everywhere. The city threatening to condemn the place. If that&apos;s where things are, call a professional hoarding cleanup crew now. Handle the crisis first, then work on the rest.
+                    Sometimes the situation is urgent. No running water. Pest infestations. The city threatening to condemn the home. If things have gotten that bad, call a hoarding cleanup service right away. Deal with the immediate crisis, then figure out the rest.
                   </p>
                 </div>
               </div>
             </div>
 
-            <h2>How We Can Help</h2>
+            <h2>How We Help</h2>
 
             <p>
-              We do hoarding cleanup all over the Treasure Valley. Boise, Meridian, Nampa, Caldwell, Eagle. We&apos;ve seen a lot.
+              We do hoarding cleanup throughout the Treasure Valley. Boise, Meridian, Nampa, Caldwell, Eagle.
             </p>
 
             <p>
-              The actual cleaning isn&apos;t the hard part. Anyone can haul stuff away. The hard part is doing it without making someone feel terrible about themselves. That&apos;s what we try to get right.
+              The physical cleanup is actually the easy part. What&apos;s harder is doing it in a way that doesn&apos;t make someone feel ashamed. That&apos;s what we focus on.
             </p>
 
             <p>
-              If you want to talk about what&apos;s going on, call us. We&apos;re not going to pressure you into anything. Sometimes it just helps to talk to someone who&apos;s been through this before.
+              If you&apos;re trying to figure out what to do about someone in your life, give us a call. No pressure. Sometimes it helps to talk to people who&apos;ve been through this before.
             </p>
           </article>
 
@@ -189,10 +193,10 @@ export default function BlogPost() {
           {/* CTA */}
           <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Want to Talk It Through?
+              Questions? Give Us a Call
             </h3>
             <p className="text-gray-300 mb-6">
-              No pressure. Just a conversation.
+              Happy to talk through your situation. No obligation.
             </p>
             <a
               href="tel:2083611982"
