@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://hoardingcleanupboise.com/sitemap.xml
+Sitemap: https://boise-hoarding-cleanup.com/sitemap.xml
