@@ -1,17 +1,95 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
+import { Montserrat, Open_Sans } from 'next/font/google'
 import './globals.css'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { StructuredData } from '@/components/StructuredData'
+import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  display: 'swap',
+})
+
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  variable: '--font-open-sans',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'Boise Construction Debris Removal | Coming Soon',
-  description: 'Professional construction debris removal in Boise, Idaho. Job site cleanup, renovation debris, and recycling services.',
-  keywords: 'construction debris removal, Boise, Idaho, job site cleanup, renovation debris, demolition waste',
+  metadataBase: new URL('https://boise-construction-debris-removal.com'),
+  title: {
+    default: 'Construction Debris Removal Boise | Job Site Cleanup Idaho',
+    template: '%s | Construction Debris Removal Boise',
+  },
+  description: 'Professional construction debris removal in Boise, Idaho. Job site cleanup, renovation debris, and recycling services. Same-day service available. Call (208) 361-1982 for a free quote.',
+  keywords: [
+    'construction debris removal Boise',
+    'job site cleanup Idaho',
+    'renovation debris removal',
+    'construction waste disposal',
+    'demolition debris hauling',
+    'contractor cleanup services',
+    'building material recycling',
+    'drywall removal',
+    'concrete debris removal',
+    'Treasure Valley construction cleanup',
+  ],
+  authors: [{ name: 'Construction Debris Pros' }],
+  creator: 'Construction Debris Pros',
+  publisher: 'Construction Debris Pros',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://boise-construction-debris-removal.com',
+    siteName: 'Construction Debris Pros',
+    title: 'Construction Debris Removal Boise | Fast Job Site Cleanup',
+    description: 'Professional construction debris removal and job site cleanup in Boise and the Treasure Valley. Same-day service available. Licensed and insured.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Construction Debris Pros - Boise Idaho',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Construction Debris Removal Boise | Fast Job Site Cleanup',
+    description: 'Professional construction debris removal and job site cleanup in Boise and the Treasure Valley. Same-day service available.',
+    images: ['/og-image.jpg'],
+  },
+  alternates: {
+    canonical: 'https://boise-construction-debris-removal.com',
+  },
+  verification: {
+    google: 'verification-code-here',
+  },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className={`${montserrat.variable} ${openSans.variable}`}>
+      <body className="font-body antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
           strategy="afterInteractive"
@@ -47,7 +125,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             alt=""
           />
         </noscript>
-        {children}
+        <QuoteFormProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </QuoteFormProvider>
+        <StructuredData />
       </body>
     </html>
   )

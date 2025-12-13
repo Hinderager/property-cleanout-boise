@@ -44,13 +44,13 @@
 
 # Structure:
 
-    - Short paragraphs (1–3 sentences)
-
     - Use headings that sound natural, not SEO-stuffed
 
     - Bullet points only when they truly help readability
 
 # For blogs:
+
+    - Short paragraphs (1-3 sentences) and double space between paragraphs.
 
     - Open with a relatable thought or problem
 

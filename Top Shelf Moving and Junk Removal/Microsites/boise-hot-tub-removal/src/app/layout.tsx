@@ -1,17 +1,62 @@
 import type { Metadata } from 'next'
+import { Oswald, Open_Sans } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { StructuredData } from '@/components/StructuredData'
+import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  variable: '--font-oswald',
+  display: 'swap',
+})
+
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  variable: '--font-open-sans',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'Boise Hot Tub Removal | Coming Soon',
-  description: 'Professional hot tub and spa removal services in Boise, Idaho. Safe disconnection, hauling, and eco-friendly disposal.',
-  keywords: 'hot tub removal, spa removal, Boise, Idaho, hot tub disposal, spa hauling',
+  metadataBase: new URL('https://boise-hot-tub-removal.com'),
+  title: 'Hot Tub Removal Boise | Same-Day Spa Removal | Hot Tub Removal Pros',
+  description: 'Professional hot tub removal in Boise, Idaho. Safe disconnection, full demolition, and eco-friendly disposal. Same-day service available. Call (208) 361-1982 for a free quote.',
+  keywords: 'hot tub removal Boise, spa removal Boise, hot tub disposal, spa hauling, hot tub demolition, Boise Idaho, Meridian, Nampa, Caldwell, Eagle',
+  openGraph: {
+    title: 'Hot Tub Removal Boise | Same-Day Spa Removal | Hot Tub Removal Pros',
+    description: 'Professional hot tub removal in Boise and the Treasure Valley. Safe disconnection, demolition, and eco-friendly disposal.',
+    url: 'https://boise-hot-tub-removal.com',
+    siteName: 'Hot Tub Removal Pros',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hot Tub Removal Boise | Same-Day Spa Removal',
+    description: 'Professional hot tub removal in Boise and the Treasure Valley. Safe disconnection, demolition, and eco-friendly disposal.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://boise-hot-tub-removal.com',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className={`${oswald.variable} ${openSans.variable}`}>
+      <body className="font-body antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
           strategy="afterInteractive"
@@ -47,7 +92,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             alt=""
           />
         </noscript>
-        {children}
+        <QuoteFormProvider>
+          <Header />
+          {children}
+          <Footer />
+        </QuoteFormProvider>
+        <StructuredData />
       </body>
     </html>
   )

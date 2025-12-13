@@ -1,17 +1,88 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
+import { Montserrat, Oswald } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { StructuredData } from '@/components/StructuredData'
+import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  variable: '--font-oswald',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'Boise Junk Removal | Coming Soon',
-  description: 'Fast, affordable junk removal services in Boise, Idaho. Same-day service, upfront pricing, and eco-friendly disposal.',
-  keywords: 'junk removal, Boise, Idaho, junk hauling, trash removal, debris removal',
+  metadataBase: new URL('https://boise-junk-removal.com'),
+  title: {
+    default: 'Junk Removal Services Boise | Professional Junk Hauling Idaho',
+    template: '%s | Junk Removal Boise',
+  },
+  description: 'Professional junk removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Fast junk hauling, furniture removal, appliance disposal. Licensed & insured. Same-day service. Call (208) 361-1982.',
+  keywords: [
+    'junk removal Boise',
+    'junk hauling Boise Idaho',
+    'junk removal services Meridian',
+    'furniture removal Nampa',
+    'junk removal near me',
+    'appliance removal Caldwell',
+    'trash hauling Eagle Idaho',
+    'debris removal Treasure Valley',
+    'same day junk removal',
+    'junk pickup services Idaho',
+    'bulk trash removal Boise',
+    'yard waste removal',
+  ],
+  authors: [{ name: 'Boise Junk Removal Pros' }],
+  openGraph: {
+    title: 'Junk Removal Services | Boise, Meridian, Nampa Idaho',
+    description: 'Professional, affordable junk removal services in the Treasure Valley. Licensed, insured, and eco-friendly. Same-day service available.',
+    url: 'https://boise-junk-removal.com',
+    siteName: 'Boise Junk Removal Pros',
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="scroll-smooth">
+      <head>
+        <StructuredData />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
+      <body className={`${montserrat.variable} ${oswald.variable} font-sans antialiased`}>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
           strategy="afterInteractive"
@@ -47,7 +118,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             alt=""
           />
         </noscript>
-        {children}
+        <QuoteFormProvider>
+          <Header />
+          {children}
+          <Footer />
+        </QuoteFormProvider>
       </body>
     </html>
   )

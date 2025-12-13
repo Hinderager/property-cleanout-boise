@@ -1,17 +1,62 @@
 import type { Metadata } from 'next'
+import { Oswald, Open_Sans } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { StructuredData } from '@/components/StructuredData'
+import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  variable: '--font-oswald',
+  display: 'swap',
+})
+
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  variable: '--font-open-sans',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'Boise Tire Removal | Coming Soon',
-  description: 'Professional tire removal and disposal services in Boise, Idaho. We haul away old tires from homes, businesses, and properties.',
-  keywords: 'tire removal, Boise, Idaho, tire disposal, tire hauling, old tire pickup',
+  metadataBase: new URL('https://boise-tire-removal.com'),
+  title: 'Tire Removal Boise | Same-Day Tire Pickup | Tire Removal Pros',
+  description: 'Professional tire removal in Boise, Idaho. We haul away old tires from homes, businesses, and properties. Any quantity, proper disposal. Call (208) 361-1982 for a free quote.',
+  keywords: 'tire removal Boise, tire disposal, tire hauling, old tire pickup, Boise Idaho, Meridian, Nampa, Caldwell, Eagle, tire recycling',
+  openGraph: {
+    title: 'Tire Removal Boise | Same-Day Tire Pickup | Tire Removal Pros',
+    description: 'Professional tire removal in Boise and the Treasure Valley. We haul away any quantity of tires with proper eco-friendly disposal.',
+    url: 'https://boise-tire-removal.com',
+    siteName: 'Tire Removal Pros',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tire Removal Boise | Same-Day Tire Pickup',
+    description: 'Professional tire removal in Boise and the Treasure Valley. We haul away any quantity of tires with proper eco-friendly disposal.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://boise-tire-removal.com',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className={`${oswald.variable} ${openSans.variable}`}>
+      <body className="font-body antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
           strategy="afterInteractive"
@@ -47,7 +92,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             alt=""
           />
         </noscript>
-        {children}
+        <QuoteFormProvider>
+          <Header />
+          {children}
+          <Footer />
+        </QuoteFormProvider>
+        <StructuredData />
       </body>
     </html>
   )

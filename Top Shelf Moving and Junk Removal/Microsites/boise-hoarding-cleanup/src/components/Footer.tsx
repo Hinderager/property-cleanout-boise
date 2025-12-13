@@ -1,109 +1,169 @@
 import Link from 'next/link'
-import { Phone, Mail, MapPin } from 'lucide-react'
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Clock } from 'lucide-react'
 
 export function Footer() {
-  const serviceAreas = [
-    { name: 'Boise', href: '/boise' },
-    { name: 'Meridian', href: '/meridian' },
-    { name: 'Nampa', href: '/nampa' },
-    { name: 'Caldwell', href: '/caldwell' },
-    { name: 'Eagle', href: '/eagle' },
-  ]
-
-  const resources = [
-    { name: 'What is Hoarding?', href: '/about-hoarding' },
-    { name: 'Signs of Hoarding', href: '/hoarding-signs' },
-    { name: 'How to Help', href: '/helping-a-hoarder' },
-    { name: 'Blog', href: '/blog' },
-  ]
-
   return (
-    <footer className="bg-gunmetal text-white">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* About */}
+    <footer className="bg-dark-blue text-white">
+      {/* Main Footer */}
+      <div className="container mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-4 gap-8">
+          {/* Company */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-brand-yellow">Hoarding Cleanup Pros</h3>
-            <p className="text-gray-300 mb-4">
-              Professional, compassionate hoarding cleanup services in the Treasure Valley.
-              We help families reclaim their homes with dignity and respect.
-            </p>
-            <p className="text-gray-400 text-sm">
-              Licensed & Insured | Same-Day Service Available
-            </p>
+            <h4 className="text-xl font-bold mb-4 text-light-blue">Company</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/about-hoarding" className="text-white/80 hover:text-white transition-colors">
+                  About Hoarding
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="text-white/80 hover:text-white transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/hoarding-signs" className="text-white/80 hover:text-white transition-colors">
+                  Signs of Hoarding
+                </Link>
+              </li>
+              <li>
+                <Link href="/helping-a-hoarder" className="text-white/80 hover:text-white transition-colors">
+                  How to Help
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h4 className="text-xl font-bold mb-4 text-light-blue">Services</h4>
+            <ul className="space-y-2">
+              <li className="text-white/80">Hoarding Cleanup</li>
+              <li className="text-white/80">Estate Cleanouts</li>
+              <li className="text-white/80">Deep Cleaning</li>
+              <li className="text-white/80">Junk Removal</li>
+              <li className="text-white/80">Emergency Services</li>
+            </ul>
           </div>
 
           {/* Service Areas */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-brand-yellow">Service Areas</h3>
+            <h4 className="text-xl font-bold mb-4 text-light-blue">Service Areas</h4>
             <ul className="space-y-2">
-              {serviceAreas.map((area) => (
-                <li key={area.name}>
-                  <Link
-                    href={area.href}
-                    className="text-gray-300 hover:text-white transition-colors flex items-center gap-2"
-                  >
-                    <MapPin className="w-4 h-4 text-light-blue" />
-                    {area.name}, Idaho
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-brand-yellow">Resources</h3>
-            <ul className="space-y-2">
-              {resources.map((resource) => (
-                <li key={resource.name}>
-                  <Link
-                    href={resource.href}
-                    className="text-gray-300 hover:text-white transition-colors"
-                  >
-                    {resource.name}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link href="/boise" className="text-white/80 hover:text-white transition-colors">
+                  Boise
+                </Link>
+              </li>
+              <li>
+                <Link href="/meridian" className="text-white/80 hover:text-white transition-colors">
+                  Meridian
+                </Link>
+              </li>
+              <li>
+                <Link href="/nampa" className="text-white/80 hover:text-white transition-colors">
+                  Nampa
+                </Link>
+              </li>
+              <li>
+                <Link href="/caldwell" className="text-white/80 hover:text-white transition-colors">
+                  Caldwell
+                </Link>
+              </li>
+              <li>
+                <Link href="/eagle" className="text-white/80 hover:text-white transition-colors">
+                  Eagle
+                </Link>
+              </li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-brand-yellow">Contact Us</h3>
-            <div className="space-y-3">
-              <a
-                href="tel:2083611982"
-                className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors"
-              >
-                <Phone className="w-5 h-5 text-light-blue" />
-                (208) 361-1982
-              </a>
-              <a
-                href="mailto:info@boise-hoarding-cleanup.com"
-                className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors"
-              >
-                <Mail className="w-5 h-5 text-light-blue" />
-                info@boise-hoarding-cleanup.com
-              </a>
-              <p className="flex items-start gap-3 text-gray-300">
-                <MapPin className="w-5 h-5 text-light-blue flex-shrink-0 mt-1" />
-                Serving the Treasure Valley
-              </p>
-            </div>
+            <h4 className="text-xl font-bold mb-4 text-light-blue">Contact</h4>
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <Phone className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
+                <div>
+                  <a
+                    href="tel:2083611982"
+                    className="text-white/80 hover:text-white transition-colors font-semibold"
+                  >
+                    <span className="md:hidden">Call Now</span>
+                    <span className="hidden md:inline">(208) 361-1982</span>
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <Mail className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
+                <div>
+                  <a
+                    href="mailto:info@boise-hoarding-cleanup.com"
+                    className="text-white/80 hover:text-white transition-colors"
+                  >
+                    info@boise-hoarding-cleanup.com
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <MapPin className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
+                <div>
+                  <p className="text-white/80">
+                    Serving the Treasure Valley<br />
+                    Boise, ID
+                  </p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <Clock className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
+                <div>
+                  <p className="text-white/80">
+                    Mon-Sat: 8am - 6pm<br />
+                    Emergency: 24/7
+                  </p>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Hoarding Cleanup Pros. All rights reserved.</p>
-          <div className="mt-2 flex justify-center gap-4">
-            <Link href="/privacy" className="hover:text-white transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="hover:text-white transition-colors">
-              Terms of Service
-            </Link>
+        {/* Social Media */}
+        <div className="mt-12 pt-8 border-t border-white/10">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="flex gap-4">
+              <span
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5" />
+              </span>
+              <span
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+              </span>
+              <span
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-5 w-5" />
+              </span>
+            </div>
+
+            <div className="text-center md:text-right">
+              <p className="text-white/60 text-sm">
+                &copy; {new Date().getFullYear()} Hoarding Cleanup Pros. All rights reserved.
+              </p>
+              <div className="flex gap-4 mt-2 justify-center md:justify-end">
+                <Link href="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">
+                  Privacy Policy
+                </Link>
+                <Link href="/terms" className="text-white/60 text-sm hover:text-white transition-colors">
+                  Terms of Service
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

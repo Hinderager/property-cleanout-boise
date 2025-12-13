@@ -1,145 +1,181 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Phone, Menu, X, ChevronDown } from 'lucide-react'
-import { useState } from 'react'
+import { Menu, X, ChevronDown, Phone } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+
+const serviceAreas = [
+  'Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle'
+]
+
+const resources = [
+  { name: 'What is Hoarding?', href: '/about-hoarding' },
+  { name: 'Signs of Hoarding', href: '/hoarding-signs' },
+  { name: 'How to Help', href: '/helping-a-hoarder' },
+  { name: 'Blog', href: '/blog' },
+]
 
 export function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [resourcesOpen, setResourcesOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+  const [closeTimeout, setCloseTimeout] = useState<NodeJS.Timeout | null>(null)
 
-  const cityLinks = [
-    { href: '/boise', label: 'Boise' },
-    { href: '/meridian', label: 'Meridian' },
-    { href: '/nampa', label: 'Nampa' },
-    { href: '/caldwell', label: 'Caldwell' },
-    { href: '/eagle', label: 'Eagle' },
-  ]
+  useEffect(() => {
+    let ticking = false
+    const handleScroll = () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          setIsScrolled(window.scrollY > 20)
+          ticking = false
+        })
+        ticking = true
+      }
+    }
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
-  const resourceLinks = [
-    { href: '/about-hoarding', label: 'What is Hoarding?' },
-    { href: '/hoarding-signs', label: 'Signs of Hoarding' },
-    { href: '/helping-a-hoarder', label: 'How to Help' },
-    { href: '/blog', label: 'Blog' },
-  ]
+  const handleMouseEnter = (dropdown: string) => {
+    if (closeTimeout) {
+      clearTimeout(closeTimeout)
+      setCloseTimeout(null)
+    }
+    setActiveDropdown(dropdown)
+  }
+
+  const handleMouseLeave = () => {
+    const timeout = setTimeout(() => {
+      setActiveDropdown(null)
+    }, 300)
+    setCloseTimeout(timeout)
+  }
 
   return (
-    <header className="bg-dark-blue text-white sticky top-0 z-50">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo/Site Name */}
-          <Link href="/" className="flex items-center gap-2 py-2 min-h-[44px]">
-            <span className="text-xl md:text-2xl font-bold">
-              <span className="text-brand-yellow">Hoarding</span> Cleanup Pros
+    <header className="fixed top-0 left-0 right-0 z-50 lg:pt-3 lg:px-4">
+      <div className="lg:container lg:mx-auto lg:max-w-screen-2xl">
+        <div className="bg-[#10477d] lg:rounded-lg border-b-2 lg:border-2 border-[#1e3a5f] shadow-xl px-2 sm:px-4 md:px-6 lg:px-8 flex items-center h-14 lg:h-20">
+          {/* Logo */}
+          <Link href="/" className="flex items-center lg:flex-1 flex-1 justify-start">
+            <span className="text-lg sm:text-xl lg:text-2xl font-bold text-white">
+              <span className="text-[#FFC845]">Hoarding</span> Cleanup Pros
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-2">
-            <Link
-              href="/"
-              className="text-white/90 hover:text-white transition-colors font-medium px-3 py-2 min-h-[44px] flex items-center"
-            >
-              Home
+          <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
+            {/* Services Link */}
+            <Link href="/#services" className="text-white hover:text-gray-200 transition-colors font-bold text-sm xl:text-base whitespace-nowrap">
+              Services
             </Link>
-            {cityLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-white/90 hover:text-white transition-colors font-medium px-3 py-2 min-h-[44px] flex items-center"
-              >
-                {link.label}
-              </Link>
-            ))}
-            {/* Resources Dropdown */}
-            <div className="relative">
-              <button
-                onClick={() => setResourcesOpen(!resourcesOpen)}
-                onBlur={() => setTimeout(() => setResourcesOpen(false), 150)}
-                className="flex items-center gap-1 text-white/90 hover:text-white transition-colors font-medium px-3 py-2 min-h-[44px]"
-              >
-                Resources
-                <ChevronDown className={`w-4 h-4 transition-transform ${resourcesOpen ? 'rotate-180' : ''}`} />
+
+            {/* Service Areas Dropdown */}
+            <div
+              className="relative group"
+              onMouseEnter={() => handleMouseEnter('areas')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors font-bold text-sm xl:text-base whitespace-nowrap">
+                <span>Service Areas</span>
+                <ChevronDown className="h-4 w-4" />
               </button>
-              {resourcesOpen && (
-                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50">
-                  {resourceLinks.map((link) => (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      className="block px-4 py-2 text-gunmetal hover:bg-fog transition-colors"
-                    >
-                      {link.label}
-                    </Link>
-                  ))}
+              {activeDropdown === 'areas' && (
+                <div className="absolute left-0 top-full mt-2 w-[200px] bg-white shadow-lg rounded-lg p-4">
+                  <ul className="space-y-2">
+                    {serviceAreas.map((area) => (
+                      <li key={area}>
+                        <Link href={`/${area.toLowerCase()}`} className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors">
+                          {area}, Idaho
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+
+            {/* Resources Dropdown */}
+            <div
+              className="relative group"
+              onMouseEnter={() => handleMouseEnter('resources')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors font-bold text-sm xl:text-base whitespace-nowrap">
+                <span>Resources</span>
+                <ChevronDown className="h-4 w-4" />
+              </button>
+              {activeDropdown === 'resources' && (
+                <div className="absolute left-0 top-full mt-2 w-[200px] bg-white shadow-lg rounded-lg p-4">
+                  <ul className="space-y-2">
+                    {resources.map((resource) => (
+                      <li key={resource.href}>
+                        <Link href={resource.href} className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors">
+                          {resource.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               )}
             </div>
           </nav>
 
-          {/* CTA Button */}
-          <div className="flex items-center gap-4">
+          {/* Phone Number - Call Now button on mobile, Phone number on desktop */}
+          <div className="flex items-center flex-1 justify-center lg:justify-end">
+            {/* Mobile: Call Now Button */}
             <a
               href="tel:2083611982"
-              className="hidden md:flex items-center gap-2 bg-brand-yellow text-dark-blue px-4 py-2 rounded-lg font-bold hover:bg-yellow-400 transition-colors"
+              className="lg:hidden bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold px-4 py-1.5 rounded-lg text-sm"
             >
-              <Phone className="w-5 h-5" />
+              Call Now
+            </a>
+            {/* Desktop: Phone Number */}
+            <a
+              href="tel:2083611982"
+              className="hidden lg:flex items-center gap-1.5 text-white hover:text-gray-200 transition-colors font-bold text-lg xl:text-xl whitespace-nowrap"
+            >
+              <Phone className="h-5 w-5 xl:h-6 xl:w-6" />
               <span>(208) 361-1982</span>
             </a>
-            <a
-              href="tel:2083611982"
-              className="md:hidden bg-brand-yellow text-dark-blue p-2 rounded-lg"
-              aria-label="Call us at (208) 361-1982"
-            >
-              <Phone className="w-5 h-5" />
-            </a>
+          </div>
 
-            {/* Mobile Menu Toggle */}
+          {/* Mobile Menu Icon */}
+          <div className="flex items-center flex-1 justify-end lg:hidden">
             <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2"
-              aria-label="Toggle menu"
+              className="text-white hover:text-gray-200 transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
           </div>
         </div>
 
-        {/* Mobile Navigation */}
-        {mobileMenuOpen && (
-          <nav className="lg:hidden py-4 border-t border-white/20">
-            <div className="flex flex-col gap-2">
-              <Link
-                href="/"
-                onClick={() => setMobileMenuOpen(false)}
-                className="text-white/90 hover:text-white py-2 px-4 rounded-lg hover:bg-white/10 transition-colors font-medium"
-              >
-                Home
-              </Link>
-              <div className="px-4 py-2 text-white/60 text-sm font-medium">Service Areas</div>
-              {cityLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="text-white/90 hover:text-white py-2 px-6 rounded-lg hover:bg-white/10 transition-colors font-medium"
-                >
-                  {link.label}
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div className="lg:hidden py-4 bg-[#10477d] border-b-2 border-[#1e3a5f]">
+            <nav className="flex flex-col space-y-4 px-4">
+              <Link href="/" className="text-white font-semibold hover:text-gray-200" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
+              <Link href="/#services" className="text-white font-semibold hover:text-gray-200" onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
+              <span className="text-white/60 text-sm font-medium pt-2">Service Areas</span>
+              {serviceAreas.map((area) => (
+                <Link key={area} href={`/${area.toLowerCase()}`} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>
+                  {area}
                 </Link>
               ))}
-              <div className="px-4 py-2 text-white/60 text-sm font-medium mt-2">Resources</div>
-              {resourceLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="text-white/90 hover:text-white py-2 px-6 rounded-lg hover:bg-white/10 transition-colors font-medium"
-                >
-                  {link.label}
+              <span className="text-white/60 text-sm font-medium pt-2">Resources</span>
+              {resources.map((resource) => (
+                <Link key={resource.href} href={resource.href} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>
+                  {resource.name}
                 </Link>
               ))}
-            </div>
-          </nav>
+              <div className="flex flex-col space-y-2 pt-4">
+                <Button asChild className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold w-full">
+                  <a href="tel:2083611982">Call Now</a>
+                </Button>
+              </div>
+            </nav>
+          </div>
         )}
       </div>
     </header>

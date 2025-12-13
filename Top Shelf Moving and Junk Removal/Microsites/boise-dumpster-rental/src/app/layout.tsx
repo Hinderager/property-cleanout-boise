@@ -1,15 +1,85 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
+import { Montserrat, Open_Sans } from 'next/font/google'
 import './globals.css'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { StructuredData } from '@/components/StructuredData'
+import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  display: 'swap',
+})
+
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  variable: '--font-open-sans',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'Boise Dumpster Rental | Coming Soon',
-  description: 'Affordable dumpster rental services in Boise, Idaho. Residential and commercial roll-off dumpsters for construction, cleanouts, and renovation projects.',
-  keywords: 'dumpster rental, Boise, Idaho, roll-off dumpster, construction dumpster, waste removal',
+  metadataBase: new URL('https://boise-dumpster-rental.com'),
+  title: {
+    default: 'Dumpster Rental Boise | Roll-Off Dumpsters Idaho',
+    template: '%s | Dumpster Rental Boise',
+  },
+  description: 'Affordable dumpster rental in Boise, Idaho. Same-day delivery available. 10, 15, 20, and 30 yard roll-off dumpsters for construction, cleanouts, and renovation projects. Call (208) 361-1982 for a free quote.',
+  keywords: [
+    'dumpster rental Boise',
+    'roll-off dumpster Boise',
+    'construction dumpster Idaho',
+    'debris container rental',
+    'waste removal Boise',
+    'dumpster rental near me',
+    'affordable dumpster rental',
+    'same day dumpster delivery',
+    'residential dumpster rental',
+    'commercial dumpster rental',
+    'Treasure Valley dumpster',
+  ],
+  authors: [{ name: 'Dumpster Rental Pros' }],
+  creator: 'Dumpster Rental Pros',
+  publisher: 'Dumpster Rental Pros',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
-    title: 'Boise Dumpster Rental | Coming Soon',
-    description: 'Affordable dumpster rental services in Boise, Idaho.',
     type: 'website',
+    locale: 'en_US',
+    url: 'https://boise-dumpster-rental.com',
+    siteName: 'Dumpster Rental Pros',
+    title: 'Dumpster Rental Boise | Affordable Roll-Off Dumpsters',
+    description: 'Same-day dumpster delivery in Boise and the Treasure Valley. Multiple sizes available for any project. Licensed and insured.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Dumpster Rental Pros - Boise Idaho',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dumpster Rental Boise | Affordable Roll-Off Dumpsters',
+    description: 'Same-day dumpster delivery in Boise and the Treasure Valley. Multiple sizes available for any project.',
+    images: ['/og-image.jpg'],
+  },
+  alternates: {
+    canonical: 'https://boise-dumpster-rental.com',
+  },
+  verification: {
+    google: 'verification-code-here',
   },
 }
 
@@ -19,8 +89,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className={`${montserrat.variable} ${openSans.variable}`}>
+      <body className="font-body antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
           strategy="afterInteractive"
@@ -56,7 +126,12 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
-        {children}
+        <QuoteFormProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </QuoteFormProvider>
+        <StructuredData />
       </body>
     </html>
   )

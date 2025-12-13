@@ -2,97 +2,98 @@
 
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
+import { Button } from '@/components/ui/button'
 
 // FAQ data used for both UI and structured data
 export const faqs = [
   {
-    question: 'How much does this cost?',
-    answer: 'It depends on the size of the job. We give free estimates after seeing the property. Most hoarding cleanups in the Boise area run between $500 and $5,000, but bigger jobs can be more.',
+    question: 'How do you handle hoarding cleanup differently than regular junk removal?',
+    answer: 'Hoarding cleanup requires a compassionate, patient approach. We understand that every item may have emotional significance. We work with you or your family member to make decisions about what to keep, donate, or discard. We never throw anything away without permission, and we go at a pace that feels comfortable.'
   },
   {
-    question: 'How long does it take?',
-    answer: 'Smaller jobs might take a few hours. Severe hoarding situations can take several days. We\'ll give you a realistic timeline when we come out for the estimate.',
+    question: 'Will you judge me or my loved one?',
+    answer: 'Absolutely not. Hoarding is a recognized mental health condition, not a character flaw. Our team is trained to approach every situation with empathy and professionalism. We\'ve seen it all, and we\'re here to help—not judge.'
   },
   {
-    question: 'Can family members hire you on someone\'s behalf?',
-    answer: 'Yes. We work with family members, estate attorneys, property managers, and social workers all the time. We can coordinate with everyone involved and keep things confidential.',
+    question: 'How quickly can you start a hoarding cleanup?',
+    answer: 'For most situations, we can schedule an assessment within 24-48 hours. For emergencies like evictions or code violations, we offer same-day or next-day service. The actual cleanup timeline depends on the size and severity of the situation.'
   },
   {
-    question: 'Will you help us sort through things first?',
-    answer: 'Absolutely. We can work alongside you to separate valuables, important documents, and sentimental items before anything gets removed. We never throw away anything without permission.',
+    question: 'Do you use unmarked trucks?',
+    answer: 'Yes. We understand that privacy is important. Our vehicles are unmarked so neighbors won\'t know why we\'re there. Your situation stays confidential.'
   },
   {
-    question: 'Do you offer same-day service?',
-    answer: 'Yes. If you\'re dealing with a health, safety, or legal situation that can\'t wait, call us at (208) 361-1982. We offer emergency service throughout the Treasure Valley.',
+    question: 'What happens to the items you remove?',
+    answer: 'We sort everything carefully. Items in good condition go to donation centers. Recyclables are recycled. We only send to the landfill what truly can\'t be salvaged. We can provide documentation of donations for tax purposes if needed.'
   },
   {
-    question: 'What areas do you cover?',
-    answer: 'Boise, Meridian, Nampa, Caldwell, Eagle, and the surrounding Treasure Valley area. If you\'re not sure whether we serve your location, just give us a call.',
+    question: 'How much does hoarding cleanup cost?',
+    answer: 'Every situation is different. Cost depends on the size of the space, amount of items, any hazardous materials, and the level of cleaning needed. We provide free, no-obligation estimates. Many cleanups in our area range from $500 for smaller spaces to $5,000+ for severe situations.'
   },
   {
-    question: 'Is this confidential?',
-    answer: 'Yes. We use unmarked trucks and don\'t advertise what we\'re doing. We understand this is a sensitive situation and we treat it that way.',
-  },
-  {
-    question: 'What do you do with everything?',
-    answer: 'We donate usable items to local charities, recycle what we can, and only send actual trash to the landfill. We can provide donation receipts if you need them.',
-  },
+    question: 'Can the homeowner be present during the cleanup?',
+    answer: 'Yes, if they want to be. Some people prefer to be involved in decisions about their belongings. Others find it easier to step away and let us handle it. Either approach is fine—we follow the homeowner\'s lead.'
+  }
 ]
 
 export function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0)
+  const [activeIndex, setActiveIndex] = useState<number | null>(null)
+
+  const toggleFAQ = (index: number) => {
+    setActiveIndex(activeIndex === index ? null : index)
+  }
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-4">
-            Common Questions
-          </h2>
-          <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            Here&apos;s what people usually want to know.
-          </p>
-        </div>
+        {/* Title */}
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-center mb-12 uppercase" style={{textShadow: '2px 2px 3px rgba(0,0,0,0.3), 1px 1px 2px rgba(0,0,0,0.2)'}}>
+          <span className="text-dark-blue">Frequently Asked Questions</span>
+        </h2>
 
-        {/* FAQ List */}
-        <div className="max-w-3xl mx-auto space-y-4">
+        {/* FAQ Accordion */}
+        <div className="max-w-4xl mx-auto">
           {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className="border border-gray-200 rounded-lg overflow-hidden"
-            >
+            <div key={index} className="border-b-2 border-gray-200 last:border-b-0">
+              {/* Question Button */}
               <button
-                onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full px-6 py-4 flex items-center justify-between text-left bg-fog hover:bg-gray-100 transition-colors"
+                onClick={() => toggleFAQ(index)}
+                className="w-full flex items-center justify-between px-6 py-6 text-left transition-colors hover:bg-gray-50"
               >
-                <span className="font-semibold text-gunmetal pr-4">{faq.question}</span>
+                <span className="text-xl md:text-2xl font-bold text-dark-blue pr-4">
+                  {faq.question}
+                </span>
                 <ChevronDown
-                  className={`w-5 h-5 text-gray-500 flex-shrink-0 transition-transform ${
-                    openIndex === index ? 'rotate-180' : ''
+                  className={`w-6 h-6 text-dark-blue flex-shrink-0 transition-transform duration-300 ${
+                    activeIndex === index ? 'rotate-180' : ''
                   }`}
                 />
               </button>
-              {openIndex === index && (
-                <div className="px-6 py-4 bg-white">
-                  <p className="text-gray-600">{faq.answer}</p>
+
+              {/* Answer */}
+              <div
+                className={`grid transition-all duration-300 ease-in-out ${
+                  activeIndex === index ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
+                }`}
+              >
+                <div className="overflow-hidden">
+                  <div className="px-6 pb-6 text-gray-700 text-lg leading-relaxed">
+                    {faq.answer}
+                  </div>
                 </div>
-              )}
+              </div>
             </div>
           ))}
         </div>
 
-        {/* CTA */}
-        <div className="mt-10 text-center">
-          <p className="text-gray-600 mb-4">
-            Have other questions? Happy to help.
-          </p>
-          <a
-            href="tel:2083611982"
-            className="inline-flex items-center gap-2 text-dark-blue font-bold underline hover:text-light-blue text-lg"
-          >
-            Call (208) 361-1982
-          </a>
+        {/* CTA Buttons */}
+        <div className="flex flex-row gap-4 justify-center mt-12">
+          <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
+            <a href="tel:2083611982">
+              <span className="md:hidden">Call Now</span>
+              <span className="hidden md:inline">(208) 361-1982</span>
+            </a>
+          </Button>
         </div>
       </div>
     </section>

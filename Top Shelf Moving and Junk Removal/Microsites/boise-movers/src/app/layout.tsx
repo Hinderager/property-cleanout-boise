@@ -1,17 +1,64 @@
 import type { Metadata } from 'next'
+import { Inter, Oswald } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { StructuredData } from '@/components/StructuredData'
+import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' })
 
 export const metadata: Metadata = {
-  title: 'Boise Movers | Coming Soon',
-  description: 'Professional local and long-distance moving services in Boise, Idaho. Licensed, insured, and trusted by the community.',
-  keywords: 'movers, Boise, Idaho, moving company, local movers, residential moving',
+  metadataBase: new URL('https://boise-movers.com'),
+  title: {
+    default: 'Boise Movers | Professional Moving Services Idaho',
+    template: '%s | Boise Movers',
+  },
+  description: 'Professional local and long-distance moving services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Licensed, insured movers with careful handling and competitive rates. Free quotes!',
+  keywords: ['Boise movers', 'moving company Boise', 'local movers Idaho', 'residential moving Boise', 'apartment movers', 'house moving service', 'Meridian movers', 'Nampa movers', 'Treasure Valley moving'],
+  authors: [{ name: 'Boise Moving Pros' }],
+  openGraph: {
+    title: 'Boise Movers | Professional Moving Services Idaho',
+    description: 'Professional local and long-distance moving services in Boise and the Treasure Valley. Licensed, insured, and trusted by the community.',
+    url: 'https://boise-movers.com',
+    siteName: 'Boise Moving Pros',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Boise Movers | Professional Moving Services Idaho',
+    description: 'Professional local and long-distance moving services in Boise and the Treasure Valley.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://boise-movers.com',
+  },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
-      <body>
+      <head>
+        <StructuredData />
+      </head>
+      <body className={`${inter.variable} ${oswald.variable} font-sans antialiased`}>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
           strategy="afterInteractive"
@@ -47,7 +94,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             alt=""
           />
         </noscript>
-        {children}
+        <QuoteFormProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </QuoteFormProvider>
       </body>
     </html>
   )

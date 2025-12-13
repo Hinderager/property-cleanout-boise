@@ -1,17 +1,83 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
 import './globals.css'
+import { QuoteFormProvider } from '@/context/QuoteFormContext'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { StructuredData } from '@/components/StructuredData'
 
 export const metadata: Metadata = {
-  title: 'Boise Demolition Services | Coming Soon',
-  description: 'Professional demolition services in Boise, Idaho. Residential and commercial demolition, interior demo, and complete structure removal.',
-  keywords: 'demolition, Boise, Idaho, residential demolition, commercial demolition, interior demolition',
+  metadataBase: new URL('https://boise-demolition.com'),
+  title: {
+    default: 'Boise Demolition Services | Residential & Commercial Demo Idaho',
+    template: '%s | Boise Demolition Pros',
+  },
+  description: 'Professional demolition services in Boise, Idaho. Residential and commercial demolition, interior demo, shed removal, garage teardown, and complete structure removal. Licensed and insured.',
+  keywords: [
+    'demolition Boise',
+    'demolition contractor Idaho',
+    'residential demolition Boise',
+    'commercial demolition Idaho',
+    'interior demolition',
+    'shed demolition',
+    'garage demolition',
+    'building demolition Boise',
+    'structure removal Idaho',
+    'demolition services Treasure Valley',
+  ],
+  authors: [{ name: 'Demolition Pros' }],
+  creator: 'Demolition Pros',
+  publisher: 'Demolition Pros',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://boise-demolition.com',
+    siteName: 'Boise Demolition Pros',
+    title: 'Boise Demolition Services | Residential & Commercial Demo Idaho',
+    description: 'Professional demolition services in Boise. Residential and commercial demolition, interior demo, and complete structure removal. Licensed and insured.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Boise Demolition Pros - Professional Demolition Services',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Boise Demolition Services | Residential & Commercial Demo Idaho',
+    description: 'Professional demolition services in Boise. Residential and commercial demolition, interior demo, and complete structure removal.',
+    images: ['/og-image.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://boise-demolition.com',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <head>
+        <StructuredData />
+      </head>
+      <body className="min-h-screen bg-white antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
           strategy="afterInteractive"
@@ -47,7 +113,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             alt=""
           />
         </noscript>
-        {children}
+        <QuoteFormProvider>
+          <Header />
+          <main>
+            {children}
+          </main>
+          <Footer />
+        </QuoteFormProvider>
       </body>
     </html>
   )

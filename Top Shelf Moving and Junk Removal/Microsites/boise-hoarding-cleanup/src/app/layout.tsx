@@ -5,6 +5,7 @@ import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -117,9 +118,11 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
-        <Header />
-        {children}
-        <Footer />
+        <QuoteFormProvider>
+          <Header />
+          {children}
+          <Footer />
+        </QuoteFormProvider>
       </body>
     </html>
   )

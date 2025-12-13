@@ -1,17 +1,64 @@
 import type { Metadata } from 'next'
+import { Inter, Oswald } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { StructuredData } from '@/components/StructuredData'
+import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' })
 
 export const metadata: Metadata = {
-  title: 'Boise Commercial Movers | Coming Soon',
-  description: 'Professional commercial and office moving services in Boise, Idaho. Minimal downtime, IT equipment handling, and furniture setup.',
-  keywords: 'commercial movers, Boise, Idaho, office moving, business relocation, corporate moving',
+  metadataBase: new URL('https://boise-commercial-movers.com'),
+  title: {
+    default: 'Boise Commercial Movers | Office Moving Services Idaho',
+    template: '%s | Boise Commercial Movers',
+  },
+  description: 'Professional commercial and office moving services in Boise, Meridian, Nampa & Eagle Idaho. Minimal downtime, IT equipment handling, furniture setup. Licensed & insured. Free quotes!',
+  keywords: ['commercial movers Boise', 'office moving Boise', 'business relocation Idaho', 'corporate moving services', 'IT equipment moving', 'furniture installation Boise', 'Meridian commercial movers', 'Treasure Valley office moving'],
+  authors: [{ name: 'Boise Commercial Moving Pros' }],
+  openGraph: {
+    title: 'Boise Commercial Movers | Office Moving Services Idaho',
+    description: 'Professional commercial and office moving services in Boise and the Treasure Valley. Minimal downtime, IT equipment handling, furniture setup.',
+    url: 'https://boise-commercial-movers.com',
+    siteName: 'Boise Commercial Moving Pros',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Boise Commercial Movers | Office Moving Services Idaho',
+    description: 'Professional commercial and office moving services in Boise and the Treasure Valley.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://boise-commercial-movers.com',
+  },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
-      <body>
+      <head>
+        <StructuredData />
+      </head>
+      <body className={`${inter.variable} ${oswald.variable} font-sans antialiased`}>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
           strategy="afterInteractive"
@@ -47,7 +94,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             alt=""
           />
         </noscript>
-        {children}
+        <QuoteFormProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </QuoteFormProvider>
       </body>
     </html>
   )
