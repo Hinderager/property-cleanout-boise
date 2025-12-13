@@ -26,28 +26,28 @@ export const metadata: Metadata = {
 const signs = [
   {
     number: 1,
-    title: 'They\'ve Stopped Having People Over',
-    content: 'This one sneaks up on you. Maybe your mom used to love hosting Thanksgiving, but now she always wants to meet at a restaurant instead. Or your brother makes excuses every time you suggest stopping by. People dealing with hoarding often feel ashamed of their home, even if they won\'t admit it. They\'ll get defensive if you push, or change the subject. It\'s not that they don\'t want to see you—they just don\'t want you to see their house.',
+    title: 'They Don\'t Want Visitors Anymore',
+    content: 'Used to be your mom hosted every holiday. Now she wants to meet at Applebee\'s instead. Your brother dodges every time you mention stopping by. This happens a lot with hoarding. People feel embarrassed, even if they\'d never say it out loud. Push too hard and they get defensive or just change the subject. They still want to see you. They just don\'t want you seeing their place.',
   },
   {
     number: 2,
-    title: 'Rooms Aren\'t Being Used for What They\'re For',
-    content: 'A dining room table buried under stuff. A bed you can\'t actually sleep in. A kitchen where making dinner isn\'t really possible anymore. When clutter takes over to the point where rooms lose their purpose, that\'s a red flag. I\'ve seen situations where someone\'s been sleeping on a tiny corner of their couch for months because their bedroom is completely full. That\'s not just being messy—that\'s a problem.',
+    title: 'Rooms Have Lost Their Purpose',
+    content: 'The dining table is buried. The bed has stuff piled on it. The kitchen? Good luck cooking anything in there. When rooms stop working the way they\'re supposed to, that\'s worth paying attention to. We\'ve worked with families where someone had been sleeping on half a couch for months because their bedroom was packed floor to ceiling. That\'s beyond messy.',
   },
   {
     number: 3,
-    title: 'The Home Has Become Unsafe',
-    content: 'This is the one that really worries me. Stacks of newspapers blocking the door. Stuff piled near the furnace. Pathways through rooms that are barely wide enough to walk through. Hoarding creates real dangers—fire hazards, tripping risks, even structural issues if things get heavy enough. If you can\'t easily get out in an emergency, or if you\'re worried about things falling, it\'s time to take action.',
+    title: 'It\'s Becoming Dangerous',
+    content: 'This one keeps us up at night. Newspapers stacked against the door. Boxes near the water heater. Narrow paths winding through each room. These are real hazards. Fire risks. Tripping risks. Sometimes the floors start sagging from all the weight. If getting out quickly in an emergency would be tough, that\'s serious.',
   },
   {
     number: 4,
-    title: 'Their Health Is Getting Worse',
-    content: 'Hoarding takes a toll on the body, not just the mind. Dust and mold build up. Pests move in. It becomes hard to cook real meals or find medications. I\'ve talked to families who noticed their parent seemed more tired, was getting sick more often, or just looked run down. Sometimes the living situation is making things worse and nobody\'s connected the dots yet.',
+    title: 'Their Health Is Slipping',
+    content: 'Hoarding affects the body too. Dust builds up. Mold grows. Pests find their way in. Cooking becomes impossible, so nutrition suffers. Medications get lost in the clutter. We hear from families who notice their parent looking more tired lately, catching colds more often, seeming generally worn down. Sometimes the home is part of the problem.',
   },
   {
     number: 5,
-    title: 'Getting Rid of Anything Causes a Meltdown',
-    content: 'Look, we all have stuff we\'re attached to. That\'s normal. But if suggesting you throw away an empty yogurt container causes tears or a full-blown argument? That\'s different. People with hoarding disorder feel genuine panic at the thought of losing things—even things most of us would call garbage. It\'s not stubbornness or laziness. There\'s real anxiety there, and it\'s a sign that something deeper is going on.',
+    title: 'Throwing Away Anything Is a Crisis',
+    content: 'We all hang onto things. That\'s human. But there\'s a difference between sentimental attachment and panic. If tossing an empty butter container leads to tears or a shouting match, something else is going on. People with hoarding disorder feel real fear about losing things. Even stuff that looks like trash to everyone else. It\'s anxiety, not stubbornness.',
   },
 ]
 
@@ -85,22 +85,26 @@ export default function BlogPost() {
             </h1>
 
             <p className="text-xl text-gray-600">
-              It&apos;s hard to watch someone you care about struggle with hoarding. Here&apos;s how to tell when it&apos;s gone beyond &quot;messy&quot; and into territory where they really need help.
+              When does clutter become something more? Here&apos;s what to watch for.
             </p>
           </header>
 
           {/* Article Content */}
           <article className="prose prose-lg max-w-none">
             <p>
-              Nobody wants to admit their parent, sibling, or friend has a hoarding problem. It&apos;s easy to make excuses—they&apos;re just a collector, they&apos;ve always been a bit of a pack rat, they&apos;ll get around to cleaning eventually. I get it. It&apos;s a tough thing to face.
+              You&apos;ve probably noticed things piling up at their place. Maybe you&apos;ve made excuses for it. They&apos;re collectors. They grew up without much. They&apos;ll clean it up eventually.
             </p>
 
             <p>
-              But there&apos;s a difference between someone who has too much stuff and someone who genuinely needs help. And the longer you wait, the harder it gets—both for them and for you. So how do you know when it&apos;s crossed that line?
+              But something feels off and you can&apos;t shake it.
             </p>
 
             <p>
-              Here are five things to watch for:
+              There&apos;s a line between having too much stuff and having a hoarding problem. Figuring out where that line is? That&apos;s hard. Especially when it&apos;s someone you love.
+            </p>
+
+            <p>
+              Here are five signs that things may have gone past clutter:
             </p>
 
             {signs.map((sign) => (
@@ -117,63 +121,67 @@ export default function BlogPost() {
               </div>
             ))}
 
-            <h2>So What Do You Actually Do?</h2>
+            <h2>Now What?</h2>
 
             <p>
-              Okay, so you&apos;ve read through this list and you&apos;re thinking, &quot;yep, that sounds like my dad.&quot; Now what?
+              So some of this sounds familiar. What do you do about it?
             </p>
 
             <p>
-              First off, don&apos;t go in guns blazing. Seriously. Showing up and demanding they throw everything away is only going to backfire. Hoarding is a mental health issue, not a character flaw, and approaching it with judgment will just make them shut down.
+              The worst thing you can do is show up and start throwing stuff out. That never works. It usually makes things worse.
             </p>
 
             <p>
-              Instead, try something like:
+              Hoarding is a mental health thing, not a laziness thing. Treating it like a character flaw just pushes people away.
             </p>
 
-            <ol>
-              <li><strong>Lead with concern, not criticism.</strong> &quot;I&apos;m worried about you&quot; lands a lot better than &quot;this place is disgusting.&quot;</li>
-              <li><strong>Focus on safety.</strong> Talk about blocked exits or fire hazards. It&apos;s harder to argue with concrete dangers.</li>
-              <li><strong>Suggest they talk to someone.</strong> A therapist who specializes in hoarding can help in ways you can&apos;t.</li>
-              <li><strong>Offer to help find professional cleaners.</strong> Not just any cleaning service—people who actually understand hoarding and won&apos;t shame them.</li>
-              <li><strong>Be patient.</strong> This isn&apos;t going to get fixed in a weekend. There will probably be setbacks. That&apos;s just how it goes.</li>
-            </ol>
+            <p>
+              Some things that actually help:
+            </p>
+
+            <ul>
+              <li><strong>Start with worry, not judgment.</strong> &quot;I&apos;m concerned about you&quot; goes further than &quot;this place is a disaster.&quot;</li>
+              <li><strong>Talk about safety.</strong> Blocked exits and fire hazards are hard to argue with.</li>
+              <li><strong>Mention therapy.</strong> Therapists who specialize in hoarding exist. They can help in ways family can&apos;t.</li>
+              <li><strong>Find the right cleanup help.</strong> Not every cleaning company gets it. You want people who won&apos;t make your loved one feel ashamed.</li>
+              <li><strong>Give it time.</strong> This won&apos;t be fixed next week. Or next month. Progress happens slowly.</li>
+            </ul>
 
             <div className="bg-yellow-50 border-l-4 border-brand-yellow p-6 my-8 rounded-r-lg">
               <div className="flex items-start gap-3">
                 <AlertTriangle className="w-6 h-6 text-brand-yellow flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-bold text-gunmetal mt-0 mb-2">When You Can&apos;t Wait</h3>
+                  <h3 className="font-bold text-gunmetal mt-0 mb-2">When It&apos;s Urgent</h3>
                   <p className="mb-0 text-gray-700">
-                    Sometimes the situation is urgent. No running water. Pests everywhere. Health inspectors threatening to condemn the property. If it&apos;s gotten to that point, you need to act fast. Call a professional hoarding cleanup service to deal with the immediate crisis while you figure out the longer-term stuff.
+                    Some situations can&apos;t wait. No water. Pests everywhere. The city threatening to condemn the place. If that&apos;s where things are, call a professional hoarding cleanup crew now. Handle the crisis first, then work on the rest.
                   </p>
                 </div>
               </div>
             </div>
 
-            <h2>We Can Help</h2>
+            <h2>How We Can Help</h2>
 
             <p>
-              We&apos;ve been doing this for a while now, all across the Treasure Valley—Boise, Meridian, Nampa, Caldwell, Eagle. We&apos;ve seen just about every situation you can imagine.
+              We do hoarding cleanup all over the Treasure Valley. Boise, Meridian, Nampa, Caldwell, Eagle. We&apos;ve seen a lot.
             </p>
 
             <p>
-              What we&apos;ve learned is that the cleanup part is actually the easy part. The hard part is doing it in a way that respects your loved one and doesn&apos;t make them feel like garbage themselves. That&apos;s what we focus on.
+              The actual cleaning isn&apos;t the hard part. Anyone can haul stuff away. The hard part is doing it without making someone feel terrible about themselves. That&apos;s what we try to get right.
             </p>
 
             <p>
-              If you want to talk through what you&apos;re dealing with, just give us a call. No sales pitch, no pressure. Sometimes people just need to hear from someone who&apos;s seen this before and can tell them it&apos;s going to be okay.
+              If you want to talk about what&apos;s going on, call us. We&apos;re not going to pressure you into anything. Sometimes it just helps to talk to someone who&apos;s been through this before.
             </p>
           </article>
 
           {/* Related Links */}
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link href="/hoarding-signs" className="bg-fog rounded-lg p-4 hover:shadow-md transition-shadow">
-              <span className="text-sm text-light-blue font-medium">Related Resource</span>
+              <span className="text-sm text-light-blue font-medium">Related</span>
               <h3 className="font-bold text-gunmetal">Signs of Hoarding Disorder</h3>
             </Link>
             <Link href="/helping-a-hoarder" className="bg-fog rounded-lg p-4 hover:shadow-md transition-shadow">
-              <span className="text-sm text-light-blue font-medium">Related Resource</span>
+              <span className="text-sm text-light-blue font-medium">Related</span>
               <h3 className="font-bold text-gunmetal">How to Help a Hoarder</h3>
             </Link>
           </div>
@@ -181,10 +189,10 @@ export default function BlogPost() {
           {/* CTA */}
           <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Worried About Someone You Love?
+              Want to Talk It Through?
             </h3>
             <p className="text-gray-300 mb-6">
-              We&apos;re happy to talk it through with you. No obligation.
+              No pressure. Just a conversation.
             </p>
             <a
               href="tel:2083611982"
