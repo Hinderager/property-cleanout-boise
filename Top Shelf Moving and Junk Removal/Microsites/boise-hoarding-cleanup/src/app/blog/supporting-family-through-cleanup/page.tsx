@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Support a Family Member Through Hoarding Cleanup',
     description: 'Learn how to provide meaningful support to your loved one during and after the hoarding cleanup process.',
-    url: 'https://hoardingcleanupboise.com/blog/supporting-family-through-cleanup',
+    url: 'https://boise-hoarding-cleanup.com/blog/supporting-family-through-cleanup',
   },
   alternates: {
-    canonical: 'https://hoardingcleanupboise.com/blog/supporting-family-through-cleanup',
+    canonical: 'https://boise-hoarding-cleanup.com/blog/supporting-family-through-cleanup',
   },
 }
 

@@ -26,10 +26,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Hoarding Cleanup Eagle Idaho | Discreet Hoarder Cleanout',
     description: 'Professional, discreet hoarding cleanup services in Eagle, Idaho. Licensed, insured, and compassionate. Same-day service available.',
-    url: 'https://hoardingcleanupboise.com/eagle',
+    url: 'https://boise-hoarding-cleanup.com/eagle',
   },
   alternates: {
-    canonical: 'https://hoardingcleanupboise.com/eagle',
+    canonical: 'https://boise-hoarding-cleanup.com/eagle',
   },
 }
 

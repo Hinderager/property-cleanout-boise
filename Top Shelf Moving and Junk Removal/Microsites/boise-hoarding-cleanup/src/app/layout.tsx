@@ -21,7 +21,7 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hoardingcleanupboise.com'),
+  metadataBase: new URL('https://boise-hoarding-cleanup.com'),
   title: {
     default: 'Hoarding Cleanup Services Boise | Professional Hoarder Cleanout Idaho',
     template: '%s | Hoarding Cleanup Boise',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Hoarding Cleanup Services | Boise, Meridian, Nampa Idaho',
     description: 'Professional, compassionate hoarding cleanup services in the Treasure Valley. Licensed, insured, and discreet. Same-day service available.',
-    url: 'https://hoardingcleanupboise.com',
+    url: 'https://boise-hoarding-cleanup.com',
     siteName: 'Hoarding Cleanup Pros',
     locale: 'en_US',
     type: 'website',

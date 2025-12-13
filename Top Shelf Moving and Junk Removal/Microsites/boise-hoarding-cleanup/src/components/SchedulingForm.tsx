@@ -91,7 +91,7 @@ export function SchedulingForm({ city = 'Boise' }: SchedulingFormProps) {
             description: formData.description,
             service_type: 'hoarding_cleanup',
             source_city: city,
-            source_site: 'hoardingcleanupboise.com',
+            source_site: 'boise-hoarding-cleanup.com',
           },
         }),
       })

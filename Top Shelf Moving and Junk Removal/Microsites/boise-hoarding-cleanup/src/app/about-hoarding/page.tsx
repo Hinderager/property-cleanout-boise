@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'What is Hoarding Disorder? | Understanding Hoarding',
     description: 'Learn about hoarding disorder - what causes it, how it affects people, and why professional help matters.',
-    url: 'https://hoardingcleanupboise.com/about-hoarding',
+    url: 'https://boise-hoarding-cleanup.com/about-hoarding',
   },
   alternates: {
-    canonical: 'https://hoardingcleanupboise.com/about-hoarding',
+    canonical: 'https://boise-hoarding-cleanup.com/about-hoarding',
   },
 }
 

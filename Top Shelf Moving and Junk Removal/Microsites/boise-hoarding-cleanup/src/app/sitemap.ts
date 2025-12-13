@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://hoardingcleanupboise.com'
+  const baseUrl = 'https://boise-hoarding-cleanup.com'
 
   return [
     // Main pages

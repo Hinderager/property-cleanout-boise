@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Hoarding Cleanup Blog | Tips, Guides & Resources',
     description: 'Expert advice on hoarding cleanup, tips for helping hoarders, and resources for families.',
-    url: 'https://hoardingcleanupboise.com/blog',
+    url: 'https://boise-hoarding-cleanup.com/blog',
   },
 }
 

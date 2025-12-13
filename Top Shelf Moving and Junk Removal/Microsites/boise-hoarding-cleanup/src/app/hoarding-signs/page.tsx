@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Signs of Hoarding Disorder | Recognize the Warning Signs',
     description: 'Learn how to recognize the signs and symptoms of hoarding disorder to help yourself or a loved one.',
-    url: 'https://hoardingcleanupboise.com/hoarding-signs',
+    url: 'https://boise-hoarding-cleanup.com/hoarding-signs',
   },
   alternates: {
-    canonical: 'https://hoardingcleanupboise.com/hoarding-signs',
+    canonical: 'https://boise-hoarding-cleanup.com/hoarding-signs',
   },
 }
 

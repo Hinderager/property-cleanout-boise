@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Help a Hoarder | Supporting a Loved One',
     description: 'Practical tips for helping a family member or friend who struggles with hoarding disorder.',
-    url: 'https://hoardingcleanupboise.com/helping-a-hoarder',
+    url: 'https://boise-hoarding-cleanup.com/helping-a-hoarder',
   },
   alternates: {
-    canonical: 'https://hoardingcleanupboise.com/helping-a-hoarder',
+    canonical: 'https://boise-hoarding-cleanup.com/helping-a-hoarder',
   },
 }
 

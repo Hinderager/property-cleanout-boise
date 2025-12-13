@@ -80,11 +80,11 @@ export function Footer() {
                 (208) 361-1982
               </a>
               <a
-                href="mailto:info@hoardingcleanupboise.com"
+                href="mailto:info@boise-hoarding-cleanup.com"
                 className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors"
               >
                 <Mail className="w-5 h-5 text-light-blue" />
-                info@hoardingcleanupboise.com
+                info@boise-hoarding-cleanup.com
               </a>
               <p className="flex items-start gap-3 text-gray-300">
                 <MapPin className="w-5 h-5 text-light-blue flex-shrink-0 mt-1" />
