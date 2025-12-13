@@ -55,8 +55,8 @@ export default function CaldwellPage() {
 
       <HeroSection
         city="Caldwell"
-        headline="Hoarding Cleanup Services in Caldwell, Idaho"
-        subheadline="Canyon County's Trusted Hoarder Cleanout Professionals"
+        headline="Hoarding Cleanup in Caldwell, Idaho"
+        subheadline="We help Caldwell families tackle hoarding situations. Respectful service, fair prices."
       />
 
       <SchedulingForm city="Caldwell" />
@@ -66,51 +66,55 @@ export default function CaldwellPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              Professional Hoarding Cleanup in Caldwell, Idaho
+              Hoarding Cleanup in Caldwell
             </h2>
 
-            <div className="prose prose-lg max-w-none text-gray-600">
+            <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                Caldwell is a growing community in Canyon County, and like any city, some residents face challenges with hoarding. Our <strong>Caldwell hoarding cleanup services</strong> provide compassionate, judgment-free assistance to help families reclaim their homes and their lives.
+                Caldwell has a mix of older homes in town and rural properties outside the city limits. We&apos;ve done hoarding cleanups in both—small houses, big farmhouses, outbuildings full of stuff. Whatever the situation, we can help.
               </p>
 
               <p>
-                Whether you&apos;re dealing with a lifetime of accumulated belongings, helping an elderly parent downsize, or managing a property cleanout, our experienced team understands the sensitive nature of hoarding and treats every client with dignity and respect.
+                A lot of folks in Caldwell have lived in the same place for years. Sometimes decades of accumulation builds up. That&apos;s okay. We&apos;re not here to judge—we&apos;re here to help clear things out so people can get their space back.
+              </p>
+
+              <p>
+                We work with the homeowner when possible. When it&apos;s a family member calling because a parent needs help, we handle that too. Either way, we keep things respectful and quiet.
               </p>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Caldwell Hoarding Cleanup Services
+                What We Do
               </h3>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Residential Hoarding Cleanup:</strong> Complete cleanout for homes of any size in Caldwell</span>
+                  <span><strong>Full cleanouts:</strong> We clear the house, sort through everything, and haul it off</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Farm &amp; Rural Property Cleanup:</strong> Serving agricultural properties and acreages</span>
+                  <span><strong>Farm properties:</strong> Barns, sheds, outbuildings—we can clear those too</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Estate Cleanout:</strong> Compassionate handling after the loss of a loved one</span>
+                  <span><strong>Estate cleanouts:</strong> When someone passes and leaves behind a difficult situation</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Foreclosure &amp; Eviction Cleanout:</strong> For banks and property managers</span>
+                  <span><strong>Rental cleanouts:</strong> For landlords dealing with a property left full of stuff</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Garage &amp; Outbuilding Cleanup:</strong> Clear packed storage spaces and sheds</span>
+                  <span><strong>Garage cleanouts:</strong> Packed garages and storage areas, cleared out</span>
                 </li>
               </ul>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Caldwell Areas We Serve
+                Areas We Cover in Caldwell
               </h3>
 
               <p>
-                We provide hoarding cleanup throughout Caldwell and Canyon County:
+                We work throughout Caldwell and Canyon County:
               </p>
             </div>
 
@@ -130,10 +134,10 @@ export default function CaldwellPage() {
             {/* CTA */}
             <div className="mt-10 p-6 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Need Hoarding Cleanup in Caldwell?
+                Need Help in Caldwell?
               </h3>
               <p className="text-gray-300 mb-6">
-                Free, confidential consultations. Same-day service available throughout Canyon County.
+                Give us a call. We&apos;ll talk through your situation and give you a free estimate.
               </p>
               <a
                 href="tel:2083611982"
@@ -159,16 +163,16 @@ export default function CaldwellPage() {
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/boise" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Boise Hoarding Cleanup
+              Boise
             </Link>
             <Link href="/meridian" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Meridian Hoarding Cleanup
+              Meridian
             </Link>
             <Link href="/nampa" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Nampa Hoarding Cleanup
+              Nampa
             </Link>
             <Link href="/eagle" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Eagle Hoarding Cleanup
+              Eagle
             </Link>
           </div>
         </div>

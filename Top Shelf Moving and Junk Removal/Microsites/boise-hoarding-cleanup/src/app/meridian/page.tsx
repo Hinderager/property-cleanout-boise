@@ -54,8 +54,8 @@ export default function MeridianPage() {
 
       <HeroSection
         city="Meridian"
-        headline="Hoarding Cleanup Services in Meridian, Idaho"
-        subheadline="Compassionate Hoarder Cleanout for Meridian Families"
+        headline="Hoarding Cleanup in Meridian, Idaho"
+        subheadline="We help Meridian families tackle hoarding situations. Respectful service, fair prices."
       />
 
       <SchedulingForm city="Meridian" />
@@ -65,51 +65,55 @@ export default function MeridianPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              Professional Hoarding Cleanup in Meridian, Idaho
+              Hoarding Cleanup in Meridian
             </h2>
 
-            <div className="prose prose-lg max-w-none text-gray-600">
+            <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                Meridian is Idaho&apos;s fastest-growing city, and with that growth comes families who may need help with hoarding cleanup. Whether you&apos;re dealing with a loved one&apos;s hoarding situation or need help with your own clutter, our <strong>Meridian hoarding cleanup team</strong> is here to help with compassion and professionalism.
+                Meridian&apos;s growing fast. Lots of new neighborhoods, lots of families. And some of those families are dealing with hoarding situations they need help with.
               </p>
 
               <p>
-                From newer subdivisions in South Meridian to established neighborhoods near downtown, we understand the unique challenges that Meridian homeowners face. Our discreet service ensures your privacy is protected throughout the entire cleanup process.
+                We&apos;ve worked in homes throughout Meridian—from the newer subdivisions off Ten Mile to the established areas near downtown. Every situation is different, and we approach each one the same way: with patience and without judgment.
+              </p>
+
+              <p>
+                If you&apos;re calling about a family member, that&apos;s common. We work with adult children, spouses, and sometimes social workers. We can coordinate with everyone involved and keep things private.
               </p>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Meridian Hoarding Cleanup Services
+                What We Do
               </h3>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Residential Hoarding Cleanup:</strong> Complete cleanout for homes of any size</span>
+                  <span><strong>Full cleanouts:</strong> We clear the whole house, sort through everything, and haul it off</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Garage &amp; Storage Cleanout:</strong> Clear out packed garages and storage areas</span>
+                  <span><strong>Garage cleanouts:</strong> A lot of hoarding starts in the garage. We can clear it out</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Estate Cleanout:</strong> Sensitive handling of a loved one&apos;s belongings</span>
+                  <span><strong>Estate cleanouts:</strong> When someone passes and leaves behind a tough situation</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Pre-Sale Cleanout:</strong> Get your Meridian home ready for market</span>
+                  <span><strong>Pre-sale prep:</strong> Need to sell a house that&apos;s packed? We can get it ready</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Deep Cleaning:</strong> Sanitization after item removal</span>
+                  <span><strong>Deep cleaning:</strong> Once everything&apos;s out, we can clean so it&apos;s livable again</span>
                 </li>
               </ul>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Meridian Areas We Serve
+                Areas We Cover in Meridian
               </h3>
 
               <p>
-                We provide hoarding cleanup throughout Meridian, including:
+                We work throughout Meridian, including:
               </p>
             </div>
 
@@ -129,10 +133,10 @@ export default function MeridianPage() {
             {/* CTA */}
             <div className="mt-10 p-6 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Need Hoarding Cleanup in Meridian?
+                Need Help in Meridian?
               </h3>
               <p className="text-gray-300 mb-6">
-                We offer free, confidential consultations. Same-day service available.
+                Give us a call. We&apos;ll talk through your situation and give you a free estimate.
               </p>
               <a
                 href="tel:2083611982"
@@ -158,16 +162,16 @@ export default function MeridianPage() {
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/boise" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Boise Hoarding Cleanup
+              Boise
             </Link>
             <Link href="/nampa" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Nampa Hoarding Cleanup
+              Nampa
             </Link>
             <Link href="/caldwell" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Caldwell Hoarding Cleanup
+              Caldwell
             </Link>
             <Link href="/eagle" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Eagle Hoarding Cleanup
+              Eagle
             </Link>
           </div>
         </div>

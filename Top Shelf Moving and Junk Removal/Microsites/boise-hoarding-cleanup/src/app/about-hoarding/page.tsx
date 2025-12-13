@@ -34,11 +34,10 @@ export default function AboutHoardingPage() {
           {/* Hero Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gunmetal mb-6">
-              What is Hoarding Disorder?
+              What is Hoarding?
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Understanding hoarding is the first step toward helping yourself or a loved one.
-              Learn what hoarding disorder is, what causes it, and how to get help.
+              If you&apos;re reading this, you probably know someone who hoards. Maybe it&apos;s a parent, a sibling, or yourself. Here&apos;s what you should know.
             </p>
           </div>
 
@@ -48,98 +47,103 @@ export default function AboutHoardingPage() {
               <div className="w-12 h-12 bg-light-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Brain className="w-6 h-6 text-light-blue" />
               </div>
-              <h3 className="font-bold text-gunmetal mb-2">Mental Health Condition</h3>
-              <p className="text-sm text-gray-600">Hoarding is a recognized mental health disorder, not laziness or choice</p>
+              <h3 className="font-bold text-gunmetal mb-2">It&apos;s a Mental Health Thing</h3>
+              <p className="text-sm text-gray-600">Hoarding isn&apos;t laziness. It&apos;s a recognized mental health condition.</p>
             </div>
             <div className="bg-fog rounded-xl p-6 text-center">
               <div className="w-12 h-12 bg-light-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <AlertCircle className="w-6 h-6 text-light-blue" />
               </div>
-              <h3 className="font-bold text-gunmetal mb-2">2-6% of Population</h3>
-              <p className="text-sm text-gray-600">Millions of Americans are affected by hoarding disorder</p>
+              <h3 className="font-bold text-gunmetal mb-2">More Common Than You&apos;d Think</h3>
+              <p className="text-sm text-gray-600">2-6% of people deal with hoarding. That&apos;s millions of Americans.</p>
             </div>
             <div className="bg-fog rounded-xl p-6 text-center">
               <div className="w-12 h-12 bg-light-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-6 h-6 text-light-blue" />
               </div>
-              <h3 className="font-bold text-gunmetal mb-2">Treatable Condition</h3>
-              <p className="text-sm text-gray-600">With proper support, people can recover and maintain clean homes</p>
+              <h3 className="font-bold text-gunmetal mb-2">Things Can Get Better</h3>
+              <p className="text-sm text-gray-600">With the right help, people do recover. It takes time, but it happens.</p>
             </div>
           </div>
 
           {/* Main Content */}
-          <div className="prose prose-lg max-w-none text-gray-600">
-            <h2 className="text-3xl font-bold text-gunmetal">Understanding Hoarding Disorder</h2>
+          <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
+            <h2 className="text-3xl font-bold text-gunmetal">So What Exactly is Hoarding?</h2>
 
             <p>
-              <strong>Hoarding disorder</strong> is a mental health condition characterized by persistent difficulty discarding possessions, regardless of their actual value. According to the{' '}
+              Hoarding is when someone has a really hard time getting rid of things—even stuff that seems worthless to everyone else. The{' '}
               <a href="https://www.psychiatry.org/patients-families/hoarding-disorder/what-is-hoarding-disorder" target="_blank" rel="noopener noreferrer" className="text-dark-blue underline hover:text-light-blue">
                 American Psychiatric Association
-              </a>, people with hoarding disorder experience distress at the thought of getting rid of items and accumulate possessions to the point where living spaces become cluttered and difficult to use.
+              </a>{' '}
+              classifies it as a mental health disorder. It&apos;s not about being messy or disorganized.
             </p>
 
             <p>
-              It&apos;s important to understand that hoarding is <em>not</em> the same as being messy, lazy, or simply collecting items. The{' '}
+              People who hoard feel genuine distress when they try to throw things away. That old newspaper? Might need it someday. Broken appliances? Could be fixed. Empty containers? Those are useful. It adds up until there&apos;s no room left to live.
+            </p>
+
+            <p>
+              The{' '}
               <a href="https://iocdf.org/about-hoarding/" target="_blank" rel="noopener noreferrer" className="text-dark-blue underline hover:text-light-blue">
                 International OCD Foundation
               </a>{' '}
-              notes that hoarding is a complex condition that often requires professional help to address effectively.
+              points out that hoarding is complex. It&apos;s not something you can fix by just cleaning up. The stuff comes back unless you address what&apos;s underneath.
             </p>
 
-            <h2 className="text-3xl font-bold text-gunmetal mt-10">What Causes Hoarding?</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mt-10">Why Do People Hoard?</h2>
 
             <p>
-              Researchers believe hoarding disorder results from a combination of factors:
-            </p>
-
-            <ul>
-              <li><strong>Genetics:</strong> Hoarding often runs in families, suggesting a genetic component</li>
-              <li><strong>Brain Function:</strong> Studies show differences in how hoarders&apos; brains process decisions about possessions</li>
-              <li><strong>Trauma:</strong> Hoarding can develop after traumatic experiences, loss, or major life changes</li>
-              <li><strong>Other Mental Health Conditions:</strong> Hoarding often co-occurs with depression, anxiety, ADHD, or OCD</li>
-              <li><strong>Emotional Attachment:</strong> Items may represent security, memories, or identity</li>
-            </ul>
-
-            <h2 className="text-3xl font-bold text-gunmetal mt-10">How Hoarding Affects Daily Life</h2>
-
-            <p>
-              Hoarding disorder can significantly impact a person&apos;s quality of life and relationships:
+              There&apos;s no single cause. Usually it&apos;s a mix of things:
             </p>
 
             <ul>
-              <li><strong>Living Spaces:</strong> Rooms become unusable for their intended purpose</li>
-              <li><strong>Safety Hazards:</strong> Fire risks, falls, and pest infestations become common</li>
-              <li><strong>Health Issues:</strong> Poor air quality, mold, and unsanitary conditions</li>
-              <li><strong>Social Isolation:</strong> Shame and embarrassment lead to avoiding visitors</li>
-              <li><strong>Family Strain:</strong> Relationships with family members often suffer</li>
-              <li><strong>Financial Problems:</strong> Compulsive buying and inability to find bills</li>
+              <li><strong>Family history:</strong> It often runs in families. If your parent hoarded, you&apos;re more likely to.</li>
+              <li><strong>How the brain works:</strong> Research shows hoarders&apos; brains process decisions about stuff differently.</li>
+              <li><strong>Trauma or loss:</strong> Hoarding sometimes starts after losing someone or going through something hard.</li>
+              <li><strong>Other conditions:</strong> It often shows up alongside depression, anxiety, ADHD, or OCD.</li>
+              <li><strong>Emotional attachment:</strong> Objects feel like safety, or memories, or part of who they are.</li>
             </ul>
 
-            <h2 className="text-3xl font-bold text-gunmetal mt-10">Getting Help for Hoarding</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mt-10">How Hoarding Affects Life</h2>
 
             <p>
-              Recovery from hoarding disorder typically requires a multi-faceted approach:
+              It&apos;s not just about having a messy house. Hoarding affects everything:
+            </p>
+
+            <ul>
+              <li><strong>You can&apos;t use your home:</strong> Bedrooms become storage rooms. Kitchens become unusable.</li>
+              <li><strong>It&apos;s dangerous:</strong> Fire hazards, tripping risks, pests moving in.</li>
+              <li><strong>Health problems:</strong> Bad air, mold, things that make you sick.</li>
+              <li><strong>Isolation:</strong> You stop inviting people over. Then you stop going out.</li>
+              <li><strong>Family fights:</strong> Relationships suffer. People get frustrated with each other.</li>
+              <li><strong>Money issues:</strong> Can&apos;t stop buying stuff. Can&apos;t find bills to pay them.</li>
+            </ul>
+
+            <h2 className="text-3xl font-bold text-gunmetal mt-10">Getting Help</h2>
+
+            <p>
+              Recovery usually takes a few different things working together:
             </p>
 
             <ol>
-              <li><strong>Professional Therapy:</strong> Cognitive-behavioral therapy (CBT) specifically for hoarding. The{' '}
+              <li><strong>Therapy:</strong> Specifically cognitive-behavioral therapy for hoarding. The{' '}
                 <a href="https://adaa.org/understanding-anxiety/hoarding-disorder" target="_blank" rel="noopener noreferrer" className="text-dark-blue underline hover:text-light-blue">
                   Anxiety and Depression Association of America
                 </a>{' '}
-                provides resources for finding qualified therapists.
+                can help you find someone.
               </li>
-              <li><strong>Support Groups:</strong> Connecting with others who understand the struggle</li>
-              <li><strong>Professional Cleanup:</strong> Working with compassionate cleanup professionals who understand hoarding as a condition</li>
-              <li><strong>Ongoing Maintenance:</strong> Developing new habits and coping strategies</li>
+              <li><strong>Support groups:</strong> Talking to other people who get it.</li>
+              <li><strong>Professional cleanup:</strong> Working with people who understand hoarding and won&apos;t judge.</li>
+              <li><strong>Building new habits:</strong> Learning how to make decisions about stuff differently.</li>
             </ol>
 
             <p>
-              The most important thing to remember is that <strong>hoarding is treatable</strong>, and recovery is possible with the right support system in place.
+              The main thing to know? People do get better. It&apos;s not hopeless. It takes work and the right support, but recovery happens.
             </p>
 
             {/* External Resources */}
             <div className="bg-fog rounded-xl p-6 mt-8 not-prose">
-              <h3 className="text-lg font-bold text-gunmetal mb-4">Trusted Resources for Hoarding Information</h3>
+              <h3 className="text-lg font-bold text-gunmetal mb-4">Want to Learn More?</h3>
               <ul className="space-y-2 text-sm">
                 <li>
                   <a href="https://www.psychiatry.org/patients-families/hoarding-disorder" target="_blank" rel="noopener noreferrer" className="text-dark-blue underline hover:text-light-blue">
@@ -172,25 +176,24 @@ export default function AboutHoardingPage() {
                 Signs of Hoarding
                 <ArrowRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </h3>
-              <p className="text-gray-600">Learn how to recognize the signs that someone may have hoarding disorder.</p>
+              <p className="text-gray-600">How to recognize if someone has a hoarding problem.</p>
             </Link>
             <Link href="/helping-a-hoarder" className="group bg-fog rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-gunmetal mb-2 flex items-center gap-2">
-                How to Help a Hoarder
+                How to Help Someone Who Hoards
                 <ArrowRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </h3>
-              <p className="text-gray-600">Practical tips for supporting a loved one who struggles with hoarding.</p>
+              <p className="text-gray-600">What to do (and what not to do) when a loved one hoards.</p>
             </Link>
           </div>
 
           {/* CTA */}
           <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Need Help With Hoarding Cleanup?
+              Need Help With Cleanup?
             </h3>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Our compassionate team provides professional hoarding cleanup services throughout the Boise area.
-              We treat every client with dignity and respect. No judgment, just help.
+              We do hoarding cleanups in Boise and the Treasure Valley. We understand what hoarding is and treat everyone with respect. No judgment, just help.
             </p>
             <a
               href="tel:2083611982"

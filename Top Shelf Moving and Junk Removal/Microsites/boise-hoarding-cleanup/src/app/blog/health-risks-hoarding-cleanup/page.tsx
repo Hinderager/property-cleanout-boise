@@ -26,27 +26,27 @@ export const metadata: Metadata = {
 const healthRisks = [
   {
     icon: Wind,
-    title: 'Poor Air Quality',
-    description: 'Dust, mold spores, and allergens accumulate in hoarded environments. Without proper ventilation, these particles concentrate to dangerous levels.',
-    dangers: ['Respiratory infections', 'Asthma attacks', 'Allergic reactions', 'Chronic bronchitis'],
+    title: 'Bad Air',
+    description: 'Dust, mold spores, and allergens build up over time. Without air circulation, you end up breathing in some nasty stuff.',
+    dangers: ['Lung infections', 'Asthma flare-ups', 'Allergic reactions', 'Breathing problems'],
   },
   {
     icon: Bug,
-    title: 'Pest Infestations',
-    description: 'Cluttered spaces provide ideal habitat for rodents, insects, and other pests. Food debris and hiding places allow populations to explode.',
-    dangers: ['Disease transmission', 'Bites and stings', 'Food contamination', 'Property damage'],
+    title: 'Pests',
+    description: 'Rodents and insects love clutter. Plenty of hiding spots, food scraps, and nobody disturbing them. Populations grow fast.',
+    dangers: ['Disease', 'Bites', 'Contaminated food', 'Property damage'],
   },
   {
     icon: Flame,
-    title: 'Fire Hazards',
-    description: 'Accumulated items near heat sources, blocked exits, and combustible materials create extreme fire risk. Hoarded homes burn faster and are harder to escape.',
-    dangers: ['Rapid fire spread', 'Blocked escape routes', 'Delayed firefighter response', 'Structural collapse'],
+    title: 'Fire Risk',
+    description: 'Stuff piled near heaters, blocked exits, paper everywhere. Hoarded homes burn faster and are harder to escape from.',
+    dangers: ['Fire spreads fast', 'Can\'t get out', 'Firefighters can\'t get in', 'Collapse risk'],
   },
   {
     icon: AlertTriangle,
-    title: 'Fall & Injury Risks',
-    description: 'Narrow pathways, unstable piles, and hidden hazards make falls common. Items can collapse, causing serious injuries.',
-    dangers: ['Tripping hazards', 'Falling objects', 'Unstable furniture', 'Hidden sharp objects'],
+    title: 'Falls and Injuries',
+    description: 'Narrow paths, wobbly piles, stuff on the floor you can\'t see. It\'s easy to trip or have something fall on you.',
+    dangers: ['Tripping', 'Stuff falling', 'Unstable furniture', 'Sharp objects'],
   },
 ]
 
@@ -80,25 +80,25 @@ export default function BlogPost() {
             </div>
 
             <h1 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              The Health Risks of Hoarding: Why Professional Cleanup Matters
+              The Health Dangers of Hoarding (And Why You Shouldn&apos;t Clean It Yourself)
             </h1>
 
             <p className="text-xl text-gray-600">
-              Hoarding creates serious health hazards that can affect not just the person living there, but neighbors and first responders too. Understanding these risks highlights why professional cleanup is so important.
+              Hoarding isn&apos;t just clutter. It creates real health hazards—stuff that can make you sick. Here&apos;s what you&apos;re actually dealing with.
             </p>
           </header>
 
           {/* Article Content */}
-          <article className="prose prose-lg max-w-none">
+          <article className="prose prose-lg max-w-none [&>p]:mb-6">
             <p>
-              Hoarding disorder is more than a mental health concern—it creates very real physical dangers. The environments that develop in hoarded homes can cause immediate harm and long-term health consequences that most people don&apos;t fully appreciate until they see the conditions firsthand.
+              A lot of people don&apos;t realize how dangerous hoarded homes can be until they actually walk into one. We&apos;ve seen situations that would surprise you. It&apos;s not just messy—it&apos;s genuinely hazardous.
             </p>
 
             <p>
-              Let&apos;s examine the specific health risks and why attempting DIY cleanup of a severely hoarded home can actually make things worse.
+              Here&apos;s what we&apos;re talking about, and why you probably shouldn&apos;t tackle this kind of cleanup on your own.
             </p>
 
-            <h2>Major Health Hazards in Hoarded Homes</h2>
+            <h2>What You&apos;re Actually Dealing With</h2>
 
             <div className="not-prose space-y-6 my-8">
               {healthRisks.map((risk, index) => (
@@ -123,94 +123,94 @@ export default function BlogPost() {
               ))}
             </div>
 
-            <h2>Additional Hazards</h2>
+            <h2>Other Problems We See</h2>
 
-            <h3>Biological Hazards</h3>
+            <h3>Biohazards</h3>
             <p>
-              In severe cases, hoarded homes may contain human or animal waste, decomposing food, or even deceased pets. These create serious biohazard conditions requiring specialized cleanup protocols that protect workers and prevent cross-contamination.
+              In bad cases, you might find human or animal waste, rotting food, or dead animals. This isn&apos;t something you want to handle without proper training and equipment.
             </p>
 
-            <h3>Structural Concerns</h3>
+            <h3>Structural Problems</h3>
             <p>
-              The sheer weight of accumulated items can stress floors, walls, and foundations. We&apos;ve seen sagging floors, bowed walls, and doors that no longer close properly. In extreme cases, structural failure becomes a real risk.
+              All that weight puts stress on the building. We&apos;ve seen floors sagging, walls bowing, doors that won&apos;t close. Sometimes the structure itself becomes a danger.
             </p>
 
-            <h3>Mold Growth</h3>
+            <h3>Mold</h3>
             <p>
-              Items blocking airflow and covering walls create perfect conditions for mold, especially in Idaho&apos;s fluctuating humidity. Black mold and other dangerous species can grow hidden behind clutter for years, releasing spores that cause serious respiratory problems.
+              When stuff covers the walls and blocks airflow, mold thrives. It grows behind the clutter for years. You can&apos;t even see it. But you&apos;re breathing in the spores.
             </p>
 
-            <h3>Chemical Hazards</h3>
+            <h3>Chemicals</h3>
             <p>
-              Old cleaning supplies, automotive fluids, expired medications, and other hazardous materials often accumulate in hoarded homes. These can leak, mix dangerously, or create toxic fumes.
+              Old cleaning products, car fluids, expired medications—they pile up in hoarded homes. They can leak, mix together, create fumes. It&apos;s a mess.
             </p>
 
-            <h2>Why DIY Cleanup Is Risky</h2>
+            <h2>Why You Shouldn&apos;t Do It Yourself</h2>
 
             <p>
-              When families discover the extent of a hoarding situation, the natural instinct is often to start cleaning immediately. However, DIY cleanup of severely hoarded homes carries significant risks:
+              When people see how bad things have gotten, the first instinct is to just start throwing stuff away. Here&apos;s why that&apos;s a bad idea:
             </p>
 
             <ul>
-              <li><strong>Exposure to hazards:</strong> Without proper PPE and training, you may expose yourself to mold, pests, and pathogens</li>
-              <li><strong>Improper disposal:</strong> Hazardous materials require specific disposal methods—putting them in regular trash is illegal and dangerous</li>
-              <li><strong>Missing hidden dangers:</strong> Professionals know where to look for mold, structural damage, and other hidden hazards</li>
-              <li><strong>Emotional harm:</strong> Forcing cleanup without professional support can traumatize the person with hoarding disorder</li>
-              <li><strong>Incomplete remediation:</strong> Cleaning surfaces without addressing root causes (like moisture sources for mold) means problems return</li>
+              <li><strong>You&apos;ll get exposed:</strong> Without the right gear, you&apos;re breathing in mold, handling pests, touching who-knows-what</li>
+              <li><strong>Disposal problems:</strong> You can&apos;t just throw hazardous stuff in the regular trash. That&apos;s illegal and dangerous.</li>
+              <li><strong>You&apos;ll miss things:</strong> Hidden mold, structural damage, stuff you don&apos;t know to look for</li>
+              <li><strong>It can hurt the person:</strong> Forcing a cleanup without support can be traumatic for someone with hoarding disorder</li>
+              <li><strong>It&apos;ll come back:</strong> If you don&apos;t address the root causes, the problem returns</li>
             </ul>
 
-            <h2>What Professional Cleanup Provides</h2>
+            <h2>What Professionals Bring</h2>
 
             <div className="bg-green-50 border border-green-200 rounded-xl p-6 my-8 not-prose">
               <h3 className="text-xl font-bold text-green-800 mb-4 flex items-center gap-2">
                 <Shield className="w-6 h-6" />
-                Professional Standards
+                What We Actually Do
               </h3>
               <ul className="space-y-2 text-green-900">
-                <li>Personal protective equipment (PPE) for all workers</li>
-                <li>Training in biohazard handling and disposal</li>
-                <li>Proper containment to prevent cross-contamination</li>
-                <li>Licensed disposal of hazardous materials</li>
-                <li>Inspection for hidden mold and structural issues</li>
-                <li>Deep cleaning and sanitization after item removal</li>
-                <li>Documentation for insurance or legal purposes</li>
+                <li>Protective gear for everyone</li>
+                <li>Trained in handling biohazards properly</li>
+                <li>Contain the area so stuff doesn&apos;t spread</li>
+                <li>Dispose of hazardous materials legally</li>
+                <li>Check for mold and structural issues</li>
+                <li>Deep clean and sanitize after</li>
+                <li>Documentation if you need it for insurance</li>
               </ul>
             </div>
 
-            <h2>When Emergency Cleanup Is Needed</h2>
+            <h2>When It&apos;s an Emergency</h2>
 
             <p>
-              Some situations require immediate professional intervention:
+              Some situations can&apos;t wait. Call for help right away if:
             </p>
 
             <ul>
               <li>No running water or working toilet</li>
-              <li>Evidence of human or animal waste</li>
-              <li>Active pest infestations</li>
-              <li>Visible mold growth</li>
-              <li>Structural damage (sagging floors, water damage)</li>
-              <li>Health code violations or eviction notices</li>
-              <li>The resident has been hospitalized</li>
+              <li>Human or animal waste in the house</li>
+              <li>Serious pest infestation</li>
+              <li>Visible mold growing</li>
+              <li>Structural damage—sagging floors, water damage</li>
+              <li>Eviction notice or code violation</li>
+              <li>Someone&apos;s been hospitalized</li>
             </ul>
 
             <p>
-              If you encounter any of these situations, don&apos;t attempt cleanup yourself. Contact professional hoarding cleanup services immediately.
+              Don&apos;t try to handle these yourself. Get professional help.
             </p>
 
-            <h2>Protecting Everyone&apos;s Health</h2>
+            <h2>The Bottom Line</h2>
 
             <p>
-              Professional hoarding cleanup isn&apos;t just about making a space look better—it&apos;s about eliminating genuine health hazards and creating a safe, livable environment. The investment in professional help protects the person with hoarding disorder, their family members, neighbors, and future occupants of the home.
+              Professional cleanup isn&apos;t just about making things look better. It&apos;s about eliminating real health dangers and creating a space people can actually live in safely. That protects everyone—the person who hoards, their family, the neighbors.
             </p>
           </article>
 
           {/* CTA */}
           <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Concerned About Health Hazards?
+              Worried About What You&apos;re Dealing With?
             </h3>
             <p className="text-gray-300 mb-6">
-              Our trained team handles hazardous hoarding situations safely. Free assessments available.
+              We handle hazardous situations safely. Free assessments.
             </p>
             <a
               href="tel:2083611982"

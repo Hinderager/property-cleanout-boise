@@ -53,60 +53,64 @@ export default function BlogPost() {
             </div>
 
             <h1 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              Hoarding vs Clutter: Understanding the Difference
+              Is It Clutter or Is It Hoarding?
             </h1>
 
             <p className="text-xl text-gray-600">
-              Is it just clutter or is it hoarding? Learn how to tell the difference and understand when messiness crosses the line into a mental health concern.
+              Everyone has some mess. But there&apos;s a difference between a cluttered house and a hoarding situation. Here&apos;s how to tell.
             </p>
           </header>
 
           {/* Article Content */}
-          <article className="prose prose-lg max-w-none">
+          <article className="prose prose-lg max-w-none [&>p]:mb-6">
             <p>
-              Everyone has some clutter. A stack of mail on the counter, a closet that&apos;s hard to close, a garage full of &quot;someday&quot; projects—these are normal parts of busy lives. But when does clutter cross the line into hoarding?
+              A pile of mail on the counter. A closet that&apos;s hard to shut. A garage full of stuff you&apos;ll &quot;get to someday.&quot; That&apos;s pretty normal. Most people have some clutter.
             </p>
 
             <p>
-              Understanding the difference is important because hoarding disorder requires different interventions than simple disorganization. Let&apos;s explore what separates the two.
+              But when does it become something more? When does messy cross the line into hoarding?
             </p>
 
-            <h2>What is Clutter?</h2>
-
             <p>
-              Clutter is an accumulation of items that creates disorder in a space. It&apos;s common, manageable, and usually the result of:
+              The answer matters because you deal with them differently. Clutter just needs cleaning. Hoarding needs a different approach entirely.
             </p>
 
-            <ul>
-              <li>Busy schedules leaving little time to organize</li>
-              <li>Lack of storage solutions</li>
-              <li>Procrastination on tidying up</li>
-              <li>Sentimental attachment to some items</li>
-              <li>Not knowing where to start</li>
-            </ul>
+            <h2>What&apos;s Clutter?</h2>
 
             <p>
-              The key characteristic of clutter is that the person <strong>can</strong> get rid of items when motivated—it just hasn&apos;t been a priority. Given time, energy, and motivation, they could clean up without significant distress.
-            </p>
-
-            <h2>What is Hoarding?</h2>
-
-            <p>
-              Hoarding disorder is a recognized mental health condition characterized by:
+              Clutter is just stuff that&apos;s accumulated. It&apos;s pretty common and usually happens because:
             </p>
 
             <ul>
-              <li>Persistent difficulty discarding possessions regardless of value</li>
-              <li>Strong urges to save items and distress when letting go</li>
-              <li>Accumulation of items to the point living spaces are compromised</li>
-              <li>Significant impairment in daily functioning or relationships</li>
+              <li>Life&apos;s busy and cleaning isn&apos;t a priority</li>
+              <li>Not enough storage space</li>
+              <li>Putting things off</li>
+              <li>Attached to some stuff for sentimental reasons</li>
+              <li>Overwhelmed and don&apos;t know where to start</li>
             </ul>
 
             <p>
-              The critical difference is the <strong>emotional component</strong>. People with hoarding disorder experience genuine psychological distress—sometimes including panic, anxiety, or grief—at the thought of parting with items.
+              Here&apos;s the key: with clutter, the person <strong>could</strong> get rid of things if they had to. It just hasn&apos;t happened yet. Give them a weekend and some motivation, and they&apos;d be fine.
             </p>
 
-            <h2>Key Differences at a Glance</h2>
+            <h2>What&apos;s Hoarding?</h2>
+
+            <p>
+              Hoarding is different. It&apos;s a mental health condition where:
+            </p>
+
+            <ul>
+              <li>The person really struggles to throw anything away, even worthless stuff</li>
+              <li>They feel a strong need to save things and get upset when they can&apos;t</li>
+              <li>The stuff has taken over to where rooms can&apos;t be used</li>
+              <li>It&apos;s causing problems in their life and relationships</li>
+            </ul>
+
+            <p>
+              The big difference is the <strong>emotional part</strong>. People who hoard feel real distress—sometimes panic, anxiety, or grief—when they try to get rid of things. It&apos;s not just &quot;I don&apos;t feel like cleaning.&quot; It&apos;s deeper than that.
+            </p>
+
+            <h2>Quick Comparison</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8 not-prose">
               <div className="bg-green-50 rounded-xl p-6">
@@ -115,12 +119,12 @@ export default function BlogPost() {
                   Clutter
                 </h3>
                 <ul className="space-y-2 text-green-900">
-                  <li>Can discard items when motivated</li>
-                  <li>Mess bothers them</li>
-                  <li>Rooms remain functional</li>
-                  <li>Can have visitors (maybe embarrassed)</li>
-                  <li>Cleaning provides relief</li>
-                  <li>Problem is time/energy, not emotion</li>
+                  <li>Could throw stuff away if needed</li>
+                  <li>The mess bothers them</li>
+                  <li>Rooms still work as rooms</li>
+                  <li>Has people over (maybe a bit embarrassed)</li>
+                  <li>Feels better after cleaning</li>
+                  <li>Problem is time and energy</li>
                 </ul>
               </div>
 
@@ -130,61 +134,61 @@ export default function BlogPost() {
                   Hoarding
                 </h3>
                 <ul className="space-y-2 text-red-900">
-                  <li>Extreme distress when discarding</li>
-                  <li>May not see mess as a problem</li>
-                  <li>Rooms become unusable</li>
-                  <li>Avoids having anyone over</li>
+                  <li>Gets really upset throwing things away</li>
+                  <li>Doesn&apos;t see it as a problem</li>
+                  <li>Rooms can&apos;t be used anymore</li>
+                  <li>Never lets anyone in</li>
                   <li>Cleaning causes anxiety</li>
-                  <li>Deep emotional attachment to items</li>
+                  <li>Deep emotional attachment to stuff</li>
                 </ul>
               </div>
             </div>
 
-            <h2>The Gray Area: When Clutter Becomes Concerning</h2>
+            <h2>The Gray Area</h2>
 
             <p>
-              Sometimes the line between clutter and hoarding isn&apos;t clear. Consider these warning signs that clutter may be progressing toward hoarding:
+              Sometimes it&apos;s hard to tell. Here are warning signs that clutter might be turning into something more:
             </p>
 
             <ul>
-              <li><strong>Increasing over time:</strong> The accumulation is getting worse, not better</li>
-              <li><strong>Resistance to help:</strong> Rejecting offers to help organize or clean</li>
-              <li><strong>Emotional reactions:</strong> Getting upset when family mentions the mess</li>
-              <li><strong>Safety issues:</strong> Blocked exits, fire hazards, or fall risks</li>
-              <li><strong>Functional impairment:</strong> Unable to cook, sleep in bed, or use bathroom normally</li>
+              <li><strong>Getting worse:</strong> It keeps building up instead of getting better</li>
+              <li><strong>Won&apos;t accept help:</strong> Rejects offers to clean or organize</li>
+              <li><strong>Gets defensive:</strong> Gets upset when anyone mentions it</li>
+              <li><strong>Safety problems:</strong> Blocked doors, fire risks, tripping hazards</li>
+              <li><strong>Can&apos;t use the space:</strong> Can&apos;t cook, sleep in bed, use the bathroom normally</li>
             </ul>
 
             <p>
-              If you&apos;re noticing these patterns, it may be time to consider professional assessment.
+              If you&apos;re seeing these patterns, it might be time to get a professional opinion.
             </p>
 
-            <h2>Why the Distinction Matters</h2>
+            <h2>Why This Matters</h2>
 
             <p>
-              The approach to addressing clutter versus hoarding is very different:
-            </p>
-
-            <p>
-              <strong>For clutter:</strong> Organizing services, storage solutions, and dedicated cleaning time usually solve the problem. The person can participate fully in decisions and the process is straightforward.
+              You handle these two situations differently:
             </p>
 
             <p>
-              <strong>For hoarding:</strong> Simply cleaning up doesn&apos;t address the underlying issue. Without treating the hoarding disorder itself—often through therapy—the space will likely return to its previous state. Forcing a cleanup without emotional support can actually be traumatic.
+              <strong>For clutter:</strong> An organizer, some trash bags, and a free weekend. The person helps make decisions and it&apos;s pretty straightforward.
+            </p>
+
+            <p>
+              <strong>For hoarding:</strong> Just cleaning doesn&apos;t fix it. Without addressing the underlying issue—usually through therapy—the stuff comes back. And forcing a cleanup without support can actually hurt the person.
             </p>
 
             <h2>Getting Help</h2>
 
             <p>
-              Whether you&apos;re dealing with overwhelming clutter or suspect hoarding disorder, help is available:
+              Either way, help exists:
             </p>
 
             <ul>
-              <li><strong>For clutter:</strong> Professional organizers, junk removal services, and decluttering programs can help</li>
-              <li><strong>For hoarding:</strong> Seek both mental health support (therapists specializing in hoarding) and compassionate cleanup services that understand the condition</li>
+              <li><strong>For clutter:</strong> Professional organizers, junk haulers, decluttering services</li>
+              <li><strong>For hoarding:</strong> A therapist who specializes in hoarding plus a cleanup service that understands what this is</li>
             </ul>
 
             <p>
-              If you&apos;re unsure which category applies to your situation, we offer free consultations to help you understand your options.
+              Not sure which one you&apos;re dealing with? We can help figure that out. Free consultations.
             </p>
           </article>
 
@@ -203,10 +207,10 @@ export default function BlogPost() {
           {/* CTA */}
           <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Not Sure If It&apos;s Hoarding?
+              Not Sure What You&apos;re Dealing With?
             </h3>
             <p className="text-gray-300 mb-6">
-              We can help you understand the situation. Free, confidential consultations.
+              We can help you figure it out. Free, confidential consultations.
             </p>
             <a
               href="tel:2083611982"

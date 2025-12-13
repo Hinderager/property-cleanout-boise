@@ -3,40 +3,40 @@ import { Heart, Shield, Clock, Leaf, Users, Lock, Award, CheckCircle } from 'luc
 const features = [
   {
     icon: Heart,
-    title: 'Compassionate Approach',
-    description: 'We understand hoarding is a mental health condition, not a choice. Our team is trained to work with clients experiencing hoarding disorder with dignity, respect, and zero judgment.',
+    title: 'We Get It',
+    description: 'Hoarding is a mental health condition, not a choice. Our crew is trained to work with people going through this. No lectures, no dirty looks. Just help.',
   },
   {
     icon: Shield,
     title: 'Licensed & Insured',
-    description: 'Fully licensed and insured for your protection. $1M liability coverage. We handle hazardous materials, biohazards, and heavy debris safely and legally.',
+    description: 'Fully licensed with $1M liability coverage. We handle hazardous materials, biohazards, and heavy debris the right way.',
   },
   {
     icon: Clock,
-    title: 'Same-Day Service',
-    description: 'Emergency situations can\'t wait. We offer same-day response and flexible scheduling to work around your needs throughout the Treasure Valley.',
+    title: 'Same-Day If You Need It',
+    description: 'Some situations can\'t wait. We offer same-day service throughout the Treasure Valley when timing is critical.',
   },
   {
     icon: Lock,
-    title: 'Discreet Service',
-    description: 'We use unmarked vehicles and maintain complete confidentiality. No signage, no judgment from neighbors. Your privacy is protected.',
+    title: 'Nobody Has to Know',
+    description: 'Unmarked trucks. No company logos. We keep things quiet so your neighbors don\'t ask questions.',
   },
   {
     icon: Leaf,
-    title: 'Eco-Friendly Disposal',
-    description: 'We partner with local donation centers and recycling facilities. We divert over 60% of items from landfills through responsible disposal practices.',
+    title: 'We Donate What We Can',
+    description: 'We work with local charities and recyclers. Over 60% of what we remove stays out of the landfill.',
   },
   {
     icon: Users,
-    title: 'Local Family Business',
-    description: 'Family-owned and operated, serving the Boise area since 2022. We\'re your neighbors, and we treat your home like we\'d treat our own family\'s.',
+    title: 'Local & Family-Owned',
+    description: 'We\'re based right here in Boise. Been serving the area since 2022. We treat every home like it\'s family.',
   },
 ]
 
 const credentials = [
-  'Background-checked employees',
+  'Background-checked team',
   'OSHA safety trained',
-  'Biohazard cleanup certified',
+  'Biohazard certified',
   'BBB Accredited',
   'Fully bonded',
   '5-star Google rating',
@@ -49,10 +49,10 @@ export function WhyChooseUs() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-4">
-            Why Choose Our Hoarding Cleanup Services?
+            Why Work With Us?
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            We specialize in compassionate hoarding cleanup throughout Boise, Meridian, Nampa, Caldwell, and Eagle. Here&apos;s what sets us apart from other cleanup services.
+            We do hoarding cleanup in Boise, Meridian, Nampa, Caldwell, and Eagle. Here&apos;s what makes us different.
           </p>
         </div>
 
@@ -95,9 +95,7 @@ export function WhyChooseUs() {
         {/* Trust Statement */}
         <div className="mt-12 text-center">
           <p className="text-gray-600 max-w-3xl mx-auto">
-            We&apos;ve helped hundreds of families in the Treasure Valley reclaim their homes from hoarding.
-            Our approach combines professional cleanup expertise with genuine compassion for the people we serve.
-            Every situation is unique, and we tailor our services to meet your specific needs.
+            We&apos;ve helped hundreds of families in the Treasure Valley. Every situation is different, and we work with you to figure out what makes sense.
           </p>
         </div>
       </div>

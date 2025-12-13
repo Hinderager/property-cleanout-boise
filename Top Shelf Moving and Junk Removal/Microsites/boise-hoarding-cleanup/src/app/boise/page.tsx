@@ -55,8 +55,8 @@ export default function BoisePage() {
 
       <HeroSection
         city="Boise"
-        headline="Hoarding Cleanup Services in Boise, Idaho"
-        subheadline="Professional, Compassionate Hoarder Cleanout for Boise Residents"
+        headline="Hoarding Cleanup in Boise, Idaho"
+        subheadline="We help Boise families deal with hoarding situations. Respectful service, fair prices."
       />
 
       <SchedulingForm city="Boise" />
@@ -66,51 +66,55 @@ export default function BoisePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              Professional Hoarding Cleanup in Boise, Idaho
+              Hoarding Cleanup in Boise
             </h2>
 
-            <div className="prose prose-lg max-w-none text-gray-600">
+            <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                If you or a loved one is struggling with hoarding in Boise, you&apos;re not alone. Hoarding affects millions of Americans, and getting help is the first step toward reclaiming your home and your life. Our <strong>Boise hoarding cleanup services</strong> provide compassionate, non-judgmental assistance to help you through this challenging time.
+                If you&apos;re dealing with a hoarding situation in Boise, we can help. It&apos;s more common than people think, and there&apos;s no shame in asking for assistance.
               </p>
 
               <p>
-                As Idaho&apos;s capital city, Boise has a diverse mix of homes—from historic properties in the North End to newer developments in Southeast Boise. Our team has experience handling hoarding cleanup in all types of Boise properties, from small apartments to large estates.
+                Boise has all kinds of homes—older houses in the North End, newer builds in Southeast Boise, apartments downtown. We&apos;ve done cleanups in all of them.
+              </p>
+
+              <p>
+                We work with the person living there when possible. When it&apos;s a family member calling on someone&apos;s behalf, we handle that too. Either way, we keep things respectful and low-key.
               </p>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Our Boise Hoarding Cleanup Services Include:
+                What We Do
               </h3>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Complete Hoarder Cleanout:</strong> Full removal of accumulated items, trash, and debris</span>
+                  <span><strong>Full cleanouts:</strong> We clear everything out, sort through it, and haul it away</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Estate Cleanout:</strong> Compassionate cleanup after the loss of a loved one</span>
+                  <span><strong>Estate cleanouts:</strong> When a loved one passes and leaves behind a difficult situation</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Clutter Removal:</strong> Help with overwhelming clutter before it becomes severe</span>
+                  <span><strong>Clutter help:</strong> Before things get too bad, we can help get on top of it</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Deep Cleaning:</strong> Post-cleanup sanitization and deep cleaning services</span>
+                  <span><strong>Deep cleaning:</strong> Once everything&apos;s out, we can clean the space so it&apos;s livable</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Sorting &amp; Organization:</strong> Help identifying valuables and important documents</span>
+                  <span><strong>Sorting:</strong> We help find valuables and important documents before anything gets tossed</span>
                 </li>
               </ul>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Boise Neighborhoods We Serve
+                Areas We Cover in Boise
               </h3>
 
               <p>
-                We provide hoarding cleanup services throughout all of Boise, including:
+                We work throughout the city, including:
               </p>
             </div>
 
@@ -130,10 +134,10 @@ export default function BoisePage() {
             {/* CTA */}
             <div className="mt-10 p-6 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Need Hoarding Cleanup in Boise?
+                Need Help in Boise?
               </h3>
               <p className="text-gray-300 mb-6">
-                Call us now for a free, confidential consultation. Same-day service available.
+                Give us a call. We&apos;ll talk through your situation and give you a free estimate.
               </p>
               <a
                 href="tel:2083611982"
@@ -159,16 +163,16 @@ export default function BoisePage() {
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/meridian" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Meridian Hoarding Cleanup
+              Meridian
             </Link>
             <Link href="/nampa" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Nampa Hoarding Cleanup
+              Nampa
             </Link>
             <Link href="/caldwell" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Caldwell Hoarding Cleanup
+              Caldwell
             </Link>
             <Link href="/eagle" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Eagle Hoarding Cleanup
+              Eagle
             </Link>
           </div>
         </div>

@@ -54,8 +54,8 @@ export default function NampaPage() {
 
       <HeroSection
         city="Nampa"
-        headline="Hoarding Cleanup Services in Nampa, Idaho"
-        subheadline="Canyon County&apos;s Trusted Hoarder Cleanout Professionals"
+        headline="Hoarding Cleanup in Nampa, Idaho"
+        subheadline="We help Nampa and Canyon County families with hoarding situations. No judgment, just help."
       />
 
       <SchedulingForm city="Nampa" />
@@ -65,51 +65,55 @@ export default function NampaPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              Professional Hoarding Cleanup in Nampa, Idaho
+              Hoarding Cleanup in Nampa
             </h2>
 
-            <div className="prose prose-lg max-w-none text-gray-600">
+            <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                As Canyon County&apos;s largest city, Nampa is home to thousands of families—some of whom are dealing with hoarding challenges. Our <strong>Nampa hoarding cleanup services</strong> provide a compassionate, judgment-free solution for residents who need help reclaiming their homes.
+                Nampa&apos;s a big city with all kinds of homes—older places downtown, newer builds out by the mall, rural properties on the edges. We&apos;ve done hoarding cleanups in all of them.
               </p>
 
               <p>
-                Whether you&apos;re in historic downtown Nampa or one of the newer developments, our experienced team understands the sensitive nature of hoarding and treats every client with dignity and respect. We work discreetly to protect your privacy and help restore your living space.
+                Hoarding affects people from all backgrounds. It&apos;s not about being messy or lazy. It&apos;s usually tied to something deeper, and we get that. Our job is to help, not to judge.
+              </p>
+
+              <p>
+                We work with the person living there when we can. Sometimes it&apos;s a family member calling because mom or dad needs help. Sometimes it&apos;s a landlord dealing with a rental property. We handle all of it.
               </p>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Nampa &amp; Canyon County Hoarding Services
+                What We Do
               </h3>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Full House Cleanout:</strong> Complete hoarding cleanup from start to finish</span>
+                  <span><strong>Full cleanouts:</strong> We clear the whole place, sort through it, and haul everything away</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Property Cleanout:</strong> For landlords and property managers dealing with hoarding tenants</span>
+                  <span><strong>Rental cleanouts:</strong> For landlords dealing with hoarding tenants</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Rural Property Cleanup:</strong> Serving homes on acreage outside Nampa city limits</span>
+                  <span><strong>Rural properties:</strong> We work outside city limits too—farms, acreages, whatever</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Senior Downsizing:</strong> Helping elderly residents transition to smaller spaces</span>
+                  <span><strong>Downsizing help:</strong> When an older parent needs to move somewhere smaller</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Eco-Friendly Disposal:</strong> Donations and recycling to minimize landfill waste</span>
+                  <span><strong>Donations:</strong> We donate usable stuff locally. Less goes to the landfill that way</span>
                 </li>
               </ul>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Nampa Areas We Serve
+                Areas We Cover in Nampa
               </h3>
 
               <p>
-                We provide hoarding cleanup throughout Nampa and Canyon County:
+                We work throughout Nampa and Canyon County:
               </p>
             </div>
 
@@ -129,10 +133,10 @@ export default function NampaPage() {
             {/* CTA */}
             <div className="mt-10 p-6 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Need Hoarding Cleanup in Nampa?
+                Need Help in Nampa?
               </h3>
               <p className="text-gray-300 mb-6">
-                Free, confidential consultations. Same-day service available throughout Canyon County.
+                Give us a call. We&apos;ll talk through your situation and give you a free estimate.
               </p>
               <a
                 href="tel:2083611982"
@@ -158,16 +162,16 @@ export default function NampaPage() {
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/boise" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Boise Hoarding Cleanup
+              Boise
             </Link>
             <Link href="/meridian" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Meridian Hoarding Cleanup
+              Meridian
             </Link>
             <Link href="/caldwell" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Caldwell Hoarding Cleanup
+              Caldwell
             </Link>
             <Link href="/eagle" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Eagle Hoarding Cleanup
+              Eagle
             </Link>
           </div>
         </div>

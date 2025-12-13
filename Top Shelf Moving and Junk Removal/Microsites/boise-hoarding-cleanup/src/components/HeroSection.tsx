@@ -13,10 +13,10 @@ export function HeroSection({
   subheadline
 }: HeroSectionProps) {
   const defaultHeadline = city === 'Boise'
-    ? 'Hoarding Cleanup Services in Boise & Treasure Valley'
-    : `Hoarding Cleanup Services in ${city}, Idaho`
+    ? 'Hoarding Cleanup in Boise & the Treasure Valley'
+    : `Hoarding Cleanup in ${city}, Idaho`
 
-  const defaultSubheadline = 'Compassionate, Professional Hoarder Cleanout Services'
+  const defaultSubheadline = 'We help families deal with hoarding situations. No judgment, just help.'
 
   return (
     <section className="relative min-h-[600px] md:min-h-[700px] bg-gradient-to-br from-dark-blue via-[#0d3a5c] to-gunmetal flex items-center">
@@ -36,7 +36,7 @@ export function HeroSection({
             </div>
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-2 rounded-full text-white text-sm">
               <Heart className="w-5 h-5 text-cta-rose" />
-              <span>Compassionate Service</span>
+              <span>Respectful Service</span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-2 rounded-full text-white text-sm">
               <Clock className="w-5 h-5 text-light-blue" />
@@ -62,7 +62,7 @@ export function HeroSection({
             </div>
             <div className="flex items-center justify-center gap-2 text-white">
               <CheckCircle className="w-5 h-5 text-green-400" />
-              <span>Discreet Service</span>
+              <span>Unmarked Trucks</span>
             </div>
             <div className="flex items-center justify-center gap-2 text-white">
               <CheckCircle className="w-5 h-5 text-green-400" />
@@ -74,7 +74,7 @@ export function HeroSection({
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="xl" className="text-lg">
               <a href="#schedule-form">
-                Schedule Free Estimate
+                Get a Free Estimate
               </a>
             </Button>
             <Button asChild variant="outline" size="xl" className="text-lg">
@@ -87,7 +87,7 @@ export function HeroSection({
 
           {/* Phone CTA */}
           <p className="mt-6 text-gray-300">
-            Call now for immediate assistance or scroll down to schedule online
+            Call us or scroll down to schedule online
           </p>
         </div>
       </div>

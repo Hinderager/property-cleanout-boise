@@ -55,8 +55,8 @@ export default function EaglePage() {
 
       <HeroSection
         city="Eagle"
-        headline="Hoarding Cleanup Services in Eagle, Idaho"
-        subheadline="Discreet, Professional Hoarder Cleanout for Eagle Residents"
+        headline="Hoarding Cleanup in Eagle, Idaho"
+        subheadline="We help Eagle families tackle hoarding situations. Discreet service, fair prices."
       />
 
       <SchedulingForm city="Eagle" />
@@ -66,51 +66,55 @@ export default function EaglePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              Professional Hoarding Cleanup in Eagle, Idaho
+              Hoarding Cleanup in Eagle
             </h2>
 
-            <div className="prose prose-lg max-w-none text-gray-600">
+            <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                Eagle is known for its beautiful homes, tight-knit community, and high quality of life. But hoarding can affect families in any neighborhood, regardless of income or background. Our <strong>Eagle hoarding cleanup services</strong> provide the discreet, professional assistance you need while protecting your privacy.
+                Eagle&apos;s got a lot of nice homes. Big homes, too. And hoarding doesn&apos;t discriminate based on neighborhood or income. We&apos;ve helped families in Eagle who never thought they&apos;d need this kind of service.
               </p>
 
               <p>
-                We understand that Eagle residents value their privacy. That&apos;s why we use unmarked vehicles, maintain strict confidentiality, and work efficiently to minimize disruption. Whether you&apos;re dealing with a personal hoarding situation or helping a family member, we&apos;re here to help with compassion and zero judgment.
+                Privacy matters here. We use unmarked trucks—no company logos on the sides. The neighbors don&apos;t need to know your business.
+              </p>
+
+              <p>
+                Whether you&apos;re dealing with your own situation or calling about a parent who needs help, we handle it with respect. No judgment, no lectures. Just practical help getting things cleared out.
               </p>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Eagle Hoarding Cleanup Services
+                What We Do
               </h3>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Discreet Residential Cleanup:</strong> Unmarked vehicles and complete confidentiality</span>
+                  <span><strong>Full cleanouts:</strong> We clear everything, sort through it, and haul it away. Unmarked trucks.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Estate &amp; Large Property Cleanup:</strong> Experienced with Eagle&apos;s larger homes and estates</span>
+                  <span><strong>Large properties:</strong> We&apos;re used to bigger Eagle homes. Doesn&apos;t faze us.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Garage &amp; Outbuilding Cleanup:</strong> Clear packed garages, workshops, and storage buildings</span>
+                  <span><strong>Garages and shops:</strong> Packed workshops and storage buildings, cleared out</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Senior Downsizing:</strong> Helping Eagle seniors transition to smaller living spaces</span>
+                  <span><strong>Downsizing help:</strong> When it&apos;s time to move somewhere smaller</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Pre-Sale Home Prep:</strong> Get your Eagle home market-ready quickly</span>
+                  <span><strong>Pre-sale prep:</strong> Need to sell but the house is packed? We can help.</span>
                 </li>
               </ul>
 
               <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Eagle Areas We Serve
+                Areas We Cover in Eagle
               </h3>
 
               <p>
-                We provide hoarding cleanup throughout Eagle and surrounding communities:
+                We work throughout Eagle and the surrounding area:
               </p>
             </div>
 
@@ -130,10 +134,10 @@ export default function EaglePage() {
             {/* CTA */}
             <div className="mt-10 p-6 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Need Hoarding Cleanup in Eagle?
+                Need Help in Eagle?
               </h3>
               <p className="text-gray-300 mb-6">
-                Free, confidential consultations. Discreet same-day service available.
+                Give us a call. We&apos;ll talk through your situation and give you a free estimate.
               </p>
               <a
                 href="tel:2083611982"
@@ -159,16 +163,16 @@ export default function EaglePage() {
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/boise" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Boise Hoarding Cleanup
+              Boise
             </Link>
             <Link href="/meridian" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Meridian Hoarding Cleanup
+              Meridian
             </Link>
             <Link href="/nampa" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Nampa Hoarding Cleanup
+              Nampa
             </Link>
             <Link href="/caldwell" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Caldwell Hoarding Cleanup
+              Caldwell
             </Link>
           </div>
         </div>

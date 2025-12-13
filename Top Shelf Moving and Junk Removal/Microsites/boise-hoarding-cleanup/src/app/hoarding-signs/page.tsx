@@ -28,63 +28,63 @@ export const metadata: Metadata = {
 
 const warningSigns = [
   {
-    sign: 'Difficulty discarding items',
-    description: 'Extreme distress when asked to throw away items, even those with no practical value',
+    sign: 'Can\'t throw things away',
+    description: 'Gets really upset at the idea of discarding things—even stuff that seems worthless',
   },
   {
-    sign: 'Cluttered living spaces',
-    description: 'Rooms that can no longer be used for their intended purpose due to accumulated items',
+    sign: 'Rooms you can\'t use',
+    description: 'Bedrooms, kitchens, or living areas buried in stuff to the point they\'re unusable',
   },
   {
-    sign: 'Acquiring excessive items',
-    description: 'Compulsive buying, collecting free items, or inability to pass up "deals"',
+    sign: 'Always bringing more stuff in',
+    description: 'Can\'t pass up a sale, free stuff, or "deals." Always finding something that might be useful',
   },
   {
-    sign: 'Social isolation',
-    description: 'Avoiding having people over due to embarrassment about the home\'s condition',
+    sign: 'Never has people over',
+    description: 'Stopped inviting family or friends because of embarrassment about the house',
   },
   {
-    sign: 'Emotional attachment to objects',
-    description: 'Treating inanimate objects as if they have feelings or sentimental value',
+    sign: 'Treats objects like they have feelings',
+    description: 'Strong emotional attachment to things that most people would consider ordinary',
   },
   {
-    sign: 'Denial of the problem',
-    description: 'Inability to see that the accumulation has become a problem',
+    sign: 'Doesn\'t see it as a problem',
+    description: 'Doesn\'t recognize how bad it\'s gotten. Genuinely doesn\'t see the clutter the same way',
   },
   {
-    sign: 'Difficulty organizing',
-    description: 'Items piled randomly rather than organized, with no system in place',
+    sign: 'No organization system',
+    description: 'Things piled everywhere with no rhyme or reason. Can\'t find stuff when needed',
   },
   {
-    sign: 'Anxiety about possessions',
-    description: 'Excessive worry about needing items "someday" or fear of running out',
+    sign: 'Worried about running out',
+    description: 'Keeps things "just in case" and gets anxious about not having enough of something',
   },
 ]
 
 const hoardingLevels = [
   {
     level: 'Level 1 - Mild',
-    description: 'Light clutter, all doors and stairs accessible, no odors or sanitation issues',
+    description: 'Some clutter but you can still get around. No smells or hygiene problems.',
     color: 'bg-green-100 border-green-500',
   },
   {
     level: 'Level 2 - Moderate',
-    description: 'One room unusable, some odors present, evidence of housekeeping neglect',
+    description: 'One room pretty much unusable. Maybe some smells. Cleaning has been neglected.',
     color: 'bg-yellow-100 border-yellow-500',
   },
   {
     level: 'Level 3 - Significant',
-    description: 'Multiple unusable rooms, visible clutter outside, light pest evidence',
+    description: 'Multiple rooms unusable. Stuff visible outside the house. Maybe some pests.',
     color: 'bg-orange-100 border-orange-500',
   },
   {
     level: 'Level 4 - Severe',
-    description: 'Structural damage, hazardous materials, poor ventilation, pet waste or infestations',
+    description: 'Structural damage, hazardous stuff, bad ventilation, pet waste, or bug infestations.',
     color: 'bg-red-100 border-red-500',
   },
   {
     level: 'Level 5 - Extreme',
-    description: 'No running water/electricity, human/animal waste, severe structural damage, fire hazard',
+    description: 'No working utilities, human or animal waste, major structural damage, fire hazards.',
     color: 'bg-red-200 border-red-700',
   },
 ]
@@ -97,17 +97,16 @@ export default function HoardingSignsPage() {
           {/* Hero Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gunmetal mb-6">
-              Signs of Hoarding Disorder
+              Signs of Hoarding
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Recognizing the warning signs of hoarding is the first step toward getting help.
-              Learn what to look for and when professional intervention may be needed.
+              How do you know if someone has a hoarding problem? Here are the warning signs to look for.
             </p>
           </div>
 
           {/* Warning Signs */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-gunmetal mb-6">Common Warning Signs</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mb-6">Warning Signs</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {warningSigns.map((item, index) => (
                 <div key={index} className="bg-fog rounded-lg p-5">
@@ -125,36 +124,40 @@ export default function HoardingSignsPage() {
 
           {/* Hoarding vs Collecting */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-gunmetal mb-6">Hoarding vs. Collecting: What&apos;s the Difference?</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mb-6">Hoarding vs. Collecting</h2>
+
+            <p className="text-gray-600 mb-6">
+              Lots of people collect things. That&apos;s normal. Here&apos;s how you can tell the difference between a collector and a hoarder.
+            </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-green-50 border-2 border-green-200 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-green-800 mb-4 flex items-center gap-2">
                   <CheckCircle className="w-6 h-6" />
-                  Collecting (Healthy)
+                  Collecting (Normal)
                 </h3>
                 <ul className="space-y-2 text-green-900">
-                  <li>Items are organized and displayed</li>
-                  <li>Collection brings joy and pride</li>
-                  <li>Living spaces remain functional</li>
-                  <li>Can discuss collection openly</li>
-                  <li>Selective about what to acquire</li>
-                  <li>Can part with items if needed</li>
+                  <li>Stuff is organized and displayed nicely</li>
+                  <li>They&apos;re proud of their collection</li>
+                  <li>The house still works like a house</li>
+                  <li>They&apos;ll happily show you their stuff</li>
+                  <li>They&apos;re picky about what they add</li>
+                  <li>Could sell or give things away if needed</li>
                 </ul>
               </div>
 
               <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-red-800 mb-4 flex items-center gap-2">
                   <XCircle className="w-6 h-6" />
-                  Hoarding (Problematic)
+                  Hoarding (Problem)
                 </h3>
                 <ul className="space-y-2 text-red-900">
-                  <li>Items are piled and disorganized</li>
-                  <li>Accumulation causes distress</li>
-                  <li>Rooms become unusable</li>
-                  <li>Shame and secrecy about home</li>
-                  <li>Difficulty saying no to free items</li>
-                  <li>Extreme distress when discarding</li>
+                  <li>Stuff is piled everywhere, no organization</li>
+                  <li>The accumulation causes stress, not joy</li>
+                  <li>Rooms can&apos;t be used anymore</li>
+                  <li>They&apos;re ashamed and won&apos;t let people in</li>
+                  <li>Can&apos;t say no to free stuff or sales</li>
+                  <li>Gets really upset about throwing anything away</li>
                 </ul>
               </div>
             </div>
@@ -162,10 +165,9 @@ export default function HoardingSignsPage() {
 
           {/* Hoarding Levels */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-gunmetal mb-6">The 5 Levels of Hoarding</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mb-6">How Bad Is It? The 5 Levels</h2>
             <p className="text-gray-600 mb-6">
-              Mental health professionals use a 5-level scale to assess hoarding severity.
-              Understanding the level helps determine what type of intervention is needed.
+              Professionals use a scale to figure out how severe hoarding is. This helps decide what kind of help is needed.
             </p>
 
             <div className="space-y-4">
@@ -180,24 +182,23 @@ export default function HoardingSignsPage() {
 
           {/* When to Get Help */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gunmetal mb-6">When to Seek Professional Help</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mb-6">When Should You Get Help?</h2>
 
-            <div className="prose prose-lg max-w-none text-gray-600">
+            <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                Consider seeking professional help if you or someone you know:
+                It&apos;s probably time to bring in professionals if:
               </p>
               <ul>
-                <li>Cannot use rooms for their intended purpose</li>
-                <li>Has safety concerns (fire hazards, blocked exits, fall risks)</li>
-                <li>Is receiving complaints from neighbors or landlords</li>
-                <li>Has health issues related to living conditions</li>
-                <li>Is experiencing relationship problems due to hoarding</li>
-                <li>Has been threatened with eviction or code violations</li>
-                <li>Cannot prepare for a move or home sale</li>
+                <li>Rooms can&apos;t be used for what they&apos;re meant for</li>
+                <li>There are safety problems—fire hazards, blocked exits, tripping risks</li>
+                <li>Neighbors or the landlord are complaining</li>
+                <li>Health is being affected by the living conditions</li>
+                <li>Relationships are suffering because of the hoarding</li>
+                <li>There&apos;s an eviction notice or code violation</li>
+                <li>Need to sell or move and the house isn&apos;t ready</li>
               </ul>
               <p>
-                Early intervention is key. The longer hoarding continues, the more difficult
-                it becomes to address. There is no shame in asking for help.
+                The sooner you deal with it, the easier it is. Don&apos;t wait until it&apos;s an emergency. There&apos;s no shame in asking for help.
               </p>
             </div>
           </section>
@@ -209,25 +210,24 @@ export default function HoardingSignsPage() {
                 What is Hoarding?
                 <ArrowRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </h3>
-              <p className="text-gray-600">Learn more about hoarding disorder and what causes it.</p>
+              <p className="text-gray-600">Learn what hoarding is and why it happens.</p>
             </Link>
             <Link href="/helping-a-hoarder" className="group bg-fog rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-gunmetal mb-2 flex items-center gap-2">
-                How to Help a Hoarder
+                How to Help Someone Who Hoards
                 <ArrowRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </h3>
-              <p className="text-gray-600">Practical tips for supporting someone who hoards.</p>
+              <p className="text-gray-600">What to do (and what not to do) when a loved one hoards.</p>
             </Link>
           </div>
 
           {/* CTA */}
           <div className="p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Recognize These Signs? We Can Help.
+              Seeing These Signs? We Can Help.
             </h3>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Our compassionate team provides professional hoarding cleanup services in Boise and the Treasure Valley.
-              Free, confidential consultations. No judgment.
+              We do hoarding cleanups in Boise and the Treasure Valley. Free estimates. No judgment.
             </p>
             <a
               href="tel:2083611982"

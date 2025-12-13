@@ -4,26 +4,26 @@ const steps = [
   {
     icon: Phone,
     number: '1',
-    title: 'Free Consultation',
-    description: 'Call us or fill out our form. We\'ll discuss your situation with compassion and schedule a free, no-obligation estimate.',
+    title: 'Give Us a Call',
+    description: 'Tell us what you\'re dealing with. We\'ll listen and set up a time to come see the property. No charge for the estimate.',
   },
   {
     icon: ClipboardCheck,
     number: '2',
-    title: 'On-Site Assessment',
-    description: 'We visit your property, assess the scope of work, and provide a detailed quote. No surprises, no hidden fees.',
+    title: 'We Come Take a Look',
+    description: 'We\'ll walk through with you, figure out what needs to happen, and give you a price. No hidden fees, no surprises.',
   },
   {
     icon: Truck,
     number: '3',
-    title: 'Professional Cleanup',
-    description: 'Our trained team carefully sorts, removes, and disposes of items. We donate and recycle whenever possible.',
+    title: 'We Do the Cleanup',
+    description: 'Our crew sorts through everything carefully. We donate what we can and dispose of the rest properly.',
   },
   {
     icon: Sparkles,
     number: '4',
-    title: 'Deep Cleaning',
-    description: 'Once items are removed, we can provide deep cleaning services to restore your space to a livable condition.',
+    title: 'Deep Clean (Optional)',
+    description: 'Once everything\'s out, we can deep clean the space so it\'s actually livable again.',
   },
 ]
 
@@ -34,10 +34,10 @@ export function ServiceProcess() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Our Hoarding Cleanup Process
+            How It Works
           </h2>
           <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-            We make the process simple and stress-free. Here&apos;s how we help you reclaim your space.
+            We keep the process simple. Here&apos;s what to expect.
           </p>
         </div>
 

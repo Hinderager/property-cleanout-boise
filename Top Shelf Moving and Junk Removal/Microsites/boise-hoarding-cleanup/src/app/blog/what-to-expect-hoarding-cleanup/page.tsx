@@ -24,34 +24,34 @@ export const metadata: Metadata = {
 
 const steps = [
   {
-    phase: 'Phase 1',
-    title: 'Initial Consultation',
-    description: 'The process begins with a confidential phone call where we learn about your situation. We\'ll ask about the size of the property, the level of hoarding, any special concerns, and your goals. This call is free and there\'s no obligation.',
+    phase: 'Step 1',
+    title: 'You Call Us',
+    description: 'We talk about your situation over the phone. How big is the place? How bad is it? Any special concerns? This call is free and you\'re not committing to anything.',
   },
   {
-    phase: 'Phase 2',
-    title: 'On-Site Assessment',
-    description: 'We\'ll schedule a time to visit the property and assess the situation in person. During this visit, we evaluate the scope of work, identify any safety hazards, and discuss the cleanup approach. We provide a detailed quote after the assessment.',
+    phase: 'Step 2',
+    title: 'We Come Look',
+    description: 'We schedule a time to see the property in person. We figure out how much work it is, spot any safety issues, and talk through how we\'d approach it. Then we give you a quote.',
   },
   {
-    phase: 'Phase 3',
-    title: 'Planning & Preparation',
-    description: 'Before cleanup begins, we work with you to identify items that must be saved—important documents, valuables, sentimental items. We also coordinate logistics like dumpster delivery and cleaning supplies.',
+    phase: 'Step 3',
+    title: 'We Plan It Out',
+    description: 'Before we start, we work with you to figure out what can\'t be thrown away—important papers, valuables, sentimental stuff. We also line up dumpsters and supplies.',
   },
   {
-    phase: 'Phase 4',
-    title: 'Sorting & Removal',
-    description: 'Our team systematically works through the property, sorting items into categories: keep, donate, recycle, and dispose. We work at a pace that\'s comfortable for the homeowner if they choose to be involved.',
+    phase: 'Step 4',
+    title: 'The Actual Cleanup',
+    description: 'We go through the property sorting everything: keep, donate, recycle, trash. We work at a pace that makes sense. If the homeowner wants to be involved, they can be.',
   },
   {
-    phase: 'Phase 5',
+    phase: 'Step 5',
     title: 'Deep Cleaning',
-    description: 'Once items are removed, we thoroughly clean the space. This includes cleaning floors, walls, and surfaces, addressing any odors, and making the space livable again.',
+    description: 'Once everything\'s out, we clean the place. Floors, walls, surfaces. Deal with any smells. Make it actually livable again.',
   },
   {
-    phase: 'Phase 6',
-    title: 'Follow-Up Support',
-    description: 'After cleanup, we can provide resources for ongoing support, including organizing tips and referrals to therapists who specialize in hoarding if needed.',
+    phase: 'Step 6',
+    title: 'After',
+    description: 'We can connect you with ongoing support—organizing help, therapists who specialize in hoarding, that kind of thing.',
   },
 ]
 
@@ -85,25 +85,25 @@ export default function BlogPost() {
             </div>
 
             <h1 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              What to Expect During a Professional Hoarding Cleanup
+              What Actually Happens During Hoarding Cleanup
             </h1>
 
             <p className="text-xl text-gray-600">
-              Wondering what happens during a hoarding cleanup? We walk you through the entire process from initial consultation to final cleaning.
+              Never been through this before? Here&apos;s what to expect, step by step.
             </p>
           </header>
 
           {/* Article Content */}
-          <article className="prose prose-lg max-w-none">
+          <article className="prose prose-lg max-w-none [&>p]:mb-6">
             <p>
-              If you&apos;ve never been through a professional hoarding cleanup, the process can seem mysterious or even intimidating. You might wonder: Will strangers be judging the home? Will important items get thrown away? How long will it take?
+              If you&apos;ve never hired someone for hoarding cleanup, you probably have questions. Will they judge the house? Will my stuff get thrown away without asking? How long does this take?
             </p>
 
             <p>
-              Understanding what to expect can help ease anxiety and prepare you for the process. Here&apos;s a detailed walkthrough of how professional hoarding cleanup works.
+              Knowing what&apos;s coming can help. Here&apos;s how it actually works.
             </p>
 
-            <h2>The Hoarding Cleanup Process</h2>
+            <h2>How It Goes</h2>
 
             {steps.map((step, index) => (
               <div key={index} className="my-6 border-l-4 border-light-blue pl-6">
@@ -113,76 +113,76 @@ export default function BlogPost() {
               </div>
             ))}
 
-            <h2>What Makes Our Approach Different</h2>
+            <h2>What Makes a Good Cleanup Service</h2>
 
             <p>
-              Not all hoarding cleanup services are the same. Here&apos;s what sets compassionate, professional services apart:
+              Not every company does this right. Here&apos;s what you should look for:
             </p>
 
             <ul>
               <li className="flex items-start gap-3 mb-3">
                 <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-1" />
-                <span><strong>No Judgment:</strong> We understand hoarding is a mental health condition, not a character flaw</span>
+                <span><strong>No judgment:</strong> They understand this is a mental health thing, not a character flaw</span>
               </li>
               <li className="flex items-start gap-3 mb-3">
                 <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-1" />
-                <span><strong>Respect for Possessions:</strong> We never throw away items without permission</span>
+                <span><strong>They ask first:</strong> Nothing gets thrown away without permission</span>
               </li>
               <li className="flex items-start gap-3 mb-3">
                 <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-1" />
-                <span><strong>Discreet Service:</strong> Unmarked vehicles and confidential handling</span>
+                <span><strong>Discreet:</strong> Unmarked trucks, confidential</span>
               </li>
               <li className="flex items-start gap-3 mb-3">
                 <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-1" />
-                <span><strong>Eco-Friendly:</strong> We donate usable items and recycle whenever possible</span>
+                <span><strong>Donate when possible:</strong> Not everything goes to the dump</span>
               </li>
               <li className="flex items-start gap-3 mb-3">
                 <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-1" />
-                <span><strong>Flexible Pace:</strong> We work at a speed that&apos;s comfortable for everyone involved</span>
+                <span><strong>Goes at your pace:</strong> Not rushing through it</span>
               </li>
             </ul>
 
-            <h2>How Long Does Hoarding Cleanup Take?</h2>
+            <h2>How Long Does This Take?</h2>
 
             <p>
-              The timeline varies significantly based on several factors:
+              It depends on a few things:
             </p>
 
             <ul>
-              <li><strong>Size of the property:</strong> A small apartment takes less time than a large house</li>
-              <li><strong>Severity of hoarding:</strong> Level 1-2 hoarding may take hours; Level 4-5 may take days</li>
-              <li><strong>Homeowner involvement:</strong> Having the homeowner sort items adds time but can be therapeutic</li>
-              <li><strong>Special circumstances:</strong> Biohazards, pest infestations, or structural issues add complexity</li>
+              <li><strong>Size:</strong> Small apartment vs. big house makes a difference</li>
+              <li><strong>How bad it is:</strong> Mild hoarding might take hours. Severe could take days.</li>
+              <li><strong>Involvement:</strong> If the homeowner wants to help sort, it takes longer (but can be worth it)</li>
+              <li><strong>Special problems:</strong> Biohazards, pests, structural stuff add time</li>
             </ul>
 
             <p>
-              Most residential hoarding cleanups in the Boise area take between 1-5 days. We&apos;ll provide a realistic timeline estimate during your consultation.
+              Most jobs in the Boise area take 1-5 days. We&apos;ll give you a realistic estimate when we see the place.
             </p>
 
-            <h2>How Much Does Hoarding Cleanup Cost?</h2>
+            <h2>What Does It Cost?</h2>
 
             <p>
-              Hoarding cleanup costs depend on the scope of work. Factors include square footage, volume of items to remove, disposal fees, and any specialized cleaning needed. Most residential projects in our area range from $500 for minor cleanouts to $5,000+ for severe hoarding situations.
+              Depends on the scope. Square footage, how much stuff, disposal fees, cleaning needed. In our area, most residential jobs run $500 for smaller cleanouts up to $5,000+ for severe situations.
             </p>
 
             <p>
-              We provide detailed quotes after our on-site assessment so there are no surprises. We also offer payment plans for larger projects.
+              We give you a detailed quote after we see the property. No surprises. Payment plans available for bigger jobs.
             </p>
 
-            <h2>Ready to Take the First Step?</h2>
+            <h2>Taking the First Step</h2>
 
             <p>
-              If you or a loved one needs help with a hoarding situation, we&apos;re here to assist. Our initial consultation is free and completely confidential. We&apos;ll answer your questions, explain the process, and help you understand your options—with no pressure to commit.
+              If you or someone you know needs help, give us a call. The first consultation is free and confidential. We&apos;ll answer questions, explain how it works, and help you figure out your options. No pressure.
             </p>
           </article>
 
           {/* CTA */}
           <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Ready to Get Started?
+              Ready to Talk?
             </h3>
             <p className="text-gray-300 mb-6">
-              Free, no-obligation consultations. We&apos;ll answer all your questions.
+              Free consultations. We&apos;ll answer your questions.
             </p>
             <a
               href="tel:2083611982"

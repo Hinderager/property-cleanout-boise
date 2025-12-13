@@ -6,36 +6,36 @@ import { ChevronDown } from 'lucide-react'
 // FAQ data used for both UI and structured data
 export const faqs = [
   {
-    question: 'How much does hoarding cleanup cost?',
-    answer: 'Hoarding cleanup costs vary based on the severity, square footage, and specific needs of each situation. We provide free, no-obligation estimates after assessing your property. Most residential hoarding cleanups in the Boise area range from $500 to $5,000+, depending on scope.',
+    question: 'How much does this cost?',
+    answer: 'It depends on the size of the job. We give free estimates after seeing the property. Most hoarding cleanups in the Boise area run between $500 and $5,000, but bigger jobs can be more.',
   },
   {
-    question: 'How long does hoarding cleanup take?',
-    answer: 'The timeline depends on the level of hoarding and size of the property. Small jobs may take a few hours, while severe hoarding situations can take several days. We\'ll provide a realistic timeline during your free estimate.',
+    question: 'How long does it take?',
+    answer: 'Smaller jobs might take a few hours. Severe hoarding situations can take several days. We\'ll give you a realistic timeline when we come out for the estimate.',
   },
   {
-    question: 'Do you work with family members of hoarders?',
-    answer: 'Absolutely. We frequently work with concerned family members, estate attorneys, property managers, and social workers. We can coordinate with all parties involved and maintain complete confidentiality.',
+    question: 'Can family members hire you on someone\'s behalf?',
+    answer: 'Yes. We work with family members, estate attorneys, property managers, and social workers all the time. We can coordinate with everyone involved and keep things confidential.',
   },
   {
-    question: 'Will you help sort through items before removing them?',
-    answer: 'Yes! We can work alongside you or your family to sort through items, separating valuables, sentimental items, and documents before removal. We never throw away anything without approval.',
+    question: 'Will you help us sort through things first?',
+    answer: 'Absolutely. We can work alongside you to separate valuables, important documents, and sentimental items before anything gets removed. We never throw away anything without permission.',
   },
   {
-    question: 'Do you offer same-day or emergency hoarding cleanup?',
-    answer: 'Yes, we offer same-day and emergency services throughout the Treasure Valley. If you need immediate help due to health, safety, or legal concerns, call us at (208) 361-1982.',
+    question: 'Do you offer same-day service?',
+    answer: 'Yes. If you\'re dealing with a health, safety, or legal situation that can\'t wait, call us at (208) 361-1982. We offer emergency service throughout the Treasure Valley.',
   },
   {
-    question: 'What areas do you serve?',
-    answer: 'We provide hoarding cleanup services in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding Treasure Valley communities. If you\'re unsure if we serve your area, give us a call.',
+    question: 'What areas do you cover?',
+    answer: 'Boise, Meridian, Nampa, Caldwell, Eagle, and the surrounding Treasure Valley area. If you\'re not sure whether we serve your location, just give us a call.',
   },
   {
-    question: 'Is your service discreet and confidential?',
-    answer: 'Absolutely. We understand the sensitive nature of hoarding situations. We use unmarked vehicles, maintain strict confidentiality, and treat every client with compassion and respect.',
+    question: 'Is this confidential?',
+    answer: 'Yes. We use unmarked trucks and don\'t advertise what we\'re doing. We understand this is a sensitive situation and we treat it that way.',
   },
   {
-    question: 'What happens to the items you remove?',
-    answer: 'We take an eco-friendly approach: usable items are donated to local charities, recyclables are properly recycled, and only true waste goes to the landfill. We can provide donation receipts upon request.',
+    question: 'What do you do with everything?',
+    answer: 'We donate usable items to local charities, recycle what we can, and only send actual trash to the landfill. We can provide donation receipts if you need them.',
   },
 ]
 
@@ -48,10 +48,10 @@ export function FAQ() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-4">
-            Frequently Asked Questions
+            Common Questions
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            Common questions about our hoarding cleanup services in Boise and the Treasure Valley.
+            Here&apos;s what people usually want to know.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export function FAQ() {
         {/* CTA */}
         <div className="mt-10 text-center">
           <p className="text-gray-600 mb-4">
-            Have more questions? We&apos;re here to help.
+            Have other questions? Happy to help.
           </p>
           <a
             href="tel:2083611982"

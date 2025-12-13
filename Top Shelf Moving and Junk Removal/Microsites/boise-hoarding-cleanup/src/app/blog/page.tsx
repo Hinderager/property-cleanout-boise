@@ -23,40 +23,40 @@ export const metadata: Metadata = {
 const blogPosts = [
   {
     slug: '5-signs-loved-one-needs-hoarding-help',
-    title: '5 Signs Your Loved One May Need Hoarding Help',
-    excerpt: 'Recognizing when a family member needs professional help with hoarding can be difficult. Learn the key warning signs that indicate it may be time to seek assistance.',
+    title: '5 Signs Your Loved One May Need Help',
+    excerpt: 'How do you know when clutter has become something more serious? Here are five things we see that usually mean it\'s time to step in.',
     date: '2024-12-01',
     readTime: '5 min read',
     category: 'Family Support',
   },
   {
     slug: 'what-to-expect-hoarding-cleanup',
-    title: 'What to Expect During a Professional Hoarding Cleanup',
-    excerpt: 'Wondering what happens during a hoarding cleanup? We walk you through the entire process from initial consultation to final cleaning.',
+    title: 'What Actually Happens During Hoarding Cleanup',
+    excerpt: 'Never been through this before? Here\'s how it works—from the first phone call to when we\'re done.',
     date: '2024-11-15',
     readTime: '7 min read',
     category: 'Cleanup Process',
   },
   {
     slug: 'hoarding-vs-clutter-difference',
-    title: 'Hoarding vs Clutter: Understanding the Difference',
-    excerpt: 'Is it just clutter or is it hoarding? Learn how to tell the difference and understand when messiness crosses the line into a mental health concern.',
+    title: 'Is It Clutter or Is It Hoarding?',
+    excerpt: 'Everyone has some mess. But there\'s a difference between a cluttered house and a hoarding situation. Here\'s how to tell.',
     date: '2024-11-01',
     readTime: '6 min read',
     category: 'Education',
   },
   {
     slug: 'supporting-family-through-cleanup',
-    title: 'How to Support a Family Member Through Hoarding Cleanup',
-    excerpt: 'Hoarding cleanup is an emotional process. Learn how to provide meaningful support to your loved one during and after the cleanup process.',
+    title: 'Being There for a Family Member During Cleanup',
+    excerpt: 'Your loved one finally agreed to cleanup. Now what? Here\'s how to actually help without making things worse.',
     date: '2024-10-15',
     readTime: '8 min read',
     category: 'Family Support',
   },
   {
     slug: 'health-risks-hoarding-cleanup',
-    title: 'The Health Risks of Hoarding: Why Professional Cleanup Matters',
-    excerpt: 'Hoarding creates serious health hazards. Learn about the risks of hoarding environments and why professional cleanup is often necessary.',
+    title: 'The Health Dangers of Hoarding',
+    excerpt: 'Hoarding isn\'t just clutter. It creates real health hazards—stuff that can make you sick. Here\'s what you\'re actually dealing with.',
     date: '2024-10-01',
     readTime: '6 min read',
     category: 'Health & Safety',
@@ -71,11 +71,10 @@ export default function BlogPage() {
           {/* Hero Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gunmetal mb-6">
-              Hoarding Cleanup Blog
+              Blog
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Expert advice, helpful guides, and resources for families dealing with hoarding.
-              Learn how to help yourself or a loved one.
+              Answers to questions we get all the time. Info for families dealing with hoarding.
             </p>
           </div>
 
@@ -120,16 +119,16 @@ export default function BlogPage() {
           {/* CTA */}
           <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Need Professional Hoarding Cleanup?
+              Have Questions?
             </h3>
             <p className="text-gray-300 mb-6">
-              We serve Boise, Meridian, Nampa, Caldwell, and Eagle with compassionate hoarding cleanup services.
+              We do hoarding cleanup throughout the Treasure Valley. Give us a call.
             </p>
             <a
               href="tel:2083611982"
               className="inline-flex items-center gap-2 bg-brand-yellow text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
             >
-              Call (208) 361-1982
+              (208) 361-1982
             </a>
           </div>
         </div>

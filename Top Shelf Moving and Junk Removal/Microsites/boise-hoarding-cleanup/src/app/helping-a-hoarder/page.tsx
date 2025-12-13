@@ -28,47 +28,47 @@ export const metadata: Metadata = {
 
 const dosAndDonts = {
   dos: [
-    'Approach with empathy and compassion',
-    'Listen without judgment',
-    'Focus on safety concerns, not the mess',
-    'Respect their attachment to items',
-    'Offer to help, don\'t take over',
-    'Celebrate small victories',
-    'Be patient - recovery takes time',
-    'Encourage professional help',
+    'Come from a place of caring, not criticism',
+    'Listen more than you talk',
+    'Talk about safety, not how things look',
+    'Understand they\'re attached to this stuff',
+    'Offer help, but let them stay in control',
+    'Notice the small wins',
+    'Be patient—this takes a long time',
+    'Suggest getting professional help',
   ],
   donts: [
-    'Throw away items without permission',
-    'Use shame or guilt tactics',
-    'Threaten or give ultimatums',
-    'Compare them to TV shows',
-    'Clean up behind their back',
-    'Expect overnight change',
-    'Make it about you',
-    'Give up after setbacks',
+    'Throw stuff away without asking',
+    'Try to shame them into changing',
+    'Give ultimatums',
+    'Bring up TV hoarder shows',
+    'Clean while they\'re not home',
+    'Think it\'ll be fixed in a weekend',
+    'Make this about how it affects you',
+    'Give up when there\'s a setback',
   ],
 }
 
 const conversationTips = [
   {
     icon: Heart,
-    title: 'Lead with Love',
-    description: 'Express that you care about them, not just the state of their home. "I love you and I\'m worried about you."',
+    title: 'Start With Care',
+    description: 'Make it clear you\'re worried about them, not mad about the house. "I care about you and want to help."',
   },
   {
     icon: MessageCircle,
-    title: 'Use "I" Statements',
-    description: 'Instead of "Your house is a disaster," try "I feel worried when I see blocked exits."',
+    title: 'Talk About How You Feel',
+    description: 'Don\'t say "Your house is a disaster." Try "I worry about you when I see blocked doorways."',
   },
   {
     icon: Shield,
-    title: 'Focus on Safety',
-    description: 'Express concerns about their health and safety, not the appearance of the home.',
+    title: 'Stick to Safety',
+    description: 'Focus on whether they\'re safe and healthy. Not how things look.',
   },
   {
     icon: Clock,
-    title: 'Be Patient',
-    description: 'One conversation rarely changes things. Be prepared for an ongoing dialogue over time.',
+    title: 'Don\'t Expect Quick Results',
+    description: 'This is going to be many conversations over time. One talk won\'t change things.',
   },
 ]
 
@@ -80,33 +80,30 @@ export default function HelpingAHoarderPage() {
           {/* Hero Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gunmetal mb-6">
-              How to Help a Hoarder
+              How to Help Someone Who Hoards
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Watching a loved one struggle with hoarding is painful. Learn how to approach the situation
-              with compassion and provide meaningful support without damaging your relationship.
+              Watching someone you love struggle with hoarding is hard. Here&apos;s what actually helps—and what makes things worse.
             </p>
           </div>
 
           {/* Understanding Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-gunmetal mb-6">Understanding Their Perspective</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mb-6">First, Try to Understand Where They&apos;re Coming From</h2>
 
-            <div className="prose prose-lg max-w-none text-gray-600 mb-8">
+            <div className="prose prose-lg max-w-none text-gray-600 mb-8 [&>p]:mb-6">
               <p>
-                Before trying to help, it&apos;s important to understand what your loved one is experiencing.
-                Hoarding is not about being lazy or messy—it&apos;s a mental health condition that causes
-                genuine distress when parting with possessions.
+                Before you try to help, you need to understand what&apos;s going on in their head. Hoarding isn&apos;t about being lazy or not caring. It&apos;s a mental health condition. Throwing stuff away causes them real distress.
               </p>
               <p>
-                For someone with hoarding disorder:
+                Here&apos;s what it feels like from their side:
               </p>
               <ul>
-                <li>Every item may feel valuable or irreplaceable</li>
-                <li>Discarding items can feel like losing a part of themselves</li>
-                <li>They may not see the clutter the same way you do</li>
-                <li>Shame often prevents them from asking for help</li>
-                <li>Past attempts to clean may have felt traumatic</li>
+                <li>Every item might feel important or irreplaceable</li>
+                <li>Getting rid of stuff feels like losing part of themselves</li>
+                <li>They might not see the clutter the way you do</li>
+                <li>They&apos;re probably ashamed but can&apos;t ask for help</li>
+                <li>Past "clean up" attempts might have been traumatic for them</li>
               </ul>
             </div>
           </section>
@@ -150,7 +147,7 @@ export default function HelpingAHoarderPage() {
 
           {/* Starting the Conversation */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-gunmetal mb-6">Starting the Conversation</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mb-6">How to Bring It Up</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               {conversationTips.map((tip, index) => (
@@ -165,19 +162,19 @@ export default function HelpingAHoarderPage() {
             </div>
 
             <div className="bg-fog rounded-xl p-6">
-              <h3 className="text-xl font-bold text-gunmetal mb-4">Sample Conversation Starters</h3>
+              <h3 className="text-xl font-bold text-gunmetal mb-4">Things You Could Say</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="border-l-4 border-light-blue pl-4">
-                  &quot;I&apos;ve noticed you seem stressed lately. Is there anything I can help with?&quot;
+                  &quot;You seem stressed lately. Anything I can help with?&quot;
                 </li>
                 <li className="border-l-4 border-light-blue pl-4">
-                  &quot;I care about you and want to make sure you&apos;re safe. Can we talk about what&apos;s going on?&quot;
+                  &quot;I care about you and want you to be safe. Can we talk?&quot;
                 </li>
                 <li className="border-l-4 border-light-blue pl-4">
-                  &quot;I found a company that helps people in situations like this. Would you be open to learning more?&quot;
+                  &quot;I found a company that helps with this kind of thing. Want me to tell you about them?&quot;
                 </li>
                 <li className="border-l-4 border-light-blue pl-4">
-                  &quot;I&apos;m not here to judge. I just want to understand how I can support you.&quot;
+                  &quot;I&apos;m not judging. I just want to help if I can.&quot;
                 </li>
               </ul>
             </div>
@@ -185,55 +182,53 @@ export default function HelpingAHoarderPage() {
 
           {/* When Professional Help is Needed */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-gunmetal mb-6">When to Involve Professionals</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mb-6">When to Call In Professionals</h2>
 
-            <div className="prose prose-lg max-w-none text-gray-600">
+            <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                Sometimes family support isn&apos;t enough, and professional help becomes necessary.
-                Consider involving professionals when:
+                Sometimes family help isn&apos;t enough. You might need to bring in professionals when:
               </p>
               <ul>
-                <li><strong>Safety is at risk:</strong> Fire hazards, structural damage, or health concerns</li>
-                <li><strong>Legal issues arise:</strong> Eviction notices, code violations, or custody concerns</li>
-                <li><strong>Health is declining:</strong> The person&apos;s physical or mental health is suffering</li>
-                <li><strong>Family attempts have failed:</strong> Previous cleanup efforts haven&apos;t worked</li>
-                <li><strong>The situation is severe:</strong> Level 3-5 hoarding typically requires professional intervention</li>
+                <li><strong>It&apos;s dangerous:</strong> Fire hazards, blocked exits, structural problems</li>
+                <li><strong>There are legal problems:</strong> Eviction notices, code violations, custody issues</li>
+                <li><strong>Health is getting worse:</strong> They&apos;re getting sick from the conditions</li>
+                <li><strong>You&apos;ve tried and failed:</strong> Past cleanup attempts didn&apos;t work</li>
+                <li><strong>It&apos;s severe:</strong> Serious hoarding usually needs professional help</li>
               </ul>
               <p>
-                Professional hoarding cleanup services can work alongside therapists and family members
-                to provide compassionate, effective help while preserving the person&apos;s dignity.
+                Good cleanup companies work with therapists and family members. They understand hoarding and treat people with respect.
               </p>
             </div>
           </section>
 
           {/* Taking Care of Yourself */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gunmetal mb-6">Taking Care of Yourself</h2>
+            <h2 className="text-3xl font-bold text-gunmetal mb-6">Take Care of Yourself Too</h2>
 
             <div className="bg-fog rounded-xl p-6">
               <p className="text-gray-700 mb-4">
-                Supporting someone with hoarding disorder can be emotionally draining. Remember:
+                This stuff is exhausting. A few things to remember:
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span>You cannot force someone to change—they must want it themselves</span>
+                  <span>You can&apos;t force someone to change. They have to want it.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span>Set healthy boundaries for your own wellbeing</span>
+                  <span>It&apos;s okay to set boundaries. You have to protect yourself.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span>Consider joining a support group for families of hoarders</span>
+                  <span>Support groups exist for families dealing with this.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span>It&apos;s okay to feel frustrated—this is hard</span>
+                  <span>Feeling frustrated is normal. This is really hard.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span>Seek your own therapy or counseling if needed</span>
+                  <span>Consider talking to a therapist yourself.</span>
                 </li>
               </ul>
             </div>
@@ -246,25 +241,24 @@ export default function HelpingAHoarderPage() {
                 What is Hoarding?
                 <ArrowRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </h3>
-              <p className="text-gray-600">Learn more about hoarding disorder and what causes it.</p>
+              <p className="text-gray-600">Learn what hoarding is and why it happens.</p>
             </Link>
             <Link href="/hoarding-signs" className="group bg-fog rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-gunmetal mb-2 flex items-center gap-2">
                 Signs of Hoarding
                 <ArrowRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </h3>
-              <p className="text-gray-600">Recognize the warning signs of hoarding disorder.</p>
+              <p className="text-gray-600">How to recognize if someone has a hoarding problem.</p>
             </Link>
           </div>
 
           {/* CTA */}
           <div className="p-8 bg-dark-blue rounded-xl text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Ready to Help Your Loved One?
+              Need Help With a Loved One?
             </h3>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Our compassionate team works with families throughout the Boise area. We can help you
-              navigate the cleanup process while treating your loved one with dignity and respect.
+              We work with families in Boise and the Treasure Valley. We can help with the cleanup while treating your loved one with respect. Give us a call.
             </p>
             <a
               href="tel:2083611982"
