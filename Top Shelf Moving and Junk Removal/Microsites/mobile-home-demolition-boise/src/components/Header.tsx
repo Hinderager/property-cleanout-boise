@@ -13,7 +13,7 @@ const resources = [
   { name: 'Demolition Process', href: '/demolition-process' },
   { name: 'Permits & Regulations', href: '/permits' },
   { name: 'Site Preparation', href: '/site-prep' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Blog', href: '/blogs' },
 ]
 
 export function Header() {

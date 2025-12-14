@@ -10,7 +10,7 @@ const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle']
 const resources = [
   { name: 'What We Take', href: '/what-we-take' },
   { name: 'Pricing Guide', href: '/pricing' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Blog', href: '/blogs' },
 ]
 
 export function Header() {

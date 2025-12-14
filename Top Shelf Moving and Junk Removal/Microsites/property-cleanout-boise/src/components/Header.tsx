@@ -13,7 +13,7 @@ const resources = [
   { name: 'Foreclosure Cleanouts', href: '/foreclosure-cleanouts' },
   { name: 'Rental Turnovers', href: '/rental-turnovers' },
   { name: 'Eviction Cleanouts', href: '/eviction-cleanouts' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Blog', href: '/blogs' },
 ]
 
 export function Header() {

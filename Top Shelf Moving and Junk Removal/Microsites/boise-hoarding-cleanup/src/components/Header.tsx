@@ -13,7 +13,7 @@ const resources = [
   { name: 'What is Hoarding?', href: '/about-hoarding' },
   { name: 'Signs of Hoarding', href: '/hoarding-signs' },
   { name: 'How to Help', href: '/helping-a-hoarder' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Blog', href: '/blogs' },
 ]
 
 export function Header() {

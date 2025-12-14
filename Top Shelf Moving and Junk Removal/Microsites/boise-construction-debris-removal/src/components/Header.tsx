@@ -13,7 +13,7 @@ const resources = [
   { name: 'What We Haul', href: '/what-we-haul' },
   { name: 'Recycling Policy', href: '/recycling' },
   { name: 'Contractor Guide', href: '/contractor-guide' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Blog', href: '/blogs' },
 ]
 
 export function Header() {

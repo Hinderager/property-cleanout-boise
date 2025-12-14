@@ -13,7 +13,7 @@ const resources = [
   { name: 'Moving Tips', href: '/moving-tips' },
   { name: 'Packing Guide', href: '/packing-guide' },
   { name: 'Moving Checklist', href: '/moving-checklist' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Blog', href: '/blogs' },
 ]
 
 export function Header() {

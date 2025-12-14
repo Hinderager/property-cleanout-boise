@@ -13,7 +13,7 @@ const resources = [
   { name: 'Estate Cleanout Guide', href: '/estate-cleanout-guide' },
   { name: 'Probate Cleanouts', href: '/probate-cleanouts' },
   { name: 'Downsizing Tips', href: '/downsizing-tips' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Blog', href: '/blogs' },
 ]
 
 export function Header() {

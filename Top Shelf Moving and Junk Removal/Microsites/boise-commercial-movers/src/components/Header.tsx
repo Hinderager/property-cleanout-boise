@@ -13,7 +13,7 @@ const resources = [
   { name: 'Office Moving Tips', href: '/office-moving-tips' },
   { name: 'Moving Checklist', href: '/moving-checklist' },
   { name: 'IT Equipment Moving', href: '/it-equipment-moving' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Blog', href: '/blogs' },
 ]
 
 export function Header() {
