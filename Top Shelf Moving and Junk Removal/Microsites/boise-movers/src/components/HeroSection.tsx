@@ -15,31 +15,17 @@ export function HeroSection({ city, headline, subheadline }: HeroSectionProps = 
 
   return (
     <section className="relative h-[580px] md:h-[900px] lg:h-[950px] flex items-start lg:items-center overflow-visible">
-      {/* Background Image - Using Top Shelf images for now */}
-      <picture>
-        <source
-          media="(max-width: 640px)"
-          srcSet="https://topshelfpros.com/images/moving/residential-moves/hero-mobile.webp"
-        />
-        <source
-          media="(min-width: 641px) and (max-width: 1024px)"
-          srcSet="https://topshelfpros.com/images/moving/residential-moves/hero-tablet.webp"
-        />
-        <source
-          media="(min-width: 1025px)"
-          srcSet="https://topshelfpros.com/images/best-of-all/hero-desktop.webp"
-        />
-        <Image
-          src="https://topshelfpros.com/images/best-of-all/hero-desktop.webp"
-          alt={city ? `Professional Moving Services - ${city} Idaho` : "Professional Moving Services - Boise Idaho"}
-          fill
-          priority
-          quality={85}
-          sizes="100vw"
-          className="object-cover object-left-top sm:object-center md:object-top lg:object-left"
-          fetchPriority="high"
-        />
-      </picture>
+      {/* Background Image */}
+      <Image
+        src="/generated/hero.webp"
+        alt={city ? `Professional Moving Services - ${city} Idaho` : "Professional Moving Services - Boise Idaho"}
+        fill
+        priority
+        quality={85}
+        sizes="100vw"
+        className="object-cover object-left-top sm:object-center md:object-top lg:object-left"
+        fetchPriority="high"
+      />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 pt-[26rem] md:pt-[33rem] lg:pt-28 lg:pt-32 pb-6 md:pb-12 lg:pb-12">

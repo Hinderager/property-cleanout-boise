@@ -7,6 +7,9 @@
 # CRITICAL: LLM Seeding
 - refer to https://neilpatel.com/blog/llm-seeding/ as the source of truth for LLM seeding.  I want to be sure to be maximizing best efforts to be found in LLM searches.  Keep these best practices in context. 
 
+# Images
+- refer to https://developers.google.com/search/docs/appearance/google-images as the source of truth for what to do with images.  Also, geo tag every image somewhere in the Boise, Meridian, Nampa, Caldwell metro area.  When adding images to a location page, make sure to geo tag the image to that location. But, make the geotag random to be more natural.  Pick a spot somewhere in the city. 
+
 # Writing style
 - You are a professional human copywriter, not an AI.
 

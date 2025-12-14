@@ -90,7 +90,7 @@ const microsites = {
     hero: 'Two cleanup workers carefully and respectfully sorting through piles of belongings in a cluttered room. They\'re focused, wearing gloves, with clear bags and boxes for organizing items. No judgment in the scene—just professional help.',
     services: [
       { name: 'hoarding-cleanup', scene: 'Workers creating a clear pathway through a cluttered living room. Items being sorted carefully. Respectful, non-judgmental atmosphere.' },
-      { name: 'estate-cleanouts', scene: 'Team carefully boxing valuables and keepsakes found among clutter. Labels and markers visible. Treating items with dignity.' },
+      { name: 'ongoing-maintenance', scene: 'A cleanup worker doing a follow-up maintenance visit at a home, helping organize a closet that has started to accumulate clutter again. The worker is friendly and supportive, not judgmental. A small pile of sorted items sits on the bed. The room is mostly tidy but showing early signs of re-accumulation. Collaborative, supportive atmosphere.' },
       { name: 'deep-cleaning', scene: 'Worker scrubbing floors in a room that has just been cleared. Cleaning supplies visible. The space transforming from cluttered to clean.' },
       { name: 'emergency-services', scene: 'Workers rapidly but carefully organizing and clearing a room under time pressure. Professional urgency without chaos.' }
     ]
@@ -107,10 +107,10 @@ const microsites = {
   'boise-junk-removal': {
     hero: 'Two junk removal workers carrying an old couch out the front door of a suburban home. They\'re mid-lift, focused on their work. One worker is backing out the door while the other guides from inside. The home\'s front porch and yard are visible. No truck in frame.',
     services: [
-      { name: 'garage-cleanout', scene: 'Workers loading old boxes, broken equipment, and miscellaneous junk from a garage into a dolly. Typical cluttered garage in background.' },
-      { name: 'furniture-removal', scene: 'Two workers carrying an old recliner down the front steps. The chair shows wear. Helper steadying from behind.' },
-      { name: 'appliance-removal', scene: 'Worker using an appliance dolly to move an old washing machine out of a laundry room. Water hookups visible on wall.' },
-      { name: 'yard-waste', scene: 'Workers loading branches, old planters, and yard debris into a wheelbarrow. Backyard cleanup in progress. Rakes and gloves visible.' }
+      { name: 'electronics-ewaste', scene: 'Workers loading old electronics into their equipment—old CRT monitors, desktop computers, tangled cables, printers, and keyboards. A home office or garage setting with outdated tech being cleared out. Workers handling the electronics carefully. Box of cables and small devices visible.' },
+      { name: 'basement-cleanout', scene: 'Two workers carrying boxes and old items up basement stairs. The basement is partially cleared with old holiday decorations, forgotten exercise equipment, and dusty boxes still remaining. Typical unfinished basement with concrete floor and utility shelving. Workers making progress through years of accumulated stuff.' },
+      { name: 'yard-waste', scene: 'Workers loading branches, old planters, and yard debris into a wheelbarrow. Backyard cleanup in progress. Rakes and gloves visible.' },
+      { name: 'garage-cleanout', scene: 'Workers loading old boxes, broken equipment, and miscellaneous junk from a garage into a dolly. Typical cluttered garage in background.' }
     ]
   },
   'boise-movers': {
@@ -146,7 +146,7 @@ const microsites = {
       { name: 'rental-cleanout', scene: 'Workers clearing leftover furniture and trash from a vacant rental unit. Apartment or small home interior. Professional and thorough.' },
       { name: 'foreclosure-cleanup', scene: 'Team removing debris and personal items left behind in a foreclosed property. Efficient work, organized approach.' },
       { name: 'eviction-cleanout', scene: 'Workers boxing up and removing items from a recently vacated property. Fast, professional, non-judgmental.' },
-      { name: 'property-prep', scene: 'Workers doing final cleanup sweep of an empty property. Space is almost ready for new occupants. Broom and cleaning supplies visible.' }
+      { name: 'code-violation', scene: 'Workers quickly clearing overgrown yard debris and accumulated junk from a property exterior. Old lawn equipment, trash bags, broken items being removed. A code violation notice or city letter visible on the door. Workers moving fast but thorough. Neighbors houses visible in background. Sense of urgency to meet a deadline.' }
     ]
   }
 };

@@ -14,18 +14,13 @@ export function HeroSection({ city, headline, subheadline }: HeroSectionProps = 
 
   return (
     <section className="relative h-[580px] md:h-[900px] lg:h-[950px] flex items-start lg:items-center overflow-visible">
-      <picture>
-        <source media="(max-width: 640px)" srcSet="https://topshelfpros.com/images/moving/residential-moves/hero-mobile.webp" />
-        <source media="(min-width: 641px) and (max-width: 1024px)" srcSet="https://topshelfpros.com/images/moving/residential-moves/hero-tablet.webp" />
-        <source media="(min-width: 1025px)" srcSet="https://topshelfpros.com/images/best-of-all/hero-desktop.webp" />
-        <Image
-          src="https://topshelfpros.com/images/best-of-all/hero-desktop.webp"
-          alt={city ? `Professional Junk Removal Services - ${city} Idaho` : "Professional Junk Removal Services - Boise Idaho"}
-          fill priority quality={85} sizes="100vw"
-          className="object-cover object-left-top sm:object-center md:object-top lg:object-left"
-          fetchPriority="high"
-        />
-      </picture>
+      <Image
+        src="/generated/hero.webp"
+        alt={city ? `Professional Junk Removal Services - ${city} Idaho` : "Professional Junk Removal Services - Boise Idaho"}
+        fill priority quality={85} sizes="100vw"
+        className="object-cover object-center"
+        fetchPriority="high"
+      />
 
       <div className="relative z-10 container mx-auto px-4 pt-[26rem] md:pt-[33rem] lg:pt-28 lg:pt-32 pb-6 md:pb-12 lg:pb-12">
         <div className="w-[120%] left-1/2 -translate-x-1/2 relative md:w-[120%] md:left-1/2 md:-translate-x-1/2 md:scale-75 lg:w-auto lg:left-auto lg:translate-x-0 lg:scale-100 max-w-lg sm:max-w-xl md:max-w-4xl lg:max-w-xl lg:ml-auto">
