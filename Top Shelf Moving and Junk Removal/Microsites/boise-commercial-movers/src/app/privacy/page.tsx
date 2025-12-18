@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Commercial Moving Pros',
-  description: 'Privacy policy for Commercial Moving Pros - how we collect, use, and protect your personal information.',
+  title: 'Privacy Policy | Boise Commercial Movers',
+  description: 'Privacy policy for Boise Commercial Movers - how we collect, use, and protect your personal information.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/privacy',
   },
@@ -11,15 +11,15 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <main className="py-16">
+    <main className="pt-20 py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-gunmetal mb-4">Privacy Policy</h1>
-          <p className="text-gray-500 mb-8">Last updated: December 13, 2024</p>
+          <p className="text-gray-500 mb-8">Last updated: December 15, 2024</p>
 
           <div className="prose prose-lg max-w-none text-gray-600">
             <p>
-              Commercial Moving Pros (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+              Boise Commercial Movers (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Information We Collect</h2>
@@ -29,7 +29,7 @@ export default function PrivacyPage() {
             <ul>
               <li>Name and contact information (phone number, email address)</li>
               <li>Service address and location information</li>
-              <li>Details about your commercial moving needs</li>
+              <li>Details about your commercial moving needs and requirements</li>
               <li>Preferred appointment dates and times</li>
               <li>Payment information (when applicable)</li>
             </ul>
@@ -51,6 +51,7 @@ export default function PrivacyPage() {
               <li>Communicate with you about your service appointment</li>
               <li>Send appointment reminders and follow-up communications</li>
               <li>Process payments for services rendered</li>
+              <li>Send maintenance reminders and seasonal service recommendations</li>
               <li>Improve our website and services</li>
               <li>Comply with legal obligations</li>
             </ul>
@@ -61,6 +62,7 @@ export default function PrivacyPage() {
             </p>
             <ul>
               <li><strong>Service Providers:</strong> Third-party companies that help us operate our business, such as our scheduling and CRM system</li>
+              <li><strong>Equipment Manufacturers:</strong> For warranty registration purposes when you purchase new equipment</li>
               <li><strong>Legal Requirements:</strong> When required by law, subpoena, or other legal process</li>
               <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of assets</li>
             </ul>
@@ -107,13 +109,13 @@ export default function PrivacyPage() {
               If you have questions about this Privacy Policy or our privacy practices, please contact us:
             </p>
             <ul>
-              <li><strong>Phone:</strong> (208) 361-1982</li>
+              <li><strong>Phone:</strong> (208) 505-9352</li>
               <li><strong>Email:</strong> info@boise-commercial-movers.com</li>
             </ul>
           </div>
 
           <div className="mt-8 pt-8 border-t border-gray-200">
-            <Link href="/" className="text-dark-blue underline hover:text-light-blue">
+            <Link href="/" className="text-dark-blue underline hover:text-[#0b7fb6]">
               &larr; Back to Home
             </Link>
           </div>

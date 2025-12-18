@@ -15,31 +15,31 @@ const blogPosts = [
     "slug": "demolition-permits-boise-idaho",
     "title": "Do You Need a Demolition Permit in Boise? (Quick Answer)",
     "excerpt": "The permit question trips up a lot of property owners. Here's what Boise requires for demolition projects.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/demolition-permits-boise.webp"
   },
   {
     "slug": "full-vs-partial-demolition",
     "title": "Full Demolition vs Partial Demolition: Which Do You Need?",
     "excerpt": "Sometimes you need to tear everything down. Sometimes just part. Here's how to decide.",
-    "image": "/generated/residential-demolition.webp"
+    "image": "/generated/full-partial-demolition.webp"
   },
   {
     "slug": "what-happens-during-demolition",
     "title": "What Actually Happens During a Demolition Project?",
     "excerpt": "Curious about the demolition process? Here's a step-by-step look at what goes into tearing down a structure.",
-    "image": "/generated/commercial-demolition.webp"
+    "image": "/generated/demolition-process-boise.webp"
   },
   {
     "slug": "preparing-property-for-demolition",
     "title": "How to Prepare Your Property for Demolition",
     "excerpt": "A little prep work goes a long way. Here's what to handle before the demo crew arrives.",
-    "image": "/generated/interior-demolition.webp"
+    "image": "/generated/preparing-demolition-boise.webp"
   },
   {
     "slug": "demolition-safety-what-homeowners-should-know",
     "title": "Demolition Safety: What Homeowners Should Know",
     "excerpt": "Demolition involves real risks. Here's what to expect and how professionals keep everyone safe.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/demolition-safety-boise.webp"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function BlogsPage() {
           alt="Demolition Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">

@@ -15,31 +15,31 @@ const blogPosts = [
     "slug": "construction-debris-disposal-rules-boise",
     "title": "Construction Debris Disposal Rules in Boise (What You Need to Know)",
     "excerpt": "Ada County has specific rules about construction waste. Here's how to stay compliant and avoid fines.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/construction-debris-rules-boise.webp"
   },
   {
     "slug": "types-of-construction-debris",
     "title": "Types of Construction Debris and How Each Is Handled",
     "excerpt": "From concrete to drywall, different materials require different disposal methods. Here's the breakdown.",
-    "image": "/generated/demolition-debris.webp"
+    "image": "/generated/types-construction-debris.webp"
   },
   {
     "slug": "dumpster-rental-vs-debris-removal-service",
     "title": "Dumpster Rental vs Debris Removal Service: Which Is Better?",
     "excerpt": "Both options work, but one might save you money depending on your project. Here's how to decide.",
-    "image": "/generated/concrete-removal.webp"
+    "image": "/generated/dumpster-vs-removal-service.webp"
   },
   {
     "slug": "recycling-construction-materials-idaho",
     "title": "Can Construction Materials Be Recycled in Idaho?",
     "excerpt": "A surprising amount of construction debris can be recycled. Here's what can be diverted from the landfill.",
-    "image": "/generated/roofing-debris.webp"
+    "image": "/generated/recycling-construction-materials.webp"
   },
   {
     "slug": "keeping-job-sites-clean",
     "title": "Why Keeping Job Sites Clean Matters More Than You Think",
     "excerpt": "A clean job site isn't just about looks. It affects safety, efficiency, and your bottom line.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/clean-job-site-boise.webp"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function BlogsPage() {
           alt="Construction Debris Removal Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">

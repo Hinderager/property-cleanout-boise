@@ -38,11 +38,11 @@ export function Footer() {
           <div>
             <h4 className="text-xl font-bold mb-4 text-light-blue">Services</h4>
             <ul className="space-y-2">
-              <li className="text-white/80">Job Site Cleanup</li>
-              <li className="text-white/80">Renovation Debris</li>
-              <li className="text-white/80">Drywall & Lumber</li>
-              <li className="text-white/80">Concrete Removal</li>
-              <li className="text-white/80">Same Day Service</li>
+              <li className="text-white/80">Construction Cleanup</li>
+              <li className="text-white/80">Demolition Debris</li>
+              <li className="text-white/80">Drywall Removal</li>
+              <li className="text-white/80">Concrete & Roofing</li>
+              <li className="text-white/80">Renovation Waste</li>
             </ul>
           </div>
 
@@ -86,11 +86,11 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <a
-                    href="tel:2083611982"
+                    href="tel:2085059352"
                     className="text-white/80 hover:text-white transition-colors font-semibold"
                   >
                     <span className="md:hidden">Call Now</span>
-                    <span className="hidden md:inline">(208) 361-1982</span>
+                    <span className="hidden md:inline">(208) 505-9352</span>
                   </a>
                 </div>
               </li>
@@ -118,8 +118,8 @@ export function Footer() {
                 <Clock className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <p className="text-white/80">
-                    Mon-Sat: 8am - 6pm<br />
-                    Emergency: 24/7
+                    Mon-Sat: 7am - 7pm<br />
+                    Sunday: By Appointment
                   </p>
                 </div>
               </li>
@@ -153,7 +153,7 @@ export function Footer() {
 
             <div className="text-center md:text-right">
               <p className="text-white/60 text-sm">
-                &copy; {new Date().getFullYear()} Construction Debris Pros. All rights reserved.
+                &copy; {new Date().getFullYear()} Boise Construction Debris Removal. All rights reserved.
               </p>
               <div className="flex gap-4 mt-2 justify-center md:justify-end">
                 <Link href="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">

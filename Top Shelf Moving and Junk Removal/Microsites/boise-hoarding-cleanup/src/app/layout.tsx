@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     default: 'Hoarding Cleanup Services Boise | Professional Hoarder Cleanout Idaho',
     template: '%s | Hoarding Cleanup Boise',
   },
-  description: 'Professional hoarding cleanup services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Compassionate hoarder cleanout, estate cleanout, and clutter removal. Licensed & insured. Same-day service. Call (208) 361-1982.',
+  description: 'Compassionate hoarding cleanup services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. We help families dealing with hoarding disorder through supportive, professional cleanout services. Licensed & insured. Same-day service available. Call (208) 505-9352.',
   keywords: [
     'hoarding cleanup Boise',
     'hoarder cleanout Boise Idaho',
@@ -42,12 +42,12 @@ export const metadata: Metadata = {
     'extreme cleaning services Boise',
     'hoarder house cleanup',
   ],
-  authors: [{ name: 'Hoarding Cleanup Pros' }],
+  authors: [{ name: 'Boise Hoarding Cleanup' }],
   openGraph: {
     title: 'Hoarding Cleanup Services | Boise, Meridian, Nampa Idaho',
-    description: 'Professional, compassionate hoarding cleanup services in the Treasure Valley. Licensed, insured, and discreet. Same-day service available.',
+    description: 'Non-judgmental hoarding cleanup services in the Treasure Valley. We help families navigate difficult situations with compassion and respect. Licensed, insured, and discreet. Same-day service available.',
     url: 'https://boise-hoarding-cleanup.com',
-    siteName: 'Hoarding Cleanup Pros',
+    siteName: 'Boise Hoarding Cleanup',
     locale: 'en_US',
     type: 'website',
   },
@@ -84,7 +84,7 @@ export default function RootLayout({
       </head>
       <body className={`${montserrat.variable} ${oswald.variable} font-sans antialiased`}>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
+          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
           strategy="afterInteractive"
         />
         <Script id="google-ads" strategy="afterInteractive">
@@ -92,6 +92,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-46RY05JDNS');
             gtag('config', 'AW-11134633087');
           `}
         </Script>

@@ -15,31 +15,31 @@ const blogPosts = [
     "slug": "mobile-home-demolition-cost",
     "title": "Mobile Home Demolition Cost: What to Expect in Idaho",
     "excerpt": "Demolishing a mobile home involves several cost factors. Here's a realistic breakdown.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/mobile-home-demo-cost.webp"
   },
   {
     "slug": "mobile-home-demolition-permits",
     "title": "Do You Need a Permit to Demolish a Mobile Home in Idaho?",
     "excerpt": "Permit requirements vary by location. Here's what you need to know in the Treasure Valley.",
-    "image": "/generated/singlewide-demolition.webp"
+    "image": "/generated/demolition-permits.webp"
   },
   {
     "slug": "preparing-mobile-home-for-demolition",
     "title": "How to Prepare a Mobile Home for Demolition",
     "excerpt": "Several steps happen before the demo crew arrives. Here's your preparation checklist.",
-    "image": "/generated/doublewide-demolition.webp"
+    "image": "/generated/preparing-for-demolition.webp"
   },
   {
     "slug": "what-happens-to-demolished-mobile-homes",
     "title": "What Happens to Materials from Demolished Mobile Homes?",
     "excerpt": "Mobile homes contain recyclable materials. Here's how debris is sorted and processed.",
-    "image": "/generated/manufactured-home.webp"
+    "image": "/generated/mobile-home-recycling.webp"
   },
   {
     "slug": "mobile-home-removal-vs-demolition",
     "title": "Mobile Home Removal vs Demolition: What's the Difference?",
     "excerpt": "Both options get the mobile home gone, but they work differently. Here's how to choose.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/removal-vs-demolition.webp"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function BlogsPage() {
           alt="Mobile Home Demolition Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">

@@ -9,7 +9,7 @@ import { MapSection } from '@/components/MapSection'
 
 export default function Home() {
   return (
-    <>
+    <main>
       <HeroSection />
       <QuickQuoteBar />
       <SectionDivider />
@@ -18,6 +18,6 @@ export default function Home() {
       <GoogleReviews />
       <FAQ />
       <MapSection />
-    </>
+    </main>
   )
 }

@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { MapPin, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Where Should You Place Your Dumpster? (Avoid These Mistakes) | Dumpster Rental Pros',
-  description: 'The wrong placement can damage your property or violate local rules. Here\'s how to do it right.',
+  title: 'Where to Place a Dumpster: Boise Placement Guide | Dumpster Rental Pros',
+  description: 'Best practices for dumpster placement in Boise. Protect your property, avoid fines, and make loading easy.',
   alternates: {
     canonical: 'https://boise-dumpster-rental.com/blogs/where-to-place-dumpster',
   },
 }
 
-export default function BlogPost() {
+export default function WhereToPlaceDumpster() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/residential-dumpster.webp"
-          alt="Where Should You Place Your Dumpster? (Avoid These Mistakes)"
+          src="/generated/dumpster-placement-guide.webp"
+          alt="Dumpster Placement Guide for Boise"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,267 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Where Should You Place Your Dumpster? (Avoid These Mistakes)
+            Where Should You Place Your Dumpster?
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for dumpster rental services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Where To Place Dumpster</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to dumpster rental, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Dumpster rental in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality dumpster rental services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Dumpster rental Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need dumpster rental services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Dumpster placement seems simple until you realize the wrong spot can damage your driveway, block access, violate city rules, or make loading a pain. A little planning goes a long way.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's what Boise homeowners need to consider when choosing where to put their dumpster.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Best Placement Spots */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <MapPin className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Best Placement Locations
+              </h2>
             </div>
 
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Dumpster rental Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Dumpster Rental Pros is here to help with all your dumpster rental needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              In order of preference, here's where dumpsters typically work best:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Your driveway.</strong> This is usually the easiest option. It's your property, no permit needed, and driveways are designed to handle vehicle weight. Most 10-15 yard dumpsters fit in a standard Boise driveway without blocking garage access.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>A concrete or asphalt pad.</strong> Any solid surface on your property works. Patios, parking pads, or other paved areas can handle the weight without damage.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Gravel or compacted areas.</strong> These can work but may show some indentation from the weight. Acceptable if you don't mind some settling.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Street placement.</strong> When your driveway won't work, street placement is an option—but requires a permit from the City of Boise. More on that below.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Protecting Your Property */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Protecting Your Property
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              A loaded dumpster is heavy—several tons heavy. Here's how to prevent damage:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Use boards under the wheels.</strong> Placing plywood or 2x10 boards under the dumpster wheels distributes weight and prevents cracking on driveways or indentation on softer surfaces. Most rental companies can provide these.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Avoid placing on grass.</strong> Dumpsters will kill grass and leave ruts. If lawn placement is unavoidable, expect to reseed or sod afterward.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Keep away from underground utilities.</strong> Don't place heavy dumpsters over septic tanks, shallow water lines, or sprinkler systems.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Watch for overhead obstructions.</strong> Delivery trucks need clearance to drop off and pick up. Check for low branches, power lines, or other overhead obstacles.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Street Permits */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Street Placement and Permits
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              If you need to place the dumpster in the street (no driveway, blocked access, etc.), you'll need a permit:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>City of Boise permit.</strong> The city requires a permit for placing dumpsters or other containers in the public right-of-way. The permit typically costs $30-50 and is issued for a specific time period.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Placement requirements.</strong> The city will specify where the dumpster can be placed—usually not blocking traffic, fire hydrants, or neighbor access.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Reflective markers.</strong> Dumpsters in the street typically need reflective markers or cones for visibility, especially at night.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Other jurisdictions.</strong> Meridian, Nampa, Caldwell, and other Treasure Valley cities have their own requirements. Check with your local jurisdiction.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Practical Considerations */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Practical Loading Considerations
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Placement affects how easy or hard loading will be:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Close to the debris source:</strong> The closer the dumpster to where debris is coming from, the easier the job. Walking heavy items across the yard gets old fast</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Door access:</strong> Most dumpsters have a door on one end for walk-in loading. Make sure the door isn't blocked by a wall or fence</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Throwing clearance:</strong> You need room to stand and toss items over the side. Don't box yourself in</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Wheelbarrow access:</strong> If you're using wheelbarrows, plan a clear path from debris to dumpster</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Multiple access points:</strong> Being able to approach from different sides makes loading more efficient</span>
+              </div>
             </div>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* HOA Considerations */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              HOA and Neighbor Considerations
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Many Boise-area neighborhoods have rules about dumpsters:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Check HOA rules.</strong> Some HOAs require advance approval for dumpsters. Some restrict placement locations or duration. A few prohibit them entirely.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Talk to neighbors.</strong> If the dumpster will be visible from their property or might affect their access, a heads-up is courteous. Most neighbors are understanding when you explain it's temporary.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Keep it tidy.</strong> Don't let debris pile up around the dumpster. Keep the area clean and you'll have fewer issues with neighbors or HOAs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Delivery Logistics */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Preparing for Delivery
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Before the truck arrives:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Clear the drop zone.</strong> Move vehicles, bikes, toys, and anything else from the area where the dumpster will go.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Check truck access.</strong> Delivery trucks need about 50-60 feet of straight approach and room to maneuver. Make sure they can get in and out.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Mark the spot if needed.</strong> If you won't be home for delivery, clearly mark where you want the dumpster placed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Have boards ready.</strong> If you're providing plywood for surface protection, have it in place before the truck arrives.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The best dumpster placement balances convenience (close to the work), property protection (solid surface, boards if needed), and compliance (permits for street placement, HOA rules).
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Most Boise-area driveways work fine for standard dumpster sizes. If you have concerns about access or placement, mention them when you book—we can often spot potential issues and suggest solutions.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              A few minutes of planning prevents headaches during your project.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Questions About Placement?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We can help you figure out the best spot for your dumpster. Call and describe your setup—we've seen most situations before.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Dumpster Rental Resources
           </h2>
           <div className="text-center">
             <Link

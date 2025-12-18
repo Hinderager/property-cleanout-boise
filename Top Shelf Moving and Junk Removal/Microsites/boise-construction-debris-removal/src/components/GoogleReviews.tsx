@@ -8,52 +8,52 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 // Static reviews for construction debris removal
 const staticReviews = [
   {
-    author: 'Mike C.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'We use these guys for all our job site cleanup. They show up when they say they will and get the debris out fast. Our sites stay clean and we pass inspections without issues. Great partner for our construction company.',
-  },
-  {
-    author: 'Steve R.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'Just finished a kitchen remodel and had a ton of old cabinets, countertops, and flooring to get rid of. They came same day and hauled everything away. Fair price and no hassle. Will definitely use again.',
-  },
-  {
-    author: 'Jennifer P.',
-    relative_time: '3 weeks ago',
-    rating: 5,
-    text: 'Had a bunch of concrete and brick from an old patio we tore out. These guys loaded it all up in about an hour. Heavy stuff but they handled it like pros. Saved me multiple trips to the dump.',
-  },
-  {
-    author: 'Tom H.',
+    author: 'David K.',
     relative_time: '2 weeks ago',
     rating: 5,
-    text: 'Roofing contractor here. We call them after every job to haul away the old shingles and debris. They work around our schedule and the pricing is consistent. Makes our jobs easier and our customers happier.',
+    text: 'We run a framing crew and call these guys whenever debris piles up on site. They're fast, professional, and the price is always fair. Showed up same day last week when we needed them in a pinch.',
   },
   {
-    author: 'Lisa M.',
+    author: 'Rachel T.',
     relative_time: '1 month ago',
     rating: 5,
-    text: 'Did a bathroom remodel ourselves and underestimated how much debris we\'d have. Called these folks and they came out the next morning. Friendly crew, reasonable price, and they cleaned up after themselves.',
+    text: 'Gutted our kitchen down to the studs. Had a mountain of old cabinets, drywall, and tile. They loaded everything in about 45 minutes and the price was way better than renting a dumpster. Would use again.',
   },
   {
-    author: 'Robert K.',
-    relative_time: '3 months ago',
+    author: 'Marcus L.',
+    relative_time: '3 weeks ago',
     rating: 5,
-    text: 'General contractor in Boise. We\'ve tried a few debris removal services and these guys are the most reliable. They show up on time, work fast, and their pricing is straightforward. No surprises.',
+    text: 'Concrete guy here. These guys handle heavy materials better than anyone. Loaded up two tons of broken concrete without batting an eye. Good crew, fair pricing, no complaints.',
   },
   {
-    author: 'Amanda J.',
+    author: 'Brian H.',
     relative_time: '2 months ago',
     rating: 5,
-    text: 'We were building a deck and had all this scrap lumber and packaging piling up. They came out and cleared everything in one load. The driver was careful not to damage our lawn too. Great service.',
+    text: 'Roofing company in Meridian. We use them on almost every tearoff. They haul the shingles and debris the same day we finish. Makes cleanup simple and keeps the homeowner happy. Solid service.',
   },
   {
-    author: 'Chris B.',
+    author: 'Kelly S.',
     relative_time: '1 week ago',
     rating: 5,
-    text: 'Needed debris removed from a demo job on short notice. They had a truck there within two hours. Loaded up all the drywall, framing, and old fixtures. Exactly what we needed. Five stars.',
+    text: 'Remodeled two bathrooms ourselves. Debris was piling up in the driveway and the neighbors were getting annoyed. Called Friday morning, truck showed up that afternoon. Easy process start to finish.',
+  },
+  {
+    author: 'Jason M.',
+    relative_time: '3 months ago',
+    rating: 5,
+    text: 'GC in Boise. Been using them for six months now. Always reliable, always on schedule. The guys are careful on residential properties and don't tear up lawns. That matters to my clients.',
+  },
+  {
+    author: 'Nicole W.',
+    relative_time: '2 months ago',
+    rating: 5,
+    text: 'Built a shop in our backyard. Had lumber scraps, packaging, metal cutoffs everywhere. They cleared it all in one trip. Driver was friendly and worked around my dog who wouldn't stop barking.',
+  },
+  {
+    author: 'Tyler G.',
+    relative_time: '5 days ago',
+    rating: 5,
+    text: 'Had to demo part of a commercial build due to a code issue. Needed it gone immediately. They had a truck there in under two hours and hauled out the whole mess. Saved our timeline.',
   },
 ]
 
@@ -225,9 +225,9 @@ export function GoogleReviews() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

@@ -8,23 +8,23 @@ import { useQuoteForm } from '@/context/QuoteFormContext'
 const services = [
   {
     icon: Home,
-    title: 'Residential Demo',
-    description: 'Complete home demolition, interior gut jobs, and room-by-room teardowns. Safe and efficient.',
+    title: 'Interior Demolition',
+    description: 'Kitchen tearouts, bathroom demo, flooring removal, wall removal. We gut it so your contractor can rebuild it.',
   },
   {
     icon: Building2,
-    title: 'Commercial Demo',
-    description: 'Office buildings, retail spaces, and warehouse demolition. Professional and fully insured.',
+    title: 'Structural Demolition',
+    description: 'Complete building teardown—houses, garages, sheds, barns. We handle permits, utilities, and safe demolition.',
   },
   {
     icon: Hammer,
-    title: 'Interior Demolition',
-    description: 'Kitchen and bathroom tearouts, flooring removal, and selective interior demolition projects.',
+    title: 'Concrete & Deck Removal',
+    description: 'Driveways, patios, sidewalks, foundations, old decks. We break it up, haul it away, and leave the site clean.',
   },
   {
     icon: Truck,
-    title: 'Debris Removal',
-    description: 'Complete site cleanup and debris hauling included with every demolition project.',
+    title: 'Selective Demolition',
+    description: 'Remove only what needs to go. Perfect for renovations—we protect what stays and demo what doesn't.',
   },
 ]
 
@@ -57,10 +57,10 @@ export function ServicesGrid() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-dark-blue mb-4 uppercase" style={{textShadow: '2px 2px 3px rgba(0,0,0,0.3), 1px 1px 2px rgba(0,0,0,0.2)'}}>
-            Our Services
+            Demolition Services
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Professional demolition and debris removal services for the Treasure Valley
+            From partial tearouts to complete demolition—we handle it all
           </p>
         </div>
 
@@ -96,9 +96,9 @@ export function ServicesGrid() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

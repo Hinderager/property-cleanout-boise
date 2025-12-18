@@ -5,6 +5,47 @@ import Link from 'next/link'
 import { Menu, X, ChevronDown, Phone } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
+const serviceCategories = [
+  {
+    name: 'Dumpster Sizes',
+    href: '/services/dumpster-sizes',
+    services: [
+      { name: '10 Yard Dumpster', href: '/services/dumpster-sizes/10-yard' },
+      { name: '15 Yard Dumpster', href: '/services/dumpster-sizes/15-yard' },
+      { name: '20 Yard Dumpster', href: '/services/dumpster-sizes/20-yard' },
+      { name: '30 Yard Dumpster', href: '/services/dumpster-sizes/30-yard' },
+      { name: '40 Yard Dumpster', href: '/services/dumpster-sizes/40-yard' },
+    ]
+  },
+  {
+    name: 'Residential Dumpsters',
+    href: '/services/residential-dumpsters',
+    services: [
+      { name: 'Home Cleanout', href: '/services/residential-dumpsters/home-cleanout' },
+      { name: 'Moving Dumpsters', href: '/services/residential-dumpsters/moving' },
+      { name: 'Renovation Projects', href: '/services/residential-dumpsters/renovation' },
+    ]
+  },
+  {
+    name: 'Commercial Dumpsters',
+    href: '/services/commercial-dumpsters',
+    services: [
+      { name: 'Business Cleanout', href: '/services/commercial-dumpsters/business-cleanout' },
+      { name: 'Construction Projects', href: '/services/commercial-dumpsters/construction' },
+      { name: 'Demolition Projects', href: '/services/commercial-dumpsters/demolition' },
+    ]
+  },
+  {
+    name: 'Specialty Dumpsters',
+    href: '/services/specialty',
+    services: [
+      { name: 'Concrete Dumpsters', href: '/services/specialty/concrete-dumpsters' },
+      { name: 'Roofing Dumpsters', href: '/services/specialty/roofing-dumpsters' },
+      { name: 'Yard Waste', href: '/services/specialty/yard-waste' },
+    ]
+  },
+]
+
 const serviceAreas = [
   'Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle'
 ]
@@ -65,10 +106,53 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
-            {/* Services Link */}
-            <Link href="/#services" className="text-white hover:text-gray-200 transition-colors font-bold text-sm xl:text-base whitespace-nowrap">
-              Services
-            </Link>
+            {/* Services Mega Menu */}
+            <div
+              className="relative group"
+              onMouseEnter={() => handleMouseEnter('services')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors font-bold text-sm xl:text-base whitespace-nowrap">
+                <span>Services</span>
+                <ChevronDown className="h-4 w-4" />
+              </button>
+              {activeDropdown === 'services' && (
+                <div className="absolute left-0 top-full mt-2 w-[600px] bg-white shadow-lg rounded-lg p-6">
+                  <div className="grid grid-cols-2 gap-6">
+                    {serviceCategories.map((category) => (
+                      <div key={category.href}>
+                        <Link
+                          href={category.href}
+                          className="font-bold text-dark-blue hover:text-[#ff6b35] block mb-2"
+                        >
+                          {category.name}
+                        </Link>
+                        <ul className="space-y-1">
+                          {category.services.map((service) => (
+                            <li key={service.href}>
+                              <Link
+                                href={service.href}
+                                className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors"
+                              >
+                                {service.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-4 pt-4 border-t">
+                    <Link
+                      href="/services"
+                      className="text-dark-blue font-semibold hover:text-[#ff6b35]"
+                    >
+                      View All Services →
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
 
             {/* Service Areas Dropdown */}
             <div
@@ -153,10 +237,23 @@ export function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 bg-[#10477d] border-b-2 border-[#1e3a5f]">
+          <div className="lg:hidden py-4 bg-[#10477d] border-b-2 border-[#1e3a5f] max-h-[80vh] overflow-y-auto">
             <nav className="flex flex-col space-y-4 px-4">
               <Link href="/" className="text-white font-semibold hover:text-gray-200" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
-              <Link href="/#services" className="text-white font-semibold hover:text-gray-200" onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
+
+              <span className="text-white/60 text-sm font-medium pt-2">Services</span>
+              {serviceCategories.map((category) => (
+                <div key={category.href}>
+                  <Link
+                    href={category.href}
+                    className="text-white font-medium hover:text-gray-200 pl-2"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {category.name}
+                  </Link>
+                </div>
+              ))}
+
               <span className="text-white/60 text-sm font-medium pt-2">Service Areas</span>
               {serviceAreas.map((area) => (
                 <Link key={area} href={`/${area.toLowerCase()}`} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>

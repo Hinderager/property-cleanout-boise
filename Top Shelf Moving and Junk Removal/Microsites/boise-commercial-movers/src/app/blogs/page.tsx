@@ -3,8 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Commercial Moving Pros Blog | Tips & Guides for Commercial moving',
-  description: 'Expert tips, guides, and insights about commercial moving in Boise and the Treasure Valley. Learn from the pros at Commercial Moving Pros.',
+  title: 'Commercial Moving Blog | Office Relocation Tips | Boise Commercial Movers',
+  description: 'Expert tips, guides, and insights about commercial moving in Boise and the Treasure Valley. Learn from professional business movers.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/blogs',
   },
@@ -12,56 +12,48 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
-    "slug": "planning-office-move-boise",
-    "title": "Planning an Office Move in Boise? Start Here",
-    "excerpt": "Moving your business doesn't have to be chaotic. Here's a practical timeline and checklist for Boise office relocations.",
-    "image": "/generated/hero.webp"
+    slug: 'office-move-planning-timeline',
+    title: 'Planning an Office Move: Your 8-Week Timeline',
+    excerpt: 'Moving an office isn\'t something you figure out as you go. Here\'s the realistic timeline most businesses need.',
+    image: '/generated/office-move-timeline.webp',
   },
   {
-    "slug": "minimize-downtime-during-commercial-move",
-    "title": "How to Minimize Downtime During a Commercial Move",
-    "excerpt": "Every hour your business is offline costs money. Here's how to keep operations running during your relocation.",
-    "image": "/generated/office-moving.webp"
+    slug: 'minimize-business-downtime-during-move',
+    title: 'How to Minimize Downtime When Moving Your Business',
+    excerpt: 'Every hour your business is down costs money. Here\'s how to keep disruption to a minimum.',
+    image: '/generated/minimize-downtime.webp',
   },
   {
-    "slug": "commercial-vs-residential-movers",
-    "title": "Commercial vs Residential Movers: What's the Difference?",
-    "excerpt": "Not all movers are the same. Here's why commercial moves require different skills and equipment.",
-    "image": "/generated/warehouse-relocation.webp"
+    slug: 'commercial-moving-costs-boise',
+    title: 'What Commercial Moves Actually Cost in Boise',
+    excerpt: 'No two office moves cost the same. Here\'s what goes into the price and what you should expect to pay.',
+    image: '/generated/commercial-moving-costs.webp',
   },
   {
-    "slug": "what-to-look-for-in-commercial-movers",
-    "title": "What to Look for When Hiring Commercial Movers in Idaho",
-    "excerpt": "Choosing the wrong mover can derail your business. Here are the key questions to ask before signing a contract.",
-    "image": "/generated/retail-moving.webp"
+    slug: 'it-equipment-moving-best-practices',
+    title: 'Moving IT Equipment Without Losing Your Mind',
+    excerpt: 'Servers, workstations, networks—IT moves are high-stakes. Here\'s how to do it right.',
+    image: '/generated/it-equipment-moving.webp',
   },
   {
-    "slug": "employee-communication-during-office-move",
-    "title": "How to Keep Employees Informed During an Office Move",
-    "excerpt": "Good communication makes all the difference. Here's how to keep your team in the loop during relocation.",
-    "image": "/generated/hero.webp"
-  }
+    slug: 'choosing-commercial-movers-boise',
+    title: 'How to Choose Commercial Movers in Boise',
+    excerpt: 'Not every moving company can handle business relocations. Here\'s what to look for.',
+    image: '/generated/choosing-commercial-movers.webp',
+  },
 ]
 
 export default function BlogsPage() {
   return (
-    <main>
+    <main className="pt-20">
       {/* Hero Section */}
-      <section className="relative h-[400px] flex items-center">
-        <Image
-          src="/generated/hero.webp"
-          alt="Commercial Moving Pros Blog"
-          fill
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
-        <div className="relative z-10 container mx-auto px-4">
+      <section className="py-16 bg-gradient-to-b from-dark-blue to-[#1a5a9e]">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-            Our Blog
+            Commercial Moving Blog
           </h1>
-          <p className="text-xl text-white/90 max-w-2xl">
-            Tips, guides, and insights about commercial moving in the Treasure Valley. Real advice from real professionals.
+          <p className="text-xl text-white/90 max-w-2xl mx-auto">
+            Tips, guides, and insights about office and business relocation in the Treasure Valley. Real advice from commercial moving professionals.
           </p>
         </div>
       </section>
@@ -73,13 +65,10 @@ export default function BlogsPage() {
             {blogPosts.map((post) => (
               <article key={post.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                 <Link href={`/blogs/${post.slug}`}>
-                  <div className="relative h-48">
-                    <Image
-                      src={post.image}
-                      alt={post.title}
-                      fill
-                      className="object-cover"
-                    />
+                  <div className="relative h-48 bg-dark-blue">
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <span className="text-white/20 text-4xl font-bold text-center px-4">COMMERCIAL MOVING</span>
+                    </div>
                   </div>
                   <div className="p-6">
                     <h2 className="text-xl font-bold text-gunmetal mb-2 hover:text-dark-blue transition-colors">
@@ -106,16 +95,16 @@ export default function BlogsPage() {
       <section className="py-16 bg-dark-blue">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Get Started?
+            Ready to Move Your Business?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free estimate on your commercial moving project.
+            Contact us today for a free estimate on your commercial move.
           </p>
           <a
-            href="tel:2083611982"
-            className="inline-block bg-brand-yellow hover:bg-yellow-400 text-black font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            href="tel:2085059352"
+            className="inline-block bg-[#FFC845] hover:bg-yellow-400 text-dark-blue font-bold text-lg px-8 py-4 rounded-lg transition-colors"
           >
-            Call (208) 361-1982
+            Call (208) 505-9352
           </a>
         </div>
       </section>

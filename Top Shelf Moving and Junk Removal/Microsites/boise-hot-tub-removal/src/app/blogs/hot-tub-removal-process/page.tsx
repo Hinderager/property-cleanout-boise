@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ClipboardList, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'How Hot Tub Removal Actually Works | Hot Tub Removal Pros',
-  description: 'Getting rid of a hot tub involves more than just hauling it away. Here\'s the full process.',
+  description: 'Getting rid of a hot tub involves more than just hauling it away. Here\'s the full process from start to finish.',
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/blogs/hot-tub-removal-process',
   },
 }
 
-export default function BlogPost() {
+export default function HotTubRemovalProcess() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hero.webp"
-          alt="How Hot Tub Removal Actually Works"
+          src="/generated/hot-tub-removal-process.webp"
+          alt="Hot Tub Removal Process"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,258 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for hot tub removal services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Hot Tub Removal Process</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to hot tub removal, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Hot tub removal in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality hot tub removal services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Hot tub removal Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need hot tub removal services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Hot tub removal Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Hot Tub Removal Pros is here to help with all your hot tub removal needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You've decided the hot tub needs to go. But what actually happens when a removal crew shows up? How do they get a 500+ pound tub out of your backyard?
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's a step-by-step look at how professional hot tub removal works, so you know exactly what to expect.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Step 1: Assessment */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <ClipboardList className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Step 1: Assessment and Planning
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Before any removal happens, we need to understand what we're dealing with:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Hot tub specs.</strong> Size, weight, portable vs. built-in, current condition. A lightweight inflatable is very different from a 1,200-pound acrylic tub.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Access evaluation.</strong> How do we get it out? Through the gate? Over the fence? Do we need to remove deck boards? This often determines whether we remove it whole or cut it up.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Utility status.</strong> Is the electrical already disconnected? Is it drained? If not, we'll need to address these before removal.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Equipment needs.</strong> Based on the situation, we determine what tools and how many crew members the job requires.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Step 2: Preparation */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Step 2: Preparation
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              On removal day, we start with prep work:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Electrical disconnect.</strong> If you haven't already had an electrician disconnect the 220V power, this needs to happen first. We won't work on an energized tub.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Draining.</strong> If there's still water in the tub, we drain it. This typically takes 20-30 minutes with a submersible pump. The water goes to an appropriate drainage area away from foundations.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Disconnect plumbing.</strong> Any water lines connected to the tub get capped or disconnected.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Clear the path.</strong> We move any obstacles between the tub and our truck—patio furniture, plants, anything in the way.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Step 3: Removal Method */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Step 3: The Actual Removal
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              How we get it out depends on your situation:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Whole removal:</strong> If access allows, we tip the tub on its side and roll/carry it out intact. This works when there's a wide gate or clear path. Fastest option</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Cut and carry:</strong> More common for Boise backyards with narrow access. We cut the tub into manageable sections using reciprocating saws, then carry the pieces out</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Crane lift:</strong> For second-story decks or situations with no ground-level access. This is rare and adds significant cost</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Fence panel removal:</strong> Sometimes the easiest solution is temporarily removing a fence section to create access</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              Most residential jobs in the Treasure Valley use the cut-and-carry method. It sounds more labor-intensive, but it's often faster and safer than trying to maneuver a full tub through tight spaces.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Step 4: Loading and Hauling */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Step 4: Loading and Hauling
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Once the tub is out:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Loading.</strong> Pieces or the whole tub go into our truck or trailer. We use proper tie-downs to secure everything for transport.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Transport.</strong> We haul the materials to appropriate facilities. In the Boise area, that's typically one of the transfer stations or recycling centers.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Proper disposal.</strong> Hot tubs contain recyclable materials—acrylic, fiberglass, metal, foam insulation. Good companies sort these rather than dumping everything in a landfill.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Step 5: Cleanup */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Step 5: Site Cleanup
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              We don't just leave a mess:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Debris removal.</strong> Any screws, insulation, plastic bits, or debris from cutting gets cleaned up and hauled away.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Sweeping.</strong> We sweep the area where the tub sat so you're left with a clean space.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>What's left.</strong> The concrete pad or deck typically stays—unless you've arranged for that to be removed too. You'll have a clean, empty space ready for whatever comes next.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Timeline */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              How Long Does It Take?
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The actual removal typically takes:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Simple jobs:</strong> 1-2 hours. Easy access, standard-size tub, minimal complications.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Average jobs:</strong> 2-3 hours. Some access challenges, cutting required, typical residential situation.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Complex jobs:</strong> 3-5 hours. Difficult access, large tub, deck removal involved, or other complications.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              This doesn't include scheduling lead time. Most Boise-area companies can schedule within a few days, sometimes same-day for straightforward jobs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Professional hot tub removal is a straightforward process: assess, prep, remove, haul, clean up. Most jobs take a few hours and leave you with a clean, empty space.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The biggest variable is access. If we can get to it easily, the job goes fast. If there are obstacles, we adapt—cutting the tub, removing fence sections, or finding creative solutions.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Either way, by the end of the day, that old tub is gone and you've got your yard back.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Ready to Get Rid of Your Hot Tub?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We handle hot tub removal throughout Boise, Meridian, Nampa, and the Treasure Valley. Quick scheduling, professional service.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Hot Tub Resources
           </h2>
           <div className="text-center">
             <Link

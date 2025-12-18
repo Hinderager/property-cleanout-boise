@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { DollarSign, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'How Much Does Tire Removal Cost? | Tire Removal Pros',
-  description: 'Tire disposal fees vary. Here\'s what influences the price and what to budget.',
+  description: 'Tire disposal fees vary by type and quantity. Here\'s what to budget for tire removal in the Boise area.',
   alternates: {
     canonical: 'https://boise-tire-removal.com/blogs/tire-removal-cost',
   },
 }
 
-export default function BlogPost() {
+export default function TireRemovalCost() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hero.webp"
-          alt="How Much Does Tire Removal Cost?"
+          src="/generated/tire-removal-pricing.webp"
+          alt="Tire Removal Cost"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,239 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for tire removal services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Tire Removal Cost</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to tire removal, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Tire removal in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality tire removal services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Tire removal Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need tire removal services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You've got tires to get rid of. Before you call around for quotes, it helps to know what's normal. Tire disposal pricing in the Boise area varies quite a bit depending on how many tires, what type, and how you're getting them removed.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's a realistic breakdown of what tire removal costs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Cost by Tire Type */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <DollarSign className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Cost by Tire Type
+              </h2>
             </div>
 
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Tire removal Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Tire Removal Pros is here to help with all your tire removal needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Not all tires cost the same to dispose of:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Passenger car tires:</strong> $3-8 per tire. These are the cheapest and most common. Standard sedan, SUV, and light truck tires fall in this category.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Light truck/SUV tires:</strong> $5-10 per tire. Larger and heavier than passenger tires, but still within standard processing equipment capabilities.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Commercial truck tires:</strong> $10-25 per tire. Semi tires and large commercial vehicle tires require more handling and cost more to dispose.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Farm/tractor tires:</strong> $15-50+ per tire depending on size. Large tractor tires are heavy and difficult to process.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Off-the-road (OTR) tires:</strong> $50-200+ per tire. Mining equipment, large loaders, and similar equipment have massive tires that require specialized handling.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Drop-Off vs Pickup */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Drop-Off vs. Pickup Service
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              How you get rid of tires affects the price:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Self drop-off at tire shop:</strong> Cheapest option. $2-5 per passenger tire when buying new tires, $3-8 for drop-off only</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Self drop-off at transfer station:</strong> Similar to tire shop prices plus any facility admission fees</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Professional pickup:</strong> Higher per-tire cost but includes labor, transportation, and convenience. Better value for larger quantities</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Minimum charges:</strong> Most pickup services have minimum fees since it's not worth driving across town for one tire</span>
+              </div>
             </div>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Professional Pickup Pricing */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Professional Pickup Pricing
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              What to expect when hiring a removal service:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Small residential jobs (1-10 tires):</strong> $75-150 typically, which includes a service call plus per-tire fees. The minimum charge covers travel and handling time.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Medium jobs (10-50 tires):</strong> Per-tire pricing drops as quantity increases. Expect $5-10 per tire for standard sizes at these volumes.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Large/commercial jobs (50+ tires):</strong> Bulk pricing kicks in. Per-tire costs can drop to $3-6 for large quantities of standard tires.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Mixed tire types:</strong> Jobs with a mix of passenger, truck, and specialty tires get quoted based on the specific inventory.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Affects the Price */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What Affects Your Price
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Beyond tire type and quantity, other factors matter:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Location.</strong> Jobs within Boise, Meridian, and Nampa city limits typically have standard pricing. Rural locations or farther communities may have travel fees.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Accessibility.</strong> Tires stacked neatly near your driveway cost less than tires scattered across a property or buried in brush.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Tire condition.</strong> Clean, dry tires are easier to handle than tires full of water, mud, or debris.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Rims attached.</strong> Tires still on rims cost more because the rims must be removed before recycling.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Regular vs. one-time service.</strong> Businesses needing ongoing tire pickup can often negotiate better per-tire rates than one-time customers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Hidden Costs to Watch For */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Hidden Costs to Watch For
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              When comparing quotes, make sure you understand what's included:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Disposal fees.</strong> Some quotes are "pickup only" with disposal fees additional. Make sure the quote includes proper disposal.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Minimum charges.</strong> A quote of "$5 per tire" might not mention the $75 minimum. Ask about minimums upfront.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Rim removal.</strong> If your tires are on rims, confirm whether rim removal is included or extra.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Loading labor.</strong> Does the price include loading the tires, or are you expected to have them stacked and ready?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              For a few passenger tires, dropping them off yourself at a tire shop or transfer station is cheapest—typically $3-8 per tire. For larger quantities, professional pickup makes more sense and the per-tire cost drops significantly.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              When getting quotes for pickup service, make sure you understand the total cost including disposal, minimums, and any extras. A complete quote prevents surprises.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Whatever you do, don't let cost drive you toward illegal dumping. The fines for getting caught far exceed any amount you'd save—and you will get caught eventually.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Get a Quick Quote
+            </h2>
+            <p className="text-gray-600 mb-8">
+              Tell us what you've got and we'll give you a straightforward price. No hidden fees, no surprises.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Tire Removal Resources
           </h2>
           <div className="text-center">
             <Link

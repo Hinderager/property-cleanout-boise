@@ -15,31 +15,31 @@ const blogPosts = [
     "slug": "hot-tub-removal-process",
     "title": "How Hot Tub Removal Actually Works",
     "excerpt": "Getting rid of a hot tub involves more than just hauling it away. Here's the full process.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/hot-tub-removal-process.webp"
   },
   {
     "slug": "hot-tub-removal-cost-boise",
     "title": "Hot Tub Removal Cost in Boise: What to Budget",
     "excerpt": "Prices vary based on access, size, and disposal. Here's a realistic cost breakdown.",
-    "image": "/generated/hot-tub-demolition.webp"
+    "image": "/generated/hot-tub-removal-cost.webp"
   },
   {
     "slug": "diy-hot-tub-removal",
     "title": "Can You Remove a Hot Tub Yourself? (Honest Answer)",
     "excerpt": "DIY is possible but comes with challenges. Here's what you'd need to do it right.",
-    "image": "/generated/spa-removal.webp"
+    "image": "/generated/diy-hot-tub-removal.webp"
   },
   {
     "slug": "preparing-hot-tub-for-removal",
     "title": "How to Prepare Your Hot Tub for Removal",
     "excerpt": "A few steps before removal day makes everything go smoother. Here's your checklist.",
-    "image": "/generated/above-ground-spa.webp"
+    "image": "/generated/preparing-hot-tub-removal.webp"
   },
   {
     "slug": "what-happens-to-old-hot-tubs",
     "title": "What Happens to Hot Tubs After Removal?",
     "excerpt": "Curious where your old spa ends up? Here's how hot tubs are typically recycled or disposed.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/hot-tub-recycling.webp"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function BlogsPage() {
           alt="Hot Tub Removal Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">

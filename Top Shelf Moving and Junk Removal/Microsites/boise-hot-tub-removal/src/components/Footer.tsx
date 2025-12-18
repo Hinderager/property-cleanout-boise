@@ -86,7 +86,7 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <a
-                    href="tel:2083611982"
+                    href="tel:2085059352"
                     className="text-white/80 hover:text-white transition-colors font-semibold"
                   >
                     <span className="md:hidden">Call Now</span>
@@ -153,7 +153,7 @@ export function Footer() {
 
             <div className="text-center md:text-right">
               <p className="text-white/60 text-sm">
-                &copy; {new Date().getFullYear()} Hot Tub Removal Pros. All rights reserved.
+                &copy; {new Date().getFullYear()} Boise Hot Tub Removal. All rights reserved.
               </p>
               <div className="flex gap-4 mt-2 justify-center md:justify-end">
                 <Link href="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">

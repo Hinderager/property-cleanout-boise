@@ -53,15 +53,8 @@
 
 # For blogs:
 
-    - Short paragraphs (1-3 sentences) and double space between paragraphs.
-
-    - Open with a relatable thought or problem
-
-    - Write like someone who’s actually done this before
-
-    - Include practical examples or quick explanations
-
-    - End with a simple takeaway or next step
+- read bloginstructions.md carefully and thoroughly and follow the writing suggestions to avoid detection. 
+- for blogs bloginstructions.md overrules all other instructions on this page. 
 
 # For website pages:
 

@@ -2,29 +2,39 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Trash2, Home, Sparkles, AlertTriangle } from 'lucide-react'
+import { Heart, Home, Sparkles, AlertTriangle, Package, Users } from 'lucide-react'
 import { useQuoteForm } from '@/context/QuoteFormContext'
 
 const services = [
   {
-    icon: Trash2,
+    icon: Heart,
     title: 'Hoarding Cleanup',
-    description: 'Complete hoarding cleanup with compassion and respect. We work at your pace and never judge.',
-  },
-  {
-    icon: Home,
-    title: 'Estate Cleanouts',
-    description: 'Full property cleanout services for estates, foreclosures, and inherited properties.',
+    description: 'We work with you at your pace, treating every item with care. No judgment, just support and understanding throughout the entire process.',
   },
   {
     icon: Sparkles,
-    title: 'Deep Cleaning',
-    description: 'After the clutter is gone, we deep clean and sanitize the entire space so it\'s livable again.',
+    title: 'Extreme Cleaning',
+    description: 'After clutter removal, we deep clean and sanitize the space so it feels livable again. We handle even the toughest situations.',
+  },
+  {
+    icon: Package,
+    title: 'Clutter Removal',
+    description: 'We sort, organize, and remove items you no longer need. Donations go to local charities, and we recycle whatever we can.',
+  },
+  {
+    icon: Home,
+    title: 'Compassionate Cleanout',
+    description: "Whether it's for yourself or a loved one, we approach every situation with empathy and respect. Your privacy matters to us.",
   },
   {
     icon: AlertTriangle,
-    title: 'Emergency Services',
-    description: 'Facing an eviction, code violation, or emergency? We offer expedited services when you need them fast.',
+    title: 'Biohazard Cleaning',
+    description: 'Trained to handle situations involving biohazards, animal waste, or unsanitary conditions. We follow proper safety protocols.',
+  },
+  {
+    icon: Users,
+    title: 'Organization Help',
+    description: "We'll help you create systems to maintain your space after the cleanup. Our goal is to set you up for long-term success.",
   },
 ]
 
@@ -60,11 +70,11 @@ export function ServicesGrid() {
             Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Professional hoarding cleanup and property restoration services for the Treasure Valley
+            Compassionate hoarding cleanup and support services for the Treasure Valley
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
             const Icon = service.icon
             return (
@@ -96,9 +106,9 @@ export function ServicesGrid() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

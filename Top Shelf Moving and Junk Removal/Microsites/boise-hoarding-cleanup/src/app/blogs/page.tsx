@@ -15,31 +15,31 @@ const blogPosts = [
     "slug": "understanding-hoarding-disorder",
     "title": "Understanding Hoarding Disorder: What Family Members Should Know",
     "excerpt": "Hoarding isn't about being messy. Here's what you need to understand before starting a cleanup.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/understanding-hoarding.webp"
   },
   {
     "slug": "hoarding-cleanup-process",
     "title": "What to Expect During a Hoarding Cleanup",
     "excerpt": "Professional hoarding cleanup follows a specific process. Here's how it typically works.",
-    "image": "/generated/extreme-hoarding.webp"
+    "image": "/generated/hoarding-cleanup-process.webp"
   },
   {
     "slug": "helping-hoarder-family-member",
     "title": "How to Help a Family Member Who Hoards",
     "excerpt": "You want to help, but pushing too hard backfires. Here's a compassionate approach.",
-    "image": "/generated/compassionate-cleanup.webp"
+    "image": "/generated/helping-hoarder-family.webp"
   },
   {
     "slug": "hoarding-cleanup-cost-factors",
     "title": "Hoarding Cleanup Costs: What Affects the Price?",
     "excerpt": "Every hoarding situation is different. Here's what determines the cost of professional cleanup.",
-    "image": "/generated/ongoing-maintenance.webp"
+    "image": "/generated/hoarding-cleanup-costs.webp"
   },
   {
     "slug": "after-hoarding-cleanup",
     "title": "After the Cleanup: Preventing Hoarding Relapse",
     "excerpt": "Cleanup is just the first step. Here's how to support long-term recovery.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/after-hoarding-cleanup.webp"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function BlogsPage() {
           alt="Hoarding Cleanup Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">
@@ -112,10 +112,10 @@ export default function BlogsPage() {
             Contact us today for a free estimate on your hoarding cleanup project.
           </p>
           <a
-            href="tel:2083611982"
+            href="tel:2085059352"
             className="inline-block bg-brand-yellow hover:bg-yellow-400 text-black font-bold text-lg px-8 py-4 rounded-lg transition-colors"
           >
-            Call (208) 361-1982
+            Call (208) 505-9352
           </a>
         </div>
       </section>

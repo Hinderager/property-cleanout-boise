@@ -8,52 +8,52 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 // Static reviews for mobile home demolition
 const staticReviews = [
   {
-    author: 'Mike T.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'Had an old single wide that needed to go. These guys came out, gave me a fair quote, and had it demolished and hauled away in two days. The site was completely clean when they left. Very impressed with the whole operation.',
-  },
-  {
-    author: 'Sandra L.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'We inherited property with a dilapidated double wide on it. They handled everything—permits, demolition, foundation removal, all of it. The lot looks great now and we can finally move forward with building. Worth every penny.',
-  },
-  {
-    author: 'Kevin R.',
-    relative_time: '3 weeks ago',
-    rating: 5,
-    text: 'The permit process in Ada County was confusing until I called these folks. They walked me through everything, handled the paperwork, and got the demo done on schedule. Super professional crew.',
-  },
-  {
-    author: 'Patricia M.',
+    author: 'Dennis F.',
     relative_time: '2 weeks ago',
     rating: 5,
-    text: 'Our mobile home park required us to remove an abandoned unit. They worked around our schedule, kept the noise down, and cleaned up better than I expected. The neighbors were impressed too.',
+    text: 'We bought a property in Eagle with an old 1978 single wide that was falling apart. Called them on Tuesday, had a quote Wednesday, and the demo was done by Friday. They removed the foundation blocks too. Clean job, fair price.',
   },
   {
-    author: 'James H.',
+    author: 'Maria G.',
+    relative_time: '3 weeks ago',
+    rating: 5,
+    text: 'Inherited my dad\'s place in Meridian with a double wide that was too far gone to fix. These folks handled the whole thing—permits, utility disconnect, demo, and cleanup. Made a stressful situation much easier.',
+  },
+  {
+    author: 'Tom S.',
     relative_time: '1 month ago',
     rating: 5,
-    text: 'Fair price, fast work, clean site afterward. That\'s all I wanted and that\'s exactly what I got. They even recycled all the metal which I appreciated. Would definitely use them again.',
+    text: 'Had a manufactured home on our farm that got damaged in a storm. They came out, gave us a straight quote with no surprises, and knocked it out in two days. Hauled everything away and left the site level.',
   },
   {
-    author: 'Linda K.',
-    relative_time: '3 months ago',
-    rating: 5,
-    text: 'Had a 1970s mobile home that was beyond saving. They separated it carefully, hauled everything away, and removed the old concrete piers. Now I have a nice clear lot for my new manufactured home.',
-  },
-  {
-    author: 'Robert D.',
+    author: 'Cheryl W.',
     relative_time: '2 months ago',
     rating: 5,
-    text: 'These guys know what they\'re doing. The demo went smoothly, they coordinated with the utility companies, and the foundation removal was thorough. No issues with the county inspection afterward.',
+    text: 'Mobile home park in Nampa required removal of an abandoned unit. They worked carefully around the neighboring homes, kept things clean, and finished ahead of schedule. Park manager was impressed.',
   },
   {
-    author: 'Carol S.',
+    author: 'Rick M.',
+    relative_time: '3 weeks ago',
+    rating: 5,
+    text: 'Needed foundation removal after the mobile home demo. They pulled all the piers and tie-downs, graded the lot smooth, and recycled the metal. Professional crew that showed up on time every day.',
+  },
+  {
+    author: 'Janet L.',
+    relative_time: '1 month ago',
+    rating: 5,
+    text: 'Canyon County permits were confusing but they walked me through it. Demo of our old trailer went smooth. They disconnected utilities properly and cleaned up everything. Would recommend.',
+  },
+  {
+    author: 'Steve P.',
+    relative_time: '2 weeks ago',
+    rating: 5,
+    text: 'Fair pricing, straight answers, and they did what they said they\'d do. The double wide demo took three days including foundation. Site looks better than it has in 20 years.',
+  },
+  {
+    author: 'Barbara H.',
     relative_time: '1 week ago',
     rating: 5,
-    text: 'Needed an old trailer removed from my farm property in Nampa. They came out same week, gave a reasonable quote, and had it gone in a day. Very professional and easy to work with.',
+    text: 'Quick response when I called. They came out to Caldwell, looked at the old mobile home, and gave me a quote on the spot. Finished the job faster than expected and charged exactly what they quoted.',
   },
 ]
 
@@ -225,9 +225,9 @@ export function GoogleReviews() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

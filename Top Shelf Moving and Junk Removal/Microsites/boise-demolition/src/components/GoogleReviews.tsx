@@ -8,52 +8,52 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 // Static reviews for demolition services
 const staticReviews = [
   {
-    author: 'Mike R.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'Had an old shed that was falling apart. These guys came out, tore it down, and hauled everything away in one day. The site was left clean and ready for our new garage. Couldn\'t be happier with the service.',
-  },
-  {
-    author: 'Jennifer K.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'We needed our kitchen completely gutted for a renovation. They protected everything that needed to stay, removed all the old cabinets, flooring, and drywall, then cleaned up perfectly. Our contractor was impressed.',
-  },
-  {
-    author: 'David S.',
-    relative_time: '3 weeks ago',
-    rating: 5,
-    text: 'Hired them to demolish an old detached garage. They handled the permit, coordinated with utilities, and had the whole thing down and hauled away in two days. Very professional operation.',
-  },
-  {
-    author: 'Sarah T.',
+    author: 'Marcus T.',
     relative_time: '2 weeks ago',
     rating: 5,
-    text: 'Interior demo for our bathroom remodel. They were careful not to damage anything in the hallway or adjacent rooms. Fair price and they finished faster than expected. Will definitely use again.',
+    text: 'Needed my garage torn down to make room for an addition. They showed up on time, had it demolished in a day, and hauled everything off. Site was cleaner than when they started. Really solid work.',
   },
   {
-    author: 'Robert M.',
+    author: 'Jennifer M.',
     relative_time: '1 month ago',
     rating: 5,
-    text: 'Needed a small house demolished to make room for new construction. From start to finish, they were professional and communicative. Debris removal was thorough—the lot was left clean and graded.',
+    text: 'Kitchen demo for our remodel. They gutted everything—cabinets, counters, flooring—and were super careful not to damage the walls we wanted to keep. My contractor said it was a perfect tearout.',
   },
   {
-    author: 'Lisa C.',
-    relative_time: '3 months ago',
+    author: 'Ryan K.',
+    relative_time: '3 weeks ago',
     rating: 5,
-    text: 'Old barn on our property was unsafe and had to go. They worked safely around our other structures and even salvaged some of the old wood for us. Great crew and great results.',
+    text: 'Had an old concrete patio that was cracked and uneven. They broke it up, loaded it all, and left the area graded and ready for new pavers. Quick job, fair price, no complaints.',
   },
   {
-    author: 'James W.',
+    author: 'Sarah L.',
     relative_time: '2 months ago',
     rating: 5,
-    text: 'Commercial buildout required interior demolition before our tenant could move in. They worked around our schedule, kept the mess contained, and finished on time. Highly recommend for commercial work.',
+    text: 'Called them for a shed demolition. It was rotting and leaning, but they handled it safely and cleaned up every scrap. Even raked the area when they were done. Really appreciated the attention to detail.',
   },
   {
-    author: 'Amanda B.',
+    author: 'David B.',
     relative_time: '1 week ago',
     rating: 5,
-    text: 'Pool demolition that other companies said was too difficult. These guys tackled it, removed all the concrete, and filled it properly. No issues and the price was fair. Very satisfied.',
+    text: 'Interior demo on a duplex we're renovating. They removed everything down to the studs, hauled all the debris, and stayed on schedule. Good crew, good price, good results.',
+  },
+  {
+    author: 'Amanda W.',
+    relative_time: '3 months ago',
+    rating: 5,
+    text: 'Needed a partial demo—just one wall and some flooring. They came in, removed exactly what we asked for, protected everything else, and cleaned up perfectly. Would hire again.',
+  },
+  {
+    author: 'Chris P.',
+    relative_time: '2 weeks ago',
+    rating: 5,
+    text: 'Old deck was unsafe and needed to go. They tore it down, pulled the posts, filled the holes, and hauled it all away. Fast and professional. Exactly what I needed.',
+  },
+  {
+    author: 'Nicole R.',
+    relative_time: '1 month ago',
+    rating: 5,
+    text: 'Bathroom tearout before our remodel. They gutted it in half a day and left the space ready for the plumber. Clean work, no damage to surrounding areas. Very happy with how it went.',
   },
 ]
 
@@ -225,9 +225,9 @@ export function GoogleReviews() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

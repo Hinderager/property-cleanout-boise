@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { MapPin, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Tire Disposal Options in Boise: What Are Your Choices? | Tire Removal Pros',
-  description: 'Old tires can\'t just go in the trash. Here are your legal options for tire disposal.',
+  description: 'Old tires can\'t go in the trash. Here are your legal options for tire disposal in the Boise area.',
   alternates: {
     canonical: 'https://boise-tire-removal.com/blogs/tire-disposal-options-boise',
   },
 }
 
-export default function BlogPost() {
+export default function TireDisposalOptionsBoise() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hero.webp"
-          alt="Tire Disposal Options in Boise: What Are Your Choices?"
+          src="/generated/tire-disposal-options.webp"
+          alt="Tire Disposal Options in Boise"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,271 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Tire Disposal Options in Boise: What Are Your Choices?
+            Tire Disposal Options in Boise
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for tire removal services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Tire Disposal Options Boise</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to tire removal, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Tire removal in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality tire removal services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Tire removal Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need tire removal services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Tire removal Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Tire Removal Pros is here to help with all your tire removal needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You've got old tires in your garage, yard, or driveway. Maybe they came off your vehicle, accumulated from an old project, or were left behind by previous owners. Now you need to get rid of them.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              The problem: tires can't go in regular trash. Idaho law prohibits putting tires in landfills. So what are your options in the Boise area? Here's a complete rundown.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Option 1: Tire Retailers */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <MapPin className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Option 1: Tire Retailers
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The most common option for a few tires:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>When buying new tires.</strong> Shops charge $2-5 per tire for disposal as part of your purchase. They're required to take your old tires.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Dropping off old tires.</strong> Many shops accept tires even without a purchase, though fees may be slightly higher ($3-8 per tire typically).
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Where to go.</strong> Les Schwab, Discount Tire, Big O Tires, Costco Tire Center, and local shops throughout Boise, Meridian, and Nampa all accept tires.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Best for:</strong> 1-4 passenger tires. Quick and convenient if you're already getting tires serviced.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Option 2: Transfer Stations */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Option 2: County Transfer Stations
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Local waste facilities accept tires:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Ada County.</strong> Hidden Hollow Landfill and transfer stations accept tires. Fees are per tire—passenger tires around $3-5, truck tires $5-10, large equipment tires higher.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Canyon County.</strong> Pickles Butte Landfill and local transfer stations have similar programs with comparable fees.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Limits apply.</strong> Most facilities limit residential drop-offs to 4-8 tires per visit. Larger quantities may require special arrangements or commercial accounts.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Best for:</strong> Moderate quantities (up to 8 tires), especially if you're already making a dump run with other items.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Option 3: Collection Events */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Option 3: Community Collection Events
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Periodic free or reduced-cost events:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Earth Day events:</strong> Many communities hold free tire collection in April as part of Earth Day activities</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Community cleanup days:</strong> Watch for announcements from your city or county about periodic cleanup events</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>DEQ programs:</strong> Idaho DEQ occasionally sponsors tire collection events, especially in rural areas</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              <strong>Best for:</strong> Saving money if you can wait for an event. Check city websites and local news for announcements.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Option 4: Professional Removal */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Option 4: Professional Tire Removal Services
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Hire someone to come get them:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Pickup from your location.</strong> We come to your home or business and load the tires. No hauling required on your part.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Any quantity.</strong> From a few tires in your garage to hundreds on a farm—professional services can handle any volume.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>All tire types.</strong> Passenger, truck, farm equipment, OTR—we take everything. Transfer stations and retailers sometimes won't accept large or unusual tires.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Best for:</strong> Larger quantities, heavy/bulky tires, or situations where you don't have transportation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Option 5: Repurposing */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Option 5: Repurpose or Sell
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Sometimes tires still have value:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Usable tread remaining.</strong> Tires with decent tread can sometimes be sold on Facebook Marketplace or Craigslist, especially if they're uncommon sizes.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Garden and landscaping.</strong> Some people want tires for planters, retaining walls, or playground equipment. List them free on local marketplaces.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Animal use.</strong> Farms sometimes want tires for silage covers or feedlot barriers. Rural listings may find takers.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Reality check:</strong> Most old tires aren't wanted by anyone. If you can't give them away within a week or two, move on to paid disposal options.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Cost Comparison */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Cost Comparison
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Typical costs for passenger tires in the Boise area:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Tire retailers (with purchase):</strong> $2-5 per tire
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Tire retailers (drop-off only):</strong> $3-8 per tire
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Transfer stations:</strong> $3-5 per tire (passenger), plus dump admission fee
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Collection events:</strong> Free (when available)
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Professional pickup:</strong> Varies by quantity and tire type—call for quote
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              You have options for getting rid of old tires legally in Boise. For a few tires, drop-off at a tire shop or transfer station is cheapest. For larger quantities or heavy tires, professional pickup is often the most practical choice.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Whatever you do, don't dump tires illegally. The fines far exceed proper disposal costs, and you're creating environmental problems for the community.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Pick the option that fits your situation and budget. All of them beat having tires pile up in your yard.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Need Tire Pickup?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We pick up tires throughout Boise, Meridian, Nampa, and the Treasure Valley. Any quantity, any type.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Tire Removal Resources
           </h2>
           <div className="text-center">
             <Link

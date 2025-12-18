@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { DollarSign, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'What Affects Property Cleanout Costs? | Property Cleanout Pros',
-  description: 'Every property is different. Here\'s what determines the price of a cleanout.',
+  description: 'Property cleanout pricing depends on several factors. Here\'s what determines the cost in the Boise area.',
   alternates: {
     canonical: 'https://property-cleanout-boise.com/blogs/property-cleanout-cost-factors',
   },
 }
 
-export default function BlogPost() {
+export default function PropertyCleanoutCostFactors() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/rental-turnover.webp"
-          alt="What Affects Property Cleanout Costs?"
+          src="/generated/cleanout-cost-factors.webp"
+          alt="Property Cleanout Cost Factors"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,301 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for property cleanout services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Property Cleanout Cost Factors</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to property cleanout, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Property cleanout in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality property cleanout services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Property cleanout Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need property cleanout services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Property cleanout Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Property Cleanout Pros is here to help with all your property cleanout needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You need a property cleaned out. The first question is usually: how much will this cost? The honest answer is that it depends—on several factors that vary significantly from one property to the next.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's what actually drives property cleanout pricing in the Boise area, so you can get realistic estimates and avoid surprises.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Volume of Contents */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <DollarSign className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Volume of Contents
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The biggest factor in cleanout cost is simply how much stuff needs to go:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Light cleanouts.</strong> A few pieces of furniture, some boxes, a handful of trash bags. These are quick jobs—often done in a few hours.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Full-house cleanouts.</strong> Every room furnished, closets full, garage packed. These take most of a day and require multiple truck loads.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Hoarding situations.</strong> Floor-to-ceiling accumulation, multiple passes needed, potentially multiple days of work. These are the most expensive cleanouts.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Most quotes are based on estimated truckloads. A standard cleanout truck holds roughly 400-500 cubic feet. More volume = more loads = higher cost.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Types of Items */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Types of Items
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              What you're removing affects labor and disposal costs:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Standard household items:</strong> Furniture, clothing, boxes—straightforward to handle and dispose of</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Heavy items:</strong> Pianos, safes, large appliances, exercise equipment—require more labor and sometimes special equipment</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Hazardous materials:</strong> Paint, chemicals, propane tanks, certain electronics—require special disposal and add cost</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Construction debris:</strong> If the property has leftover building materials, flooring, drywall—disposal fees are higher</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              Mixed loads with diverse item types take longer to sort and process than homogeneous loads.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Property Size and Layout */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Property Size and Layout
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The property itself affects cleanout difficulty:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Square footage.</strong> More rooms generally means more contents and more time walking items out.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Stairs and levels.</strong> Multi-story homes take longer than single-story. Carrying furniture down stairs is slower and more labor-intensive.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Access to rooms.</strong> Narrow hallways, tight corners, and small doorways slow down the removal of large items.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Outbuildings.</strong> Sheds, detached garages, workshops—additional structures mean additional time.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Yard and exterior.</strong> If outdoor areas are included in the cleanout, that adds scope and time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Access and Location */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Access and Location
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Getting items from the property to the truck matters:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Parking distance.</strong> If the truck can park close to the door, work goes fast. If it's parked far away—long driveway, no close street access—every trip takes longer.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Elevator access.</strong> In multi-story buildings, elevator availability and size affect how quickly large items can be moved.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Geographic location.</strong> Properties in central Boise are typically cheaper to service than those in rural Canyon County or the outskirts of the valley—travel time and disposal site distance matter.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Parking restrictions.</strong> If street parking is limited or requires permits, logistics get more complicated.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Labor Requirements */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Labor Requirements
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Crew size and time directly impact cost:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Crew size needed.</strong> A small apartment cleanout might need two people. A large house with heavy furniture might need four. More crew = higher labor cost.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Specialized labor.</strong> Moving a piano, handling hazardous materials, or dealing with biohazard situations requires workers with specific skills and certifications.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Sorting requirements.</strong> If items need to be sorted (separate donations, document certain items, hold specific possessions), that takes more time than simply removing everything.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Timeline pressure.</strong> Rush jobs or after-hours work may cost more than jobs with flexible scheduling.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Disposal Costs */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Disposal and Processing Costs
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              What happens after items leave the property:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Landfill fees.</strong> Disposal facilities charge by weight or volume. These fees are part of your cleanout cost.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Recycling and donation.</strong> Some items can be recycled or donated, reducing disposal fees—but sorting takes labor time.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Special disposal.</strong> Electronics, appliances with refrigerants, and hazardous materials have separate disposal requirements and often additional fees.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Number of dump trips.</strong> Large cleanouts may require multiple trips to disposal facilities, adding time and vehicle costs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Typical Price Ranges */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Typical Price Ranges in Boise
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              General pricing for property cleanouts in the Treasure Valley:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Small apartment or light cleanout:</strong> $300-$800. Minimal contents, quick turnaround.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Average home cleanout:</strong> $1,000-$3,000. Typical rental turnover or estate situation with moderate contents.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Large home or full cleanout:</strong> $3,000-$5,000. Multiple rooms fully furnished, garage and storage areas included.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Hoarding or extreme situations:</strong> $5,000-$15,000+. Multi-day projects requiring extensive labor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Property cleanout costs vary widely because properties vary widely. The best way to get accurate pricing is an on-site estimate where we can see exactly what's involved.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Be wary of quotes given over the phone without seeing the property—they're often wrong, and not always in your favor.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              We provide free on-site estimates with firm pricing. Once we quote a job, that's the price you pay unless the scope changes significantly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Get an Accurate Quote
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We'll look at your specific property and give you a firm price. No surprises, no hidden fees.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Property Cleanout Resources
           </h2>
           <div className="text-center">
             <Link

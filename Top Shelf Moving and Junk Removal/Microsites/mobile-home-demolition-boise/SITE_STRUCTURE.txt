@@ -1,0 +1,172 @@
+MOBILE HOME DEMOLITION BOISE - COMPLETE SITE STRUCTURE
+======================================================
+
+ROOT PAGES (4):
+├── / (homepage)
+├── /privacy
+├── /terms  
+└── /contact
+
+ABOUT-US SECTION (5 pages):
+├── /about-us
+├── /about-us/careers
+├── /about-us/licenses-insurance
+├── /about-us/testimonials
+└── /about-us/why-choose-us
+
+RESOURCES SECTION (4 pages):
+├── /resources/faq
+├── /resources/pricing
+├── /resources/permits
+└── /resources/process
+
+BLOGS SECTION (6 pages):
+├── /blogs (index)
+├── /blogs/mobile-home-demolition-cost
+├── /blogs/mobile-home-demolition-permits
+├── /blogs/mobile-home-removal-vs-demolition
+├── /blogs/preparing-mobile-home-for-demolition
+└── /blogs/what-happens-to-demolished-mobile-homes
+
+SERVICES SECTION (12 pages):
+├── /services/mobile-home-demolition
+│   ├── /services/mobile-home-demolition/single-wide
+│   ├── /services/mobile-home-demolition/double-wide
+│   └── /services/mobile-home-demolition/triple-wide
+├── /services/manufactured-home
+│   ├── /services/manufactured-home/hud-homes
+│   └── /services/manufactured-home/modular-homes
+├── /services/site-services
+│   ├── /services/site-services/foundation-removal
+│   ├── /services/site-services/utility-disconnect
+│   └── /services/site-services/site-grading
+└── /services/additional
+    ├── /services/additional/trailer-removal
+    ├── /services/additional/rv-removal
+    └── /services/additional/shed-demolition
+
+CITIES-SERVED SECTION (90 pages - 10 cities × 9 pages each):
+
+BOISE (9 pages):
+├── /cities-served/boise
+├── /cities-served/boise/mobile-home-demolition
+├── /cities-served/boise/single-wide-removal
+├── /cities-served/boise/double-wide-demolition
+├── /cities-served/boise/manufactured-home-removal
+├── /cities-served/boise/foundation-removal
+├── /cities-served/boise/site-clearing
+├── /cities-served/boise/trailer-removal
+└── /cities-served/boise/rv-removal
+
+MERIDIAN (9 pages):
+├── /cities-served/meridian
+├── /cities-served/meridian/mobile-home-demolition
+├── /cities-served/meridian/single-wide-removal
+├── /cities-served/meridian/double-wide-demolition
+├── /cities-served/meridian/manufactured-home-removal
+├── /cities-served/meridian/foundation-removal
+├── /cities-served/meridian/site-clearing
+├── /cities-served/meridian/trailer-removal
+└── /cities-served/meridian/rv-removal
+
+NAMPA (9 pages):
+├── /cities-served/nampa
+├── /cities-served/nampa/mobile-home-demolition
+├── /cities-served/nampa/single-wide-removal
+├── /cities-served/nampa/double-wide-demolition
+├── /cities-served/nampa/manufactured-home-removal
+├── /cities-served/nampa/foundation-removal
+├── /cities-served/nampa/site-clearing
+├── /cities-served/nampa/trailer-removal
+└── /cities-served/nampa/rv-removal
+
+CALDWELL (9 pages):
+├── /cities-served/caldwell
+├── /cities-served/caldwell/mobile-home-demolition
+├── /cities-served/caldwell/single-wide-removal
+├── /cities-served/caldwell/double-wide-demolition
+├── /cities-served/caldwell/manufactured-home-removal
+├── /cities-served/caldwell/foundation-removal
+├── /cities-served/caldwell/site-clearing
+├── /cities-served/caldwell/trailer-removal
+└── /cities-served/caldwell/rv-removal
+
+EAGLE (9 pages):
+├── /cities-served/eagle
+├── /cities-served/eagle/mobile-home-demolition
+├── /cities-served/eagle/single-wide-removal
+├── /cities-served/eagle/double-wide-demolition
+├── /cities-served/eagle/manufactured-home-removal
+├── /cities-served/eagle/foundation-removal
+├── /cities-served/eagle/site-clearing
+├── /cities-served/eagle/trailer-removal
+└── /cities-served/eagle/rv-removal
+
+GARDEN CITY (9 pages):
+├── /cities-served/garden-city
+├── /cities-served/garden-city/mobile-home-demolition
+├── /cities-served/garden-city/single-wide-removal
+├── /cities-served/garden-city/double-wide-demolition
+├── /cities-served/garden-city/manufactured-home-removal
+├── /cities-served/garden-city/foundation-removal
+├── /cities-served/garden-city/site-clearing
+├── /cities-served/garden-city/trailer-removal
+└── /cities-served/garden-city/rv-removal
+
+KUNA (9 pages):
+├── /cities-served/kuna
+├── /cities-served/kuna/mobile-home-demolition
+├── /cities-served/kuna/single-wide-removal
+├── /cities-served/kuna/double-wide-demolition
+├── /cities-served/kuna/manufactured-home-removal
+├── /cities-served/kuna/foundation-removal
+├── /cities-served/kuna/site-clearing
+├── /cities-served/kuna/trailer-removal
+└── /cities-served/kuna/rv-removal
+
+STAR (9 pages):
+├── /cities-served/star
+├── /cities-served/star/mobile-home-demolition
+├── /cities-served/star/single-wide-removal
+├── /cities-served/star/double-wide-demolition
+├── /cities-served/star/manufactured-home-removal
+├── /cities-served/star/foundation-removal
+├── /cities-served/star/site-clearing
+├── /cities-served/star/trailer-removal
+└── /cities-served/star/rv-removal
+
+MIDDLETON (9 pages):
+├── /cities-served/middleton
+├── /cities-served/middleton/mobile-home-demolition
+├── /cities-served/middleton/single-wide-removal
+├── /cities-served/middleton/double-wide-demolition
+├── /cities-served/middleton/manufactured-home-removal
+├── /cities-served/middleton/foundation-removal
+├── /cities-served/middleton/site-clearing
+├── /cities-served/middleton/trailer-removal
+└── /cities-served/middleton/rv-removal
+
+MOUNTAIN HOME (9 pages):
+├── /cities-served/mountain-home
+├── /cities-served/mountain-home/mobile-home-demolition
+├── /cities-served/mountain-home/single-wide-removal
+├── /cities-served/mountain-home/double-wide-demolition
+├── /cities-served/mountain-home/manufactured-home-removal
+├── /cities-served/mountain-home/foundation-removal
+├── /cities-served/mountain-home/site-clearing
+├── /cities-served/mountain-home/trailer-removal
+└── /cities-served/mountain-home/rv-removal
+
+TOTAL PAGE COUNT: 121 pages
+- Root pages: 4
+- About section: 5  
+- Resources section: 4
+- Blogs section: 6
+- Services section: 12
+- Cities section: 90
+
+COMPONENTS: 19 files
+All components match hvac-boise template structure
+
+CONTEXT: 1 file
+QuoteFormContext.tsx for form state management

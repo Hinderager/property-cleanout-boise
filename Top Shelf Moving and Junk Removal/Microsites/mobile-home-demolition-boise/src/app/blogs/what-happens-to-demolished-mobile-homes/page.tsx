@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Recycle, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'What Happens to Materials from Demolished Mobile Homes? | Mobile Home Demolition Pros',
-  description: 'Mobile homes contain recyclable materials. Here\'s how debris is sorted and processed.',
+  description: 'Mobile homes contain recyclable materials. Here\'s how debris is sorted and where it goes after demolition.',
   alternates: {
     canonical: 'https://mobile-home-demolition-boise.com/blogs/what-happens-to-demolished-mobile-homes',
   },
 }
 
-export default function BlogPost() {
+export default function WhatHappenstoDemolishedMobileHomes() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/manufactured-home.webp"
-          alt="What Happens to Materials from Demolished Mobile Homes?"
+          src="/generated/mobile-home-recycling.webp"
+          alt="What Happens to Demolished Mobile Homes"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,301 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for mobile home demolition services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding What Happens To Demolished Mobile Homes</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to mobile home demolition, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Mobile home demolition in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality mobile home demolition services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Mobile home demolition Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need mobile home demolition services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Mobile home demolition Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Mobile Home Demolition Pros is here to help with all your mobile home demolition needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              A mobile home gets demolished. Walls come down, roof gets torn apart, everything gets loaded into trucks and hauled away. But then what? Does it all just end up in a landfill?
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Actually, a significant portion of mobile home materials can be recycled or repurposed. Here's what happens to the debris after your mobile home is demolished.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* What Mobile Homes Are Made Of */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <Recycle className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                What Mobile Homes Are Made Of
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Understanding the materials helps explain recycling potential:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Steel frame and chassis.</strong> The structural backbone of every mobile home. This is the most valuable recyclable material—steel framing, axles, hitches, and the I-beam chassis.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Wood framing and subflooring.</strong> Interior walls, roof trusses, and floor structure are typically wood. Condition determines recyclability.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Metal roofing and siding.</strong> Aluminum and steel exterior panels. These are easily recycled.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Copper wiring and plumbing.</strong> Valuable scrap metal found throughout the home.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Appliances, fixtures, windows.</strong> These contain mixed materials with varying recycling potential.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Gets Recycled */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              What Gets Recycled
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Materials commonly recycled from mobile home demolitions:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Steel and iron:</strong> The frame, chassis, axles, and metal framing go to scrap metal recyclers. This is the biggest recyclable component by weight</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Aluminum:</strong> Siding, window frames, and some roofing materials. Aluminum has good scrap value</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Copper:</strong> Wiring and plumbing. High scrap value makes this worth separating</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Appliances:</strong> Refrigerators, stoves, water heaters go to appliance recyclers who process the metals and safely handle refrigerants</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              Responsible demolition contractors separate these materials during the demolition process rather than sending everything to the landfill.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Typically Goes to Landfill */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What Typically Goes to Landfill
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Some materials aren't practically recyclable:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Insulation.</strong> Fiberglass batts and blown-in insulation typically go to the landfill. They're bulky and don't have recycling value.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Interior paneling and drywall.</strong> The composite materials and finishes in mobile home walls usually aren't recyclable.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Vinyl flooring and carpet.</strong> These end up as landfill material in most cases.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Damaged or contaminated wood.</strong> Water-damaged, rotted, or treated wood usually can't be recycled.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Mixed debris.</strong> When materials are too intermingled to separate economically, they go to the landfill as construction debris.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Hazardous Materials */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Hazardous Materials Get Special Handling
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Some mobile home materials require special disposal:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Asbestos.</strong> Found in some older mobile homes in flooring, insulation, and siding. Must be removed by licensed abatement contractors and disposed of at approved facilities.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Lead paint.</strong> Pre-1978 homes may have lead-based paint. Requires careful handling to prevent contamination.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Refrigerants.</strong> Air conditioners and refrigerators contain refrigerants that must be recovered, not released. Appliance recyclers handle this.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Mercury switches and thermostats.</strong> Older thermostats and some electrical switches contain mercury. These get separated for proper disposal.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Sorting Process */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              How Materials Get Sorted
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Demolition contractors use different approaches to material separation:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>On-site sorting.</strong> Metals are separated during demolition and loaded onto separate trailers. This is most efficient for high-value materials like copper and aluminum.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Transfer station sorting.</strong> Some contractors haul mixed loads to facilities where materials are sorted. This works for lower-volume recycling.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Salvage before demolition.</strong> Valuable items like working appliances, fixtures, or architectural elements may be removed intact before demolition begins.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Scrap yard processing.</strong> Steel and aluminum loads go to scrap yards where they're further processed for industrial recycling.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Where Materials End Up */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Where Treasure Valley Materials Go
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Local destinations for mobile home demolition materials:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Scrap metal recyclers.</strong> Several facilities in the Boise area accept steel, aluminum, copper, and other metals from demolition projects.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Appliance recyclers.</strong> Specialized facilities handle refrigerators, stoves, and other appliances, recovering metals and properly disposing of hazardous components.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Ada County Landfill.</strong> Non-recyclable construction debris goes to Hidden Hollow Landfill or appropriate transfer stations.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Hazardous waste facilities.</strong> Asbestos and other hazardous materials go to specially permitted disposal facilities.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Environmental Impact */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Environmental Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              How much actually gets recycled?
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              A typical mobile home demolition recovers roughly 50-70% of materials by weight for recycling when done by a conscientious contractor. The steel frame alone represents a significant portion.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Metal recycling has real environmental benefits—recycled steel requires 60% less energy than producing new steel from ore. Aluminum recycling saves even more energy.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Choosing a demolition contractor who separates and recycles materials is better for the environment than one who dumps everything at the landfill. It can also affect your price, since scrap metal has value.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Mobile home demolition doesn't have to mean everything goes to the landfill. Steel, aluminum, copper, and appliances are commonly recycled. Hazardous materials get proper handling. What remains goes to appropriate disposal facilities.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              When getting demolition quotes, ask about the contractor's recycling practices. Responsible contractors separate materials as part of their standard process.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              We prioritize recycling valuable materials from every mobile home we demolish in the Treasure Valley. It's better for the environment and keeps disposal costs down.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Need Mobile Home Demolition?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We handle demolition responsibly—recycling what we can and properly disposing of the rest. Serving Boise, Meridian, Nampa, and the Treasure Valley.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Mobile Home Demolition Resources
           </h2>
           <div className="text-center">
             <Link

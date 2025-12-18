@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Clock, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Same-Day Property Cleanout: When Time Matters | Property Cleanout Pros',
-  description: 'Sometimes you need a property cleared immediately. Here\'s how rush cleanouts work.',
+  description: 'Sometimes you need a property cleared today. Here\'s how rush cleanouts work and when same-day service is available.',
   alternates: {
     canonical: 'https://property-cleanout-boise.com/blogs/same-day-property-cleanout',
   },
 }
 
-export default function BlogPost() {
+export default function SameDayPropertyCleanout() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/code-violation.webp"
-          alt="Same-Day Property Cleanout: When Time Matters"
+          src="/generated/same-day-cleanout.webp"
+          alt="Same-Day Property Cleanout"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,278 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for property cleanout services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Same Day Property Cleanout</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to property cleanout, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Property cleanout in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality property cleanout services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Property cleanout Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need property cleanout services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Property cleanout Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Property Cleanout Pros is here to help with all your property cleanout needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You need a property cleared today. Maybe a closing is scheduled for tomorrow. Maybe contractors are arriving in hours. Maybe there's a code violation deadline. Whatever the reason, you can't wait.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Same-day property cleanouts are possible in the Treasure Valley—with the right planning and a responsive team. Here's how rush cleanouts work and when we can help.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* When Same-Day Is Needed */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <Clock className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                When Same-Day Service Is Needed
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Common urgent cleanout situations:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Real estate closings.</strong> Property must be vacant by closing. Sometimes issues aren't discovered until the final walkthrough.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Code violations.</strong> City or county deadline to address a nuisance property. Fines compound daily.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Contractor schedules.</strong> Renovation crew is starting tomorrow. Every day of delay costs money.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>New tenant move-in.</strong> Previous tenant's items still in the unit, new tenant arriving today.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Emergency situations.</strong> Fire, flood, or other damage requiring immediate clearing before restoration can begin.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Makes Same-Day Possible */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              What Makes Same-Day Service Possible
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Several factors determine if we can get to you today:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Our current schedule:</strong> If trucks and crews are available, same-day is often possible</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Time of day you call:</strong> Morning calls have better same-day odds than late afternoon calls</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Job size:</strong> Small to medium cleanouts are easier to fit in. Large jobs may need next-day</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Location:</strong> Central Treasure Valley locations are easier to reach quickly than outlying areas</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Day of week:</strong> Weekdays typically have more scheduling flexibility than weekends</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              Call us and tell us your situation. If same-day is possible, we'll make it happen. If not, we'll get you scheduled for the earliest available time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What You'll Need */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What You'll Need Ready
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              To make same-day service work, have these things prepared:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Property access.</strong> Someone needs to let us in, or arrangements made for lockbox/key access.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Clear direction.</strong> Know what stays and what goes. If everything goes, that's simple. If some items stay, have them clearly marked or separated.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Authorization.</strong> If you're not the property owner, have authorization from whoever has legal authority over the contents.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Parking access.</strong> Make sure we can get a truck close to the property. If permits are needed, have them arranged.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Payment ready.</strong> Rush jobs are typically paid upon completion. Have payment method available.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Rush Pricing */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Does Same-Day Cost More?
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              It depends on the situation:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>During business hours.</strong> If we have availability and can fit your job into our normal schedule, same-day service doesn't cost extra.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>After hours or weekends.</strong> Emergency service outside normal business hours may have a premium. We'll tell you upfront.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Rescheduling other jobs.</strong> If we need to shuffle our schedule significantly to accommodate you, there may be an urgency fee.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              We always quote the total price before starting work. No surprises on the bill.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What We Can Do Same-Day */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What Can Be Done Same-Day
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Realistic expectations for rush cleanouts:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Apartment or small house cleanout:</strong> Typically completable same day if we start by mid-afternoon.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Large house or heavy cleanout:</strong> May require full day or extend into next day depending on when we can start.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Multiple properties:</strong> Usually need to be scheduled across multiple days unless they're all small jobs.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Hoarding situations:</strong> These almost always require multiple days regardless of urgency—the volume simply takes time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Alternatives When Same-Day Isn't Possible */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              When Same-Day Isn't Possible
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              If we can't get there today, here are your options:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>First thing tomorrow.</strong> We can often schedule you as the first job the next day, starting early.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Partial same-day.</strong> If your deadline is for a specific area (like emptying one room for contractors), we might be able to handle that portion today.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>After-hours option.</strong> Depending on the situation, evening or weekend work may be available.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Negotiate your deadline.</strong> Sometimes the closing can be pushed back a day, or contractors can start elsewhere. Knowing when we can definitely complete may help your planning.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Same-day property cleanouts are often possible in the Treasure Valley—especially for small to medium jobs and when you call early in the day. The sooner you call, the better your chances.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              We understand that deadlines are real and missing them has consequences. When you call with an urgent situation, we'll tell you honestly whether we can help and when.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Don't wait until the last minute if you can avoid it—but if you're already there, call us and let's see what we can do.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Need It Done Today?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              Call now and tell us your situation. We'll let you know if same-day service is available and give you a quote on the spot.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Property Cleanout Resources
           </h2>
           <div className="text-center">
             <Link

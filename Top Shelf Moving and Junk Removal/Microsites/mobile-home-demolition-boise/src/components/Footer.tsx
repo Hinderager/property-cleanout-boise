@@ -38,11 +38,12 @@ export function Footer() {
           <div>
             <h4 className="text-xl font-bold mb-4 text-light-blue">Services</h4>
             <ul className="space-y-2">
-              <li className="text-white/80">Single Wide Demo</li>
-              <li className="text-white/80">Double Wide Demo</li>
-              <li className="text-white/80">Site Cleanup</li>
+              <li className="text-white/80">Mobile Home Demolition</li>
+              <li className="text-white/80">Manufactured Home Removal</li>
+              <li className="text-white/80">Trailer Demolition</li>
+              <li className="text-white/80">Mobile Home Disposal</li>
+              <li className="text-white/80">Site Clearing</li>
               <li className="text-white/80">Foundation Removal</li>
-              <li className="text-white/80">Debris Hauling</li>
             </ul>
           </div>
 
@@ -86,11 +87,11 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <a
-                    href="tel:2083611982"
+                    href="tel:2085059352"
                     className="text-white/80 hover:text-white transition-colors font-semibold"
                   >
                     <span className="md:hidden">Call Now</span>
-                    <span className="hidden md:inline">(208) 361-1982</span>
+                    <span className="hidden md:inline">(208) 505-9352</span>
                   </a>
                 </div>
               </li>
@@ -118,8 +119,8 @@ export function Footer() {
                 <Clock className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <p className="text-white/80">
-                    Mon-Sat: 8am - 6pm<br />
-                    Emergency: 24/7
+                    Mon-Fri: 7am - 6pm<br />
+                    Sat: 8am - 4pm
                   </p>
                 </div>
               </li>
@@ -153,7 +154,7 @@ export function Footer() {
 
             <div className="text-center md:text-right">
               <p className="text-white/60 text-sm">
-                &copy; {new Date().getFullYear()} Mobile Home Demolition Pros. All rights reserved.
+                &copy; {new Date().getFullYear()} Boise Mobile Home Demolition. All rights reserved.
               </p>
               <div className="flex gap-4 mt-2 justify-center md:justify-end">
                 <Link href="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">

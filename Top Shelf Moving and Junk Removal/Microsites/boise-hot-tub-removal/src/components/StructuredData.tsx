@@ -31,7 +31,7 @@ const faqData = [
   },
   {
     question: 'What areas do you serve?',
-    answer: 'We serve the entire Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and surrounding communities. If you\'re not sure if we cover your area, just give us a call at (208) 361-1982.',
+    answer: 'We serve the entire Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and surrounding communities. If you\'re not sure if we cover your area, just give us a call at (208) 505-9352.',
   },
   {
     question: 'What happens to the hot tub after you remove it?',
@@ -45,10 +45,10 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Hot Tub Removal Pros - ${city}`,
+    "name": `Boise Hot Tub Removal - ${city}`,
     "description": `Professional hot tub and spa removal services in ${city}, Idaho. Safe disconnection, demolition, and eco-friendly disposal. Licensed and insured.`,
     "url": "https://boise-hot-tub-removal.com",
-    "telephone": "+1-208-361-1982",
+    "telephone": "+1-208-505-9352",
     "email": "info@boise-hot-tub-removal.com",
     "address": {
       "@type": "PostalAddress",
@@ -105,7 +105,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Hot Tub Removal Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Hot Tub Removal Pros"
+      "name": "Boise Hot Tub Removal"
     },
     "areaServed": {
       "@type": "State",

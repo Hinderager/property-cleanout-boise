@@ -6,28 +6,28 @@ const services = [
     title: 'Full Estate Cleanouts',
     description: 'We handle complete estate cleanouts from start to finish. Furniture, appliances, personal items, clothing, garage contents—everything is removed. We sort through belongings carefully, set aside valuables and sentimental items, and ensure nothing important is discarded. Our team works efficiently while remaining respectful of your family\'s memories.',
     image: '/generated/whole-house-cleanout.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2085059352',
     buttonText: 'Call Now',
   },
   {
     title: 'Probate Property Services',
     description: 'Settling an estate involves many moving parts. We work directly with attorneys, executors, and family members to clear probate properties on your timeline. We understand the legal requirements and documentation needs, and can provide receipts for donated items to support estate valuations.',
     image: '/generated/garage-cleanout.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2085059352',
     buttonText: 'Call Now',
   },
   {
     title: 'Donation & Recycling',
     description: 'Your loved one\'s belongings deserve a second life. We sort and organize usable items for donation to local charities, shelters, and thrift stores. Electronics, metals, and recyclables are properly recycled. Only true waste goes to the landfill—typically less than 30% of what we collect.',
     image: '/generated/donation-sorting.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2085059352',
     buttonText: 'Call Now',
   },
   {
     title: 'Property Preparation',
     description: 'Getting a property ready for sale or new tenants? We clear out the entire space and can coordinate with cleaning services to get it market-ready. Whether you\'re selling, renting, or preparing for renovation, we\'ll leave the property empty and clean so you can move forward with your plans.',
     image: '/generated/basement-cleanout.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2085059352',
     buttonText: 'Call Now',
   },
 ]
@@ -96,9 +96,9 @@ export function ServicesShowcase() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-16">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

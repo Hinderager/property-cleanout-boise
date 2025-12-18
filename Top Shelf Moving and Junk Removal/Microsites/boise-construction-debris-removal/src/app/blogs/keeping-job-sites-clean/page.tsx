@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { HardHat, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Why Keeping Job Sites Clean Matters More Than You Think | Construction Debris Removal Pros',
-  description: 'A clean job site isn\'t just about looks. It affects safety, efficiency, and your bottom line.',
+  title: 'Why Keeping Job Sites Clean Matters in Boise | Construction Debris Removal Pros',
+  description: 'A clean construction site isn\'t just about appearances. It affects safety, efficiency, and your bottom line. Here\'s what Treasure Valley contractors should know.',
   alternates: {
     canonical: 'https://boise-construction-debris-removal.com/blogs/keeping-job-sites-clean',
   },
 }
 
-export default function BlogPost() {
+export default function KeepingJobSitesClean() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hero.webp"
-          alt="Why Keeping Job Sites Clean Matters More Than You Think"
+          src="/generated/clean-job-site-boise.webp"
+          alt="Clean Construction Job Site in Boise"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,234 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for construction debris removal services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Keeping Job Sites Clean</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to construction debris removal, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Construction debris removal in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality construction debris removal services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Construction debris removal Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need construction debris removal services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Construction debris removal Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Construction Debris Removal Pros is here to help with all your construction debris removal needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Walk onto some construction sites and you can barely find a clear path through the debris. Walk onto others and you wonder how anything's getting built—it's too clean.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The messy site isn't a sign of hard work. It's usually a sign of poor management, safety risks, and hidden costs that eat into project margins.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's why job site cleanliness matters more than most Boise contractors realize—and how to get it right without slowing down production.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Safety First */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <HardHat className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                The Safety Issue
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              This is the biggest one. OSHA data shows that slips, trips, and falls are among the most common construction injuries. And what causes most of them? Debris on the ground that shouldn't be there.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Loose lumber, scattered nails, piles of drywall scraps—these aren't just eyesores. They're hazards. A worker steps on a board with a nail sticking up, and suddenly you're dealing with a workers' comp claim, lost productivity, and potentially an OSHA inspection.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Fire risk is another factor. Accumulated wood scraps, paper, and packaging create fuel for fires. In dry Treasure Valley summers, this isn't theoretical—it's a real concern.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              The cost of keeping a site clean is always less than the cost of a serious injury.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Efficiency */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Efficiency Factor
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Here's something that doesn't show up in safety statistics: messy sites are slow sites.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Workers spend time navigating debris</strong> instead of doing productive work. Every minute stepping over piles or moving stuff out of the way is a minute not spent on the actual job.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Tools and materials get lost.</strong> When everything's buried under debris, workers waste time searching for what they need. Or they grab new materials because finding the existing ones takes too long.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Quality suffers.</strong> Working in cluttered conditions leads to mistakes. It's harder to do precise work when you're tripping over stuff and can't find what you need.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Inspections take longer.</strong> When an inspector has to pick their way through debris to check your work, they're not in a good mood. And they might miss something that passes on a clean site—or find problems they wouldn't otherwise notice.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Client Impressions */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What Clients See
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Your clients aren't construction professionals. They don't know what's normal on a job site. What they see is mess—or cleanliness.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              A homeowner visiting their renovation project forms impressions quickly. A messy site makes them wonder: if they can't keep the site organized, what about the work I can't see? Are they cutting corners inside the walls too?
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Fair or not, clients judge quality by what they can observe. A clean, organized site communicates professionalism and attention to detail.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              For commercial projects in the Boise area, this matters even more. Property managers and business owners who see a messy site start worrying about timelines, quality, and whether they hired the right contractor. Clean sites build confidence.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Best Practices */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Practical Approaches to Site Cleanliness
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Keeping a site clean doesn't mean stopping work to sweep every hour. Here's what actually works:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>End-of-day cleanup.</strong> Build 15-30 minutes of cleanup into every day's schedule. It's not extra time—it's productive time that makes the next day start faster</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Designated debris areas.</strong> Have a specific spot where debris goes during the day. Everyone knows where to toss scraps, and it's easy to load out</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Regular removal schedule.</strong> Don't let debris accumulate for weeks. Schedule removal when the pile reaches a certain size or at regular intervals</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Make it someone's job.</strong> If cleanup is everyone's responsibility, it becomes no one's responsibility. Assign it specifically</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Separate recyclables.</strong> Metal, clean concrete, and cardboard have value. Separating them as you go saves money on disposal and might even generate some revenue</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              The key is making cleanup part of the work process, not an afterthought.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* When to Call for Removal */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              When to Schedule Debris Removal
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              There's a balance between removing debris too often (wasting time and money on small loads) and too rarely (letting it pile up and create problems).
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Before major phase transitions.</strong> Finishing demo? Get the debris out before framing starts. Done with framing? Clean up before drywall arrives. Fresh starts make each phase go smoother.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Before inspections.</strong> Inspectors work in better moods on clean sites, and they can actually see what they're inspecting.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>When debris impedes work.</strong> If the pile is in the way or creating safety issues, it's time. Don't wait for a scheduled removal date if the situation calls for action now.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Before client walkthroughs.</strong> This one's about impressions, but impressions matter. Clean up before showing your client the progress.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Clean job sites aren't about being neat for neatness's sake. They're about safety, efficiency, and professionalism—all things that affect your bottom line.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The time and money spent on regular cleanup and debris removal comes back in fewer injuries, faster work, happier clients, and a better reputation in the Treasure Valley construction community.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              If keeping sites clean is a struggle, it might be time to look at your debris removal process. Sometimes the issue isn't discipline—it's logistics. Having a reliable removal partner on call makes the whole thing easier.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Need Reliable Construction Debris Removal?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We work with contractors throughout Boise, Meridian, Nampa, and the Treasure Valley. Fast response, fair pricing, and we show up when we say we will.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Construction Debris Resources
           </h2>
           <div className="text-center">
             <Link

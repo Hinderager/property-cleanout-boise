@@ -15,31 +15,31 @@ const blogPosts = [
     "slug": "what-size-dumpster-do-i-need",
     "title": "What Size Dumpster Do I Need? (Simple Guide)",
     "excerpt": "Choosing the wrong dumpster size is a common mistake. Here's how to get it right the first time.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/dumpster-size-guide.webp"
   },
   {
     "slug": "dumpster-rental-cost-boise",
     "title": "Dumpster Rental Costs in Boise: What to Expect",
     "excerpt": "Prices vary based on size, duration, and what you're tossing. Here's a realistic breakdown.",
-    "image": "/generated/roll-off-dumpster.webp"
+    "image": "/generated/dumpster-rental-cost-boise.webp"
   },
   {
     "slug": "what-can-go-in-a-dumpster",
     "title": "What Can (and Can't) Go in a Dumpster?",
     "excerpt": "Some items are prohibited for good reason. Here's the complete list of what's allowed.",
-    "image": "/generated/construction-dumpster.webp"
+    "image": "/generated/dumpster-allowed-items.webp"
   },
   {
     "slug": "where-to-place-dumpster",
     "title": "Where Should You Place Your Dumpster? (Avoid These Mistakes)",
     "excerpt": "The wrong placement can damage your property or violate local rules. Here's how to do it right.",
-    "image": "/generated/residential-dumpster.webp"
+    "image": "/generated/dumpster-placement-guide.webp"
   },
   {
     "slug": "how-long-can-i-keep-a-dumpster",
     "title": "How Long Can You Keep a Rental Dumpster?",
     "excerpt": "Rental periods vary, and going over can cost you. Here's what to know about timing your rental.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/dumpster-rental-duration.webp"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function BlogsPage() {
           alt="Dumpster Rental Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">

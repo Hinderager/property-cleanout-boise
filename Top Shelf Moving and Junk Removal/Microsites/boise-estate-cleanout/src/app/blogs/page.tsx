@@ -15,31 +15,31 @@ const blogPosts = [
     "slug": "how-to-start-estate-cleanout",
     "title": "How to Start an Estate Cleanout (Without Getting Overwhelmed)",
     "excerpt": "Estate cleanouts can feel impossible at first. Here's a practical approach to tackle it step by step.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/start-estate-cleanout.webp"
   },
   {
     "slug": "estate-cleanout-timeline",
     "title": "How Long Does an Estate Cleanout Take?",
     "excerpt": "The timeline depends on several factors. Here's a realistic idea of what to expect.",
-    "image": "/generated/estate-clearing.webp"
+    "image": "/generated/estate-cleanout-timeline.webp"
   },
   {
     "slug": "what-to-keep-during-estate-cleanout",
     "title": "What to Keep, Donate, and Toss During an Estate Cleanout",
     "excerpt": "Making decisions about a loved one's belongings is hard. Here's a framework that helps.",
-    "image": "/generated/home-cleanout.webp"
+    "image": "/generated/estate-sorting-decisions.webp"
   },
   {
     "slug": "hiring-estate-cleanout-service",
     "title": "Should You Hire an Estate Cleanout Service? (Honest Assessment)",
     "excerpt": "Sometimes DIY makes sense. Sometimes it doesn't. Here's how to know when to call for help.",
-    "image": "/generated/inherited-property.webp"
+    "image": "/generated/hiring-estate-cleanout.webp"
   },
   {
     "slug": "emotional-side-of-estate-cleanouts",
     "title": "The Emotional Side of Estate Cleanouts (And How to Cope)",
     "excerpt": "Clearing a home isn't just physical work. Here's how to handle the emotional weight.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/emotional-estate-cleanout.webp"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function BlogsPage() {
           alt="Estate Cleanout Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">
@@ -112,10 +112,10 @@ export default function BlogsPage() {
             Contact us today for a free estimate on your estate cleanout project.
           </p>
           <a
-            href="tel:2083611982"
+            href="tel:2085059352"
             className="inline-block bg-brand-yellow hover:bg-yellow-400 text-black font-bold text-lg px-8 py-4 rounded-lg transition-colors"
           >
-            Call (208) 361-1982
+            Call (208) 505-9352
           </a>
         </div>
       </section>

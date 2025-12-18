@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ClipboardList, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Property Cleanout Checklist for Property Managers | Property Cleanout Pros',
-  description: 'Make sure nothing gets missed with this comprehensive cleanout checklist.',
+  description: 'A comprehensive checklist to make sure nothing gets missed during your property cleanout. For landlords and property managers.',
   alternates: {
     canonical: 'https://property-cleanout-boise.com/blogs/property-cleanout-checklist',
   },
 }
 
-export default function BlogPost() {
+export default function PropertyCleanoutChecklist() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hero.webp"
-          alt="Property Cleanout Checklist for Property Managers"
+          src="/generated/cleanout-checklist.webp"
+          alt="Property Cleanout Checklist"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,268 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Property Cleanout Checklist for Property Managers
+            Property Cleanout Checklist
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for property cleanout services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Property Cleanout Checklist</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to property cleanout, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Property cleanout in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality property cleanout services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Property cleanout Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need property cleanout services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Whether you're turning over a rental, clearing an estate, or preparing a property for sale, a systematic approach ensures nothing gets missed. Use this checklist to make sure your property cleanout is thorough and complete.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              This guide is designed for property managers, landlords, and anyone overseeing a property cleanout in the Boise area.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Before the Cleanout */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <ClipboardList className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Before the Cleanout
+              </h2>
             </div>
 
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Property cleanout Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Property Cleanout Pros is here to help with all your property cleanout needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Preparation steps before work begins:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Document the starting condition.</strong> Walk through and photograph every room. Note damage, items left behind, and overall condition. This documentation protects you if disputes arise.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Secure the property.</strong> Make sure you have legal access and proper authority to remove contents. For tenant situations, verify that abandonment procedures have been properly followed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Check for valuables and documents.</strong> Look for items that may need special handling—cash, jewelry, important documents, medications, firearms. These shouldn't just be thrown away.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Identify hazardous materials.</strong> Note any paint, chemicals, propane tanks, or other materials requiring special disposal.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Verify utility status.</strong> Know whether electricity and water are on. This affects equipment options and cleaning capabilities.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Room-by-Room Checklist */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Room-by-Room Checklist
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              What to address in each area:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Kitchen:</strong> Appliances (remove or clean), cabinets and drawers emptied, pantry cleared, under sink checked, refrigerator cleaned out</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Bathrooms:</strong> Medicine cabinets emptied, under vanity cleared, shower/tub checked, toiletries removed, towel bars and hooks cleared</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Bedrooms:</strong> Closets completely emptied (including top shelves), furniture removed, under beds checked, window treatments if damaged</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Living areas:</strong> All furniture, entertainment equipment, wall hangings, blinds/curtains if necessary</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Garage/storage:</strong> All contents, shelving if damaged, chemicals and paint properly disposed, ceiling/rafters checked</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Exterior:</strong> Yard debris, patio furniture, grills, storage sheds, trash cans, garden hoses, planters</span>
+              </div>
             </div>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Often Overlooked Areas */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Commonly Overlooked Areas
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Don't forget these spots:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Attic or crawl space.</strong> Previous occupants often store items and forget about them. Check for boxes, holiday decorations, old furniture.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Behind appliances.</strong> Items fall behind refrigerators, washers, and dryers. Pull them out and check.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Utility room or water heater area.</strong> Stored items, cleaning supplies, pet items often accumulate here.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Built-in storage.</strong> Hall closets, linen closets, coat closets—every shelf and corner.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Mailbox.</strong> Check for accumulated mail, which may contain important documents or clues to forwarding addresses.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Outdoor structures.</strong> Sheds, detached garages, carports—anything on the property.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What to Do With Items */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Sorting and Disposal
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Items typically fall into categories:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Trash.</strong> Broken items, garbage, damaged goods—straight to disposal.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Donation.</strong> Usable furniture, clothing, household goods can often go to local charities. Idaho Youth Ranch, Goodwill, and Salvation Army all accept donations in the Treasure Valley.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Recycling.</strong> Metals, electronics, cardboard can be recycled rather than landfilled.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Hazardous materials.</strong> Paint, chemicals, batteries, medications need proper disposal through Ada County or Canyon County hazardous waste programs.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Items requiring storage or return.</strong> Depending on circumstances, some items may need to be held for the previous occupant per Idaho abandoned property laws.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Final Walkthrough */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Final Walkthrough Checklist
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Before calling the cleanout complete:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Every room empty.</strong> Nothing left in any closet, cabinet, or storage area.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Broom-clean condition.</strong> Floors swept, major debris removed. (Deep cleaning is typically a separate service.)
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Appliances addressed.</strong> Either removed, cleaned out, or noted as needing attention.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Exterior clear.</strong> No items remaining on porches, patios, in yard, or in outbuildings.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Windows and doors secure.</strong> Property can be properly locked.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Photo documentation.</strong> After photos showing completed cleanout condition.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              A thorough property cleanout requires systematic attention to every area. Using a checklist prevents callbacks, disputes, and the embarrassment of showing a "cleaned" property that still has items in it.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Whether you're handling the cleanout yourself or hiring professionals, this checklist ensures nothing gets missed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Need help with a property cleanout in the Treasure Valley? We follow this same systematic approach on every job—so you know the property will be truly ready when we're done.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Need Professional Cleanout Help?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We handle complete property cleanouts throughout Boise, Meridian, Nampa, and the Treasure Valley. Thorough, documented, and efficient.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Property Cleanout Resources
           </h2>
           <div className="text-center">
             <Link

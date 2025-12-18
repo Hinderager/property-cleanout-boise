@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ClipboardList, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'How to Prepare a Mobile Home for Demolition | Mobile Home Demolition Pros',
-  description: 'Several steps happen before the demo crew arrives. Here\'s your preparation checklist.',
+  description: 'Several steps need to happen before the demolition crew arrives. Here\'s your complete preparation checklist.',
   alternates: {
     canonical: 'https://mobile-home-demolition-boise.com/blogs/preparing-mobile-home-for-demolition',
   },
 }
 
-export default function BlogPost() {
+export default function PreparingMobileHomeForDemolition() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/doublewide-demolition.webp"
-          alt="How to Prepare a Mobile Home for Demolition"
+          src="/generated/preparing-for-demolition.webp"
+          alt="Preparing Mobile Home for Demolition"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,309 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for mobile home demolition services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Preparing Mobile Home For Demolition</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to mobile home demolition, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Mobile home demolition in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality mobile home demolition services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Mobile home demolition Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need mobile home demolition services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Mobile home demolition Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Mobile Home Demolition Pros is here to help with all your mobile home demolition needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You've scheduled your mobile home demolition. Now what? Several things need to happen before the crew shows up with their equipment. Some you'll handle yourself, some require professional help, and some the demolition company may handle.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's your complete preparation checklist to make demolition day go smoothly.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Utilities First */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <ClipboardList className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Disconnect Utilities First
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              This is non-negotiable. All utilities must be disconnected before demolition:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Electricity:</strong> Contact Idaho Power to disconnect and remove the meter. Schedule this at least a week before demolition—utility companies aren't always quick.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Natural gas:</strong> Call Intermountain Gas to shut off service and cap the line at the meter. Never try to disconnect gas yourself.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Water:</strong> Contact your water provider to turn off service. The line should be capped at the meter or where it enters the property.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Sewer:</strong> If connected to city sewer, you may need the connection capped. Check with your local utility.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Propane:</strong> If the home has a propane tank, have it emptied and removed by your propane supplier before demolition.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Remove Personal Property */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Remove Personal Property
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Everything inside needs to come out:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Furniture and belongings:</strong> Take what you want, donate what's usable, dispose of the rest</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Appliances:</strong> Refrigerators, stoves, washers, dryers—remove them or confirm the demo company will handle them</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Hazardous materials:</strong> Paint, chemicals, propane tanks, batteries—these need proper disposal, not demolition</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Important documents:</strong> Check every drawer and closet. Once it's demolished, it's gone</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              If you can't clean out the home yourself, some demolition companies offer cleanout services for an additional fee. Ask when getting quotes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Clear the Perimeter */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Clear the Perimeter
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Equipment needs room to work. Clear the area around the mobile home:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Move vehicles.</strong> Cars, trucks, trailers, ATVs—anything within the work zone needs to be relocated.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Clear outbuildings if needed.</strong> Sheds, carports, or other structures in the way may need to be moved or demolished first.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Remove loose items.</strong> Landscaping ornaments, portable fire pits, outdoor furniture, hoses, and tools should be moved clear.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Identify obstacles.</strong> Note low-hanging branches, power lines, fences, or other obstacles the crew should know about.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Ensure access.</strong> Equipment typically needs a clear path at least 12 feet wide. Remove gates, unlock access points, and make sure the driveway can handle heavy equipment.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Handle Permits and Inspections */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Handle Permits and Inspections
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Before demolition can legally proceed:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Demolition permit.</strong> Most Treasure Valley jurisdictions require one. Either you or your contractor can apply—confirm who's handling it.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Asbestos inspection.</strong> Required for many older mobile homes. A certified inspector takes samples and provides documentation. Schedule this at least 1-2 weeks before planned demolition.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Utility disconnect verification.</strong> Keep documentation from each utility company showing service was terminated. You may need this for the permit.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>HOA or park approval.</strong> If the mobile home is in a park or community with rules, make sure you have necessary approvals.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Notify Neighbors */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Notify Neighbors
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Demolition creates noise, dust, and truck traffic. Giving neighbors a heads up is good etiquette:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Let them know the date.</strong> A quick knock on the door or note in the mailbox goes a long way.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Warn about noise.</strong> Heavy equipment isn't quiet. Neighbors with pets, babies, or work-from-home situations will appreciate advance notice.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Mention truck traffic.</strong> Debris hauling means multiple trucks in and out. If there's a shared driveway, coordinate timing.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Discuss any shared concerns.</strong> Fences on property lines, shared utilities, trees near the work area—address these before demolition day.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Day Before Checklist */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Day Before Demolition
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Final checks before the crew arrives:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Verify utility disconnections.</strong> Double-check that everything is off and documented.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Walk through the home one last time.</strong> Make sure nothing valuable got missed during cleanout.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Confirm arrival time with the contractor.</strong> Know when to expect the crew.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Check the weather.</strong> Heavy rain can delay demolition. Confirm the schedule if weather looks questionable.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Plan your day.</strong> Decide if you'll be on site or prefer to be elsewhere during demolition. Both are fine—just let the contractor know.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What the Contractor Handles */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What the Contractor Usually Handles
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              You don't have to do everything yourself. Most demolition contractors will:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Handle permits.</strong> Many contractors include permit acquisition in their services.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Coordinate asbestos testing.</strong> They often have relationships with certified inspectors.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Remove appliances.</strong> Most include appliance removal in the demolition price.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Handle debris disposal.</strong> This should be part of any complete demolition quote.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Preparing for mobile home demolition isn't complicated, but it does require advance planning. The key steps—utility disconnection, cleanout, permits, and site access—need to happen before the crew arrives.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Start the utility disconnection process early. Utility companies often need a week or more of notice, and their schedules don't always align with yours.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              A good demolition contractor will walk you through what needs to happen and what they'll take care of. Don't hesitate to ask questions about responsibilities.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Ready to Schedule Demolition?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We'll walk you through exactly what needs to happen to prepare your mobile home for demolition. Free estimates throughout the Treasure Valley.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Mobile Home Demolition Resources
           </h2>
           <div className="text-center">
             <Link

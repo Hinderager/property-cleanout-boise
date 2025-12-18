@@ -5,6 +5,45 @@ import Link from 'next/link'
 import { Menu, X, ChevronDown, Phone } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
+const serviceCategories = [
+  {
+    name: 'Hot Tub Removal',
+    href: '/services/hot-tub-removal',
+    services: [
+      { name: 'In-Ground Hot Tub Removal', href: '/services/hot-tub-removal/in-ground' },
+      { name: 'Above-Ground Hot Tub Removal', href: '/services/hot-tub-removal/above-ground' },
+      { name: 'Spa Removal', href: '/services/hot-tub-removal/spa-removal' },
+    ]
+  },
+  {
+    name: 'Pool Removal',
+    href: '/services/pool-removal',
+    services: [
+      { name: 'In-Ground Pool Removal', href: '/services/pool-removal/in-ground' },
+      { name: 'Above-Ground Pool Removal', href: '/services/pool-removal/above-ground' },
+      { name: 'Pool Deck Removal', href: '/services/pool-removal/deck-removal' },
+    ]
+  },
+  {
+    name: 'Deck Services',
+    href: '/services/deck-services',
+    services: [
+      { name: 'Deck Removal', href: '/services/deck-services/deck-removal' },
+      { name: 'Deck Demolition', href: '/services/deck-services/deck-demolition' },
+      { name: 'Gazebo Removal', href: '/services/deck-services/gazebo-removal' },
+    ]
+  },
+  {
+    name: 'Disposal Services',
+    href: '/services/disposal',
+    services: [
+      { name: 'Eco-Friendly Disposal', href: '/services/disposal/eco-friendly' },
+      { name: 'Recycling Options', href: '/services/disposal/recycling' },
+      { name: 'Landfill Services', href: '/services/disposal/landfill' },
+    ]
+  },
+]
+
 const serviceAreas = [
   'Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle'
 ]
@@ -59,16 +98,59 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center lg:flex-1 flex-1 justify-start">
             <span className="text-lg sm:text-xl lg:text-2xl font-bold text-white">
-              <span className="text-[#FFC845]">Hot Tub</span> Removal Pros
+              <span className="text-[#FFC845]">Boise</span> Hot Tub Removal
             </span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
-            {/* Services Link */}
-            <Link href="/#services" className="text-white hover:text-gray-200 transition-colors font-bold text-sm xl:text-base whitespace-nowrap">
-              Services
-            </Link>
+            {/* Services Mega Menu */}
+            <div
+              className="relative group"
+              onMouseEnter={() => handleMouseEnter('services')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors font-bold text-sm xl:text-base whitespace-nowrap">
+                <span>Services</span>
+                <ChevronDown className="h-4 w-4" />
+              </button>
+              {activeDropdown === 'services' && (
+                <div className="absolute left-0 top-full mt-2 w-[600px] bg-white shadow-lg rounded-lg p-6">
+                  <div className="grid grid-cols-2 gap-6">
+                    {serviceCategories.map((category) => (
+                      <div key={category.href}>
+                        <Link
+                          href={category.href}
+                          className="font-bold text-dark-blue hover:text-[#ff6b35] block mb-2"
+                        >
+                          {category.name}
+                        </Link>
+                        <ul className="space-y-1">
+                          {category.services.map((service) => (
+                            <li key={service.href}>
+                              <Link
+                                href={service.href}
+                                className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors"
+                              >
+                                {service.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-4 pt-4 border-t">
+                    <Link
+                      href="/services"
+                      className="text-dark-blue font-semibold hover:text-[#ff6b35]"
+                    >
+                      View All Services →
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
 
             {/* Service Areas Dropdown */}
             <div
@@ -125,18 +207,18 @@ export function Header() {
           <div className="flex items-center flex-1 justify-center lg:justify-end">
             {/* Mobile: Call Now Button */}
             <a
-              href="tel:2083611982"
+              href="tel:2085059352"
               className="lg:hidden bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold px-4 py-1.5 rounded-lg text-sm"
             >
               Call Now
             </a>
             {/* Desktop: Phone Number */}
             <a
-              href="tel:2083611982"
+              href="tel:2085059352"
               className="hidden lg:flex items-center gap-1.5 text-white hover:text-gray-200 transition-colors font-bold text-lg xl:text-xl whitespace-nowrap"
             >
               <Phone className="h-5 w-5 xl:h-6 xl:w-6" />
-              <span>(208) 361-1982</span>
+              <span>(208) 505-9352</span>
             </a>
           </div>
 
@@ -153,10 +235,23 @@ export function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 bg-[#10477d] border-b-2 border-[#1e3a5f]">
+          <div className="lg:hidden py-4 bg-[#10477d] border-b-2 border-[#1e3a5f] max-h-[80vh] overflow-y-auto">
             <nav className="flex flex-col space-y-4 px-4">
               <Link href="/" className="text-white font-semibold hover:text-gray-200" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
-              <Link href="/#services" className="text-white font-semibold hover:text-gray-200" onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
+
+              <span className="text-white/60 text-sm font-medium pt-2">Services</span>
+              {serviceCategories.map((category) => (
+                <div key={category.href}>
+                  <Link
+                    href={category.href}
+                    className="text-white font-medium hover:text-gray-200 pl-2"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {category.name}
+                  </Link>
+                </div>
+              ))}
+
               <span className="text-white/60 text-sm font-medium pt-2">Service Areas</span>
               {serviceAreas.map((area) => (
                 <Link key={area} href={`/${area.toLowerCase()}`} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>
@@ -171,7 +266,7 @@ export function Header() {
               ))}
               <div className="flex flex-col space-y-2 pt-4">
                 <Button asChild className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold w-full">
-                  <a href="tel:2083611982">Call Now</a>
+                  <a href="tel:2085059352">Call Now</a>
                 </Button>
               </div>
             </nav>

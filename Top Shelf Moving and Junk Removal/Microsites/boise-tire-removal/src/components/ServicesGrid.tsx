@@ -8,23 +8,23 @@ import { useQuoteForm } from '@/context/QuoteFormContext'
 const services = [
   {
     icon: CircleDot,
-    title: 'Tire Removal',
-    description: 'We haul away old tires from homes, garages, and properties. Any quantity, from a few tires to hundreds.',
+    title: 'Residential Tire Removal',
+    description: 'Got old tires in your garage, barn, or yard? We pick up any quantity—from a single tire to dozens. Quick, easy, and affordable.',
   },
   {
     icon: Layers,
-    title: 'Bulk Pickup',
-    description: 'Got a pile of tires? We handle bulk tire removal for farms, ranches, and commercial properties.',
+    title: 'Bulk Tire Pickup',
+    description: 'Property full of tires? We handle large quantities for farms, construction sites, and estates. We load everything and clean up after.',
   },
   {
     icon: Truck,
-    title: 'Commercial Pickup',
-    description: 'Regular tire pickup service for auto shops, dealerships, and tire retailers throughout the Treasure Valley.',
+    title: 'Commercial Tire Disposal',
+    description: 'Regular scheduled pickups for auto shops, tire dealers, and fleet managers. Reliable service so you can focus on your business.',
   },
   {
     icon: Recycle,
-    title: 'Eco-Friendly Disposal',
-    description: 'All tires are properly recycled or disposed of according to Idaho regulations. No illegal dumping.',
+    title: 'Tire Recycling',
+    description: 'We partner with certified recycling facilities. Your old tires get properly processed—no illegal dumping, no shortcuts.',
   },
 ]
 
@@ -60,7 +60,7 @@ export function ServicesGrid() {
             Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Professional tire removal and disposal services for the Treasure Valley
+            Professional tire removal, disposal, and recycling across Boise and the Treasure Valley
           </p>
         </div>
 
@@ -96,9 +96,9 @@ export function ServicesGrid() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

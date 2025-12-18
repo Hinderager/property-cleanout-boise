@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { DollarSign, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Hot Tub Removal Cost in Boise: What to Budget | Hot Tub Removal Pros',
-  description: 'Prices vary based on access, size, and disposal. Here\'s a realistic cost breakdown.',
+  description: 'Hot tub removal in Boise typically costs $300-600. Here\'s what affects the price and what you should expect.',
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/blogs/hot-tub-removal-cost-boise',
   },
 }
 
-export default function BlogPost() {
+export default function HotTubRemovalCostBoise() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hot-tub-demolition.webp"
-          alt="Hot Tub Removal Cost in Boise: What to Budget"
+          src="/generated/hot-tub-removal-cost.webp"
+          alt="Hot Tub Removal Cost in Boise"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,240 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Hot Tub Removal Cost in Boise: What to Budget
+            Hot Tub Removal Cost in Boise
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for hot tub removal services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Hot Tub Removal Cost Boise</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to hot tub removal, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Hot tub removal in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality hot tub removal services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Hot tub removal Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need hot tub removal services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              "How much to remove a hot tub?" It's the first question everyone asks. The honest answer for the Boise area: most hot tub removals run $300-600.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              But that range is pretty wide. Here's what actually determines where your job falls on that spectrum—and what might push it higher or lower.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Typical Price Ranges */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <DollarSign className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Typical Price Ranges
+              </h2>
             </div>
 
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Hot tub removal Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Hot Tub Removal Pros is here to help with all your hot tub removal needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Here's what hot tub removal typically costs in Boise, Meridian, Nampa, and the Treasure Valley:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Basic removal ($300-400):</strong> Standard-size hot tub with easy ground-level access. Open gate or driveway access, short carry to the truck. No complications.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Standard removal ($400-500):</strong> Average job with minor access challenges. Maybe a fence to work around, a deck to navigate, or a moderately heavy tub.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Complex removal ($500-700+):</strong> Large hot tubs, difficult access, deck removal needed, or multiple obstacles. Second-story decks, crane requirements, or below-ground installations.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              These prices include labor, hauling, and disposal at licensed facilities. Most reputable companies won't charge extra for normal disposal.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Affects the Price */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              What Affects the Price
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              These factors make the biggest difference in your quote:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Access:</strong> Can we get equipment close? Is there a clear path? Jobs in tight backyards or with limited truck access take longer</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Size and weight:</strong> A 4-person portable tub is very different from an 8-person built-in. Larger tubs require more labor and sometimes different equipment</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Deck or platform removal:</strong> If the tub sits on a custom deck that also needs demo, that's additional work</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>In-ground vs. above-ground:</strong> In-ground or partially sunk hot tubs require excavation or cutting concrete, significantly increasing cost</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Location:</strong> Boise, Meridian, and Nampa have standard pricing. Jobs in Eagle foothills, rural areas, or farther out may have travel fees</span>
+              </div>
             </div>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* What's Usually Included */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What's Usually Included
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              A legitimate hot tub removal quote should include:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Disconnection.</strong> We'll disconnect plumbing and handle drainage. Note: electrical disconnect by a licensed electrician is typically separate—many homeowners arrange this themselves.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Breakdown and removal.</strong> We cut it up on-site if needed, carry everything out, and load it for hauling.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Hauling and disposal.</strong> Transport to appropriate facilities. Most hot tub materials can be recycled.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Basic cleanup.</strong> We'll sweep the area and leave it tidy. If you need landscaping repair or concrete work after, that's a separate service.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What's NOT Included */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What's Usually NOT Included
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Be aware of potential additional costs:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Electrical disconnection.</strong> You'll need a licensed electrician for the 220V disconnect. Expect $75-150 for this service.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Fence removal/replacement.</strong> If a fence section needs to come out for access, that's often extra—or arrange it yourself beforehand.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Concrete pad removal.</strong> The hot tub base slab usually stays. Concrete demo is a separate service if you want it gone.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Landscaping restoration.</strong> We remove the tub. What you do with the space afterward is up to you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Getting Accurate Quotes */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Getting Accurate Quotes
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              To get realistic pricing:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Send photos.</strong> Pictures of the hot tub, access path, and any obstacles help companies quote accurately without a site visit.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Measure if you can.</strong> Know the approximate dimensions and whether it's portable or built-in.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Mention obstacles.</strong> Steps, narrow gates, long carries, deck situations—anything that might complicate access.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Ask what's included.</strong> Make sure you understand exactly what the quote covers before comparing prices.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Most Boise-area hot tub removals cost $300-600, with the final price depending mainly on access difficulty and tub size. Complex jobs with access challenges or built-in installations can run higher.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              When comparing quotes, make sure you're comparing apples to apples. The cheapest quote that doesn't include disposal isn't actually cheaper.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Get a few estimates, ask questions, and hire someone who can explain exactly what you're paying for.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Get a Free Quote
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We provide straightforward pricing for hot tub removal throughout the Treasure Valley. No hidden fees, no surprises.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Hot Tub Resources
           </h2>
           <div className="text-center">
             <Link

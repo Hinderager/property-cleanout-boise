@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ArrowLeftRight, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Dumpster Rental vs Debris Removal Service: Which Is Better? | Construction Debris Removal Pros',
-  description: 'Both options work, but one might save you money depending on your project. Here\'s how to decide.',
+  title: 'Dumpster Rental vs Debris Removal Service in Boise: Which Is Better? | Construction Debris Removal Pros',
+  description: 'Both options work for construction cleanup, but one might save you money depending on your project. Here\'s how Boise contractors and homeowners can decide.',
   alternates: {
     canonical: 'https://boise-construction-debris-removal.com/blogs/dumpster-rental-vs-debris-removal-service',
   },
 }
 
-export default function BlogPost() {
+export default function DumpsterRentalVsDebrisRemovalService() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/concrete-removal.webp"
-          alt="Dumpster Rental vs Debris Removal Service: Which Is Better?"
+          src="/generated/dumpster-vs-removal-service.webp"
+          alt="Dumpster Rental vs Debris Removal Service Comparison"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,279 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for construction debris removal services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Dumpster Rental Vs Debris Removal Service</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to construction debris removal, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Construction debris removal in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality construction debris removal services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Construction debris removal Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need construction debris removal services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Construction debris removal Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Construction Debris Removal Pros is here to help with all your construction debris removal needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You've got a pile of construction debris that needs to disappear. Should you rent a dumpster or hire a removal service? Both work, but the right choice depends on your specific situation.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              I've seen contractors and homeowners choose wrong in both directions—spending more than necessary or making the project harder than it needed to be.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's an honest comparison to help you decide what makes sense for your Boise-area project.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* How Dumpster Rental Works */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <ArrowLeftRight className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                How Dumpster Rental Works
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              With dumpster rental, a company drops a container at your site. You fill it over days or weeks. When you're done, they pick it up and haul it away.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Typical sizes:</strong> 10, 20, 30, or 40 cubic yards. A 10-yard dumpster handles a small bathroom remodel. A 30-yard handles most whole-house renovations.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Typical rental period:</strong> 7-14 days in the Boise area, though you can often extend if needed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Cost structure:</strong> Base rental fee plus disposal fees based on weight. Overage charges if you exceed weight limits or fill past the line.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Your responsibility:</strong> Loading everything into the dumpster. The rental company handles delivery, pickup, and disposal.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* How Removal Service Works */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              How Debris Removal Service Works
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              With a removal service, a crew shows up with a truck and hauls away your debris. Same day, typically within hours.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Capacity:</strong> Truck size varies, but most can handle 10-15 cubic yards per load. Multiple trips for larger projects.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Timing:</strong> Schedule when you need us. No waiting for delivery or pickup windows.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Cost structure:</strong> Usually based on volume and weight, quoted upfront before work begins.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Your responsibility:</strong> Pointing at what needs to go. We handle the loading, hauling, and disposal.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* When Dumpster Makes Sense */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              When Dumpster Rental Makes More Sense
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Dumpster rental typically works better in these situations:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Extended projects.</strong> If your renovation is happening over weeks, having a dumpster on-site lets you toss debris as you go. You're not waiting for pickup appointments or letting debris pile up.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Predictable, ongoing debris.</strong> A full gut remodel generates debris every day. A dumpster sitting there means you can keep the site clean continuously.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>You have labor available.</strong> If you've got a crew or strong help who can load debris, you're only paying for the container and disposal—not labor.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Large volume projects.</strong> A 30-yard dumpster holds a lot. For major demolition or whole-house renovation, the per-yard cost can be lower than multiple removal trips.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>You have space for a dumpster.</strong> This seems obvious, but you need a place to put it—driveway, parking lot, or curbside permit.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* When Removal Makes Sense */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              When Debris Removal Service Makes More Sense
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Removal service typically wins in these scenarios:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>One-time cleanup.</strong> Project's done, debris is sitting there, you want it gone today—not in a week when the dumpster gets picked up</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>No space for a dumpster.</strong> Tight driveways, HOA restrictions, or busy streets make dumpster placement difficult or impossible</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>No labor for loading.</strong> If it's just you and you don't want to spend hours throwing debris into a container, we handle the physical work</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Smaller amounts.</strong> A quarter-truckload of debris doesn't justify a full dumpster rental with delivery and pickup fees</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Mixed debris types.</strong> If you have some recyclable materials, some trash, and some heavy items, we can sort as we load</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              The labor component is the big differentiator. If loading debris yourself is a hassle or not worth your time, removal service makes the most sense.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Cost Comparison */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Cost Comparison in the Boise Area
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Rough numbers for comparison—actual quotes will vary based on specifics:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>10-yard dumpster rental:</strong> $300-450 for a week, including disposal of typical construction debris.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>20-yard dumpster rental:</strong> $400-550 for a week.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>30-yard dumpster rental:</strong> $500-700 for a week.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              <strong>Debris removal service:</strong> $150-600 depending on volume, with labor included.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Here's the math that matters: if you'd need to load a 20-yard dumpster yourself and it takes you 4 hours, what's your time worth? If your rate is $50/hour, that's $200 in labor value. Add that to the dumpster rental and compare to a removal service that handles everything.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              For contractors with crews, dumpster rental usually wins. For homeowners doing a one-time cleanup, removal service often comes out ahead.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Hidden Costs */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Hidden Costs to Watch For
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Both options have potential extra charges that can surprise you:
+            </p>
+
+            <h3 className="text-xl font-bold text-gunmetal mb-4">Dumpster Rental Extras</h3>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Weight overages can add $50-100 per ton over the included weight. Extended rental fees if you keep it longer than planned. Prohibited items fees if you put something in that wasn't allowed. Delivery charges for difficult access locations.
+            </p>
+
+            <h3 className="text-xl font-bold text-gunmetal mb-4">Removal Service Extras</h3>
+            <p className="text-gray-600 leading-relaxed">
+              Some companies charge extra for heavy items like concrete or for difficult access. We quote everything upfront so you know the full cost before we start—no surprises when we're done.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Neither option is universally better. The right choice depends on your project timeline, volume, available labor, and site constraints.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              For multi-week renovations with a crew available, dumpster rental usually makes sense. For one-time cleanups where you'd rather not do the loading yourself, debris removal service is typically the better value.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Not sure which fits your Treasure Valley project? Call us. We can give you a removal quote and help you figure out whether a dumpster might actually work better for your specific situation. No pressure either way—we just want you to make the smart call.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Get a Free Debris Removal Quote
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We'll give you an upfront price and help you decide if removal service or dumpster rental makes more sense for your project.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Construction Debris Resources
           </h2>
           <div className="text-center">
             <Link

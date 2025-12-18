@@ -8,23 +8,23 @@ import { useQuoteForm } from '@/context/QuoteFormContext'
 const services = [
   {
     icon: Home,
-    title: 'Single Wide Demo',
-    description: 'Complete demolition and removal of single wide mobile homes. We handle everything from disconnect to debris hauling.',
+    title: 'Mobile Home Demolition',
+    description: 'Complete teardown of single and double wide mobile homes. We handle the entire process from utility disconnect to final debris removal.',
   },
   {
     icon: Building2,
-    title: 'Double Wide Demo',
-    description: 'Expert double wide and modular home demolition. Safe separation, teardown, and full site cleanup included.',
+    title: 'Manufactured Home Removal',
+    description: 'Safe demolition of manufactured homes and modular units. Includes separation, disassembly, and proper disposal of all materials.',
   },
   {
     icon: Hammer,
-    title: 'Foundation Removal',
-    description: 'Concrete piers, blocks, and skirting removal. We leave your lot clean and ready for whatever comes next.',
+    title: 'Trailer Demolition',
+    description: 'Full demolition service for old trailers and RV structures. We remove everything down to ground level and haul it all away.',
   },
   {
     icon: Truck,
-    title: 'Debris Hauling',
-    description: 'All demolition debris hauled away and disposed of properly. Recycling of metals and salvageable materials.',
+    title: 'Site Clearing & Foundation Removal',
+    description: 'Complete site cleanup including concrete piers, blocks, tie-downs, and skirting. We leave your lot ready for the next phase.',
   },
 ]
 
@@ -96,9 +96,9 @@ export function ServicesGrid() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

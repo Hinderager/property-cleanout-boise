@@ -7,32 +7,36 @@ import { Button } from '@/components/ui/button'
 // FAQ data used for both UI and structured data
 export const faqs = [
   {
-    question: 'How much does tire removal cost?',
-    answer: 'Pricing depends on the number of tires and your location. For small quantities (1-10 tires), expect to pay around $3-5 per tire. Bulk pickups of 50+ tires get better per-tire rates. We provide free quotes over the phone so you know exactly what to expect.'
+    question: 'How much does tire removal cost per tire?',
+    answer: 'It depends on how many tires you have and where you\'re located. For small jobs (1-10 tires), you\'re looking at around $3-5 per tire. If you\'ve got 50 or more, the per-tire rate drops. Call us for a free quote—no surprises, no games.'
   },
   {
-    question: 'Do you pick up tires on rims?',
-    answer: 'Yes, we take tires with or without rims. Tires on rims are a bit heavier to handle, so there may be a small additional charge. Just let us know what you have when you call and we\'ll give you an accurate quote.'
+    question: 'Do you pick up tires that are still on the rims?',
+    answer: 'Yep, we take tires with or without rims. Tires on rims are heavier and take a bit more effort, so there might be a small upcharge. Just tell us what you have when you call and we\'ll give you an honest price.'
   },
   {
-    question: 'How fast can you pick up my tires?',
-    answer: 'In most cases, we can schedule pickup within 24-48 hours. For urgent situations, same-day service is often available. Give us a call and we\'ll work with your schedule.'
+    question: 'How quickly can you pick up my tires?',
+    answer: 'Usually within 24-48 hours. If it\'s urgent, we can often do same-day service. Just call and we\'ll figure out what works for your schedule.'
   },
   {
-    question: 'What types of tires do you accept?',
-    answer: 'We accept all types: car tires, truck tires, tractor tires, ATV tires, lawn mower tires, and more. Whether it\'s a few passenger tires or a pile of large agricultural tires, we can handle it.'
+    question: 'What types of tires do you take?',
+    answer: 'Pretty much all of them. Car tires, truck tires, tractor tires, ATV tires, lawn mower tires—you name it. Whether you have 2 or 200, we\'ll take care of it.'
   },
   {
-    question: 'What happens to the tires after you pick them up?',
-    answer: 'We work with certified recycling facilities. Most tires get shredded and repurposed into rubber mulch, playground surfaces, athletic tracks, or used as fuel in industrial processes. We never dump illegally—proper disposal is a core part of what we do.'
+    question: 'What happens to the tires after you haul them away?',
+    answer: 'We work with certified recycling facilities. The tires get shredded and turned into rubber mulch, playground surfaces, athletic tracks, or used as fuel in industrial settings. We don\'t cut corners or dump illegally. Proper recycling is part of the job.'
   },
   {
-    question: 'Do you serve commercial businesses?',
-    answer: 'Absolutely. We work with auto shops, tire dealers, car dealerships, and fleet managers throughout the Treasure Valley. We offer scheduled recurring pickups so you don\'t have to think about tire disposal.'
+    question: 'Can you handle bulk tire pickup for commercial properties?',
+    answer: 'Definitely. We work with auto shops, tire dealers, fleet managers—anyone who needs regular tire disposal. We can set up recurring pickups so it\'s one less thing on your plate.'
   },
   {
-    question: 'What areas do you serve?',
-    answer: 'We serve the entire Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and surrounding areas. If you\'re not sure if we cover your area, just give us a call.'
+    question: 'Do you offer same-day tire removal service?',
+    answer: 'We do when our schedule allows. If you need tires gone fast, give us a call. We\'ll let you know what we can do. Most of the time, we can make it happen.'
+  },
+  {
+    question: 'What areas do you serve in the Treasure Valley?',
+    answer: 'We cover Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and the surrounding areas. If you\'re not sure whether we serve your location, just call. We\'ll let you know.'
   }
 ]
 
@@ -89,9 +93,9 @@ export function FAQ() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

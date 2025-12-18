@@ -9,22 +9,22 @@ const services = [
   {
     icon: HardHat,
     title: 'Job Site Cleanup',
-    description: 'Daily, weekly, or project-end cleanup for construction sites. We keep your site clean and safe.',
+    description: 'Daily or final cleanup for construction sites. We haul everything from scrap wood to drywall scraps so your crew stays focused on the build.',
   },
   {
     icon: Hammer,
-    title: 'Renovation Debris',
-    description: 'Kitchen remodels, bathroom updates, room additions—we haul away all the debris so you can focus on building.',
+    title: 'Demolition Debris',
+    description: 'Old cabinets, fixtures, flooring, tile—if you tore it out, we'll haul it away. Perfect for remodels and teardowns.',
   },
   {
     icon: Layers,
-    title: 'Drywall & Lumber',
-    description: 'Scrap drywall, wood, plywood, and other building materials removed and disposed of properly.',
+    title: 'Heavy Materials',
+    description: 'Concrete, brick, roofing shingles, and other heavy materials. We've got the equipment and crew to handle the tough stuff.',
   },
   {
     icon: Truck,
-    title: 'Same Day Service',
-    description: 'Need debris gone today? We offer same-day and next-day pickup for contractors on tight schedules.',
+    title: 'Same-Day Pickup',
+    description: 'Call before noon and we'll usually get there same day. Contractors love us because we work around your schedule.',
   },
 ]
 
@@ -60,7 +60,7 @@ export function ServicesGrid() {
             Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Professional construction debris removal and job site cleanup for the Treasure Valley
+            We haul construction debris so you can keep building. No job too big or small.
           </p>
         </div>
 
@@ -96,9 +96,9 @@ export function ServicesGrid() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

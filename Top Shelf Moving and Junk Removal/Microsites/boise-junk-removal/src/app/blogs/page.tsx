@@ -12,10 +12,16 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    "slug": "why-your-stuff-is-ruining-your-life",
+    "title": "Why Your Stuff Is Ruining Your Life (And What to Do About It)",
+    "excerpt": "That pile of junk in your garage isn't just taking up space. It's stealing your time, your energy, and possibly your sanity.",
+    "image": "/generated/garage-cleanout.webp"
+  },
+  {
     "slug": "decluttering-guide-boise",
     "title": "The Boise Homeowner's Guide to Decluttering",
     "excerpt": "Finally tackling that clutter? Here's a practical room-by-room approach that actually works.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/decluttering-guide.webp"
   },
   {
     "slug": "junk-removal-pricing-explained",
@@ -27,19 +33,19 @@ const blogPosts = [
     "slug": "what-junk-removal-companies-take",
     "title": "What Will Junk Removal Companies Actually Take?",
     "excerpt": "The short answer: almost everything. Here's the full list of items we can haul.",
-    "image": "/generated/basement-cleanout.webp"
+    "image": "/generated/items-we-take.webp"
   },
   {
     "slug": "same-day-junk-removal",
     "title": "Same-Day Junk Removal in Boise: When You Need It Gone Now",
     "excerpt": "Sometimes you can't wait. Here's how same-day junk removal works in the Treasure Valley.",
-    "image": "/generated/yard-waste.webp"
+    "image": "/generated/same-day-service.webp"
   },
   {
     "slug": "junk-removal-vs-dumpster-rental",
     "title": "Junk Removal Service vs Dumpster Rental: Which Is Right for You?",
     "excerpt": "Both options get rid of junk, but they work differently. Here's how to choose.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/junk-vs-dumpster.webp"
   }
 ]
 
@@ -53,7 +59,7 @@ export default function BlogsPage() {
           alt="Junk Removal Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">

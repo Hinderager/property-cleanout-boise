@@ -41,10 +41,10 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Estate Cleanout Pros - ${city}`,
+    "name": `Boise Estate Cleanout - ${city}`,
     "description": `Professional estate cleanout services in ${city}, Idaho. Compassionate property clearing, donation coordination, and complete estate cleanouts. Licensed and insured.`,
     "url": "https://boise-estate-cleanout.com",
-    "telephone": "+1-208-361-1982",
+    "telephone": "+1-208-505-9352",
     "email": "info@boise-estate-cleanout.com",
     "address": {
       "@type": "PostalAddress",
@@ -95,7 +95,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Estate Cleanout Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Estate Cleanout Pros"
+      "name": "Boise Estate Cleanout"
     },
     "areaServed": {
       "@type": "State",

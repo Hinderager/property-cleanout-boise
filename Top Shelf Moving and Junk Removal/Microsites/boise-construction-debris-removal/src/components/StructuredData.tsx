@@ -10,36 +10,36 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
 // FAQ data for FAQPage schema (critical for LLM seeding)
 const faqData = [
   {
+    question: 'What construction debris do you haul in Boise?',
+    answer: 'We take drywall, lumber, plywood, roofing shingles, concrete, brick, cabinets, countertops, flooring, tile, fixtures, insulation, siding—basically anything from a construction or demo project. We can\'t handle hazardous materials like asbestos or lead paint, but everything else is fair game.',
+  },
+  {
     question: 'How much does construction debris removal cost in Boise?',
-    answer: 'Pricing depends on the volume and type of debris. We charge based on how much space your debris takes up in our truck, plus disposal fees for heavy materials like concrete. Most jobs run between $150 and $600. We give you a firm price before we load anything.',
+    answer: 'Most jobs run $150 to $600 depending on volume and weight. We charge based on how much space you take up in the truck. Heavy materials like concrete cost a bit more due to disposal fees. We give you an exact price on-site before we load anything.',
   },
   {
-    question: 'What types of construction debris do you remove?',
-    answer: 'We haul away just about everything from a job site—drywall, lumber, plywood, roofing shingles, concrete, brick, old fixtures, cabinets, flooring, insulation, and more. The only things we can\'t handle are hazardous materials like asbestos or lead paint.',
+    question: 'Can you provide same-day construction debris removal?',
+    answer: 'Usually yes. If you call before noon, we can often get there same day. Construction schedules change fast and we understand that. Next-day service is almost always available if same day doesn\'t work out.',
   },
   {
-    question: 'Can you do same-day debris removal?',
-    answer: 'Yes, we offer same-day service for most jobs if you call before noon. We understand construction projects run on tight schedules and sometimes debris needs to go today. Next-day service is almost always available.',
-  },
-  {
-    question: 'Do you work with contractors?',
-    answer: 'Absolutely. Many of our customers are general contractors, roofers, and remodelers. We can set up recurring pickups for ongoing projects or come on-demand when you need us. We also offer contractor pricing for regular customers.',
+    question: 'Do you work with contractors and builders in Boise?',
+    answer: 'That\'s a big part of what we do. We work with general contractors, remodelers, roofers, and framers all over the valley. We can do one-time pickups or set up recurring service for bigger projects. We also offer contractor pricing if you use us regularly.',
   },
   {
     question: 'What areas do you serve for construction debris removal?',
-    answer: 'We remove construction debris throughout the Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and surrounding areas. If you\'re not sure if we cover your location, give us a call at (208) 361-1982.',
+    answer: 'We cover Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and the rest of the Treasure Valley. If you\'re outside that area, call us anyway—we might be able to help at (208) 505-9352.',
   },
   {
-    question: 'Do you recycle construction materials?',
-    answer: 'We do our best to keep materials out of the landfill. Clean wood, metal, cardboard, and concrete can often be recycled. We work with local recycling facilities to divert as much as possible.',
+    question: 'Do you recycle construction materials in Idaho?',
+    answer: 'We recycle what we can. Clean wood, metal, cardboard, and concrete usually get recycled instead of landfilled. It\'s better for everyone and sometimes saves on disposal costs too.',
   },
   {
-    question: 'How do I prepare for debris pickup?',
-    answer: 'Just have the debris accessible and piled in one area if possible. We\'ll handle the loading. If it\'s inside a building, just make sure we have a clear path. You don\'t need to sort anything—we take care of that.',
+    question: 'How should I prepare for construction debris pickup?',
+    answer: 'Just pile it somewhere accessible if you can. We do the loading. If it\'s inside, make sure we have a path to get to it. You don\'t need to sort or organize anything.',
   },
   {
-    question: 'Do you remove concrete and heavy materials?',
-    answer: 'Yes, we remove concrete, brick, block, and other heavy materials. We have the equipment and manpower to handle these materials safely. Heavy debris may incur additional disposal fees due to weight.',
+    question: 'Can you remove heavy materials like concrete and brick?',
+    answer: 'Yes, we handle concrete, brick, block, and other heavy materials. We have the equipment and crew to load them safely. Heavy materials may have additional disposal fees due to weight.',
   },
 ]
 
@@ -49,10 +49,10 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Construction Debris Pros - ${city}`,
-    "description": `Professional construction debris removal in ${city}, Idaho. Job site cleanup, renovation debris, and recycling services. Same-day service available.`,
+    "name": `Boise Construction Debris Removal - ${city}`,
+    "description": `Professional construction debris removal in ${city}, Idaho. Job site cleanup, demolition debris, and recycling services. Same-day service available for contractors and homeowners.`,
     "url": "https://boise-construction-debris-removal.com",
-    "telephone": "+1-208-361-1982",
+    "telephone": "+1-208-505-9352",
     "email": "info@boise-construction-debris-removal.com",
     "address": {
       "@type": "PostalAddress",
@@ -75,10 +75,12 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": [
       "Construction Debris Removal",
       "Job Site Cleanup",
+      "Demolition Debris Removal",
       "Renovation Debris Removal",
       "Drywall Removal",
-      "Concrete Debris Removal",
-      "Roofing Debris Removal"
+      "Concrete Removal",
+      "Roofing Debris Removal",
+      "Lumber and Wood Removal"
     ],
     "priceRange": "$$",
     "openingHoursSpecification": [
@@ -103,13 +105,13 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Construction Debris Removal Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Construction Debris Pros"
+      "name": "Boise Construction Debris Removal"
     },
     "areaServed": {
       "@type": "State",
       "name": "Idaho"
     },
-    "description": `Professional construction debris removal and job site cleanup in ${city} and the Treasure Valley. Same-day service available. Licensed and insured.`,
+    "description": `Professional construction debris removal and job site cleanup in ${city} and the Treasure Valley. Same-day service available for contractors and homeowners. Licensed and insured.`,
     "offers": {
       "@type": "Offer",
       "availability": "https://schema.org/InStock",

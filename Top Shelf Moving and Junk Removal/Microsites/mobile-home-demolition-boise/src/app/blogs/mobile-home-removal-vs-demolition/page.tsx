@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Scale, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Mobile Home Removal vs Demolition: What\'s the Difference? | Mobile Home Demolition Pros',
-  description: 'Both options get the mobile home gone, but they work differently. Here\'s how to choose.',
+  title: 'Mobile Home Removal vs Demolition: Which Option Is Right? | Mobile Home Demolition Pros',
+  description: 'Should you have your mobile home moved or demolished? Here\'s how to decide which option makes sense for your situation.',
   alternates: {
     canonical: 'https://mobile-home-demolition-boise.com/blogs/mobile-home-removal-vs-demolition',
   },
 }
 
-export default function BlogPost() {
+export default function MobileHomeRemovalVsDemolition() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hero.webp"
-          alt="Mobile Home Removal vs Demolition: What's the Difference?"
+          src="/generated/removal-vs-demolition.webp"
+          alt="Mobile Home Removal vs Demolition"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,271 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Mobile Home Removal vs Demolition: What's the Difference?
+            Mobile Home Removal vs Demolition: Which Is Right?
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for mobile home demolition services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Mobile Home Removal Vs Demolition</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to mobile home demolition, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Mobile home demolition in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality mobile home demolition services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Mobile home demolition Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need mobile home demolition services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Mobile home demolition Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Mobile Home Demolition Pros is here to help with all your mobile home demolition needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You need a mobile home gone. But do you have it moved somewhere else, or demolished on site? Both options get the same end result—an empty lot—but they work very differently and have different cost implications.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's how to figure out which approach makes sense for your situation.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* What's the Difference */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <Scale className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                What's the Difference?
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              <strong>Removal (also called relocation):</strong> The mobile home is lifted off its foundation, placed on a transport trailer, and moved to a new location. The structure stays intact. Someone else ends up with the home—either as a buyer, donation recipient, or someone who wants it for another purpose.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              <strong>Demolition:</strong> The mobile home is torn down on site. Materials are hauled away, with recyclable components (metal, appliances) separated from materials bound for the landfill. Nothing remains but the foundation—which may also be removed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Both end with an empty lot. The question is which path gets you there.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* When Removal Makes Sense */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              When Removal Makes Sense
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Relocation works best when certain conditions are met:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>The home is in good condition:</strong> Structurally sound, no major water damage, not falling apart. It needs to survive transport</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Good access for transport:</strong> Wide enough roads, no low bridges, room to maneuver a mobile home on a trailer</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Someone wants it:</strong> A buyer, charity, or someone with a use for the home. Otherwise there's nowhere for it to go</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Newer model:</strong> Post-1976 HUD-code homes are more likely to be movable. Older models often aren't worth the cost</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              If you can find a buyer, removal might cost you nothing—or even make you money. But that "if" is often the catch.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* When Demolition Makes Sense */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              When Demolition Makes Sense
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Demolition is usually the practical choice when:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>The home is in poor condition.</strong> Water damage, structural problems, mold, outdated systems—no one wants to buy or move a home that needs more repairs than it's worth.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>It's an older model.</strong> Pre-1976 mobile homes were built to different (lesser) standards. Finding someone to move them—and finding a place that'll accept them—is difficult.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Access is limited.</strong> Narrow driveways, overhanging trees, tight turns, low power lines—if a transport trailer can't get in and out, removal isn't an option.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>No buyer interest.</strong> If you've tried to give it away and can't find takers, demolition is the realistic path forward.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>You're in a hurry.</strong> Demolition can typically be scheduled within days to weeks. Finding a buyer and coordinating removal can take months—if it happens at all.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Cost Comparison */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Cost Comparison
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Costs vary widely, but here's the general picture in the Treasure Valley:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Removal costs (if you pay for it):</strong> $3,000-$10,000+ depending on distance, home size, and complexity. Transport permits, pilot cars, and site prep add up. Most people who pay for removal do so because they're relocating the home themselves.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Removal costs (if you find a buyer):</strong> Zero to you—possibly even a sale price—if someone wants the home and will pay for moving it. But finding that buyer isn't guaranteed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Demolition costs:</strong> $3,000-$8,000 for most mobile homes in the Boise area, including hauling and disposal. More for double-wides or homes with complications.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              The math often favors demolition unless you actually have a buyer lined up. Searching for a buyer who may not exist wastes time and prolongs the problem.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Removal Reality Check */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Removal Reality Check
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Many people assume they can sell or give away their mobile home to avoid demolition costs. Sometimes that works. Often it doesn't:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>The used mobile home market is tough.</strong> Buyers who want older mobile homes can usually find them cheaper already in place at mobile home parks.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Move-in ready parks are picky.</strong> Many parks won't accept homes older than 10-15 years. Older homes have fewer places they can legally be placed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Moving costs are high.</strong> Even if the home is free, the move itself costs thousands. That limits your buyer pool to people with both land and moving budget.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Time costs money too.</strong> Every month you spend looking for a buyer is another month of property taxes, lot rent (if applicable), and delayed plans for your property.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Decision Framework */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              How to Decide
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Ask yourself these questions:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Is the home in movable condition?</strong> If it's falling apart, removal isn't realistic anyway.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Do you already have a buyer or recipient?</strong> If yes, explore removal. If you're hoping to find one, be realistic about your timeline.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>How urgent is this?</strong> If you need the lot cleared soon—for a sale, new construction, or code compliance—demolition is more predictable.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>What's the home's age?</strong> Pre-1976 homes are almost always demolition candidates.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Can transport access your site?</strong> If getting a mobile home out would require moving power lines or removing fences, factor that into the cost comparison.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Removal is great when it works—you might get paid, or at least avoid demolition costs. But it only works when the home is in good condition, transportable, and someone actually wants it.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              For most mobile homes in the Treasure Valley—especially older ones or those in poor condition—demolition is the practical path forward. It's a known cost on a predictable timeline.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Not sure which option fits your situation? We can take a look and give you an honest assessment of your options.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Need Help Deciding?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We can assess your mobile home and give you a realistic picture of your options. Free estimates, honest advice.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Mobile Home Demolition Resources
           </h2>
           <div className="text-center">
             <Link

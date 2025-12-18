@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Wrench, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Can You Remove a Hot Tub Yourself? (Honest Answer) | Hot Tub Removal Pros',
-  description: 'DIY is possible but comes with challenges. Here\'s what you\'d need to do it right.',
+  description: 'DIY hot tub removal is possible but comes with real challenges. Here\'s what you\'d need to do it right in Boise.',
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/blogs/diy-hot-tub-removal',
   },
 }
 
-export default function BlogPost() {
+export default function DIYHotTubRemoval() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/spa-removal.webp"
-          alt="Can You Remove a Hot Tub Yourself? (Honest Answer)"
+          src="/generated/diy-hot-tub-removal.webp"
+          alt="DIY Hot Tub Removal"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,248 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Can You Remove a Hot Tub Yourself? (Honest Answer)
+            Can You Remove a Hot Tub Yourself?
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for hot tub removal services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Diy Hot Tub Removal</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to hot tub removal, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Hot tub removal in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality hot tub removal services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Hot tub removal Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need hot tub removal services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Hot tub removal Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Hot Tub Removal Pros is here to help with all your hot tub removal needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You're looking at that old hot tub and thinking: how hard could it be? With enough friends and a truck, you could probably handle this yourself, right?
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              The honest answer is: yes, it's possible. But there's a lot more involved than most people realize. Here's a realistic breakdown of what DIY hot tub removal actually requires.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* What You're Actually Dealing With */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <Wrench className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                What You're Actually Dealing With
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              A typical hot tub weighs 500-1,000 pounds empty. Some larger models hit 1,500 pounds. That's before you account for:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Size and bulk.</strong> Most hot tubs are 7-8 feet across and won't fit through gates or doorways. You can't just roll it out to the curb.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Location challenges.</strong> Many Boise backyards have hot tubs wedged into corners, on decks, or behind fencing. Getting it out often means going through or over obstacles.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Electrical disconnection.</strong> Hot tubs are hardwired to 220-240 volt circuits. You'll need an electrician to safely disconnect—this isn't something to DIY.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Disposal.</strong> Even if you get it to the curb, garbage collection won't take it. You need to get it to a transfer station or recycling facility—which means a truck or trailer big enough to haul it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The DIY Approach */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The DIY Approach: What It Actually Takes
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              If you're determined to do this yourself, here's the realistic process:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Drain it completely.</strong> This takes a few hours with a sump pump or garden hose. Make sure the water drains away from your foundation and your neighbor's property.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Disconnect utilities.</strong> Hire an electrician to disconnect the 220V line. If it has a gas heater, you'll need the gas disconnected too.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Cut it up.</strong> Unless you have a crane, you're cutting the tub into pieces. You'll need a reciprocating saw with demolition blades, protective gear, and several hours of sweaty work.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Haul the pieces.</strong> Even cut up, you're looking at multiple trips to the landfill or transfer station. Ada County's Hidden Hollow Landfill charges by weight.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Clean up.</strong> Cutting a hot tub creates fiberglass dust and debris. You'll need to clean up and properly dispose of all materials.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Real Costs of DIY */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              The Real Costs of DIY
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              "Free" DIY removal isn't actually free:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Electrician:</strong> $75-150 for disconnect</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Saw blades:</strong> $30-50 (you'll go through several)</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Dump fees:</strong> $50-100+ depending on weight</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Truck rental:</strong> $50-100 if you don't have a trailer</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Your time:</strong> 6-10 hours of labor (plus recruiting help)</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              Total DIY cost: typically $200-400, plus a full day of hard work. And that assumes everything goes smoothly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* When DIY Makes Sense */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              When DIY Actually Makes Sense
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              DIY hot tub removal can work if:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Easy access.</strong> The hot tub is on ground level with clear access to your driveway or street. No fences, decks, or tight corners.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>You have the right tools.</strong> A heavy-duty reciprocating saw, safety gear (respirator, goggles, gloves), and a trailer or truck.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Strong helpers available.</strong> You need 2-3 people who can lift heavy, awkward pieces and don't mind getting dirty.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>You enjoy this kind of project.</strong> If demolition sounds like fun rather than torture, and you have a free Saturday, go for it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* When to Call a Pro */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              When to Call Professionals
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Professional removal makes more sense when:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Access is complicated.</strong> The tub is on a deck, behind fencing, in a basement, or requires navigating obstacles. Pros have equipment and techniques for tricky situations.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>You're on a deadline.</strong> Need it gone this week? Pros can typically schedule within days and complete in hours.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Physical limitations.</strong> If heavy lifting isn't safe for you, don't risk injury. Hot tub pieces are awkward and heavy.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Your time is valuable.</strong> When you factor in your time, the price difference between DIY and professional removal often isn't that significant.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Can you remove a hot tub yourself? Yes, if you have easy access, the right tools, willing helpers, and a full day to dedicate to the project.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Is it worth it? That depends on how you value your time and energy. For many Boise homeowners, the convenience of professional removal—typically a few hundred dollars for same-day service—outweighs the hassle of DIY.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Either way, now you know what you're actually getting into.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Want a Free Quote?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We'll give you an honest estimate for hot tub removal. If DIY makes more sense for your situation, we'll tell you.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Hot Tub Resources
           </h2>
           <div className="text-center">
             <Link

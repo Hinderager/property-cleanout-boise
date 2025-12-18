@@ -7,32 +7,32 @@ import { Button } from '@/components/ui/button'
 // FAQ data used for both UI and structured data
 export const faqs = [
   {
-    question: 'What types of construction debris do you remove?',
-    answer: 'We haul away just about everything from a job site—drywall, lumber, plywood, roofing shingles, concrete, brick, old fixtures, cabinets, flooring, insulation, and more. If you\'re not sure whether we can take something, just give us a call. The only things we can\'t handle are hazardous materials like asbestos or lead paint.'
+    question: 'What construction debris do you haul?',
+    answer: 'We take drywall, lumber, plywood, roofing shingles, concrete, brick, cabinets, countertops, flooring, tile, fixtures, insulation, siding—basically anything from a construction or demo project. We can\'t handle hazardous stuff like asbestos or lead paint, but everything else is fair game.'
   },
   {
-    question: 'How much does construction debris removal cost?',
-    answer: 'Pricing depends on the volume and type of debris. We charge based on how much space your debris takes up in our truck, plus disposal fees for heavy materials like concrete. Most jobs run between $150 and $600. We give you a firm price before we load anything.'
+    question: 'How much does it cost?',
+    answer: 'Most jobs run $150 to $600 depending on volume and weight. We charge based on how much space you take up in the truck. Heavy materials like concrete cost a bit more due to disposal fees. We'll give you an exact price on-site before we load anything.'
   },
   {
-    question: 'Can you do same-day debris removal?',
-    answer: 'Yes, we offer same-day service for most jobs if you call before noon. We understand construction projects run on tight schedules and sometimes debris needs to go today. Next-day service is almost always available.'
+    question: 'Can you come same day?',
+    answer: 'Usually yes. If you call before noon, we can often get there same day. Construction schedules change fast and we get that. Next-day service is almost always available if same day doesn\'t work out.'
   },
   {
-    question: 'Do you work with contractors?',
-    answer: 'Absolutely. Many of our customers are general contractors, roofers, and remodelers. We can set up recurring pickups for ongoing projects or come on-demand when you need us. We also offer contractor pricing for regular customers.'
+    question: 'Do you work with contractors and builders?',
+    answer: 'That's a big part of what we do. We work with GCs, remodelers, roofers, and framers all over the valley. We can do one-time pickups or set up recurring service for bigger projects. We also offer contractor pricing if you use us regularly.'
   },
   {
-    question: 'What areas do you serve?',
-    answer: 'We remove construction debris throughout the Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and surrounding areas. If you\'re not sure if we cover your location, give us a call at (208) 361-1982.'
+    question: 'Where do you provide service?',
+    answer: 'We cover Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and the rest of the Treasure Valley. If you're outside that area, call us anyway—we might be able to help. (208) 505-9352.'
   },
   {
-    question: 'Do you recycle construction materials?',
-    answer: 'We do our best to keep materials out of the landfill. Clean wood, metal, cardboard, and concrete can often be recycled. We work with local recycling facilities to divert as much as possible. It\'s better for the environment and often keeps costs down.'
+    question: 'What about recycling?',
+    answer: 'We recycle what we can. Clean wood, metal, cardboard, and concrete usually get recycled instead of landfilled. It's better for everyone and sometimes saves on disposal costs too.'
   },
   {
-    question: 'How do I prepare for debris pickup?',
-    answer: 'Just have the debris accessible and piled in one area if possible. We\'ll handle the loading. If it\'s inside a building, just make sure we have a clear path. You don\'t need to sort anything—we take care of that.'
+    question: 'How should I prep for pickup?',
+    answer: 'Just pile it somewhere accessible if you can. We do the loading. If it's inside, make sure we have a path to get to it. You don't need to sort or organize anything.'
   }
 ]
 
@@ -89,9 +89,9 @@ export function FAQ() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

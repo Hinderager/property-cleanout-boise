@@ -12,22 +12,22 @@ export function Footer() {
             <h4 className="text-xl font-bold mb-4 text-light-blue">Company</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/about-hoarding" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/about-us/understanding-hoarding" className="text-white/80 hover:text-white transition-colors">
                   About Hoarding
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/blogs" className="text-white/80 hover:text-white transition-colors">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/hoarding-signs" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/resources/hoarding-signs" className="text-white/80 hover:text-white transition-colors">
                   Signs of Hoarding
                 </Link>
               </li>
               <li>
-                <Link href="/helping-a-hoarder" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/resources/helping-a-hoarder" className="text-white/80 hover:text-white transition-colors">
                   How to Help
                 </Link>
               </li>
@@ -39,10 +39,11 @@ export function Footer() {
             <h4 className="text-xl font-bold mb-4 text-light-blue">Services</h4>
             <ul className="space-y-2">
               <li className="text-white/80">Hoarding Cleanup</li>
-              <li className="text-white/80">Estate Cleanouts</li>
-              <li className="text-white/80">Deep Cleaning</li>
-              <li className="text-white/80">Junk Removal</li>
-              <li className="text-white/80">Emergency Services</li>
+              <li className="text-white/80">Extreme Cleaning</li>
+              <li className="text-white/80">Clutter Removal</li>
+              <li className="text-white/80">Compassionate Cleanout</li>
+              <li className="text-white/80">Biohazard Cleaning</li>
+              <li className="text-white/80">Organization Help</li>
             </ul>
           </div>
 
@@ -51,27 +52,27 @@ export function Footer() {
             <h4 className="text-xl font-bold mb-4 text-light-blue">Service Areas</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/boise" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/boise" className="text-white/80 hover:text-white transition-colors">
                   Boise
                 </Link>
               </li>
               <li>
-                <Link href="/meridian" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/meridian" className="text-white/80 hover:text-white transition-colors">
                   Meridian
                 </Link>
               </li>
               <li>
-                <Link href="/nampa" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/nampa" className="text-white/80 hover:text-white transition-colors">
                   Nampa
                 </Link>
               </li>
               <li>
-                <Link href="/caldwell" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/caldwell" className="text-white/80 hover:text-white transition-colors">
                   Caldwell
                 </Link>
               </li>
               <li>
-                <Link href="/eagle" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/eagle" className="text-white/80 hover:text-white transition-colors">
                   Eagle
                 </Link>
               </li>
@@ -86,11 +87,11 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <a
-                    href="tel:2083611982"
+                    href="tel:2085059352"
                     className="text-white/80 hover:text-white transition-colors font-semibold"
                   >
                     <span className="md:hidden">Call Now</span>
-                    <span className="hidden md:inline">(208) 361-1982</span>
+                    <span className="hidden md:inline">(208) 505-9352</span>
                   </a>
                 </div>
               </li>
@@ -153,7 +154,7 @@ export function Footer() {
 
             <div className="text-center md:text-right">
               <p className="text-white/60 text-sm">
-                &copy; {new Date().getFullYear()} Hoarding Cleanup Pros. All rights reserved.
+                &copy; {new Date().getFullYear()} Boise Hoarding Cleanup. All rights reserved.
               </p>
               <div className="flex gap-4 mt-2 justify-center md:justify-end">
                 <Link href="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">

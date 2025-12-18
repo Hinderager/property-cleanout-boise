@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Building, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Foreclosure Cleanout: What Banks and Investors Need to Know | Property Cleanout Pros',
-  description: 'REO properties often need major cleanout work. Here\'s how the process typically works.',
+  description: 'REO and foreclosure properties often need extensive cleanout. Here\'s how the process works for banks and investors in the Boise area.',
   alternates: {
     canonical: 'https://property-cleanout-boise.com/blogs/foreclosure-cleanout-process',
   },
 }
 
-export default function BlogPost() {
+export default function ForeclosureCleanoutProcess() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
           src="/generated/foreclosure-cleanout.webp"
-          alt="Foreclosure Cleanout: What Banks and Investors Need to Know"
+          alt="Foreclosure Cleanout Process"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,279 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Foreclosure Cleanout: What Banks and Investors Need to Know
+            Foreclosure Cleanout: What Banks and Investors Need
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for property cleanout services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Foreclosure Cleanout Process</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to property cleanout, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Property cleanout in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality property cleanout services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Property cleanout Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need property cleanout services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You've acquired an REO property. Former occupants left behind a mess—furniture, trash, personal belongings, sometimes worse. Before you can list it or rent it, everything has to go.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Foreclosure cleanouts have unique requirements. Here's what banks, asset managers, and real estate investors in the Treasure Valley need to know about getting these properties cleared and market-ready.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Makes Foreclosures Different */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <Building className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                What Makes Foreclosure Cleanouts Different
+              </h2>
             </div>
 
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Property cleanout Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Property Cleanout Pros is here to help with all your property cleanout needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Foreclosed properties present unique challenges:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Unknown contents.</strong> You often don't know what's inside until you arrive. Could be a few bags of trash. Could be a house full of abandoned belongings, hoarding conditions, or hazardous materials.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Legal considerations.</strong> Abandoned property laws in Idaho require specific handling. Items can't just be thrown away immediately in all cases—documentation and sometimes storage periods are required.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Property condition issues.</strong> Foreclosed homes often have deferred maintenance, vandalism, or damage from utilities being shut off. These affect cleanout complexity.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Timeline pressure.</strong> Banks and investors want properties market-ready fast. Every day a property sits unsold costs money.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Cleanout Process */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              The Foreclosure Cleanout Process
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              How we typically handle REO cleanouts:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Initial assessment:</strong> We walk the property to inventory contents, assess volume, identify hazards, and note any items requiring special handling</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Photo documentation:</strong> Before and after photos document property condition—important for your records and any disputes</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Contents removal:</strong> Everything comes out—furniture, appliances, personal items, trash, yard debris</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Broom-clean condition:</strong> We leave the property swept and ready for the next phase of prep work</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Proper disposal:</strong> Items go to appropriate destinations—recycling, donation, landfill—with documentation as needed</span>
+              </div>
             </div>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* What We Typically Find */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What We Typically Find
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Every foreclosure is different, but common scenarios include:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Partial cleanouts.</strong> Previous occupants took some things, left others. Random furniture, appliances, personal items throughout the house.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Complete abandonment.</strong> Everything left behind as if people just walked away. Full households of contents, sometimes including valuables and personal documents.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Trash-out situations.</strong> Heavy trash accumulation, often from extended vacancy. Vermin damage, mold growth, significant debris.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Yard debris.</strong> Overgrown landscaping, accumulated outdoor items, vehicles or equipment left on property.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Hoarding conditions.</strong> Some foreclosures involve severe clutter or hoarding. These require more time, labor, and often specialized cleaning afterward.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Working with Asset Managers */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Working with Banks and Asset Managers
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              We understand institutional requirements:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Bidding and approval processes.</strong> We can work within your procurement requirements, providing detailed bids with itemized pricing.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Insurance and liability.</strong> We carry liability insurance and can provide certificates of insurance as required.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Photo documentation.</strong> Timestamped before/after photos for every cleanout, provided in whatever format you need.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Invoicing requirements.</strong> We can accommodate specific billing procedures, property identifiers, and reporting formats.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Multiple properties.</strong> If you're managing several REOs in the Treasure Valley, we can handle them as a portfolio with consistent pricing and processes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* For Investors */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              For Real Estate Investors
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Buying distressed properties in the Boise area? Here's what matters:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Fast turnaround.</strong> We understand that time is money. Most foreclosure cleanouts can be completed in 1-2 days, getting you to the renovation phase faster.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Flexible scheduling.</strong> Close on a property Friday and need it cleared Monday? We can often accommodate tight timelines.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Volume discounts.</strong> Regular investors who send us multiple properties can establish ongoing arrangements with consistent pricing.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>One less thing to manage.</strong> We handle the cleanout completely. You focus on renovation planning, contractor coordination, and getting to market.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Foreclosure Cleanout Pricing
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Costs depend on property size and contents:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Light cleanouts:</strong> $500-$1,500. Partial contents, minimal trash, standard house size.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Full-house cleanouts:</strong> $1,500-$3,500. Complete household contents, multiple rooms, typical foreclosure situation.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Heavy cleanouts:</strong> $3,500-$6,000+. Hoarding conditions, large homes, extensive debris, or hazardous materials requiring special handling.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              We provide firm quotes after assessment. No surprises—the price we quote is the price you pay.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Foreclosure cleanouts require speed, thoroughness, and proper documentation. Whether you're a bank asset manager, property management company, or real estate investor, you need a reliable partner who can handle whatever's behind that door.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              We've cleared hundreds of REO and distressed properties throughout the Treasure Valley. We know what to expect, how to handle complications, and how to get properties market-ready fast.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Let us know what you're dealing with. We can usually provide a quote within 24 hours and start work within days.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Need a Foreclosure Cleanout?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We provide fast, documented cleanouts for banks, asset managers, and investors throughout Boise, Meridian, Nampa, and the Treasure Valley.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Property Cleanout Resources
           </h2>
           <div className="text-center">
             <Link

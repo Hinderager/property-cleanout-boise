@@ -12,23 +12,23 @@ export function Footer() {
             <h4 className="text-xl font-bold mb-4 text-light-blue">Resources</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/foreclosure-cleanouts" className="text-white/80 hover:text-white transition-colors">
-                  Foreclosure Cleanouts
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog" className="text-white/80 hover:text-white transition-colors">
-                  Blog
-                </Link>
-              </li>
-              <li>
                 <Link href="/rental-turnovers" className="text-white/80 hover:text-white transition-colors">
-                  Rental Turnovers
+                  Rental Cleanout
+                </Link>
+              </li>
+              <li>
+                <Link href="/foreclosure-cleanouts" className="text-white/80 hover:text-white transition-colors">
+                  Foreclosure Cleanout
                 </Link>
               </li>
               <li>
                 <Link href="/eviction-cleanouts" className="text-white/80 hover:text-white transition-colors">
-                  Eviction Cleanouts
+                  Eviction Cleanout
+                </Link>
+              </li>
+              <li>
+                <Link href="/blogs" className="text-white/80 hover:text-white transition-colors">
+                  Blog
                 </Link>
               </li>
             </ul>
@@ -38,11 +38,12 @@ export function Footer() {
           <div>
             <h4 className="text-xl font-bold mb-4 text-light-blue">Services</h4>
             <ul className="space-y-2">
-              <li className="text-white/80">Foreclosure Cleanouts</li>
-              <li className="text-white/80">Rental Property Clearing</li>
-              <li className="text-white/80">Eviction Cleanouts</li>
-              <li className="text-white/80">Estate Cleanouts</li>
-              <li className="text-white/80">Hoarding Cleanup</li>
+              <li className="text-white/80">Rental Cleanout</li>
+              <li className="text-white/80">Foreclosure Cleanout</li>
+              <li className="text-white/80">Eviction Cleanout</li>
+              <li className="text-white/80">REO Cleanout</li>
+              <li className="text-white/80">Real Estate Cleanout</li>
+              <li className="text-white/80">Investment Property</li>
             </ul>
           </div>
 
@@ -51,27 +52,27 @@ export function Footer() {
             <h4 className="text-xl font-bold mb-4 text-light-blue">Service Areas</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/boise" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/boise" className="text-white/80 hover:text-white transition-colors">
                   Boise
                 </Link>
               </li>
               <li>
-                <Link href="/meridian" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/meridian" className="text-white/80 hover:text-white transition-colors">
                   Meridian
                 </Link>
               </li>
               <li>
-                <Link href="/nampa" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/nampa" className="text-white/80 hover:text-white transition-colors">
                   Nampa
                 </Link>
               </li>
               <li>
-                <Link href="/caldwell" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/caldwell" className="text-white/80 hover:text-white transition-colors">
                   Caldwell
                 </Link>
               </li>
               <li>
-                <Link href="/eagle" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/cities-served/eagle" className="text-white/80 hover:text-white transition-colors">
                   Eagle
                 </Link>
               </li>
@@ -86,11 +87,11 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <a
-                    href="tel:2083611982"
+                    href="tel:2085059352"
                     className="text-white/80 hover:text-white transition-colors font-semibold"
                   >
                     <span className="md:hidden">Call Now</span>
-                    <span className="hidden md:inline">(208) 361-1982</span>
+                    <span className="hidden md:inline">(208) 505-9352</span>
                   </a>
                 </div>
               </li>
@@ -118,8 +119,8 @@ export function Footer() {
                 <Clock className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <p className="text-white/80">
-                    Mon-Sat: 8am - 6pm<br />
-                    Emergency: 24/7
+                    Mon-Sat: 7am - 7pm<br />
+                    Same-Day Available
                   </p>
                 </div>
               </li>
@@ -153,7 +154,7 @@ export function Footer() {
 
             <div className="text-center md:text-right">
               <p className="text-white/60 text-sm">
-                &copy; {new Date().getFullYear()} Property Cleanout Pros. All rights reserved.
+                &copy; {new Date().getFullYear()} Boise Property Cleanout. All rights reserved.
               </p>
               <div className="flex gap-4 mt-2 justify-center md:justify-end">
                 <Link href="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">

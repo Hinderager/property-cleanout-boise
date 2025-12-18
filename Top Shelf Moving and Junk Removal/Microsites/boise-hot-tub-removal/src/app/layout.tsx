@@ -21,14 +21,14 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-hot-tub-removal.com'),
-  title: 'Hot Tub Removal Boise | Same-Day Spa Removal | Hot Tub Removal Pros',
+  title: 'Hot Tub Removal Boise | Same-Day Spa Removal | Boise Hot Tub Removal',
   description: 'Professional hot tub removal in Boise, Idaho. Safe disconnection, full demolition, and eco-friendly disposal. Same-day service available. Call (208) 361-1982 for a free quote.',
-  keywords: 'hot tub removal Boise, spa removal Boise, hot tub disposal, spa hauling, hot tub demolition, Boise Idaho, Meridian, Nampa, Caldwell, Eagle',
+  keywords: 'hot tub removal Boise, spa removal Boise, jacuzzi removal, hot tub disposal, hot tub demolition, deck hot tub removal, Boise Idaho, Meridian, Nampa, Caldwell, Eagle',
   openGraph: {
-    title: 'Hot Tub Removal Boise | Same-Day Spa Removal | Hot Tub Removal Pros',
+    title: 'Hot Tub Removal Boise | Same-Day Spa Removal | Boise Hot Tub Removal',
     description: 'Professional hot tub removal in Boise and the Treasure Valley. Safe disconnection, demolition, and eco-friendly disposal.',
     url: 'https://boise-hot-tub-removal.com',
-    siteName: 'Hot Tub Removal Pros',
+    siteName: 'Boise Hot Tub Removal',
     locale: 'en_US',
     type: 'website',
   },
@@ -58,7 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${oswald.variable} ${openSans.variable}`}>
       <body className="font-body antialiased">
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
+          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
           strategy="afterInteractive"
         />
         <Script id="google-ads" strategy="afterInteractive">
@@ -66,6 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-46RY05JDNS');
             gtag('config', 'AW-11134633087');
           `}
         </Script>

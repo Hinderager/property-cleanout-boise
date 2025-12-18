@@ -15,7 +15,7 @@ const blogPosts = [
     "slug": "rental-property-cleanout-guide",
     "title": "Rental Property Cleanout: A Landlord's Guide",
     "excerpt": "Tenant left a mess? Here's how to get your property ready for the next renter quickly.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/rental-cleanout-guide.webp"
   },
   {
     "slug": "foreclosure-cleanout-process",
@@ -27,19 +27,19 @@ const blogPosts = [
     "slug": "property-cleanout-cost-factors",
     "title": "What Affects Property Cleanout Costs?",
     "excerpt": "Every property is different. Here's what determines the price of a cleanout.",
-    "image": "/generated/rental-turnover.webp"
+    "image": "/generated/cleanout-cost-factors.webp"
   },
   {
     "slug": "same-day-property-cleanout",
     "title": "Same-Day Property Cleanout: When Time Matters",
     "excerpt": "Sometimes you need a property cleared immediately. Here's how rush cleanouts work.",
-    "image": "/generated/code-violation.webp"
+    "image": "/generated/same-day-cleanout.webp"
   },
   {
     "slug": "property-cleanout-checklist",
     "title": "Property Cleanout Checklist for Property Managers",
     "excerpt": "Make sure nothing gets missed with this comprehensive cleanout checklist.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/cleanout-checklist.webp"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function BlogsPage() {
           alt="Property Cleanout Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">

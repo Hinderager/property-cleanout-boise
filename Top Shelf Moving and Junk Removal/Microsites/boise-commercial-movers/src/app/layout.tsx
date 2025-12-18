@@ -1,36 +1,54 @@
-import type { Metadata } from 'next'
-import { Inter, Oswald } from 'next/font/google'
-import Script from 'next/script'
+import type { Metadata, Viewport } from 'next'
+import { Montserrat, Oswald } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' })
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  variable: '--font-oswald',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-commercial-movers.com'),
   title: {
-    default: 'Boise Commercial Movers | Office Moving Services Idaho',
+    default: 'Commercial Movers Boise | Office Moving & Business Relocation Idaho',
     template: '%s | Boise Commercial Movers',
   },
-  description: 'Professional commercial and office moving services in Boise, Meridian, Nampa & Eagle Idaho. Minimal downtime, IT equipment handling, furniture setup. Licensed & insured. Free quotes!',
-  keywords: ['commercial movers Boise', 'office moving Boise', 'business relocation Idaho', 'corporate moving services', 'IT equipment moving', 'furniture installation Boise', 'Meridian commercial movers', 'Treasure Valley office moving'],
-  authors: [{ name: 'Boise Commercial Moving Pros' }],
+  description: 'Professional commercial moving services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Office relocation, warehouse moving, equipment transport. Licensed & insured. Minimal downtime. Call (208) 505-9352.',
+  keywords: [
+    'commercial movers Boise',
+    'office movers Boise Idaho',
+    'business relocation Meridian',
+    'warehouse moving Nampa',
+    'commercial moving company Boise',
+    'office relocation Caldwell',
+    'equipment movers Eagle Idaho',
+    'IT relocation Treasure Valley',
+    'commercial moving services',
+    'office moving Boise',
+    'business movers Idaho',
+    'furniture installation Boise',
+  ],
+  authors: [{ name: 'Boise Commercial Movers' }],
   openGraph: {
-    title: 'Boise Commercial Movers | Office Moving Services Idaho',
-    description: 'Professional commercial and office moving services in Boise and the Treasure Valley. Minimal downtime, IT equipment handling, furniture setup.',
+    title: 'Commercial Movers | Boise, Meridian, Nampa Idaho',
+    description: 'Professional office and business moving services in the Treasure Valley. Licensed, insured, and focused on minimal downtime.',
     url: 'https://boise-commercial-movers.com',
-    siteName: 'Boise Commercial Moving Pros',
+    siteName: 'Boise Commercial Movers',
     locale: 'en_US',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Boise Commercial Movers | Office Moving Services Idaho',
-    description: 'Professional commercial and office moving services in Boise and the Treasure Valley.',
   },
   robots: {
     index: true,
@@ -43,9 +61,12 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    canonical: 'https://boise-commercial-movers.com',
-  },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
 }
 
 export default function RootLayout({
@@ -54,49 +75,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
         <StructuredData />
+        <link rel="dns-prefetch" href="https://www.google.com" />
+        <link rel="preconnect" href="https://www.google.com" crossOrigin="anonymous" />
       </head>
-      <body className={`${inter.variable} ${oswald.variable} font-sans antialiased`}>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-11134633087');
-          `}
-        </Script>
-        <Script id="meta-pixel" strategy="afterInteractive">
-          {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '533217938868618');
-            fbq('track', 'PageView');
-          `}
-        </Script>
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{display:'none'}}
-            src="https://www.facebook.com/tr?id=533217938868618&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
+      <body className={`${montserrat.variable} ${oswald.variable} font-sans antialiased`}>
         <QuoteFormProvider>
           <Header />
-          <main>{children}</main>
+          {children}
           <Footer />
         </QuoteFormProvider>
       </body>

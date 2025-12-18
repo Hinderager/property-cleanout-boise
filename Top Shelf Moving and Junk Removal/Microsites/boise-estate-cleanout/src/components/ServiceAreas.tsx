@@ -4,28 +4,28 @@ import { MapPin, ArrowRight } from 'lucide-react'
 const serviceAreas = [
   {
     name: 'Boise',
-    href: '/boise',
-    description: 'Idaho\'s capital city. Full hoarding cleanup services in Downtown, North End, Bench, and all Boise neighborhoods.',
+    href: '/cities-served/boise',
+    description: 'Idaho\'s capital city. Full estate cleanout services in Downtown, North End, Bench, and all Boise neighborhoods.',
   },
   {
     name: 'Meridian',
-    href: '/meridian',
+    href: '/cities-served/meridian',
     description: 'Idaho\'s fastest-growing city. Serving all Meridian communities including Ten Mile, Lochsa Falls, and Paramount.',
   },
   {
     name: 'Nampa',
-    href: '/nampa',
-    description: 'Canyon County\'s largest city. Hoarding cleanup services throughout Nampa and surrounding areas.',
+    href: '/cities-served/nampa',
+    description: 'Canyon County\'s largest city. Estate cleanout services throughout Nampa and surrounding areas.',
   },
   {
     name: 'Caldwell',
-    href: '/caldwell',
+    href: '/cities-served/caldwell',
     description: 'Serving all of Caldwell including downtown, residential areas, and rural properties.',
   },
   {
     name: 'Eagle',
-    href: '/eagle',
-    description: 'Discreet hoarding cleanup services in Eagle, including estates and large properties.',
+    href: '/cities-served/eagle',
+    description: 'Discreet estate cleanout services in Eagle, including estates and large properties.',
   },
 ]
 
@@ -36,10 +36,10 @@ export function ServiceAreas() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-4">
-            Hoarding Cleanup Service Areas
+            Estate Cleanout Service Areas
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            We provide professional hoarding cleanup services throughout the Treasure Valley. Click on your city to learn more.
+            We provide professional estate cleanout services throughout the Treasure Valley. Click on your city to learn more.
           </p>
         </div>
 
@@ -73,8 +73,8 @@ export function ServiceAreas() {
         <div className="mt-10 text-center">
           <p className="text-gray-600">
             Don&apos;t see your city listed? We likely serve your area too!{' '}
-            <a href="tel:2083611982" className="text-dark-blue font-bold underline hover:text-light-blue">
-              Call (208) 361-1982
+            <a href="tel:2085059352" className="text-dark-blue font-bold underline hover:text-light-blue">
+              Call (208) 505-9352
             </a>
             {' '}to confirm service availability.
           </p>

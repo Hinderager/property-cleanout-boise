@@ -11,49 +11,49 @@ const staticReviews = [
     author: 'Mike T.',
     relative_time: '2 months ago',
     rating: 5,
-    text: 'Had about 30 old tires piled up in my barn from years of farm equipment. These guys came out, loaded them all up, and had the place cleared in under an hour. Fair price and no hassle. Exactly what I needed.',
+    text: 'Had about 35 old tires sitting in my barn for years. Called these guys on a Tuesday, they showed up Wednesday morning. Loaded everything up in about 45 minutes. Price was fair and they didn\'t leave a mess. Glad I finally got that done.',
   },
   {
     author: 'Sarah L.',
     relative_time: '1 month ago',
     rating: 5,
-    text: 'We bought a property that had tires scattered everywhere. Called these guys and they came out same day. Super professional and cleaned up everything. Would definitely use them again.',
+    text: 'Bought a foreclosure property and there were tires everywhere—stacked behind the shed, buried in weeds, you name it. They came out same day, walked the property with me, gave me a price on the spot. Done deal. Would use them again.',
   },
   {
     author: 'Tom R.',
     relative_time: '3 weeks ago',
     rating: 5,
-    text: 'I run a small auto shop and they handle our tire disposal weekly. Always on time, always professional. It\'s one less thing I have to worry about. Great service.',
+    text: 'I own a small auto repair shop. These guys pick up our used tires every week. Always show up when they say they will. No drama, no excuses. That kind of reliability is hard to find.',
   },
   {
     author: 'Jennifer M.',
     relative_time: '2 weeks ago',
     rating: 5,
-    text: 'Just had 8 tires from our old vehicles picked up. Quick, easy, and the price was very reasonable. They even helped move a couple that were pretty buried in the garage. Appreciate the extra effort.',
+    text: 'Called to have 8 tires removed from my garage. Guy was polite, gave me a quote over the phone, and scheduled for the next day. They even helped dig out a couple that were buried under boxes. Didn\'t have to ask—they just did it.',
   },
   {
     author: 'David K.',
     relative_time: '1 month ago',
     rating: 5,
-    text: 'Professional from start to finish. Called for a quote, got one right away, and they were at my place the next morning. All 50+ tires gone in no time. Highly recommend.',
+    text: 'Got a quote in 5 minutes. Scheduled pickup for the next morning. Showed up on time, loaded up 50+ tires, and left. Simple as that. If you need tires gone, just call these guys.',
   },
   {
     author: 'Amanda C.',
     relative_time: '3 months ago',
     rating: 5,
-    text: 'The previous owner of our house left a huge pile of tires in the backyard. I was dreading dealing with it, but these guys made it easy. Fast, friendly, and they left the area cleaner than they found it.',
+    text: 'Previous homeowner left a mountain of tires behind the garage. I was honestly dreading dealing with it. Called, they came out, and it was done. No stress, no hassle. Place looked so much better after.',
   },
   {
     author: 'Robert H.',
     relative_time: '2 months ago',
     rating: 5,
-    text: 'I manage several rental properties and call these guys whenever tenants leave tires behind. They\'re always available on short notice and the pricing is consistent. Reliable service.',
+    text: 'I manage rental properties around Boise. Tenants leave tires behind more often than you\'d think. I call these guys every time. They\'re always available on short notice and the pricing stays consistent. That\'s what I need.',
   },
   {
     author: 'Karen W.',
     relative_time: '1 week ago',
     rating: 5,
-    text: 'Needed 12 tires removed from my deceased father\'s property. They were respectful, efficient, and handled everything properly. It was one less thing to stress about during a difficult time.',
+    text: 'Had to clean out my dad\'s property after he passed. There were about 15 old tires scattered around. They were respectful, efficient, and didn\'t waste my time. One less thing to deal with during a rough time. I appreciated that.',
   },
 ]
 
@@ -225,9 +225,9 @@ export function GoogleReviews() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

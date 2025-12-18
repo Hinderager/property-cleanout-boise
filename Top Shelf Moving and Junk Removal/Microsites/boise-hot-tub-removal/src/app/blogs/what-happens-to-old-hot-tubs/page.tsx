@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Recycle, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'What Happens to Hot Tubs After Removal? | Hot Tub Removal Pros',
-  description: 'Curious where your old spa ends up? Here\'s how hot tubs are typically recycled or disposed.',
+  description: 'Curious where your old spa ends up? Here\'s how hot tubs are typically recycled and disposed of in the Boise area.',
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/blogs/what-happens-to-old-hot-tubs',
   },
 }
 
-export default function BlogPost() {
+export default function WhatHappensToOldHotTubs() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hero.webp"
-          alt="What Happens to Hot Tubs After Removal?"
+          src="/generated/hot-tub-recycling.webp"
+          alt="What Happens to Old Hot Tubs"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,266 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for hot tub removal services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding What Happens To Old Hot Tubs</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to hot tub removal, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Hot tub removal in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality hot tub removal services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Hot tub removal Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need hot tub removal services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Hot tub removal Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Hot Tub Removal Pros is here to help with all your hot tub removal needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Your hot tub is gone. The crew loaded it up and drove away. But then what? Does it just end up in a landfill somewhere?
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              The answer might surprise you. Hot tubs are actually more recyclable than most people think. Here's what happens to old spas after they leave your backyard.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* What Hot Tubs Are Made Of */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <Recycle className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                What Hot Tubs Are Made Of
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              A typical hot tub contains multiple materials:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Shell (acrylic or fiberglass).</strong> The shiny tub part you sit in. Usually reinforced with fiberglass backing.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Cabinet (wood or synthetic).</strong> The outer housing, typically wood panels or composite material.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Foam insulation.</strong> Most tubs are filled with spray foam insulation to retain heat. This is the bulkiest material by volume.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Plumbing (PVC).</strong> The pipes, jets, and fittings that circulate water.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Mechanical components (metal and plastic).</strong> Pumps, heaters, control panels, and wiring.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Gets Recycled */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              What Actually Gets Recycled
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              When properly processed, several components can be recycled:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Metal components:</strong> Copper wiring, steel frames, and pump motors go to metal recyclers. Copper especially has good scrap value</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Wood cabinet panels:</strong> Clean wood can be recycled, chipped for landscaping, or used as biomass fuel</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>PVC plumbing:</strong> PVC is recyclable, though it needs to be separated from other plastics</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Acrylic shell:</strong> Can sometimes be recycled into new plastic products, though this varies by facility</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              The reality: a responsible removal company will separate recyclable materials rather than dumping everything together. This takes more effort but keeps usable materials out of landfills.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Goes to Landfill */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What Typically Goes to Landfill
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Not everything can be recycled:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Spray foam insulation.</strong> This is the biggest waste component. Foam insulation isn't recyclable and makes up a significant portion of the tub's volume.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Fiberglass-reinforced shells.</strong> When acrylic and fiberglass are bonded together, separation isn't cost-effective. These usually go to landfill.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Contaminated materials.</strong> Anything damaged by mold, chemicals, or rot typically can't be recycled.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Mixed materials.</strong> When different plastics or composites are fused together, separation isn't practical.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Local Disposal in Boise */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Where Hot Tubs Go in the Boise Area
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              In the Treasure Valley, hot tub materials typically go to:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Ada County Landfill (Hidden Hollow).</strong> Non-recyclable materials end up here. The facility accepts bulky waste like hot tub shells and foam.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Local metal recyclers.</strong> Boise has several scrap metal facilities that accept copper, steel, and aluminum components from hot tubs.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Transfer stations.</strong> The Boise area has several transfer stations where materials get sorted before going to their final destinations.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Specialized recyclers.</strong> Some electronics and mechanical components go to e-waste recyclers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Can Hot Tubs Be Resold? */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Can Old Hot Tubs Be Resold?
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Sometimes, but not often:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Working tubs in good condition.</strong> If your hot tub still works and looks decent, you might be able to sell it yourself. List it on Facebook Marketplace or Craigslist. Buyers typically want tubs under 10 years old that have been maintained.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>The catch:</strong> Hot tubs are hard to move. Most buyers expect delivery, which creates a logistics challenge. And prices for used hot tubs are low—often a few hundred dollars at most.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Donation.</strong> Rarely practical. Most charities won't accept hot tubs due to liability concerns and the difficulty of resale.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Reality check:</strong> If you're calling for removal, the tub is probably old, non-working, or not worth the effort to sell. And that's fine—recycling the materials is still better than leaving it to rot in your backyard.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Choosing Eco-Conscious Removal */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              How to Choose an Eco-Conscious Removal Company
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              If environmental impact matters to you:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Ask about their disposal process.</strong> Do they separate materials? Do they work with recyclers? A company that just dumps everything in the landfill is doing the bare minimum.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Avoid illegal dumping.</strong> The cheapest quote might be from someone who dumps in a field or abandoned lot. Besides being illegal, this creates environmental problems.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Licensed and insured matters.</strong> Legitimate companies use licensed disposal facilities. This ensures materials go where they're supposed to go.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Hot tubs aren't 100% recyclable—the foam insulation and composite materials usually end up in landfills. But metal components, wood, and some plastics can be recycled.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              A responsible removal company will separate and recycle what they can rather than dumping everything together. It's a small difference in the grand scheme, but it's the right thing to do.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Either way, getting that old hot tub out of your yard is better than letting it sit and deteriorate for years. At least this way, the recyclable parts get a second life.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Ready to Remove Your Hot Tub?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We handle hot tub removal responsibly throughout Boise, Meridian, Nampa, and the Treasure Valley. Recyclable materials go to recyclers, not landfills.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Hot Tub Resources
           </h2>
           <div className="text-center">
             <Link

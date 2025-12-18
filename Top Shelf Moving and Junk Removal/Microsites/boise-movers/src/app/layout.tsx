@@ -1,36 +1,54 @@
-import type { Metadata } from 'next'
-import { Inter, Oswald } from 'next/font/google'
-import Script from 'next/script'
+import type { Metadata, Viewport } from 'next'
+import { Montserrat, Oswald } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' })
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  variable: '--font-oswald',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-movers.com'),
   title: {
-    default: 'Boise Movers | Professional Moving Services Idaho',
-    template: '%s | Boise Movers',
+    default: 'Boise Movers | Professional Moving Services in Boise Idaho',
+    template: '%s | Boise Movers Pros',
   },
-  description: 'Professional local and long-distance moving services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Licensed, insured movers with careful handling and competitive rates. Free quotes!',
-  keywords: ['Boise movers', 'moving company Boise', 'local movers Idaho', 'residential moving Boise', 'apartment movers', 'house moving service', 'Meridian movers', 'Nampa movers', 'Treasure Valley moving'],
-  authors: [{ name: 'Boise Moving Pros' }],
+  description: 'Professional moving services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Local moves, long distance moving, packing services, furniture moving. Licensed & insured. Call (208) 505-9352.',
+  keywords: [
+    'movers Boise',
+    'moving company Boise Idaho',
+    'local movers Meridian',
+    'long distance movers Nampa',
+    'residential movers near me',
+    'packing services Caldwell',
+    'furniture movers Eagle Idaho',
+    'moving services Treasure Valley',
+    'professional movers Idaho',
+    'senior moving services Boise',
+    'loading unloading help',
+    'affordable movers Idaho',
+  ],
+  authors: [{ name: 'Boise Movers Pros' }],
   openGraph: {
-    title: 'Boise Movers | Professional Moving Services Idaho',
-    description: 'Professional local and long-distance moving services in Boise and the Treasure Valley. Licensed, insured, and trusted by the community.',
+    title: 'Professional Moving Services | Boise, Meridian, Nampa Idaho',
+    description: 'Expert residential moving services in the Treasure Valley. Licensed, insured, and ready to make your move stress-free.',
     url: 'https://boise-movers.com',
-    siteName: 'Boise Moving Pros',
+    siteName: 'Boise Movers Pros',
     locale: 'en_US',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Boise Movers | Professional Moving Services Idaho',
-    description: 'Professional local and long-distance moving services in Boise and the Treasure Valley.',
   },
   robots: {
     index: true,
@@ -43,9 +61,12 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    canonical: 'https://boise-movers.com',
-  },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
 }
 
 export default function RootLayout({
@@ -54,49 +75,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
         <StructuredData />
+        <link rel="dns-prefetch" href="https://www.google.com" />
+        <link rel="preconnect" href="https://www.google.com" crossOrigin="anonymous" />
       </head>
-      <body className={`${inter.variable} ${oswald.variable} font-sans antialiased`}>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-11134633087');
-          `}
-        </Script>
-        <Script id="meta-pixel" strategy="afterInteractive">
-          {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '533217938868618');
-            fbq('track', 'PageView');
-          `}
-        </Script>
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{display:'none'}}
-            src="https://www.facebook.com/tr?id=533217938868618&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
+      <body className={`${montserrat.variable} ${oswald.variable} font-sans antialiased`}>
         <QuoteFormProvider>
           <Header />
-          <main>{children}</main>
+          {children}
           <Footer />
         </QuoteFormProvider>
       </body>

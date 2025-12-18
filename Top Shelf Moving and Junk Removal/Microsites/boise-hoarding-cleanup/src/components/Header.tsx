@@ -5,14 +5,53 @@ import Link from 'next/link'
 import { Menu, X, ChevronDown, Phone } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
+const serviceCategories = [
+  {
+    name: 'Residential Hoarding',
+    href: '/services/residential',
+    services: [
+      { name: 'Home Hoarding Cleanup', href: '/services/residential' },
+    ]
+  },
+  {
+    name: 'Commercial Hoarding',
+    href: '/services/commercial',
+    services: [
+      { name: 'Business Hoarding Cleanup', href: '/services/commercial' },
+    ]
+  },
+  {
+    name: 'Biohazard Cleanup',
+    href: '/services/biohazard',
+    services: [
+      { name: 'Biohazard & Sanitation', href: '/services/biohazard' },
+    ]
+  },
+  {
+    name: 'Estate Cleanout',
+    href: '/services/estate-cleanout',
+    services: [
+      { name: 'Estate Hoarding Services', href: '/services/estate-cleanout' },
+    ]
+  },
+]
+
 const serviceAreas = [
-  'Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle'
+  { name: 'Boise', href: '/cities-served/boise' },
+  { name: 'Meridian', href: '/cities-served/meridian' },
+  { name: 'Nampa', href: '/cities-served/nampa' },
+  { name: 'Caldwell', href: '/cities-served/caldwell' },
+  { name: 'Eagle', href: '/cities-served/eagle' },
+  { name: 'Garden City', href: '/cities-served/garden-city' },
+  { name: 'Kuna', href: '/cities-served/kuna' },
+  { name: 'Star', href: '/cities-served/star' },
+  { name: 'Middleton', href: '/cities-served/middleton' },
 ]
 
 const resources = [
-  { name: 'What is Hoarding?', href: '/about-hoarding' },
-  { name: 'Signs of Hoarding', href: '/hoarding-signs' },
-  { name: 'How to Help', href: '/helping-a-hoarder' },
+  { name: 'What is Hoarding?', href: '/about-us/understanding-hoarding' },
+  { name: 'Signs of Hoarding', href: '/resources/hoarding-signs' },
+  { name: 'How to Help', href: '/resources/helping-a-hoarder' },
   { name: 'Blog', href: '/blogs' },
 ]
 
@@ -59,16 +98,39 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center lg:flex-1 flex-1 justify-start">
             <span className="text-lg sm:text-xl lg:text-2xl font-bold text-white">
-              <span className="text-[#FFC845]">Hoarding</span> Cleanup Pros
+              <span className="text-[#FFC845]">Boise</span> Hoarding Cleanup
             </span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
-            {/* Services Link */}
-            <Link href="/#services" className="text-white hover:text-gray-200 transition-colors font-bold text-sm xl:text-base whitespace-nowrap">
-              Services
-            </Link>
+            {/* Services Mega Menu */}
+            <div className="relative group" onMouseEnter={() => handleMouseEnter('services')} onMouseLeave={handleMouseLeave}>
+              <button className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors font-bold text-sm xl:text-base whitespace-nowrap">
+                <span>Services</span><ChevronDown className="h-4 w-4" />
+              </button>
+              {activeDropdown === 'services' && (
+                <div className="absolute left-0 top-full mt-2 w-[500px] bg-white shadow-lg rounded-lg p-6">
+                  <div className="grid grid-cols-2 gap-6">
+                    {serviceCategories.map((category) => (
+                      <div key={category.href}>
+                        <Link href={category.href} className="font-bold text-dark-blue hover:text-[#ff6b35] block mb-2">{category.name}</Link>
+                        <ul className="space-y-1">
+                          {category.services.map((service) => (
+                            <li key={service.href}>
+                              <Link href={service.href} className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors">{service.name}</Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-4 pt-4 border-t">
+                    <Link href="/services" className="text-dark-blue font-semibold hover:text-[#ff6b35]">View All Services →</Link>
+                  </div>
+                </div>
+              )}
+            </div>
 
             {/* Service Areas Dropdown */}
             <div
@@ -81,16 +143,17 @@ export function Header() {
                 <ChevronDown className="h-4 w-4" />
               </button>
               {activeDropdown === 'areas' && (
-                <div className="absolute left-0 top-full mt-2 w-[200px] bg-white shadow-lg rounded-lg p-4">
-                  <ul className="space-y-2">
+                <div className="absolute left-0 top-full mt-2 w-[280px] bg-white shadow-lg rounded-lg p-4">
+                  <ul className="grid grid-cols-2 gap-2">
                     {serviceAreas.map((area) => (
-                      <li key={area}>
-                        <Link href={`/${area.toLowerCase()}`} className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors">
-                          {area}, Idaho
-                        </Link>
+                      <li key={area.href}>
+                        <Link href={area.href} className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors">{area.name}</Link>
                       </li>
                     ))}
                   </ul>
+                  <div className="mt-3 pt-3 border-t">
+                    <Link href="/cities-served" className="text-dark-blue font-semibold text-sm hover:text-[#ff6b35]">All Service Areas →</Link>
+                  </div>
                 </div>
               )}
             </div>
@@ -125,18 +188,18 @@ export function Header() {
           <div className="flex items-center flex-1 justify-center lg:justify-end">
             {/* Mobile: Call Now Button */}
             <a
-              href="tel:2083611982"
+              href="tel:2085059352"
               className="lg:hidden bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold px-4 py-1.5 rounded-lg text-sm"
             >
               Call Now
             </a>
             {/* Desktop: Phone Number */}
             <a
-              href="tel:2083611982"
+              href="tel:2085059352"
               className="hidden lg:flex items-center gap-1.5 text-white hover:text-gray-200 transition-colors font-bold text-lg xl:text-xl whitespace-nowrap"
             >
               <Phone className="h-5 w-5 xl:h-6 xl:w-6" />
-              <span>(208) 361-1982</span>
+              <span>(208) 505-9352</span>
             </a>
           </div>
 
@@ -153,25 +216,32 @@ export function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 bg-[#10477d] border-b-2 border-[#1e3a5f]">
+          <div className="lg:hidden py-4 bg-[#10477d] border-b-2 border-[#1e3a5f] max-h-[80vh] overflow-y-auto">
             <nav className="flex flex-col space-y-4 px-4">
               <Link href="/" className="text-white font-semibold hover:text-gray-200" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
-              <Link href="/#services" className="text-white font-semibold hover:text-gray-200" onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
-              <span className="text-white/60 text-sm font-medium pt-2">Service Areas</span>
-              {serviceAreas.map((area) => (
-                <Link key={area} href={`/${area.toLowerCase()}`} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>
-                  {area}
-                </Link>
+
+              <span className="text-white/60 text-sm font-medium pt-2">Services</span>
+              {serviceCategories.map((category) => (
+                <Link key={category.href} href={category.href} className="text-white font-medium hover:text-gray-200 pl-2" onClick={() => setIsMobileMenuOpen(false)}>{category.name}</Link>
               ))}
+
+              <span className="text-white/60 text-sm font-medium pt-2">Service Areas</span>
+              <div className="grid grid-cols-2 gap-2 pl-2">
+                {serviceAreas.map((area) => (
+                  <Link key={area.href} href={area.href} className="text-white/90 hover:text-white text-sm" onClick={() => setIsMobileMenuOpen(false)}>{area.name}</Link>
+                ))}
+              </div>
+
               <span className="text-white/60 text-sm font-medium pt-2">Resources</span>
               {resources.map((resource) => (
-                <Link key={resource.href} href={resource.href} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>
+                <Link key={resource.href} href={resource.href} className="text-white/90 hover:text-white pl-2" onClick={() => setIsMobileMenuOpen(false)}>
                   {resource.name}
                 </Link>
               ))}
+
               <div className="flex flex-col space-y-2 pt-4">
                 <Button asChild className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold w-full">
-                  <a href="tel:2083611982">Call Now</a>
+                  <a href="tel:2085059352">Call Now</a>
                 </Button>
               </div>
             </nav>

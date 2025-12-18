@@ -21,21 +21,21 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-tire-removal.com'),
-  title: 'Tire Removal Boise | Same-Day Tire Pickup | Tire Removal Pros',
-  description: 'Professional tire removal in Boise, Idaho. We haul away old tires from homes, businesses, and properties. Any quantity, proper disposal. Call (208) 361-1982 for a free quote.',
-  keywords: 'tire removal Boise, tire disposal, tire hauling, old tire pickup, Boise Idaho, Meridian, Nampa, Caldwell, Eagle, tire recycling',
+  title: 'Tire Removal Boise | Same-Day Tire Disposal & Recycling Service',
+  description: 'Need old tires gone? We haul away any quantity in Boise, Meridian, Nampa, and the Treasure Valley. Proper recycling, fair pricing. Call (208) 505-9352 for free quote.',
+  keywords: 'tire removal Boise, tire disposal Boise, bulk tire pickup, commercial tire disposal, property tire cleanup, tire recycling Idaho, Meridian, Nampa, Caldwell, Eagle',
   openGraph: {
-    title: 'Tire Removal Boise | Same-Day Tire Pickup | Tire Removal Pros',
-    description: 'Professional tire removal in Boise and the Treasure Valley. We haul away any quantity of tires with proper eco-friendly disposal.',
+    title: 'Tire Removal Boise | Same-Day Tire Disposal & Recycling Service',
+    description: 'Professional tire removal and recycling in Boise and surrounding areas. We pick up any quantity of old tires with proper eco-friendly disposal.',
     url: 'https://boise-tire-removal.com',
-    siteName: 'Tire Removal Pros',
+    siteName: 'Boise Tire Removal',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tire Removal Boise | Same-Day Tire Pickup',
-    description: 'Professional tire removal in Boise and the Treasure Valley. We haul away any quantity of tires with proper eco-friendly disposal.',
+    title: 'Tire Removal Boise | Same-Day Tire Disposal Service',
+    description: 'Professional tire removal and recycling in Boise. We haul away any quantity with proper eco-friendly disposal.',
   },
   robots: {
     index: true,
@@ -58,7 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${oswald.variable} ${openSans.variable}`}>
       <body className="font-body antialiased">
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
+          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
           strategy="afterInteractive"
         />
         <Script id="google-ads" strategy="afterInteractive">
@@ -66,6 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-46RY05JDNS');
             gtag('config', 'AW-11134633087');
           `}
         </Script>

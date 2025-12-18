@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ClipboardList, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'How to Start an Estate Cleanout (Without Getting Overwhelmed) | Estate Cleanout Pros',
-  description: 'Estate cleanouts can feel impossible at first. Here\'s a practical approach to tackle it step by step.',
+  title: 'How to Start an Estate Cleanout in Boise | Estate Cleanout Pros',
+  description: 'Step-by-step guide to beginning an estate cleanout without getting overwhelmed. Practical advice for Boise families.',
   alternates: {
     canonical: 'https://boise-estate-cleanout.com/blogs/how-to-start-estate-cleanout',
   },
 }
 
-export default function BlogPost() {
+export default function HowToStartEstateCleanout() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hero.webp"
-          alt="How to Start an Estate Cleanout (Without Getting Overwhelmed)"
+          src="/generated/start-estate-cleanout.webp"
+          alt="How to Start an Estate Cleanout"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,282 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            How to Start an Estate Cleanout (Without Getting Overwhelmed)
+            How to Start an Estate Cleanout
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for estate cleanout services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding How To Start Estate Cleanout</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to estate cleanout, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Estate cleanout in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality estate cleanout services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Estate cleanout Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need estate cleanout services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Estate cleanout Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Estate Cleanout Pros is here to help with all your estate cleanout needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You're standing in a home full of someone's lifetime of belongings. Where do you even start? The whole thing feels impossible.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The good news: you don't have to figure it all out at once. You just need to know the first few steps. The rest unfolds from there.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's how to begin an estate cleanout without getting overwhelmed.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Before You Touch Anything */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <ClipboardList className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Before You Touch Anything
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Before moving or sorting a single item:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Check the will and estate documents.</strong> Are there specific items bequeathed to specific people? Are there instructions about what to do with certain belongings? Know this before you start.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Coordinate with family.</strong> Who needs to be involved? Who wants what? Having these conversations upfront prevents conflict later.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Secure the property.</strong> Make sure the home is safe—change locks if needed, secure valuables, check that utilities are on (or properly winterized if off).
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Take photos.</strong> Document the home's condition before you start. This protects you legally and helps remember what was there.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The First Day */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Your First Day: The Walk-Through
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Don't try to sort everything on day one. Instead:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Walk through every room.</strong> Open every closet, look in every drawer, check the garage, basement, and attic. Get a complete picture of what you're dealing with.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Note the obvious high-priority items.</strong> Important documents, valuables, items mentioned in the will, things that need immediate attention.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Identify problem areas.</strong> Is there a room stuffed floor to ceiling? A shed full of mystery items? Knowing where the hard parts are helps you plan.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Make rough categories.</strong> Mentally note areas of similar items—tools, clothes, paperwork, kitchen items. You'll tackle these systematically later.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Priority One */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Priority One: Important Documents and Valuables
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Before any major sorting begins, secure these items:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Financial documents:</strong> Bank statements, investment accounts, insurance policies, tax returns, property deeds</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Legal documents:</strong> Will, trust documents, power of attorney, birth/death certificates, marriage certificates</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Bills and accounts:</strong> Any accounts that need to be closed or transferred, ongoing bills that need attention</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Cash and valuables:</strong> Check everywhere—books, pockets, drawers, safes, hidden spots. Older generations often kept cash in unusual places</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Jewelry and collectibles:</strong> Secure anything of significant value until proper appraisal or distribution</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              Put these in a safe place or take them with you. Don't leave them in the home during the cleanout process.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Creating a System */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Creating a Sorting System
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Once important items are secured, set up your sorting system. Most people use some version of:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Keep.</strong> Items you or family members want. This might have sub-categories for different people.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Donate.</strong> Items in good condition that can help others. Goodwill, Salvation Army, and local Boise charities will take usable items.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Sell.</strong> Items with value that are worth the effort to sell. Be realistic—most household items have less resale value than people expect.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Trash.</strong> Items that can't be donated or sold. This is usually more than people anticipate.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Decide later.</strong> Items you can't decide about right now. Keep this pile small—don't let it become an excuse to postpone decisions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Working Through Room by Room */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Working Through the Home
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Once your system is set up:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Start with easier areas.</strong> Build momentum with spaces that don't carry as much emotional weight—bathrooms, kitchen pantry, utility rooms.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Work one room at a time.</strong> Finish an area before starting the next. Partial progress everywhere is demoralizing; completed rooms show accomplishment.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Handle each item once.</strong> Pick it up, make a decision, put it in the appropriate pile. Coming back to items repeatedly wastes time and energy.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Set realistic daily goals.</strong> Two or three hours of sorting is about what most people can handle at a stretch. Plan breaks and stopping points.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Getting Unstuck */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              When You Get Stuck
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Getting stuck is normal. Here's how to move forward:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Switch areas.</strong> If a room is too emotional, work somewhere else for a while. Come back when you're ready.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Bring in fresh eyes.</strong> A friend or family member who wasn't as close to the person can often help with decisions you're stuck on.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Set a timer for hard decisions.</strong> Give yourself 30 seconds to decide. If you can't, put it in the "decide later" pile and move on.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Remember the purpose.</strong> You're not erasing the person. You're handling their belongings so you can move forward. They'd want you to be okay.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Starting is the hardest part. Once you've taken inventory, secured important items, and begun sorting one room, the process becomes more manageable.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Don't try to do it all at once. Work in sessions. Take breaks. Ask for help when you need it.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              And remember—you can always call in professional help for the heavy lifting once the sorting is done.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Need Help With Your Estate Cleanout?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              Whether you need full-service cleanout or just help with the removal after you've sorted, we're here. Serving Boise, Meridian, Nampa, and the Treasure Valley.
+            </p>
+            <a
+              href="tel:2085059352"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 505-9352
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Estate Cleanout Resources
           </h2>
           <div className="text-center">
             <Link

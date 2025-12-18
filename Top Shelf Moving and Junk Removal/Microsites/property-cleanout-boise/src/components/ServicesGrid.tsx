@@ -7,24 +7,24 @@ import { useQuoteForm } from '@/context/QuoteFormContext'
 
 const services = [
   {
+    icon: Key,
+    title: 'Rental Cleanouts',
+    description: 'Fast turnovers between tenants. We haul out everything left behind and leave the unit broom-clean so you can get it rent-ready.',
+  },
+  {
     icon: Building,
     title: 'Foreclosure Cleanouts',
-    description: 'Complete cleanout services for bank-owned and REO properties. We clear out everything so the property is ready for sale.',
-  },
-  {
-    icon: Key,
-    title: 'Rental Turnovers',
-    description: 'Fast property clearing between tenants. We remove abandoned belongings and get your rental ready for the next occupant.',
-  },
-  {
-    icon: Home,
-    title: 'Estate Cleanouts',
-    description: 'Compassionate estate clearing for inherited properties. We sort, donate, and remove with respect.',
+    description: 'Complete clearing for bank-owned and REO properties. We remove all contents and debris so the property is ready to list.',
   },
   {
     icon: Truck,
     title: 'Eviction Cleanouts',
-    description: 'Quick removal of tenant belongings after eviction. We work with property managers and landlords on tight timelines.',
+    description: 'Legal-compliant removal of tenant belongings after eviction. We document, store items as required, and clear the property fast.',
+  },
+  {
+    icon: Home,
+    title: 'Real Estate Cleanouts',
+    description: 'Property clearing for agents and investors. Whether it\'s a flip, estate sale, or listing prep, we handle the heavy lifting.',
   },
 ]
 
@@ -57,10 +57,10 @@ export function ServicesGrid() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-dark-blue mb-4 uppercase" style={{textShadow: '2px 2px 3px rgba(0,0,0,0.3), 1px 1px 2px rgba(0,0,0,0.2)'}}>
-            Our Services
+            Property Cleanout Services
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Professional property cleanout services for the Treasure Valley
+            We clear properties fast so landlords, agents, and investors can get back to business
           </p>
         </div>
 
@@ -96,9 +96,9 @@ export function ServicesGrid() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     default: 'Construction Debris Removal Boise | Job Site Cleanup Idaho',
     template: '%s | Construction Debris Removal Boise',
   },
-  description: 'Professional construction debris removal in Boise, Idaho. Job site cleanup, renovation debris, and recycling services. Same-day service available. Call (208) 361-1982 for a free quote.',
+  description: 'Professional construction debris removal in Boise, Idaho. Job site cleanup, renovation debris, and recycling services. Same-day service available. Call (208) 505-9352 for a free quote.',
   keywords: [
     'construction debris removal Boise',
     'job site cleanup Idaho',
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     'concrete debris removal',
     'Treasure Valley construction cleanup',
   ],
-  authors: [{ name: 'Construction Debris Pros' }],
-  creator: 'Construction Debris Pros',
-  publisher: 'Construction Debris Pros',
+  authors: [{ name: 'Boise Construction Debris Removal' }],
+  creator: 'Boise Construction Debris Removal',
+  publisher: 'Boise Construction Debris Removal',
   robots: {
     index: true,
     follow: true,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://boise-construction-debris-removal.com',
-    siteName: 'Construction Debris Pros',
+    siteName: 'Boise Construction Debris Removal',
     title: 'Construction Debris Removal Boise | Fast Job Site Cleanup',
     description: 'Professional construction debris removal and job site cleanup in Boise and the Treasure Valley. Same-day service available. Licensed and insured.',
     images: [
@@ -91,7 +91,7 @@ export default function RootLayout({
     <html lang="en" className={`${montserrat.variable} ${openSans.variable}`}>
       <body className="font-body antialiased">
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
+          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
           strategy="afterInteractive"
         />
         <Script id="google-ads" strategy="afterInteractive">
@@ -99,6 +99,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-46RY05JDNS');
             gtag('config', 'AW-11134633087');
           `}
         </Script>

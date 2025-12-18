@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ClipboardList, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'What to Expect During a Hoarding Cleanup | Hoarding Cleanup Pros',
-  description: 'Professional hoarding cleanup follows a specific process. Here\'s how it typically works.',
+  description: 'Professional hoarding cleanup follows a specific process. Here\'s how it typically works from assessment to completion.',
   alternates: {
     canonical: 'https://boise-hoarding-cleanup.com/blogs/hoarding-cleanup-process',
   },
 }
 
-export default function BlogPost() {
+export default function HoardingCleanupProcess() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/extreme-hoarding.webp"
-          alt="What to Expect During a Hoarding Cleanup"
+          src="/generated/hoarding-cleanup-process.webp"
+          alt="Hoarding Cleanup Process"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -39,66 +40,239 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for hoarding cleanup services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Hoarding Cleanup Process</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to hoarding cleanup, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Hoarding cleanup in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality hoarding cleanup services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Hoarding cleanup Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need hoarding cleanup services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Hoarding cleanup Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Hoarding Cleanup Pros is here to help with all your hoarding cleanup needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              You've made the decision to get help with a hoarding situation. That's a big step. But what actually happens when a professional crew shows up? What does the process look like?
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's a walkthrough of how professional hoarding cleanup typically works, from first contact to final cleaning.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Phase 1: Assessment */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <ClipboardList className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                Phase 1: Initial Assessment
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Before any cleanup begins:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Confidential phone conversation.</strong> You describe the situation without judgment. This helps the company understand what they're dealing with and whether they're the right fit.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>On-site evaluation.</strong> For significant hoarding, someone needs to see the actual conditions. This isn't about shock or judgment—it's about accurate assessment. They'll look at volume, accessibility, potential hazards, and special concerns.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Detailed estimate.</strong> Based on the assessment, you get a breakdown of expected costs, timeline, and what's included. Good companies explain their pricing clearly.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Planning conversation.</strong> Who needs to be involved? Will the person with hoarding disorder be present? Are there items that must be saved? Are there safety concerns like biohazards? This planning prevents problems later.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Phase 2: Preparation */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Phase 2: Preparation
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Before the crew arrives:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Identify must-save items.</strong> If there are specific items that absolutely must be kept or found—documents, jewelry, photos, medications—communicate this clearly. The crew will set these aside as they're found.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Discuss involvement level.</strong> Will the person be present? For how long? Will they make decisions on items, or has someone else been designated? Clear expectations prevent conflict during cleanup.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Notify relevant parties.</strong> Neighbors may notice increased activity. If there are landlords, case workers, or code enforcement involved, they may need to know the timeline.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Prepare emotionally.</strong> This is hard. Even with professional help, watching belongings leave can be distressing. Having support in place—a friend, family member, or therapist—helps.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Phase 3: The Cleanup */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Phase 3: The Actual Cleanup
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              How the work typically proceeds:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Safety first:</strong> The crew assesses hazards and sets up accordingly. This might mean protective gear for biohazards, careful navigation of unstable piles, or pest management</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Room by room:</strong> Systematically working through the space prevents chaos. One area is cleared before moving to the next</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Sorting as they go:</strong> Items are typically sorted into categories—keep, donate, recycle, trash. Valuables and documents are set aside</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Regular communication:</strong> Good crews check in with family members or designated contacts. "We found these photos—should we set them aside?" "This room is clear—want to see it?"</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Load and haul:</strong> Items leaving the home go onto trucks and are properly disposed of, recycled, or taken to donation centers</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              Timeline varies dramatically—a day for minor situations, a week or more for severe hoarding.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Phase 4: Post-Cleanup */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Phase 4: After the Items Are Gone
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Once the clutter is removed:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Condition assessment.</strong> Now you can actually see the floors, walls, and fixtures. This often reveals damage that needs attention—water stains, pest damage, mold, or structural issues.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Deep cleaning.</strong> Professional cleaning removes accumulated dirt, odors, and residue. This is usually separate from the cleanup service itself.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Remediation if needed.</strong> Biohazard situations, mold, or pest infestations require specialized treatment before the space is truly safe for habitation.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Repairs.</strong> Depending on condition, the home may need work—flooring replacement, painting, plumbing or electrical repairs, appliance replacement.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Makes It Different */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              How Hoarding Cleanup Differs From Regular Junk Removal
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              This isn't just hauling stuff away:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Sensitivity required.</strong> Professional hoarding cleanup crews understand the emotional dimension. They don't joke about the mess or express disgust. They work respectfully.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Careful sorting.</strong> Regular junk removal crews load and go. Hoarding cleanup requires checking items, watching for valuables, preserving what matters.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Hazard awareness.</strong> Hoarding situations often involve conditions regular crews aren't trained for—biohazards, unstable piles, structural concerns.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Flexible pacing.</strong> If the person needs breaks or time to process, good hoarding cleanup services accommodate that rather than rushing through.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Professional hoarding cleanup is a structured process: assessment, preparation, the cleanup itself, and restoration of the space. Each phase matters for a successful outcome.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The right cleanup service makes this as smooth as possible—but it's still hard. Clearing a hoarded home is emotionally intense for everyone involved. Having realistic expectations helps.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Most importantly, remember that the physical cleanup is just one piece. Long-term success requires addressing the underlying condition that led to hoarding in the first place.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Ready to Start the Process?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We handle hoarding cleanups throughout Boise, Meridian, Nampa, and the Treasure Valley. Confidential consultations, compassionate service.
+            </p>
+            <a
+              href="tel:2085059352"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 505-9352
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Hoarding Resources
           </h2>
           <div className="text-center">
             <Link

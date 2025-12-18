@@ -23,7 +23,7 @@ export function HeroSection({ city, headline, subheadline }: HeroSectionProps = 
         priority
         quality={85}
         sizes="100vw"
-        className="object-cover object-left-top sm:object-center md:object-top lg:object-left"
+        className="object-cover object-center md:object-top lg:object-left"
         fetchPriority="high"
       />
 
@@ -37,7 +37,7 @@ export function HeroSection({ city, headline, subheadline }: HeroSectionProps = 
             {/* Main Headline */}
             {isHomePage ? (
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight uppercase tracking-tight mb-4 -mt-8 md:mt-0">
-                <span className="text-[#0b7fb6] text-4xl sm:text-5xl md:text-6xl lg:text-7xl" style={{textShadow: '-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white'}}>Construction</span> Debris <br />Pros
+                <span className="text-[#0b7fb6] text-4xl sm:text-5xl md:text-6xl lg:text-7xl" style={{textShadow: '-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white'}}>Boise</span> Construction<br />Debris Removal
                 <span className="hidden lg:block text-2xl mt-2 font-normal normal-case">Boise | Meridian | Nampa</span>
               </h1>
             ) : (
@@ -50,7 +50,7 @@ export function HeroSection({ city, headline, subheadline }: HeroSectionProps = 
 
             {/* Tagline */}
             <h2 className="hidden lg:block text-lg sm:text-xl md:text-2xl font-bold text-white mb-4 md:mb-6 italic">
-              {subheadline || "Fast Removal. Clean Sites. Fair Prices."}
+              {subheadline || "Same-Day Pickup. Job Site Cleanup. Contractor Ready."}
             </h2>
 
             {/* Feature Badges - Hidden on mobile */}
@@ -83,9 +83,9 @@ export function HeroSection({ city, headline, subheadline }: HeroSectionProps = 
             {/* Desktop CTA Buttons */}
             <div className="hidden md:flex flex-row gap-3 md:gap-4 mb-4 lg:mb-12 md:lg:mb-16 justify-center px-8 lg:px-0">
               <Button asChild size="lg" className="bg-[#FFC845] hover:bg-[#e5b13d] text-black font-bold text-lg md:text-2xl lg:text-2xl px-3 md:px-10 lg:px-8 lg:px-10 py-5 md:py-8 lg:py-6 lg:py-8 rounded-lg uppercase flex-1 lg:flex-1 sm:w-48 border-4 border-[#FFC845]">
-                <a href="tel:2083611982">
+                <a href="tel:2085059352">
                   <span className="md:hidden">Call Now</span>
-                  <span className="hidden md:inline">(208) 361-1982</span>
+                  <span className="hidden md:inline">(208) 505-9352</span>
                 </a>
               </Button>
             </div>

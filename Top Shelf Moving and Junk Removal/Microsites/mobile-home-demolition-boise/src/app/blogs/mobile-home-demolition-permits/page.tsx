@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { FileText, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Do You Need a Permit to Demolish a Mobile Home in Idaho? | Mobile Home Demolition Pros',
-  description: 'Permit requirements vary by location. Here\'s what you need to know in the Treasure Valley.',
+  title: 'Mobile Home Demolition Permits in Idaho: What You Need | Mobile Home Demolition Pros',
+  description: 'Do you need a permit to demolish a mobile home in Boise? Here\'s what Idaho and local jurisdictions require.',
   alternates: {
     canonical: 'https://mobile-home-demolition-boise.com/blogs/mobile-home-demolition-permits',
   },
 }
 
-export default function BlogPost() {
+export default function MobileHomeDemolitionPermits() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/singlewide-demolition.webp"
-          alt="Do You Need a Permit to Demolish a Mobile Home in Idaho?"
+          src="/generated/demolition-permits.webp"
+          alt="Mobile Home Demolition Permits"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,279 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Do You Need a Permit to Demolish a Mobile Home in Idaho?
+            Mobile Home Demolition Permits in Idaho
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for mobile home demolition services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Mobile Home Demolition Permits</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to mobile home demolition, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Mobile home demolition in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality mobile home demolition services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Mobile home demolition Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need mobile home demolition services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
-            </div>
-
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Mobile home demolition Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Mobile Home Demolition Pros is here to help with all your mobile home demolition needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
-            </div>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Before tearing down a mobile home, you need to know if your jurisdiction requires a permit. The answer varies depending on where you're located in the Treasure Valley—and skipping permits when they're required can cause real problems.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's what you need to know about demolition permits for mobile homes in Idaho.
+            </p>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* The Short Answer */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <FileText className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                The Short Answer
+              </h2>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              In most of the Treasure Valley: yes, you need a demolition permit. The requirements and fees vary by jurisdiction.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>City of Boise:</strong> Requires a demolition permit. Application fee around $100-200. You'll also need to demonstrate that utilities have been disconnected.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Meridian:</strong> Requires a demolition permit through the building department. Similar process and fees to Boise.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Nampa:</strong> Demolition permit required. Contact their building services department.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Caldwell:</strong> Check with Canyon County building department for requirements.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Unincorporated areas:</strong> Ada County and Canyon County have their own permit requirements. Rural properties may have different (sometimes fewer) requirements than city properties.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What the Permit Process Involves */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              What the Permit Process Involves
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Typical requirements for a mobile home demolition permit:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Application form:</strong> Basic information about the property and planned demolition</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Proof of ownership:</strong> Deed, tax records, or authorization from the property owner</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Utility disconnection:</strong> Documentation that gas, electric, water, and sewer have been disconnected</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Asbestos survey:</strong> Some jurisdictions require testing for asbestos before demolition</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Permit fee:</strong> Typically $75-250 depending on jurisdiction</span>
+              </div>
+            </div>
+
+            <p className="text-blue-100 leading-relaxed">
+              Processing time is usually 3-10 business days. Some jurisdictions offer expedited processing for additional fees.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Utility Disconnection */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Utility Disconnection
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Before demolition—and usually before a permit is issued—all utilities must be properly disconnected:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Electricity:</strong> Contact Idaho Power to disconnect service and remove the meter. This isn't just turning off the breaker—the connection to the power grid must be severed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Natural gas:</strong> Contact Intermountain Gas to disconnect service and cap the line. Gas lines must be properly terminated to prevent leaks.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Water:</strong> Contact your water provider to shut off service at the meter. The line to the mobile home should be capped.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Sewer/septic:</strong> City sewer connections need to be properly capped. Septic systems have their own decommissioning requirements.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Propane:</strong> If the home uses propane, the tank must be emptied and removed before demolition.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Asbestos Requirements */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Asbestos Survey Requirements
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Idaho DEQ and EPA regulations require asbestos inspection before demolition in many cases:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Older mobile homes.</strong> Units built before 1980 are more likely to contain asbestos in flooring, insulation, siding, or duct tape. Testing is usually required.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>The inspection process.</strong> A certified asbestos inspector takes samples and sends them to a lab. Cost is typically $200-500 for a mobile home.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>If asbestos is found.</strong> Materials containing asbestos must be removed by licensed abatement contractors before general demolition can proceed. This adds cost and time.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Documentation.</strong> Keep the inspection report—you may need to show it to get your demolition permit or for future property sales.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Happens If You Skip the Permit */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What Happens If You Skip the Permit
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Some people think they can just tear down a mobile home without permits. Here's why that's risky:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Fines.</strong> Demolishing without required permits can result in fines from the city or county. These often exceed what the permit would have cost.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Title issues.</strong> If the mobile home has a separate title (many do), demolishing it improperly can create problems when you try to sell the property.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Tax assessment problems.</strong> The county assessor needs to know the structure is gone. Without proper documentation, you might keep paying taxes on a nonexistent building.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Future building issues.</strong> If you want to build something new on the site, unpermitted demolition can complicate your building permit application.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Who Handles the Permit */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Who Handles the Permit—You or the Contractor?
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Either option works:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>You pull the permit.</strong> Property owners can usually apply for demolition permits themselves. You'll need to gather the documentation and visit the building department.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Contractor pulls the permit.</strong> Many demolition contractors will handle permitting as part of their service. This is convenient and ensures nothing gets missed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              If your contractor offers to handle permits, make sure you understand what's included in their price and who's responsible if there are delays or additional requirements.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Yes, you probably need a permit to demolish a mobile home in the Treasure Valley. The exact requirements depend on your jurisdiction, but the process is usually straightforward—application, fee, utility disconnection documentation, and possibly an asbestos survey.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Contact your local building department to confirm requirements before starting any demolition work. The permit fee is a small part of the overall project cost and avoids potential headaches down the road.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              We can help you understand what's required for your specific property and jurisdiction. Give us a call with questions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Questions About Permits?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We've handled mobile home demolitions throughout the Treasure Valley and know the local requirements. Let us help you navigate the process.
+            </p>
+            <a
+              href="tel:2083611982"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 361-1982
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Mobile Home Demolition Resources
           </h2>
           <div className="text-center">
             <Link

@@ -12,23 +12,23 @@ export function Footer() {
             <h4 className="text-xl font-bold mb-4 text-light-blue">Company</h4>
             <ul className="space-y-2">
               <li>
+                <Link href="/blogs" className="text-white/80 hover:text-white transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link href="/tire-recycling" className="text-white/80 hover:text-white transition-colors">
                   Tire Recycling
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-white/80 hover:text-white transition-colors">
-                  Blog
+                <Link href="/bulk-pickup" className="text-white/80 hover:text-white transition-colors">
+                  Bulk Pickup
                 </Link>
               </li>
               <li>
                 <Link href="/commercial" className="text-white/80 hover:text-white transition-colors">
-                  Commercial Pickup
-                </Link>
-              </li>
-              <li>
-                <Link href="/pricing" className="text-white/80 hover:text-white transition-colors">
-                  Pricing Guide
+                  Commercial Service
                 </Link>
               </li>
             </ul>
@@ -40,9 +40,10 @@ export function Footer() {
             <ul className="space-y-2">
               <li className="text-white/80">Tire Removal</li>
               <li className="text-white/80">Tire Disposal</li>
-              <li className="text-white/80">Commercial Pickup</li>
-              <li className="text-white/80">Bulk Tire Hauling</li>
-              <li className="text-white/80">Same Day Service</li>
+              <li className="text-white/80">Tire Recycling</li>
+              <li className="text-white/80">Bulk Tire Pickup</li>
+              <li className="text-white/80">Property Tire Cleanup</li>
+              <li className="text-white/80">Commercial Tire Disposal</li>
             </ul>
           </div>
 
@@ -86,11 +87,11 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <a
-                    href="tel:2083611982"
+                    href="tel:2085059352"
                     className="text-white/80 hover:text-white transition-colors font-semibold"
                   >
                     <span className="md:hidden">Call Now</span>
-                    <span className="hidden md:inline">(208) 361-1982</span>
+                    <span className="hidden md:inline">(208) 505-9352</span>
                   </a>
                 </div>
               </li>
@@ -153,7 +154,7 @@ export function Footer() {
 
             <div className="text-center md:text-right">
               <p className="text-white/60 text-sm">
-                &copy; {new Date().getFullYear()} Tire Removal Pros. All rights reserved.
+                &copy; {new Date().getFullYear()} Boise Tire Removal. All rights reserved.
               </p>
               <div className="flex gap-4 mt-2 justify-center md:justify-end">
                 <Link href="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">

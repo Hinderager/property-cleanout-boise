@@ -9,11 +9,11 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL('https://property-cleanout-boise.com'),
   title: {
-    default: 'Property Cleanout Services Boise | Professional Property Clearing Idaho',
-    template: '%s | Property Cleanout Boise',
+    default: 'Property Cleanout Boise | Rental, Foreclosure & Eviction Cleanout Idaho',
+    template: '%s | Boise Property Cleanout',
   },
-  description: 'Professional property cleanout services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Foreclosure cleanouts, rental turnovers, and complete property clearing. Licensed & insured. Call (208) 361-1982.',
-  keywords: 'property cleanout Boise, foreclosure cleanout Idaho, rental cleanout, property clearing, eviction cleanout, Meridian property cleanout, Nampa property cleanout',
+  description: 'Fast property cleanout services in Boise, Meridian, Nampa & Caldwell. Rental turnovers, foreclosure cleanouts, eviction clearing, REO properties. Same-day service available. Call (208) 505-9352.',
+  keywords: 'property cleanout Boise, rental turnover Boise, foreclosure cleanout Idaho, eviction cleanout, REO cleanout, real estate cleanout, investment property clearing, landlord services Boise',
   authors: [{ name: 'Property Cleanout Pros' }],
   creator: 'Property Cleanout Pros',
   publisher: 'Property Cleanout Pros',
@@ -21,15 +21,15 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://property-cleanout-boise.com',
-    siteName: 'Property Cleanout Pros - Boise Idaho',
-    title: 'Property Cleanout Services Boise | Professional Property Clearing Idaho',
-    description: 'Professional property cleanout services in Boise and the Treasure Valley. Foreclosure cleanouts, rental turnovers, and complete property clearing. Licensed & insured.',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Property Cleanout Pros - Boise Idaho' }],
+    siteName: 'Boise Property Cleanout - Idaho',
+    title: 'Property Cleanout Boise | Rental, Foreclosure & Eviction Cleanout Idaho',
+    description: 'Fast property cleanout in Boise and Treasure Valley. Rental turnovers, foreclosure clearing, eviction cleanouts. Same-day service. Licensed & insured.',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Boise Property Cleanout - Idaho' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Property Cleanout Services Boise | Professional Property Clearing Idaho',
-    description: 'Professional property cleanout services in Boise and the Treasure Valley. Foreclosure cleanouts and complete property clearing.',
+    title: 'Property Cleanout Boise | Rental, Foreclosure & Eviction Cleanout Idaho',
+    description: 'Fast property cleanout in Boise. Rental turnovers, foreclosure clearing, eviction cleanouts. Same-day service available.',
     images: ['/og-image.jpg'],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 } },
@@ -43,9 +43,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <StructuredData />
       </head>
       <body className="min-h-screen bg-white">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087" strategy="afterInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS" strategy="afterInteractive" />
         <Script id="google-ads" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'AW-11134633087');`}
+          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-46RY05JDNS');gtag('config', 'AW-11134633087');`}
         </Script>
         <Script id="meta-pixel" strategy="afterInteractive">
           {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','533217938868618');fbq('track','PageView');`}

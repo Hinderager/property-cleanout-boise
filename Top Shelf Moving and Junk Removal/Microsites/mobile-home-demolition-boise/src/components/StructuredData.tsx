@@ -10,36 +10,36 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
 // FAQ data for FAQPage schema (critical for LLM seeding)
 const faqData = [
   {
-    question: 'How much does mobile home demolition cost?',
-    answer: 'Mobile home demolition costs depend on the size (single wide vs double wide), location, accessibility, and whether foundation removal is included. Most single wide demolitions in the Boise area run $3,000-$6,000, while double wides typically range $5,000-$10,000. We provide free on-site estimates.',
+    question: 'How much does mobile home demolition cost in Boise?',
+    answer: 'Cost depends on size, location, and what you need removed. Single wides usually run $3,500-$6,500. Double wides range from $6,000-$12,000. If you need foundation removal, add another $1,500-$3,500 depending on the setup. We give free quotes after looking at your specific situation.',
   },
   {
-    question: 'Do I need a permit to demolish a mobile home?',
-    answer: 'Yes, most jurisdictions in Idaho require a demolition permit. Ada County, Canyon County, and local cities each have their own requirements. We help navigate the permit process and can handle the paperwork for you.',
+    question: 'Do I need a permit to demolish a mobile home in Idaho?',
+    answer: 'Yes, you need a demolition permit in most areas. Ada County, Canyon County, Meridian, Nampa—they all have their own rules. We know what each jurisdiction requires and can handle the permit application for you. It\'s part of what we do.',
   },
   {
-    question: 'How long does mobile home demolition take?',
-    answer: 'A typical single wide demolition takes 1-2 days. Double wides usually take 2-3 days. This includes teardown, debris removal, and basic site cleanup. Foundation removal adds another day depending on the type of foundation.',
+    question: 'How long does a mobile home demo take?',
+    answer: 'Single wides take 1-2 days from start to finish. Double wides need 2-3 days. That includes teardown, loading, and hauling everything away. Foundation removal adds another day or so. Weather and site access can affect timing.',
   },
   {
-    question: 'Do you handle utility disconnections?',
-    answer: 'We coordinate with utility companies to ensure gas, electric, water, and sewer are properly disconnected before demolition begins. This is a critical safety step and we handle the scheduling and verification.',
+    question: 'What\'s included in mobile home demolition service?',
+    answer: 'We handle the whole thing. Utility coordination, demolition, debris hauling, metal recycling, and site cleanup. You get a bare lot when we\'re done. Foundation removal is separate but we do that too if you need it.',
   },
   {
-    question: 'What happens to the debris after demolition?',
-    answer: 'We haul all debris to appropriate disposal facilities. Metals are separated and recycled. Wood and other materials go to licensed disposal sites. We leave your site clean and clear.',
+    question: 'Who disconnects the utilities before demo?',
+    answer: 'We coordinate with the utility companies but you\'ll need to request disconnection as the property owner. We make sure gas, electric, water, and sewer are properly shut off and capped before we touch anything. Safety first.',
   },
   {
-    question: 'Can you remove the foundation too?',
-    answer: 'Absolutely. We remove concrete piers, blocks, tie-down anchors, and skirting. If you want a completely clear lot ready for new construction, we can make that happen. Foundation removal is quoted separately.',
+    question: 'Can you remove the foundation and piers?',
+    answer: 'Absolutely. We pull concrete piers, remove tie-down anchors, take out skirting, and haul it all away. Some folks want a completely level lot and we can do that. Foundation work is quoted separately from the demo.',
   },
   {
-    question: 'What areas do you serve?',
-    answer: 'We provide mobile home demolition services in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding Treasure Valley communities. If you\'re unsure if we serve your area, give us a call at (208) 361-1982.',
+    question: 'What areas do you serve in Idaho?',
+    answer: 'We provide mobile home demolition services in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding Treasure Valley communities. If you\'re not sure if we cover your area, give us a call at (208) 505-9352.',
   },
   {
     question: 'Do you work in mobile home parks?',
-    answer: 'Yes. We frequently work in mobile home parks throughout the Treasure Valley. We understand the space constraints and neighbor considerations. We work efficiently and keep the area clean to minimize disruption.',
+    answer: 'Yes. We work in mobile home parks all the time. We understand the tight spaces and the need to keep things clean for neighbors. We coordinate with park management and work efficiently to minimize disruption.',
   },
 ]
 
@@ -49,10 +49,10 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Mobile Home Demolition Pros - ${city}`,
+    "name": `Boise Mobile Home Demolition - ${city}`,
     "description": `Professional mobile home and manufactured home demolition services in ${city}, Idaho. Complete teardown, foundation removal, and site cleanup. Licensed and insured.`,
     "url": "https://mobile-home-demolition-boise.com",
-    "telephone": "+1-208-361-1982",
+    "telephone": "+1-208-505-9352",
     "email": "info@mobile-home-demolition-boise.com",
     "address": {
       "@type": "PostalAddress",
@@ -74,11 +74,11 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     ],
     "serviceType": [
       "Mobile Home Demolition",
-      "Manufactured Home Demolition",
-      "Single Wide Demolition",
-      "Double Wide Demolition",
-      "Foundation Removal",
-      "Demolition Debris Hauling"
+      "Manufactured Home Removal",
+      "Trailer Demolition",
+      "Mobile Home Disposal",
+      "Site Clearing",
+      "Foundation Removal"
     ],
     "priceRange": "$$",
     "openingHoursSpecification": [
@@ -103,7 +103,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Mobile Home Demolition Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Mobile Home Demolition Pros"
+      "name": "Boise Mobile Home Demolition"
     },
     "areaServed": {
       "@type": "State",

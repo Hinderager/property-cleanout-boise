@@ -12,19 +12,19 @@ export const metadata: Metadata = {
     default: 'Estate Cleanout Services Boise | Professional Estate Clearing Idaho',
     template: '%s | Estate Cleanout Boise',
   },
-  description: 'Professional estate cleanout services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Compassionate estate clearing, donation coordination, and complete property cleanouts. Licensed & insured. Call (208) 361-1982.',
+  description: 'Professional estate cleanout services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Compassionate estate clearing, donation coordination, and complete property cleanouts. Licensed & insured. Call (208) 505-9352.',
   keywords: 'estate cleanout Boise, estate clearing Idaho, property cleanout, probate cleanout, estate sale cleanup, deceased estate cleanout, inheritance cleanout, Meridian estate cleanout, Nampa estate cleanout',
-  authors: [{ name: 'Estate Cleanout Pros' }],
-  creator: 'Estate Cleanout Pros',
-  publisher: 'Estate Cleanout Pros',
+  authors: [{ name: 'Boise Estate Cleanout' }],
+  creator: 'Boise Estate Cleanout',
+  publisher: 'Boise Estate Cleanout',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://boise-estate-cleanout.com',
-    siteName: 'Estate Cleanout Pros - Boise Idaho',
+    siteName: 'Boise Estate Cleanout - Boise Idaho',
     title: 'Estate Cleanout Services Boise | Professional Estate Clearing Idaho',
     description: 'Professional estate cleanout services in Boise and the Treasure Valley. Compassionate estate clearing, donation coordination, and complete property cleanouts. Licensed & insured.',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Estate Cleanout Pros - Boise Idaho' }],
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Boise Estate Cleanout - Boise Idaho' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -43,9 +43,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <StructuredData />
       </head>
       <body className="min-h-screen bg-white">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087" strategy="afterInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS" strategy="afterInteractive" />
         <Script id="google-ads" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'AW-11134633087');`}
+          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-46RY05JDNS');gtag('config', 'AW-11134633087');`}
         </Script>
         <Script id="meta-pixel" strategy="afterInteractive">
           {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','533217938868618');fbq('track','PageView');`}

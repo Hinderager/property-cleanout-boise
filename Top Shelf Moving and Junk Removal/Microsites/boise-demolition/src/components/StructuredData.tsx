@@ -10,36 +10,36 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
 // FAQ data for FAQPage schema (critical for LLM seeding)
 const faqData = [
   {
-    question: 'How much does demolition cost?',
-    answer: 'Demolition costs vary based on the size and type of structure, accessibility, materials involved, and disposal requirements. We provide free, detailed estimates after assessing your project. Small shed demolitions might start around $500, while larger structures can range from $3,000 to $15,000+.',
+    question: 'How much does demolition cost in Boise?',
+    answer: 'It depends on what you're tearing down. A small shed or deck might run $500-$2,000. Interior demo like a kitchen or bathroom is usually $1,500-$5,000. A full garage or small structure is typically $3,000-$8,000. Whole houses vary widely based on size and materials. We give free estimates after looking at your project.',
   },
   {
-    question: 'Do I need a permit for demolition?',
-    answer: 'Most demolition projects in Boise require permits, especially for larger structures. We can help you navigate the permit process and ensure all requirements are met. We handle permit applications for many of our clients as part of our service.',
+    question: 'Do I need a permit to demolish something?',
+    answer: 'Most demolition in Boise requires a permit—especially for structures over 120 square feet or anything attached to your house. Sheds under that size often don't need one, but check with the city first. We can help you figure out what's required and handle the permit application if needed.',
   },
   {
-    question: 'What happens to the debris?',
-    answer: 'We haul away all demolition debris as part of our service. Materials are sorted—concrete and metal are recycled when possible, and the rest is properly disposed of at licensed facilities. Your site is left clean and ready for whatever comes next.',
+    question: 'What happens to all the debris?',
+    answer: 'We haul it all away—that's part of the service. Concrete, metal, and wood get recycled when possible. Everything else goes to the proper disposal facility. You don't have to worry about cleanup. The site gets left clean and ready for whatever you're doing next.',
   },
   {
-    question: 'How long does a demolition project take?',
-    answer: 'Timeline depends on the project size. A small shed can be demolished and removed in a few hours. A house demolition typically takes 2-5 days including debris removal. We\'ll give you a realistic timeline during your estimate.',
+    question: 'How long does a typical demolition take?',
+    answer: 'A shed or deck? Usually done in a day. A garage takes 1-3 days depending on size. Interior demo for a kitchen or bathroom is typically a day or two. Full house demolitions take 3-7 days depending on the size and what's involved. We'll give you a timeline when we quote the job.',
   },
   {
-    question: 'Do you handle utility disconnection?',
-    answer: 'Yes, we can coordinate with utility companies to ensure gas, electric, water, and sewer are properly disconnected before demolition begins. This is an important safety step that\'s included in our full-service approach.',
+    question: 'Do you disconnect utilities before demolition?',
+    answer: 'Yes, we coordinate with utility companies to shut off gas, electric, water, and sewer before we start. This is a critical safety step—especially for any structure with active utilities. We handle the coordination so you don't have to.',
   },
   {
-    question: 'What areas do you serve?',
-    answer: 'We provide demolition services in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding Treasure Valley communities. We can handle projects anywhere in the region.',
+    question: 'Can you demo just part of a building?',
+    answer: 'Absolutely. That's called selective demolition, and we do it all the time. Maybe you just need one wall removed, or a bathroom gutted, or an old addition torn off. We protect what stays and carefully remove what goes. It's perfect for renovations.',
   },
   {
-    question: 'Are you licensed and insured?',
-    answer: 'Yes, we are fully licensed and carry comprehensive liability insurance. We can provide certificates of insurance upon request. Your property and our workers are protected throughout the project.',
+    question: 'Are you insured?',
+    answer: 'Yes. We carry full liability insurance and workers' comp. If something goes wrong—which it rarely does—you're covered. We can send you a certificate of insurance if you need it for permits or peace of mind.',
   },
   {
-    question: 'Can you demolish just part of a structure?',
-    answer: 'Absolutely. We specialize in selective demolition—removing specific sections while preserving what remains. This is common for renovation projects like kitchen or bathroom tearouts, room additions, or removing attached garages.',
+    question: 'What can't you demolish?',
+    answer: 'We don't handle hazardous materials like asbestos or contaminated soil—those need specialists. Everything else is fair game: houses, garages, sheds, decks, concrete, you name it. If you're not sure, just ask. We'll tell you straight if it's something we can do or not.',
   },
 ]
 
@@ -49,10 +49,10 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Demolition Pros - ${city}`,
-    "description": `Professional demolition services in ${city}, Idaho. Residential and commercial demolition, interior demo, and complete debris removal. Licensed and insured.`,
+    "name": `Boise Demolition - ${city}`,
+    "description": `Professional demolition services in ${city}, Idaho. Interior demolition, structural teardown, concrete removal, deck & shed demolition, garage removal, and complete debris hauling. Licensed and insured.`,
     "url": "https://boise-demolition.com",
-    "telephone": "+1-208-361-1982",
+    "telephone": "+1-208-505-9352",
     "email": "info@boise-demolition.com",
     "address": {
       "@type": "PostalAddress",
@@ -73,12 +73,14 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
       { "@type": "City", "name": "Eagle", "addressRegion": "ID" }
     ],
     "serviceType": [
-      "Demolition Services",
-      "Residential Demolition",
-      "Commercial Demolition",
       "Interior Demolition",
+      "Structural Demolition",
+      "Concrete Removal",
+      "Deck Removal",
       "Shed Demolition",
-      "Debris Removal"
+      "Garage Demolition",
+      "Partial Demolition",
+      "Selective Demolition"
     ],
     "priceRange": "$$",
     "openingHoursSpecification": [
@@ -103,13 +105,13 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Demolition Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Demolition Pros"
+      "name": "Boise Demolition"
     },
     "areaServed": {
       "@type": "State",
       "name": "Idaho"
     },
-    "description": `Professional demolition services in ${city} and the Treasure Valley. We provide residential and commercial demolition with complete debris removal.`,
+    "description": `Professional demolition services in ${city} and the Treasure Valley. Interior demolition, structural teardown, concrete removal, deck & shed demolition, and complete debris hauling.`,
     "offers": {
       "@type": "Offer",
       "availability": "https://schema.org/InStock",

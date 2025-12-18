@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Users, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Should You Hire an Estate Cleanout Service? (Honest Assessment) | Estate Cleanout Pros',
-  description: 'Sometimes DIY makes sense. Sometimes it doesn\'t. Here\'s how to know when to call for help.',
+  title: 'Should You Hire an Estate Cleanout Service in Boise? | Estate Cleanout Pros',
+  description: 'Honest assessment of when DIY makes sense and when to hire help for your Boise estate cleanout. Factors to consider.',
   alternates: {
     canonical: 'https://boise-estate-cleanout.com/blogs/hiring-estate-cleanout-service',
   },
 }
 
-export default function BlogPost() {
+export default function HiringEstateCleanoutService() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/inherited-property.webp"
-          alt="Should You Hire an Estate Cleanout Service? (Honest Assessment)"
+          src="/generated/hiring-estate-cleanout.webp"
+          alt="Hiring Estate Cleanout Service"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,252 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Should You Hire an Estate Cleanout Service? (Honest Assessment)
+            Should You Hire an Estate Cleanout Service?
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for estate cleanout services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Hiring Estate Cleanout Service</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to estate cleanout, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Estate cleanout in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality estate cleanout services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Estate cleanout Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need estate cleanout services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Not every estate cleanout needs professional help. Some families handle it themselves and it works fine. Others try DIY, realize they're in over their heads, and call for help.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Here's an honest look at when DIY makes sense and when hiring a Boise estate cleanout service is worth the cost.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* When DIY Works */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              When DIY Makes Sense
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              You can probably handle it yourself if:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>You have time.</strong> Not under deadline pressure, and you can work on this over weeks or months at your own pace.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>The home is manageable.</strong> Small to medium home without decades of heavy accumulation. You can see a realistic end point.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>You're local.</strong> You live in the Treasure Valley and can make multiple trips to the home without major disruption.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Family is cooperative.</strong> Multiple people available to help, and there's agreement on how to handle things.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>You're physically able.</strong> You can handle the lifting, carrying, and hauling. Or you have family members who can.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* When to Hire Help */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+                <Users className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold">
+                When Hiring Help Makes More Sense
+              </h2>
             </div>
 
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Estate cleanout Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Estate Cleanout Pros is here to help with all your estate cleanout needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Consider professional help when:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>You're under time pressure.</strong> Home needs to be sold, lease is ending, or you have limited time to be present</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>You live far away.</strong> Coming from outside Idaho makes repeated trips impractical and expensive</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>The volume is overwhelming.</strong> Large homes, hoarding situations, or decades of accumulation</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Physical limitations.</strong> Age, health issues, or lack of able-bodied helpers make the work impractical</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Emotional difficulty.</strong> Being in the space is too hard, or you need distance from the process</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Family conflict.</strong> A neutral third party makes the process easier for everyone</span>
+              </div>
             </div>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* Cost Comparison */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Real Cost Comparison
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              DIY seems cheaper on the surface, but consider:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Your time has value.</strong> If you're taking time off work, add up the lost wages or vacation days. If you're doing this instead of other things, consider that cost too.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>DIY has direct costs.</strong> Dumpster rental or multiple dump trips, truck rental, packing supplies, donation hauling—it adds up quickly.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Travel expenses.</strong> If you're flying in, add airfare, rental car, and hotel. Multiple trips multiply these costs.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Ongoing property costs.</strong> Every month the estate cleanout isn't done, you're paying utilities, property taxes, insurance, and possibly a mortgage on an empty home.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              For many families, professional help actually costs less when you factor everything in—and gets the property ready for sale or rental faster.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What to Look For */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What to Look for in an Estate Cleanout Service
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              If you decide to hire help, here's what matters:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Experience with estates specifically.</strong> Estate cleanout is different from regular junk removal. You need someone who understands the emotional aspect, can identify potentially valuable items, and works respectfully.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Clear pricing.</strong> Get a quote in writing before work begins. Understand what's included and what might cause additional charges.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Proper insurance.</strong> Workers compensation and liability insurance protect you if something goes wrong.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Donation and recycling practices.</strong> A good service will donate usable items rather than landfill everything. Ask about their process.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>References from estate cleanouts.</strong> Ask specifically about estate work, not just general junk removal experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Middle Ground */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Middle Ground: Partial Help
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              It doesn't have to be all or nothing. Many families find a middle approach:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Handle the sorting yourself.</strong> Go through everything personally, identify keepsakes, distribute items to family, make all the decisions.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Hire help for the removal.</strong> Once you've sorted, a cleanout service can come in and handle everything that's leaving in a day or two.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              This approach lets you maintain control over the personal decisions while offloading the physically demanding and time-consuming removal work.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              There's no single right answer. DIY works great for some families. Professional help is essential for others. Most fall somewhere in between.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Consider your specific situation: time available, physical ability, emotional readiness, distance, family dynamics, and overall cost including your time.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              If you want to talk through your situation, we're happy to give an honest assessment of whether you need help or not. Sometimes the answer is "you've got this." We'll tell you that.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Want an Honest Assessment?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We'll tell you straight whether you need help or can handle it yourself. Free consultation, no sales pressure.
+            </p>
+            <a
+              href="tel:2085059352"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 505-9352
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Estate Cleanout Resources
           </h2>
           <div className="text-center">
             <Link

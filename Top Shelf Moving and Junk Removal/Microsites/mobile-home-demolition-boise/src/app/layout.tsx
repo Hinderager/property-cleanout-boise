@@ -10,23 +10,24 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://mobile-home-demolition-boise.com'),
   title: {
     default: 'Mobile Home Demolition Boise | Manufactured Home Removal Idaho',
-    template: '%s | Mobile Home Demolition Pros',
+    template: '%s | Boise Mobile Home Demolition',
   },
-  description: 'Professional mobile home and manufactured home demolition in Boise, Idaho. Complete trailer removal, site cleanup, and permit assistance. Licensed and insured.',
+  description: 'Professional mobile home demolition in Boise and the Treasure Valley. Single wides, double wides, manufactured homes. Complete teardown, foundation removal, and site cleanup. Licensed, insured, and locally owned.',
   keywords: [
     'mobile home demolition Boise',
     'manufactured home removal Idaho',
     'trailer demolition Boise',
     'mobile home removal Treasure Valley',
-    'manufactured home demolition',
-    'single wide demolition',
-    'double wide demolition',
-    'mobile home disposal',
-    'trailer home removal Idaho',
+    'single wide demolition Boise',
+    'double wide demolition Idaho',
+    'mobile home disposal Boise',
+    'site clearing Idaho',
+    'foundation removal Boise',
+    'manufactured home demolition Meridian',
   ],
-  authors: [{ name: 'Mobile Home Demolition Pros' }],
-  creator: 'Mobile Home Demolition Pros',
-  publisher: 'Mobile Home Demolition Pros',
+  authors: [{ name: 'Boise Mobile Home Demolition' }],
+  creator: 'Boise Mobile Home Demolition',
+  publisher: 'Boise Mobile Home Demolition',
   formatDetection: {
     email: false,
     address: false,
@@ -36,22 +37,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://mobile-home-demolition-boise.com',
-    siteName: 'Mobile Home Demolition Boise',
+    siteName: 'Boise Mobile Home Demolition',
     title: 'Mobile Home Demolition Boise | Manufactured Home Removal Idaho',
-    description: 'Professional mobile home and manufactured home demolition in Boise. Complete trailer removal, site cleanup, and permit assistance.',
+    description: 'Professional mobile home demolition in Boise and the Treasure Valley. Single wides, double wides, manufactured homes. Complete teardown, foundation removal, and site cleanup.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Mobile Home Demolition Boise - Professional Removal Services',
+        alt: 'Boise Mobile Home Demolition - Professional Removal Services',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Mobile Home Demolition Boise | Manufactured Home Removal Idaho',
-    description: 'Professional mobile home and manufactured home demolition in Boise. Complete trailer removal, site cleanup, and permit assistance.',
+    description: 'Professional mobile home demolition in Boise and the Treasure Valley. Single wides, double wides, manufactured homes. Complete teardown, foundation removal, and site cleanup.',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -78,7 +79,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-screen bg-white antialiased">
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
+          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
           strategy="afterInteractive"
         />
         <Script id="google-ads" strategy="afterInteractive">
@@ -86,6 +87,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-46RY05JDNS');
             gtag('config', 'AW-11134633087');
           `}
         </Script>

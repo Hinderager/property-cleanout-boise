@@ -28,7 +28,7 @@ export const faqs = [
   },
   {
     question: 'What areas do you serve?',
-    answer: 'We serve the entire Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and surrounding communities. If you\'re not sure if we cover your area, just give us a call at (208) 361-1982.'
+    answer: 'We serve the entire Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and surrounding communities. If you\'re not sure if we cover your area, just give us a call at (208) 505-9352.'
   },
   {
     question: 'What happens to the hot tub after you remove it?',
@@ -89,9 +89,9 @@ export function FAQ() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

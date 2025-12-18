@@ -8,52 +8,52 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 // Static reviews for property cleanout
 const staticReviews = [
   {
-    author: 'Tom H.',
-    relative_time: '2 weeks ago',
-    rating: 5,
-    text: 'As a property manager, I use these guys regularly for rental turnovers. They\'re fast, reliable, and their pricing is fair. Had a unit cleared out and ready for showing in less than 24 hours. Can\'t recommend them enough.',
-  },
-  {
-    author: 'Karen S.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'We needed a foreclosure property cleared out for the bank. They handled everything professionally—furniture, appliances, all the junk left behind. Property was broom-clean and ready to list. Will use again.',
-  },
-  {
-    author: 'Mark D.',
-    relative_time: '3 weeks ago',
-    rating: 5,
-    text: 'Eviction cleanout done right. They followed all the legal requirements for documenting and storing items, then cleared everything out. Made a stressful situation much easier to handle. Professional from start to finish.',
-  },
-  {
-    author: 'Susan P.',
-    relative_time: '2 weeks ago',
-    rating: 5,
-    text: 'Inherited my aunt\'s house and it was packed to the ceiling. They sorted through everything with us, found family photos and valuables, and donated what could be reused. The house sold in 2 weeks after they finished.',
-  },
-  {
-    author: 'Jason R.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'Great experience working with them on multiple REO properties. They understand the urgency and always deliver on time. Fair pricing and excellent communication throughout the process.',
-  },
-  {
-    author: 'Linda M.',
-    relative_time: '3 months ago',
-    rating: 5,
-    text: 'Tenant left without notice and the place was trashed. These guys came in, hauled everything away, and even swept up. My new tenant moved in the following week. Saved me weeks of headache.',
-  },
-  {
-    author: 'Chris B.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'Used them for a commercial property cleanout. Previous business left all their equipment and inventory behind. They handled it all efficiently and recycled what they could. Very professional crew.',
-  },
-  {
-    author: 'Patricia K.',
+    author: 'Mike T.',
     relative_time: '1 week ago',
     rating: 5,
-    text: 'Quick response and fair quote. They cleared out my deceased father\'s rental property so I could get it ready for sale. Found some things I wanted to keep and handled the rest with care. Highly recommend.',
+    text: 'I manage 12 rental properties in Boise and these guys are my go-to for turnovers. They show up when they say they will, clear everything out fast, and leave it broom-clean. Just had them do a 3-bedroom unit in one afternoon. Worth every penny.',
+  },
+  {
+    author: 'Jennifer M.',
+    relative_time: '2 weeks ago',
+    rating: 5,
+    text: 'Real estate agent here. I\'ve used them on three foreclosure cleanouts now. They get how tight our timelines are when a property needs to go on the market. Last one was listed 48 hours after they finished. Super reliable.',
+  },
+  {
+    author: 'Robert K.',
+    relative_time: '3 weeks ago',
+    rating: 5,
+    text: 'Had an eviction situation that was messy. They knew exactly how to handle it legally—documented everything, stored personal items properly, then cleared the unit. Made a tough situation way easier. Highly recommend for landlords.',
+  },
+  {
+    author: 'Sarah P.',
+    relative_time: '1 month ago',
+    rating: 5,
+    text: 'We flip houses in Meridian and they\'ve done probably 6 or 7 cleanouts for us. Always professional, always on schedule. They haul out the junk and donate what\'s salvageable. Great crew to work with.',
+  },
+  {
+    author: 'Dan R.',
+    relative_time: '2 months ago',
+    rating: 5,
+    text: 'Property manager for a bank. These guys handle our REO cleanouts in the Treasure Valley. Fast response, fair quotes, and they finish when they say they will. That consistency is hard to find. They\'re our first call every time.',
+  },
+  {
+    author: 'Nicole H.',
+    relative_time: '3 weeks ago',
+    rating: 5,
+    text: 'Tenant skipped out on a 2-bedroom apartment. Left furniture, trash, everything. Called them Monday morning, they cleared it Tuesday afternoon. Had it re-rented by the weekend. Can\'t beat that turnaround.',
+  },
+  {
+    author: 'Brandon C.',
+    relative_time: '1 month ago',
+    rating: 5,
+    text: 'Investment property in Nampa needed a full cleanout before we could renovate. They hauled out years of accumulated stuff in a few hours. Crew was respectful and efficient. Would definitely use them again.',
+  },
+  {
+    author: 'Amanda L.',
+    relative_time: '2 weeks ago',
+    rating: 5,
+    text: 'Had to clear out my late mother\'s rental after she passed. They were respectful and careful with her things, helped me identify what to keep, and handled the rest. Made a hard time a little easier. Thank you.',
   },
 ]
 
@@ -225,9 +225,9 @@ export function GoogleReviews() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2085059352">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 505-9352</span>
             </a>
           </Button>
         </div>

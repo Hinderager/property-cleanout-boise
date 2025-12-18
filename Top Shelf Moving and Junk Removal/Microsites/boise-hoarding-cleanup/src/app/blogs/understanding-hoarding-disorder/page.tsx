@@ -1,26 +1,27 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Brain, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Understanding Hoarding Disorder: What Family Members Should Know | Hoarding Cleanup Pros',
-  description: 'Hoarding isn\'t about being messy. Here\'s what you need to understand before starting a cleanup.',
+  description: 'Hoarding isn\'t about being messy or lazy. Here\'s what you need to understand about hoarding disorder before starting a cleanup.',
   alternates: {
     canonical: 'https://boise-hoarding-cleanup.com/blogs/understanding-hoarding-disorder',
   },
 }
 
-export default function BlogPost() {
+export default function UnderstandingHoardingDisorder() {
   return (
     <main>
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px] flex items-end">
         <Image
-          src="/generated/hero.webp"
-          alt="Understanding Hoarding Disorder: What Family Members Should Know"
+          src="/generated/understanding-hoarding.webp"
+          alt="Understanding Hoarding Disorder"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-blue/90 via-dark-blue/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4 pb-12">
@@ -34,71 +35,244 @@ export default function BlogPost() {
             Back to Blog
           </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Understanding Hoarding Disorder: What Family Members Should Know
+            Understanding Hoarding Disorder
           </h1>
         </div>
       </section>
 
-      {/* Content Section */}
-      <article className="py-12 md:py-16">
+      {/* Intro Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed">If you're looking for hoarding cleanup services in Boise and the Treasure Valley, you've probably got questions. Let's answer the most common ones.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Understanding Understanding Hoarding Disorder</h2>
-            <p className="text-gray-600 leading-relaxed">When it comes to hoarding cleanup, there's a lot of conflicting information out there. Some websites make it sound complicated. Others oversimplify. Here's the real deal.</p>
-            <p className="text-gray-600 leading-relaxed">First, let's establish what we're actually talking about. Hoarding cleanup in the Boise area involves professional handling of your project from start to finish. That means proper equipment, trained crews, and responsible disposal or handling of materials.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Why This Matters in the Treasure Valley</h2>
-            <p className="text-gray-600 leading-relaxed">Boise, Meridian, Nampa, and the surrounding cities have grown rapidly. With that growth comes more demand for quality hoarding cleanup services. But not all providers are created equal.</p>
-            <p className="text-gray-600 leading-relaxed">Some companies cut corners. They might not be properly insured. They might dispose of materials improperly. Or they simply might not have the experience to handle your specific situation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What to Look for in a Hoarding cleanup Service</h2>
-            <p className="text-gray-600 leading-relaxed">Here's what separates quality providers from the rest:</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Proper licensing and insurance.</strong> This protects you if something goes wrong. Always verify before hiring.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Clear pricing.</strong> You should know what you're paying before work begins. Surprises are never fun.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Experience with your type of project.</strong> A company that's done this before will work more efficiently and avoid common mistakes.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Good communication.</strong> You should be able to reach someone when you have questions.</p>
-            <p className="text-gray-600 leading-relaxed"><strong>Local knowledge.</strong> Understanding Boise-area regulations and facilities makes everything run smoother.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Common Questions We Get</h2>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How much does it cost?</h2>
-            <p className="text-gray-600 leading-relaxed">This varies based on the scope of work, access to the area, and other factors. We provide free estimates so you know exactly what to expect before committing.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">How long does it take?</h2>
-            <p className="text-gray-600 leading-relaxed">Most residential projects can be completed in a few hours to a day. Larger commercial projects may take longer. We'll give you a realistic timeline during the estimate.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Do I need to be there?</h2>
-            <p className="text-gray-600 leading-relaxed">For most jobs, you just need to provide access. We can work around your schedule.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">What areas do you serve?</h2>
-            <p className="text-gray-600 leading-relaxed">We cover Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and surrounding communities in the Treasure Valley.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 leading-relaxed">If you need hoarding cleanup services in Boise, we're here to help. Give us a call at (208) 361-1982 for a free estimate. No pressure, no obligation - just honest answers to your questions.</p>
-            <p className="text-gray-600 leading-relaxed">We've been serving the Treasure Valley for years, and we treat every job like it's our own property. That's not marketing talk - it's how we've built our reputation.</p>
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">The Bottom Line</h2>
-            <p className="text-gray-600 leading-relaxed">Whether you're dealing with a simple project or something more complex, having the right team makes all the difference. We've seen firsthand what happens when people try to cut corners or hire the cheapest option available.</p>
-            <p className="text-gray-600 leading-relaxed">Do your research. Get multiple quotes. Ask questions. And when you're ready, we'd love to earn your business.</p>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Your family member isn't just "messy" or "lazy." They have a recognized mental health condition that affects how they process decisions about possessions. Understanding this changes everything about how you approach the situation.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Before any cleanup happens, here's what you need to know about hoarding disorder.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What It Is */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center">
+                <Brain className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gunmetal">
+                What Hoarding Disorder Actually Is
+              </h2>
             </div>
 
-            {/* CTA Box */}
-            <div className="mt-12 bg-gray-100 rounded-lg p-8 text-center">
-              <h3 className="text-2xl font-bold text-gunmetal mb-4">
-                Need Hoarding cleanup Help?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Hoarding Cleanup Pros is here to help with all your hoarding cleanup needs in the Treasure Valley.
-              </p>
-              <a
-                href="tel:2083611982"
-                className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
-              >
-                Call (208) 361-1982
-              </a>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Hoarding disorder is officially recognized in the DSM-5 (the diagnostic manual mental health professionals use). It's characterized by:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Persistent difficulty discarding possessions.</strong> Not just reluctance—genuine distress at the thought of letting things go, regardless of actual value.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Perceived need to save items.</strong> The person believes items are needed, useful, or important, even when others see no value.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Accumulation that compromises living space.</strong> The clutter prevents normal use of rooms for their intended purpose.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Significant distress or impairment.</strong> The hoarding causes problems in daily life—social isolation, health risks, housing issues, family conflict.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What It Isn't */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              What Hoarding Is NOT
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Clearing up misconceptions helps approach the situation better:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Not laziness.</strong> People with hoarding disorder aren't too lazy to clean up. They often work extremely hard—the problem is a processing issue with decisions about possessions, not motivation.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Not just collecting.</strong> Collectors have organized, displayed items of a specific category. Hoarding involves disorganized accumulation across many categories, often including obvious trash.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Not a choice.</strong> Nobody chooses to live in unsafe, isolating conditions. The behavior feels necessary and unavoidable to the person experiencing it.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Not about the stuff.</strong> The possessions are a symptom, not the disease. Removing items without addressing the underlying condition doesn't solve the problem—the clutter typically returns.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Contributing Factors */}
+      <section className="py-12 md:py-16 bg-dark-blue text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              What Contributes to Hoarding
+            </h2>
+
+            <p className="text-blue-100 leading-relaxed mb-6">
+              Hoarding disorder often develops from multiple factors:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Genetics:</strong> Hoarding runs in families. If a first-degree relative hoards, the risk is significantly higher</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Trauma and loss:</strong> Many people with hoarding disorder experienced significant loss, deprivation, or trauma. Holding onto possessions can feel like protection against future loss</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Other mental health conditions:</strong> Hoarding often co-occurs with depression, anxiety, ADHD, and OCD. These conditions can worsen hoarding behaviors</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Information processing differences:</strong> Research shows people with hoarding disorder process decisions differently. They have trouble categorizing, organizing, and making quick decisions</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                <span className="text-blue-100"><strong>Emotional attachment to possessions:</strong> Items can feel like extensions of identity, containers of memories, or potential future resources</span>
+              </div>
             </div>
           </div>
         </div>
-      </article>
+      </section>
+
+      {/* The Severity Spectrum */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Hoarding Severity Scale
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Professionals often use a 1-5 scale to assess hoarding severity:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Level 1:</strong> Clutter is noticeable but all rooms are usable and accessible. Doors and windows open. No sanitation issues.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Level 2:</strong> One room is slightly unusable. Minor odors present. Pathways slightly narrowed. Some appliances not working.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Level 3:</strong> One room is fully unusable. Visible clutter outside the home. Light pest evidence. Narrow pathways. Some neglect of home maintenance.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Level 4:</strong> Multiple rooms unusable. Structural damage. Significant mold or pest issues. Blocked exits. Rotting food. Unsanitary conditions.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Level 5:</strong> Home is uninhabitable. No running water or electricity. Severe biohazards. Human or animal waste present. Fire hazards. Structural hazards.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Understanding Matters */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              Why This Understanding Matters for Cleanup
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              How you understand the condition shapes how you approach cleanup:
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Forced cleanouts usually fail.</strong> When families or authorities clear a hoarded home without the person's involvement, the space typically refills within months. The underlying condition hasn't been addressed.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Shame makes it worse.</strong> Expressing disgust, frustration, or judgment typically drives the person further into isolation and can actually accelerate hoarding behavior.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              <strong>Treatment helps.</strong> Cognitive Behavioral Therapy (CBT) specifically for hoarding is effective. Cleanup combined with therapy has much better long-term outcomes.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              <strong>Involvement is key.</strong> The more the person participates in cleanup decisions, the better the chance of lasting success. This is slower, but more effective.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom Line */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
+              The Bottom Line
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Hoarding disorder is a mental health condition, not a character flaw. Understanding this doesn't excuse unsafe conditions or mean you should ignore serious problems—but it does change how you approach solutions.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              The most successful approach combines compassion for the person, professional mental health support, and—when the person is ready—professional cleanup services that understand the unique nature of hoarding situations.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Recovery is possible. Many people with hoarding disorder go on to maintain safe, functional homes. It takes time, appropriate treatment, and ongoing support—but it's achievable.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-4">
+              Need Help With a Hoarding Situation?
+            </h2>
+            <p className="text-gray-600 mb-8">
+              We provide compassionate hoarding cleanup throughout Boise, Meridian, Nampa, and the Treasure Valley. We understand the condition and work respectfully.
+            </p>
+            <a
+              href="tel:2085059352"
+              className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+            >
+              Call (208) 505-9352
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Related Posts */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gunmetal mb-8 text-center">
-            More Articles
+            More Hoarding Resources
           </h2>
           <div className="text-center">
             <Link

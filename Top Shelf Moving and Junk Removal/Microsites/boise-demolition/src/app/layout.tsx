@@ -9,25 +9,25 @@ import { StructuredData } from '@/components/StructuredData'
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-demolition.com'),
   title: {
-    default: 'Boise Demolition Services | Residential & Commercial Demo Idaho',
-    template: '%s | Boise Demolition Pros',
+    default: 'Boise Demolition Services | Interior, Structural & Concrete Demolition',
+    template: '%s | Boise Demolition',
   },
-  description: 'Professional demolition services in Boise, Idaho. Residential and commercial demolition, interior demo, shed removal, garage teardown, and complete structure removal. Licensed and insured.',
+  description: 'Professional demolition services in Boise. Interior demolition, structural teardown, concrete removal, deck & shed demolition, garage removal, and complete debris hauling. Licensed and insured.',
   keywords: [
     'demolition Boise',
-    'demolition contractor Idaho',
-    'residential demolition Boise',
-    'commercial demolition Idaho',
-    'interior demolition',
-    'shed demolition',
-    'garage demolition',
-    'building demolition Boise',
-    'structure removal Idaho',
-    'demolition services Treasure Valley',
+    'interior demolition Boise',
+    'structural demolition Idaho',
+    'concrete removal Boise',
+    'deck removal Idaho',
+    'shed demolition Boise',
+    'garage demolition Idaho',
+    'partial demolition Boise',
+    'selective demolition Idaho',
+    'demolition contractor Treasure Valley',
   ],
-  authors: [{ name: 'Demolition Pros' }],
-  creator: 'Demolition Pros',
-  publisher: 'Demolition Pros',
+  authors: [{ name: 'Boise Demolition' }],
+  creator: 'Boise Demolition',
+  publisher: 'Boise Demolition',
   formatDetection: {
     email: false,
     address: false,
@@ -37,22 +37,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://boise-demolition.com',
-    siteName: 'Boise Demolition Pros',
-    title: 'Boise Demolition Services | Residential & Commercial Demo Idaho',
-    description: 'Professional demolition services in Boise. Residential and commercial demolition, interior demo, and complete structure removal. Licensed and insured.',
+    siteName: 'Boise Demolition',
+    title: 'Boise Demolition Services | Interior, Structural & Concrete Demolition',
+    description: 'Professional demolition services in Boise. Interior demolition, structural teardown, concrete removal, deck & shed demolition, and complete debris hauling.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Boise Demolition Pros - Professional Demolition Services',
+        alt: 'Boise Demolition - Professional Demolition Services',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Boise Demolition Services | Residential & Commercial Demo Idaho',
-    description: 'Professional demolition services in Boise. Residential and commercial demolition, interior demo, and complete structure removal.',
+    title: 'Boise Demolition Services | Interior, Structural & Concrete Demolition',
+    description: 'Professional demolition services in Boise. Interior demolition, structural teardown, concrete removal, and complete debris hauling.',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -79,7 +79,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-screen bg-white antialiased">
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
+          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
           strategy="afterInteractive"
         />
         <Script id="google-ads" strategy="afterInteractive">
@@ -87,6 +87,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-46RY05JDNS');
             gtag('config', 'AW-11134633087');
           `}
         </Script>

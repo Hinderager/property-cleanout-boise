@@ -15,7 +15,7 @@ const blogPosts = [
     "slug": "tire-disposal-options-boise",
     "title": "Tire Disposal Options in Boise: What Are Your Choices?",
     "excerpt": "Old tires can't just go in the trash. Here are your legal options for tire disposal.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/tire-removal-options.webp"
   },
   {
     "slug": "tire-recycling-idaho",
@@ -27,7 +27,7 @@ const blogPosts = [
     "slug": "illegal-tire-dumping-penalties",
     "title": "Illegal Tire Dumping in Idaho: Fines and Consequences",
     "excerpt": "Dumping tires illegally isn't worth the risk. Here's what you're facing if caught.",
-    "image": "/generated/commercial-tires.webp"
+    "image": "/generated/illegal-tire-dumping.webp"
   },
   {
     "slug": "bulk-tire-removal-for-businesses",
@@ -39,7 +39,7 @@ const blogPosts = [
     "slug": "tire-removal-cost",
     "title": "How Much Does Tire Removal Cost?",
     "excerpt": "Tire disposal fees vary. Here's what influences the price and what to budget.",
-    "image": "/generated/hero.webp"
+    "image": "/generated/tire-removal-pricing.webp"
   }
 ]
 
@@ -53,7 +53,7 @@ export default function BlogsPage() {
           alt="Tire Removal Pros Blog"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/80 to-dark-blue/60" />
         <div className="relative z-10 container mx-auto px-4">
