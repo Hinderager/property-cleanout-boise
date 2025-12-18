@@ -109,7 +109,7 @@ export default function BlogPost() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Some techs use an even simpler formula: if (repair cost × furnace age) exceeds $5,000, replace it. A $500 repair on a 12-year-old furnace? That's $6,000—probably time to consider replacement.
+              Some techs use an even simpler formula: if (repair cost × furnace age) exceeds $5,000, replace it. A $500 repair on a 12-year-old furnace? That's $6,000-probably time to consider replacement.
             </p>
           </div>
         </div>
@@ -267,7 +267,7 @@ export default function BlogPost() {
               Need Honest Advice on Your Furnace?
             </h3>
             <p className="text-xl text-blue-100 mb-8">
-              We'll diagnose the problem and give you straight talk about your options—repair or replace.
+              We'll diagnose the problem and give you straight talk about your options-repair or replace.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
