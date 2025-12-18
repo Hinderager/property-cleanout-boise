@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert furnace repair services for gas and electric furnaces. in Boise, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace repair Boise', 'furnace service Boise', 'HVAC Boise Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/boise/furnace-repair',
+    canonical: 'https://boise-movers.com/cities-served/boise/furnace-repair',
   },
 }
 

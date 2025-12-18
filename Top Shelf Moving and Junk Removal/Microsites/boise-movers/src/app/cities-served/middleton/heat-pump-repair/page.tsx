@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert heat pump repair services for all brands and models. in Middleton, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump repair Middleton', 'heat pump service Middleton', 'HVAC Middleton Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/middleton/heat-pump-repair',
+    canonical: 'https://boise-movers.com/cities-served/middleton/heat-pump-repair',
   },
 }
 

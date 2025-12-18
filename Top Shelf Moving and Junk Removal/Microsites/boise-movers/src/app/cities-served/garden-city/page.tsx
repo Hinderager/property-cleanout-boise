@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional HVAC services in Garden City, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
   keywords: ['HVAC Garden City', 'AC repair Garden City Idaho', 'furnace repair Garden City', 'heating services Garden City', 'air conditioning Garden City'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/garden-city',
+    canonical: 'https://boise-movers.com/cities-served/garden-city',
   },
 }
 

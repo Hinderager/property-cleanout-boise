@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional heat pump installation and replacement services. in Star, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump installation Star', 'heat pump service Star', 'HVAC Star Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/star/heat-pump-installation',
+    canonical: 'https://boise-movers.com/cities-served/star/heat-pump-installation',
   },
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional heat pump installation and replacement services. in Caldwell, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump installation Caldwell', 'heat pump service Caldwell', 'HVAC Caldwell Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/caldwell/heat-pump-installation',
+    canonical: 'https://boise-movers.com/cities-served/caldwell/heat-pump-installation',
   },
 }
 

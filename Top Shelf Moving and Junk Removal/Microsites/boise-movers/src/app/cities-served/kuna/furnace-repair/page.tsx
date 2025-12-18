@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert furnace repair services for gas and electric furnaces. in Kuna, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace repair Kuna', 'furnace service Kuna', 'HVAC Kuna Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/kuna/furnace-repair',
+    canonical: 'https://boise-movers.com/cities-served/kuna/furnace-repair',
   },
 }
 

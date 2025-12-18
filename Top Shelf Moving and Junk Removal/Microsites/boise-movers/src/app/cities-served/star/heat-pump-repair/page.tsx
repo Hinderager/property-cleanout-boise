@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert heat pump repair services for all brands and models. in Star, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump repair Star', 'heat pump service Star', 'HVAC Star Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/star/heat-pump-repair',
+    canonical: 'https://boise-movers.com/cities-served/star/heat-pump-repair',
   },
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional air conditioning installation and replacement services. in Star, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac installation Star', 'ac service Star', 'HVAC Star Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/star/ac-installation',
+    canonical: 'https://boise-movers.com/cities-served/star/ac-installation',
   },
 }
 

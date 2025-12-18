@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'How to Choose an HVAC Contractor in Boise | Boise HVAC Pros',
   description: 'Not all HVAC companies in Boise are the same. Here\'s what to look for when choosing an HVAC contractor—and red flags to avoid.',
   alternates: {
-    canonical: 'https://hvac-boise.com/blogs/choosing-hvac-contractor-boise',
+    canonical: 'https://boise-movers.com/blogs/choosing-hvac-contractor-boise',
   },
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional heat pump installation and replacement services. in Boise, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump installation Boise', 'heat pump service Boise', 'HVAC Boise Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/boise/heat-pump-installation',
+    canonical: 'https://boise-movers.com/cities-served/boise/heat-pump-installation',
   },
 }
 

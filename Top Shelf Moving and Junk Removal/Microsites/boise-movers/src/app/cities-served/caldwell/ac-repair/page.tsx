@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Fast, reliable air conditioning repair services. We fix all AC brands and models. in Caldwell, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac repair Caldwell', 'ac service Caldwell', 'HVAC Caldwell Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/caldwell/ac-repair',
+    canonical: 'https://boise-movers.com/cities-served/caldwell/ac-repair',
   },
 }
 

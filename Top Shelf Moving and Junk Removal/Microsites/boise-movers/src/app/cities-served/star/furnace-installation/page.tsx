@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional furnace installation and replacement services. in Star, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace installation Star', 'furnace service Star', 'HVAC Star Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/star/furnace-installation',
+    canonical: 'https://boise-movers.com/cities-served/star/furnace-installation',
   },
 }
 

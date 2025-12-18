@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional furnace installation and replacement services. in Kuna, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace installation Kuna', 'furnace service Kuna', 'HVAC Kuna Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/kuna/furnace-installation',
+    canonical: 'https://boise-movers.com/cities-served/kuna/furnace-installation',
   },
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional AC maintenance and tune-up services to keep your system running efficiently. in Caldwell, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac maintenance Caldwell', 'ac service Caldwell', 'HVAC Caldwell Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/caldwell/ac-maintenance',
+    canonical: 'https://boise-movers.com/cities-served/caldwell/ac-maintenance',
   },
 }
 

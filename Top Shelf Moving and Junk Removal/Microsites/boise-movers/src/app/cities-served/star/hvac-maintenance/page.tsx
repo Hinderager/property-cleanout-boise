@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional hvac maintenance services. in Star, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['hvac maintenance Star', 'ac service Star', 'HVAC Star Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/star/hvac-maintenance',
+    canonical: 'https://boise-movers.com/cities-served/star/hvac-maintenance',
   },
 }
 

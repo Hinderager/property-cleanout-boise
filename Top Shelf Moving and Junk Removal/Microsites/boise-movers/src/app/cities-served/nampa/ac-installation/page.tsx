@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional air conditioning installation and replacement services. in Nampa, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac installation Nampa', 'ac service Nampa', 'HVAC Nampa Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/nampa/ac-installation',
+    canonical: 'https://boise-movers.com/cities-served/nampa/ac-installation',
   },
 }
 

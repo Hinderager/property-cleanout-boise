@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert heat pump repair services for all brands and models. in Eagle, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump repair Eagle', 'heat pump service Eagle', 'HVAC Eagle Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/eagle/heat-pump-repair',
+    canonical: 'https://boise-movers.com/cities-served/eagle/heat-pump-repair',
   },
 }
 

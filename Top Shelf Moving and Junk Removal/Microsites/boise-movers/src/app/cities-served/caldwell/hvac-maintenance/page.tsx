@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional hvac maintenance services. in Caldwell, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['hvac maintenance Caldwell', 'ac service Caldwell', 'HVAC Caldwell Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/caldwell/hvac-maintenance',
+    canonical: 'https://boise-movers.com/cities-served/caldwell/hvac-maintenance',
   },
 }
 

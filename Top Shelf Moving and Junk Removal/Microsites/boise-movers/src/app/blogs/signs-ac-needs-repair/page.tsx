@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: '7 Signs Your AC Needs Repair Before It Dies | Boise HVAC Pros',
   description: 'Your air conditioner is probably warning you before it fails. Here are 7 signs your AC needs repair in Boise—catch problems early and avoid a breakdown.',
   alternates: {
-    canonical: 'https://hvac-boise.com/blogs/signs-ac-needs-repair',
+    canonical: 'https://boise-movers.com/blogs/signs-ac-needs-repair',
   },
 }
 

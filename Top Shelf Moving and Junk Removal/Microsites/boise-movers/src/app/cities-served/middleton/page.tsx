@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional HVAC services in Middleton, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
   keywords: ['HVAC Middleton', 'AC repair Middleton Idaho', 'furnace repair Middleton', 'heating services Middleton', 'air conditioning Middleton'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/middleton',
+    canonical: 'https://boise-movers.com/cities-served/middleton',
   },
 }
 

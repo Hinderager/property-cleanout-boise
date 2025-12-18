@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'HVAC Pricing Explained: What AC & Furnace Service Costs in Boise | Boise HVAC Pros',
   description: 'How much does HVAC repair cost in Boise? Here\'s the straightforward explanation of HVAC pricing — service calls, repair costs, and what affects your quote in the Treasure Valley.',
   alternates: {
-    canonical: 'https://hvac-boise.com/blogs/hvac-pricing-explained',
+    canonical: 'https://boise-movers.com/blogs/hvac-pricing-explained',
   },
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional AC maintenance and tune-up services to keep your system running efficiently. in Boise, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac maintenance Boise', 'ac service Boise', 'HVAC Boise Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/boise/ac-maintenance',
+    canonical: 'https://boise-movers.com/cities-served/boise/ac-maintenance',
   },
 }
 

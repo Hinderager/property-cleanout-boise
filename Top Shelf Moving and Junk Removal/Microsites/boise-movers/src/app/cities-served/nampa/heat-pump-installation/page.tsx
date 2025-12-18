@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional heat pump installation and replacement services. in Nampa, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump installation Nampa', 'heat pump service Nampa', 'HVAC Nampa Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/nampa/heat-pump-installation',
+    canonical: 'https://boise-movers.com/cities-served/nampa/heat-pump-installation',
   },
 }
 

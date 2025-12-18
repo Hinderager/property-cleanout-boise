@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert furnace repair services for gas and electric furnaces. in Meridian, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace repair Meridian', 'furnace service Meridian', 'HVAC Meridian Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/meridian/furnace-repair',
+    canonical: 'https://boise-movers.com/cities-served/meridian/furnace-repair',
   },
 }
 

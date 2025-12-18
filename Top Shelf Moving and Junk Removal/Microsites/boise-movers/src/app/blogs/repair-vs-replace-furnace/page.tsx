@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Should You Repair or Replace Your Furnace? | Boise HVAC Pros',
   description: 'Is it worth repairing your old furnace, or are you throwing money away? Here\'s how to decide whether to repair or replace your furnace in Boise.',
   alternates: {
-    canonical: 'https://hvac-boise.com/blogs/repair-vs-replace-furnace',
+    canonical: 'https://boise-movers.com/blogs/repair-vs-replace-furnace',
   },
 }
 

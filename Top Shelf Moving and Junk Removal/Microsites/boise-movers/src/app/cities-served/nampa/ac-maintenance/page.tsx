@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional AC maintenance and tune-up services to keep your system running efficiently. in Nampa, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac maintenance Nampa', 'ac service Nampa', 'HVAC Nampa Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/nampa/ac-maintenance',
+    canonical: 'https://boise-movers.com/cities-served/nampa/ac-maintenance',
   },
 }
 

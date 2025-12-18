@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert furnace repair services for gas and electric furnaces. in Garden City, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace repair Garden City', 'furnace service Garden City', 'HVAC Garden City Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/garden-city/furnace-repair',
+    canonical: 'https://boise-movers.com/cities-served/garden-city/furnace-repair',
   },
 }
 

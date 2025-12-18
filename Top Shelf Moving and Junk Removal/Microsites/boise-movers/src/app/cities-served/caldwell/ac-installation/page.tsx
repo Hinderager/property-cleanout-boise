@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional air conditioning installation and replacement services. in Caldwell, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac installation Caldwell', 'ac service Caldwell', 'HVAC Caldwell Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/caldwell/ac-installation',
+    canonical: 'https://boise-movers.com/cities-served/caldwell/ac-installation',
   },
 }
 

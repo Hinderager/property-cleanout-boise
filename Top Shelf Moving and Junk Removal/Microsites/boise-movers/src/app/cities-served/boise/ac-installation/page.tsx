@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional air conditioning installation and replacement services. in Boise, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac installation Boise', 'ac service Boise', 'HVAC Boise Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/boise/ac-installation',
+    canonical: 'https://boise-movers.com/cities-served/boise/ac-installation',
   },
 }
 

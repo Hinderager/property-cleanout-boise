@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional heat pump installation and replacement services. in Kuna, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump installation Kuna', 'heat pump service Kuna', 'HVAC Kuna Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/kuna/heat-pump-installation',
+    canonical: 'https://boise-movers.com/cities-served/kuna/heat-pump-installation',
   },
 }
 

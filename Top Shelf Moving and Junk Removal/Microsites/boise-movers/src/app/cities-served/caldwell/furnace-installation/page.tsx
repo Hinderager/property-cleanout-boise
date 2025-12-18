@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional furnace installation and replacement services. in Caldwell, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace installation Caldwell', 'furnace service Caldwell', 'HVAC Caldwell Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/caldwell/furnace-installation',
+    canonical: 'https://boise-movers.com/cities-served/caldwell/furnace-installation',
   },
 }
 

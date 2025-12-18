@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional furnace installation and replacement services. in Nampa, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace installation Nampa', 'furnace service Nampa', 'HVAC Nampa Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/nampa/furnace-installation',
+    canonical: 'https://boise-movers.com/cities-served/nampa/furnace-installation',
   },
 }
 

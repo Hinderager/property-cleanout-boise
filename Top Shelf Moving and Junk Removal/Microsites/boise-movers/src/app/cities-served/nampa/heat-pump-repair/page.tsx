@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert heat pump repair services for all brands and models. in Nampa, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump repair Nampa', 'heat pump service Nampa', 'HVAC Nampa Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/nampa/heat-pump-repair',
+    canonical: 'https://boise-movers.com/cities-served/nampa/heat-pump-repair',
   },
 }
 

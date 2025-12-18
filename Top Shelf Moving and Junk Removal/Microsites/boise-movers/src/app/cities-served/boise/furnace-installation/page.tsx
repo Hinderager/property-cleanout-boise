@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional furnace installation and replacement services. in Boise, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace installation Boise', 'furnace service Boise', 'HVAC Boise Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/boise/furnace-installation',
+    canonical: 'https://boise-movers.com/cities-served/boise/furnace-installation',
   },
 }
 

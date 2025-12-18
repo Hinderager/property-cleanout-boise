@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional HVAC services in Eagle, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
   keywords: ['HVAC Eagle', 'AC repair Eagle Idaho', 'furnace repair Eagle', 'heating services Eagle', 'air conditioning Eagle'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/eagle',
+    canonical: 'https://boise-movers.com/cities-served/eagle',
   },
 }
 

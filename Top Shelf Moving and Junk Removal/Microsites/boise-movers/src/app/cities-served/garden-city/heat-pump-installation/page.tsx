@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional heat pump installation and replacement services. in Garden City, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump installation Garden City', 'heat pump service Garden City', 'HVAC Garden City Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/garden-city/heat-pump-installation',
+    canonical: 'https://boise-movers.com/cities-served/garden-city/heat-pump-installation',
   },
 }
 

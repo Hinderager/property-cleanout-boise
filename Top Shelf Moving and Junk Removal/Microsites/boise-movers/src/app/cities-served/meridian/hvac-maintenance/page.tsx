@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional hvac maintenance services. in Meridian, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['hvac maintenance Meridian', 'ac service Meridian', 'HVAC Meridian Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/meridian/hvac-maintenance',
+    canonical: 'https://boise-movers.com/cities-served/meridian/hvac-maintenance',
   },
 }
 

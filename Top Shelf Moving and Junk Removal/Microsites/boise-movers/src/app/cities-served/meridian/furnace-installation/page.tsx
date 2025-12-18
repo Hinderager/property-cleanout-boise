@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional furnace installation and replacement services. in Meridian, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace installation Meridian', 'furnace service Meridian', 'HVAC Meridian Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/meridian/furnace-installation',
+    canonical: 'https://boise-movers.com/cities-served/meridian/furnace-installation',
   },
 }
 

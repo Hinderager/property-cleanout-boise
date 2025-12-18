@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional air conditioning installation and replacement services. in Meridian, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac installation Meridian', 'ac service Meridian', 'HVAC Meridian Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/meridian/ac-installation',
+    canonical: 'https://boise-movers.com/cities-served/meridian/ac-installation',
   },
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional HVAC services in Meridian, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
   keywords: ['HVAC Meridian', 'AC repair Meridian Idaho', 'furnace repair Meridian', 'heating services Meridian', 'air conditioning Meridian'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/meridian',
+    canonical: 'https://boise-movers.com/cities-served/meridian',
   },
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional heat pump installation and replacement services. in Middleton, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump installation Middleton', 'heat pump service Middleton', 'HVAC Middleton Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/middleton/heat-pump-installation',
+    canonical: 'https://boise-movers.com/cities-served/middleton/heat-pump-installation',
   },
 }
 

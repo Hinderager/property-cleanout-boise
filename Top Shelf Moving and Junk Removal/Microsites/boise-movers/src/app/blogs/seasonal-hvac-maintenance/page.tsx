@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Seasonal HVAC Maintenance for Idaho Homes | Boise HVAC Pros',
   description: 'Idaho puts your HVAC system through extremes. Here\'s how to maintain your heating and cooling equipment through Boise\'s hot summers and cold winters.',
   alternates: {
-    canonical: 'https://hvac-boise.com/blogs/seasonal-hvac-maintenance',
+    canonical: 'https://boise-movers.com/blogs/seasonal-hvac-maintenance',
   },
 }
 

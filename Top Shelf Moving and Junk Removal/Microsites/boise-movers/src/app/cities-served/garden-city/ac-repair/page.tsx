@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Fast, reliable air conditioning repair services. We fix all AC brands and models. in Garden City, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac repair Garden City', 'ac service Garden City', 'HVAC Garden City Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/garden-city/ac-repair',
+    canonical: 'https://boise-movers.com/cities-served/garden-city/ac-repair',
   },
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional furnace installation and replacement services. in Middleton, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace installation Middleton', 'furnace service Middleton', 'HVAC Middleton Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/middleton/furnace-installation',
+    canonical: 'https://boise-movers.com/cities-served/middleton/furnace-installation',
   },
 }
 

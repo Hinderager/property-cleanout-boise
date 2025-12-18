@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional air conditioning installation and replacement services. in Garden City, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac installation Garden City', 'ac service Garden City', 'HVAC Garden City Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/garden-city/ac-installation',
+    canonical: 'https://boise-movers.com/cities-served/garden-city/ac-installation',
   },
 }
 

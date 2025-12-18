@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional air conditioning installation and replacement services. in Kuna, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac installation Kuna', 'ac service Kuna', 'HVAC Kuna Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/kuna/ac-installation',
+    canonical: 'https://boise-movers.com/cities-served/kuna/ac-installation',
   },
 }
 

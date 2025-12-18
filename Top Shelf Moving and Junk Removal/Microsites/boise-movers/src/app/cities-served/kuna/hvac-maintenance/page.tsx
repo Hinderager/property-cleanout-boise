@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional hvac maintenance services. in Kuna, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['hvac maintenance Kuna', 'ac service Kuna', 'HVAC Kuna Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/kuna/hvac-maintenance',
+    canonical: 'https://boise-movers.com/cities-served/kuna/hvac-maintenance',
   },
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Fast, reliable air conditioning repair services. We fix all AC brands and models. in Middleton, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac repair Middleton', 'ac service Middleton', 'HVAC Middleton Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/middleton/ac-repair',
+    canonical: 'https://boise-movers.com/cities-served/middleton/ac-repair',
   },
 }
 

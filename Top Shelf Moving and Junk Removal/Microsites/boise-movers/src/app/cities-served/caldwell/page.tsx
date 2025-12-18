@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional HVAC services in Caldwell, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
   keywords: ['HVAC Caldwell', 'AC repair Caldwell Idaho', 'furnace repair Caldwell', 'heating services Caldwell', 'air conditioning Caldwell'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/caldwell',
+    canonical: 'https://boise-movers.com/cities-served/caldwell',
   },
 }
 

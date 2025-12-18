@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert heat pump repair services for all brands and models. in Caldwell, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['heat pump repair Caldwell', 'heat pump service Caldwell', 'HVAC Caldwell Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/caldwell/heat-pump-repair',
+    canonical: 'https://boise-movers.com/cities-served/caldwell/heat-pump-repair',
   },
 }
 

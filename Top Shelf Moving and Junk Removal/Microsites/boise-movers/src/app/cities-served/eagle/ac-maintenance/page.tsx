@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional AC maintenance and tune-up services to keep your system running efficiently. in Eagle, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac maintenance Eagle', 'ac service Eagle', 'HVAC Eagle Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/eagle/ac-maintenance',
+    canonical: 'https://boise-movers.com/cities-served/eagle/ac-maintenance',
   },
 }
 

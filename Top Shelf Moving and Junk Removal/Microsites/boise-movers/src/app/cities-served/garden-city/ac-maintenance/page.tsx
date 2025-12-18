@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional AC maintenance and tune-up services to keep your system running efficiently. in Garden City, Idaho. Licensed & insured. Call (208) 505-9352.',
   keywords: ['ac maintenance Garden City', 'ac service Garden City', 'HVAC Garden City Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/garden-city/ac-maintenance',
+    canonical: 'https://boise-movers.com/cities-served/garden-city/ac-maintenance',
   },
 }
 

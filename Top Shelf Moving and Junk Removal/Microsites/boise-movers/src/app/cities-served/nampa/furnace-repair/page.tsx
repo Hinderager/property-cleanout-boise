@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Expert furnace repair services for gas and electric furnaces. in Nampa, Idaho. 24/7 emergency service. Licensed & insured. Call (208) 505-9352.',
   keywords: ['furnace repair Nampa', 'furnace service Nampa', 'HVAC Nampa Idaho'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/nampa/furnace-repair',
+    canonical: 'https://boise-movers.com/cities-served/nampa/furnace-repair',
   },
 }
 

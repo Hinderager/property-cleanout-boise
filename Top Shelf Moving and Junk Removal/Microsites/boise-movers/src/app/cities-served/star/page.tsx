@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Professional HVAC services in Star, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
   keywords: ['HVAC Star', 'AC repair Star Idaho', 'furnace repair Star', 'heating services Star', 'air conditioning Star'],
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/star',
+    canonical: 'https://boise-movers.com/cities-served/star',
   },
 }
 
