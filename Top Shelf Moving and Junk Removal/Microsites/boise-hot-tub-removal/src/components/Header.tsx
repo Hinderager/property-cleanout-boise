@@ -45,7 +45,11 @@ const serviceCategories = [
 ]
 
 const serviceAreas = [
-  'Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle'
+  { name: 'Boise', href: '/cities-served/boise' },
+  { name: 'Meridian', href: '/cities-served/meridian' },
+  { name: 'Nampa', href: '/cities-served/nampa' },
+  { name: 'Caldwell', href: '/cities-served/caldwell' },
+  { name: 'Eagle', href: '/cities-served/eagle' },
 ]
 
 const resources = [
@@ -166,9 +170,9 @@ export function Header() {
                 <div className="absolute left-0 top-full mt-2 w-[200px] bg-white shadow-lg rounded-lg p-4">
                   <ul className="space-y-2">
                     {serviceAreas.map((area) => (
-                      <li key={area}>
-                        <Link href={`/${area.toLowerCase()}`} className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors">
-                          {area}, Idaho
+                      <li key={area.href}>
+                        <Link href={area.href} className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors">
+                          {area.name}, Idaho
                         </Link>
                       </li>
                     ))}
@@ -254,8 +258,8 @@ export function Header() {
 
               <span className="text-white/60 text-sm font-medium pt-2">Service Areas</span>
               {serviceAreas.map((area) => (
-                <Link key={area} href={`/${area.toLowerCase()}`} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>
-                  {area}
+                <Link key={area.href} href={area.href} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>
+                  {area.name}
                 </Link>
               ))}
               <span className="text-white/60 text-sm font-medium pt-2">Resources</span>

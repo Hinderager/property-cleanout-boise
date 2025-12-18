@@ -169,7 +169,7 @@ export function Header() {
                   <ul className="space-y-2">
                     {serviceAreas.map((area) => (
                       <li key={area}>
-                        <Link href={`/${area.toLowerCase()}`} className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors">
+                        <Link href={`/cities-served/${area.toLowerCase()}`} className="text-sm text-gray-600 hover:text-[#ff6b35] transition-colors">
                           {area}, Idaho
                         </Link>
                       </li>
@@ -256,7 +256,7 @@ export function Header() {
 
               <span className="text-white/60 text-sm font-medium pt-2">Service Areas</span>
               {serviceAreas.map((area) => (
-                <Link key={area} href={`/${area.toLowerCase()}`} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>
+                <Link key={area} href={`/cities-served/${area.toLowerCase()}`} className="text-white/90 hover:text-white pl-4" onClick={() => setIsMobileMenuOpen(false)}>
                   {area}
                 </Link>
               ))}
