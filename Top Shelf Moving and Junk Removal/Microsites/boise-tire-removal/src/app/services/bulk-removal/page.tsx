@@ -5,7 +5,7 @@ import { Phone, ArrowRight, Layers } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Bulk Tire Removal Treasure Valley | Boise Tire Removal',
   description: 'Large-scale bulk tire removal services. Tire pile cleanup, illegal dump cleanup, and property clearing. Serving Boise, Meridian, Nampa & the Treasure Valley.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/bulk-removal' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/bulk-removal' },
 }
 
 const services = [

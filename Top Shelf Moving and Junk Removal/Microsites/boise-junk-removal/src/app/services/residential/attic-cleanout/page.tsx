@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Attic Cleanout Boise Idaho | Top Shelf Junk Removal',
   description: 'Safe removal of items from attics and crawl spaces. We handle the heavy lifting in tight spaces. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/residential/attic-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/residential/attic-cleanout' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

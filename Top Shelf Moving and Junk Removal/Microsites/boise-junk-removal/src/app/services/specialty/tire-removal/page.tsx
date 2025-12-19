@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Old tires hauled away and properly disposed of or recycled. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/specialty/tire-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/tire-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

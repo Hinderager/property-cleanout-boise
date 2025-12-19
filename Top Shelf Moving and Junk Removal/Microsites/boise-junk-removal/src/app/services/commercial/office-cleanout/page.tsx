@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Office Cleanout Boise Idaho | Top Shelf Junk Removal',
   description: 'Desk, chairs, cubicles, old equipment—we clear out office spaces efficiently with minimal disruption. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/commercial/office-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/commercial/office-cleanout' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

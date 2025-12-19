@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition in Garden City | Boise Mobile Home Demolition',
   description: 'Complete mobile home demolition and removal in Garden City. Licensed professionals serving a vibrant community along the Boise River. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/garden-city/mobile-home-demolition' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/garden-city/mobile-home-demolition' },
 }
 
 export default function GardenCityMobileHomeDemolitionPage() {

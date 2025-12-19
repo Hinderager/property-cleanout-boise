@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Trailer Removal in Boise | Boise Mobile Home Demolition',
   description: 'Old trailer demolition and disposal in Boise. Licensed professionals serving the heart of the Treasure Valley. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/boise/trailer-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/boise/trailer-removal' },
 }
 
 export default function BoiseTrailerRemovalPage() {

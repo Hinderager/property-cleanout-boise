@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Exercise Equipment Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Treadmills, ellipticals, weight sets, and gym equipment removed. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/specialty/treadmill-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/treadmill-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

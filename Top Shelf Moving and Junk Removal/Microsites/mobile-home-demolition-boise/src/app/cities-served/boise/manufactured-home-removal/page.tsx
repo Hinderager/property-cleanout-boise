@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Manufactured Home Removal in Boise | Boise Mobile Home Demolition',
   description: 'Manufactured and modular home demolition in Boise. Licensed professionals serving the heart of the Treasure Valley. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/boise/manufactured-home-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/boise/manufactured-home-removal' },
 }
 
 export default function BoiseManufacturedHomeRemovalPage() {

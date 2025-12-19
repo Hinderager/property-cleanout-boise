@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Single-Wide Removal in Middleton | Boise Mobile Home Demolition',
   description: 'Single-wide mobile home demolition in Middleton. Licensed professionals serving a quiet community in Canyon County. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/middleton/single-wide-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/middleton/single-wide-removal' },
 }
 
 export default function MiddletonSingleWideRemovalPage() {

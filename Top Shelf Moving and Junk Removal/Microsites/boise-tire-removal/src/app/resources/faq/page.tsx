@@ -5,7 +5,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions | Boise Tire Removal',
   description: 'Common questions about tire removal and disposal in Boise and the Treasure Valley. Get answers about pricing, pickup, and recycling.',
-  alternates: { canonical: 'https://boisetireremoval.com/resources/faq' },
+  alternates: { canonical: 'https://boise-tire-removal.com/resources/faq' },
 }
 
 export default function FAQPage() {

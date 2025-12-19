@@ -8,7 +8,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Junk Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Professional junk removal in Boise, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Boise, North End, East End and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/boise' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/boise' },
 }
 
 const neighborhoods = ["Downtown Boise","North End","East End","West Boise","Southeast Boise","Bench","Vista","State Street","Cole-Collister","Boise Highlands"]

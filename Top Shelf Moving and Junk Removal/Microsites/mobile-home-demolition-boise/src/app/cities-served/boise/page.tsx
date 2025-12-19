@@ -5,7 +5,7 @@ import { Phone, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition in Boise | Boise Mobile Home Demolition',
   description: 'Professional mobile home demolition services in Boise. Licensed, insured, and serving the heart of the Treasure Valley. Free quotes. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/boise' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/boise' },
 }
 
 const services = [

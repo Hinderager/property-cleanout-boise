@@ -4,7 +4,7 @@ import { Phone, DollarSign, Truck, Calculator } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Removal Pricing | Boise Tire Removal',
   description: 'Transparent pricing for tire removal in Boise and the Treasure Valley. Learn about our rates and what affects the cost.',
-  alternates: { canonical: 'https://boisetireremoval.com/resources/pricing' },
+  alternates: { canonical: 'https://boise-tire-removal.com/resources/pricing' },
 }
 
 export default function PricingPage() {

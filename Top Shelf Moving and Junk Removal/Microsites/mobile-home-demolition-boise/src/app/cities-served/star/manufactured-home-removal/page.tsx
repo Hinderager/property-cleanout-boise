@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Manufactured Home Removal in Star | Boise Mobile Home Demolition',
   description: 'Manufactured and modular home demolition in Star. Licensed professionals serving a charming small town. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/star/manufactured-home-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/star/manufactured-home-removal' },
 }
 
 export default function StarManufacturedHomeRemovalPage() {

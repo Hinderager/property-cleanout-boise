@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Foundation Removal Services | Boise Mobile Home Demolition',
   description: 'Complete removal of concrete foundations and piers. Licensed, insured professionals serving the Treasure Valley. Call (208) 505-9352 for a free quote.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/services/site-services/foundation-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/services/site-services/foundation-removal' },
 }
 
 export default function FoundationRemovalPage() {

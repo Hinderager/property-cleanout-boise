@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Storage Unit Cleanout Boise Idaho | Top Shelf Junk Removal',
   description: 'Empty that storage unit you have been paying for. We remove everything and sweep it clean. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/residential/storage-unit-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/residential/storage-unit-cleanout' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

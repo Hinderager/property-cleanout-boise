@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Double-Wide Demolition in Kuna | Boise Mobile Home Demolition',
   description: 'Double-wide mobile home removal in Kuna. Licensed professionals serving a growing community south of Boise. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/kuna/double-wide-demolition' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/kuna/double-wide-demolition' },
 }
 
 export default function KunaDoubleWideDemolitionPage() {

@@ -5,7 +5,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 export const metadata: Metadata = {
   title: '15 Yard Dumpster Rental Boise | Top Shelf Dumpster Rental',
   description: 'Rent a 15 yard dumpster in Boise for medium-sized cleanouts and renovations. Great for whole room projects. Call (208) 505-9352 for pricing.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/dumpster-sizes/15-yard' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/dumpster-sizes/15-yard' },
 }
 
 export default function FifteenYardDumpsterPage() {

@@ -6,7 +6,7 @@ import { Phone, CheckCircle, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Furniture Removal Boise | Top Shelf Junk Removal',
   description: 'Old furniture hauled away from homes and businesses. Serving Boise, Meridian, Nampa, and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/furniture-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/furniture-removal' },
 }
 
 const services = [

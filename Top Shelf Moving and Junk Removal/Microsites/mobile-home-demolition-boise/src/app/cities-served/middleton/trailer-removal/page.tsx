@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Trailer Removal in Middleton | Boise Mobile Home Demolition',
   description: 'Old trailer demolition and disposal in Middleton. Licensed professionals serving a quiet community in Canyon County. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/middleton/trailer-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/middleton/trailer-removal' },
 }
 
 export default function MiddletonTrailerRemovalPage() {

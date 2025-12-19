@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Property Clearing | Boise Tire Removal',
   description: 'Complete tire removal from properties in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/bulk-removal/property-clearing' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/bulk-removal/property-clearing' },
 }
 
 export default function PropertyClearingPage() {

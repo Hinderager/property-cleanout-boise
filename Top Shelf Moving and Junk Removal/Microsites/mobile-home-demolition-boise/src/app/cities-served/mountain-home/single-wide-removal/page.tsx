@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Single-Wide Removal in Mountain Home | Boise Mobile Home Demolition',
   description: 'Single-wide mobile home demolition in Mountain Home. Licensed professionals serving serving the Mountain Home area. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/mountain-home/single-wide-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/mountain-home/single-wide-removal' },
 }
 
 export default function MountainHomeSingleWideRemovalPage() {

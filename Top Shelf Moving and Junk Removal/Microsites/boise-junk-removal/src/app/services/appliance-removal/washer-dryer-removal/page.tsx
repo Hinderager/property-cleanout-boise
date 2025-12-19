@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Washer & Dryer Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Washing machines and dryers disconnected and hauled away. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/appliance-removal/washer-dryer-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/appliance-removal/washer-dryer-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

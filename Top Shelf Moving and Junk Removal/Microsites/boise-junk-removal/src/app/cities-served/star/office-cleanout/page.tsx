@@ -6,7 +6,7 @@ import { Phone, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Office Cleanout Star Idaho | Commercial Junk Removal',
   description: 'Professional office cleanout in Star, Idaho. Fast commercial junk removal for offices, retail, and warehouses. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/star/office-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/star/office-cleanout' },
 }
 
 export default function StarOfficeCleanoutPage() {

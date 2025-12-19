@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Modular Home Demolition Services | Boise Mobile Home Demolition',
   description: 'Demolition services for modular home structures. Licensed, insured professionals serving the Treasure Valley. Call (208) 505-9352 for a free quote.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/services/manufactured-home/modular-homes' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/services/manufactured-home/modular-homes' },
 }
 
 export default function ModularHomesPage() {

@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Garage Cleanout Middleton Idaho | Top Shelf Junk Removal',
   description: 'Professional garage cleanout in Middleton, Idaho. Same-day service, upfront pricing. Call (208) 505-9352 for a free estimate.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/middleton/garage-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/middleton/garage-cleanout' },
 }
 
 export default function MiddletonGarageCleanoutPage() {

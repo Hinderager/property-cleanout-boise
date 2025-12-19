@@ -8,7 +8,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Junk Removal Middleton Idaho | Top Shelf Junk Removal',
   description: 'Professional junk removal in Middleton, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Middleton, Purple Sage and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/middleton' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/middleton' },
 }
 
 const neighborhoods = ["Downtown Middleton","Purple Sage"]

@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Contact Us | Boise Dumpster Rental',
   description: 'Contact Boise Dumpster Rental for service in the Treasure Valley. Call (208) 505-9352 for fast dumpster delivery.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/contact' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/contact' },
 }
 
 export default function ContactPage() {

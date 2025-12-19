@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Dealership Tire Removal | Boise Tire Removal',
   description: 'Tire disposal services for car dealerships in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/commercial/dealerships' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/commercial/dealerships' },
 }
 
 export default function DealershipsPage() {

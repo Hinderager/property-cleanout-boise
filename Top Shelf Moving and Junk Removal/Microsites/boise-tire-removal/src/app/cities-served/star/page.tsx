@@ -5,7 +5,7 @@ import { Phone, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Removal in Star | Boise Tire Removal',
   description: 'Professional tire removal and disposal services in Star, Idaho. Residential, commercial, and agricultural tire pickup. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/star' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/star' },
 }
 
 const services = [

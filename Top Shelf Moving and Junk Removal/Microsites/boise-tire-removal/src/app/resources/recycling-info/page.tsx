@@ -4,7 +4,7 @@ import { Phone, Recycle, Factory, Leaf, Zap } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Recycling Information | Boise Tire Removal',
   description: 'Learn how tires are recycled in Idaho. Understand the environmental impact and what happens to your old tires.',
-  alternates: { canonical: 'https://boisetireremoval.com/resources/recycling-info' },
+  alternates: { canonical: 'https://boise-tire-removal.com/resources/recycling-info' },
 }
 
 export default function RecyclingInfoPage() {

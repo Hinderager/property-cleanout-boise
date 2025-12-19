@@ -8,7 +8,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Junk Removal Eagle Idaho | Top Shelf Junk Removal',
   description: 'Professional junk removal in Eagle, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Eagle, North Eagle, Eagle Foothills and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/eagle' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/eagle' },
 }
 
 const neighborhoods = ["Downtown Eagle","North Eagle","Eagle Foothills","Floating Feather","Dry Creek","Hidden Springs"]

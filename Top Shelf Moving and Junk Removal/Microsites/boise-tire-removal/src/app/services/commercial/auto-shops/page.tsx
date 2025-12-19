@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Auto Shop Tire Pickup | Boise Tire Removal',
   description: 'Regular tire removal for auto repair shops in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/commercial/auto-shops' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/commercial/auto-shops' },
 }
 
 export default function AutoShopsPage() {

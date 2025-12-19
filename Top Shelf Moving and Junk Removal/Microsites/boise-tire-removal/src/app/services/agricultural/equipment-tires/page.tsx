@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Equipment Tire Removal | Boise Tire Removal',
   description: 'Heavy equipment and machinery tire removal in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/agricultural/equipment-tires' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/agricultural/equipment-tires' },
 }
 
 export default function EquipmentTiresPage() {

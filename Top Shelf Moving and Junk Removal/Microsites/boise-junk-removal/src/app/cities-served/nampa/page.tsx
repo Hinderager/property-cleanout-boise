@@ -8,7 +8,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Junk Removal Nampa Idaho | Top Shelf Junk Removal',
   description: 'Professional junk removal in Nampa, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Nampa, North Nampa, South Nampa and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/nampa' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/nampa' },
 }
 
 const neighborhoods = ["Downtown Nampa","North Nampa","South Nampa","Greenhurst","Southridge","Karcher"]

@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Disposal in Meridian | Boise Tire Removal',
   description: 'Professional tire disposal services in Meridian, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/meridian/tire-disposal' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/meridian/tire-disposal' },
 }
 
 export default function MeridianTireDisposalPage() {

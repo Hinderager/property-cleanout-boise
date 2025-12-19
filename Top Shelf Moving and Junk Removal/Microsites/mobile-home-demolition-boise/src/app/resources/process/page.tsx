@@ -4,7 +4,7 @@ import { Phone, Clipboard, Wrench, Truck, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Demolition Process | Boise Mobile Home Demolition',
   description: 'Step-by-step guide to mobile home demolition. Learn what happens from initial quote to final cleanup. Professional demolition service in the Treasure Valley.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/resources/process' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/resources/process' },
 }
 
 export default function ProcessPage() {

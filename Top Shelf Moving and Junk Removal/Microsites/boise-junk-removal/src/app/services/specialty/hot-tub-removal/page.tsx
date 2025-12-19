@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Hot Tub Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Hot tubs and spas disconnected, demolished if needed, and hauled away. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/specialty/hot-tub-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/hot-tub-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

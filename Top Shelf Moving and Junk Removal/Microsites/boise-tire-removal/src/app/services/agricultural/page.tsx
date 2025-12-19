@@ -5,7 +5,7 @@ import { Phone, ArrowRight, Warehouse } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Agricultural Tire Removal Treasure Valley | Boise Tire Removal',
   description: 'Farm and agricultural tire removal services. We handle tractor tires, equipment tires, and large ag tires. Serving Boise, Meridian, Nampa & the Treasure Valley.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/agricultural' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/agricultural' },
 }
 
 const services = [

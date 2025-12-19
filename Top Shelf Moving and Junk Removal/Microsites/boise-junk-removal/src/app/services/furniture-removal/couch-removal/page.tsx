@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Couch & Sofa Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Couches, sectionals, loveseats, and recliners picked up and disposed of responsibly. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/furniture-removal/couch-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/furniture-removal/couch-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

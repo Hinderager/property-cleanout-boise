@@ -5,7 +5,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Demolition Dumpster Rental Boise | Top Shelf Dumpster Rental',
   description: 'Rent demolition dumpsters in Boise for tear-down projects. Heavy-duty dumpsters for concrete, debris, and demo waste. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/commercial-dumpsters/demolition' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/commercial-dumpsters/demolition' },
 }
 
 export default function DemolitionDumpsterPage() {

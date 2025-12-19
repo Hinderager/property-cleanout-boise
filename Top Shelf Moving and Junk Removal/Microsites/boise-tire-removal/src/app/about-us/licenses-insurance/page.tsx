@@ -4,7 +4,7 @@ import { Phone, Shield, FileCheck, TrendingUp } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Licenses & Insurance | Boise Tire Removal',
   description: 'Top Shelf Tire Removal is fully licensed and insured for tire disposal and hauling services in Idaho.',
-  alternates: { canonical: 'https://boisetireremoval.com/about-us/licenses-insurance' },
+  alternates: { canonical: 'https://boise-tire-removal.com/about-us/licenses-insurance' },
 }
 
 export default function LicensesInsurancePage() {

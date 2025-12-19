@@ -4,7 +4,7 @@ import { Phone, Shield, FileCheck, AlertTriangle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Licenses & Insurance | Boise Mobile Home Demolition',
   description: 'Boise Mobile Home Demolition is fully licensed and insured. Learn about our credentials, insurance coverage, and commitment to safe, compliant demolition work.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/about-us/licenses-insurance' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/about-us/licenses-insurance' },
 }
 
 export default function LicensesInsurancePage() {

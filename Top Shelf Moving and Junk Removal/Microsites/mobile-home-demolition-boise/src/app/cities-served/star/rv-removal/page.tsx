@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'RV Removal in Star | Boise Mobile Home Demolition',
   description: 'RV and camper removal services in Star. Licensed professionals serving a charming small town. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/star/rv-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/star/rv-removal' },
 }
 
 export default function StarRvRemovalPage() {

@@ -5,7 +5,7 @@ import { Phone, HelpCircle, DollarSign, Ruler, Trash2, FileText } from 'lucide-r
 export const metadata: Metadata = {
   title: 'Dumpster Rental Resources | Boise Dumpster Rental',
   description: 'Helpful resources for dumpster rental in Boise. FAQs, pricing guides, size charts, and more.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/resources' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/resources' },
 }
 
 export default function ResourcesPage() {

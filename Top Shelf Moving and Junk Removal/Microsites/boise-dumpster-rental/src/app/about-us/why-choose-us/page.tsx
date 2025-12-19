@@ -4,7 +4,7 @@ import { Phone, Clock, DollarSign, Truck, Shield, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Why Choose Us | Boise Dumpster Rental',
   description: 'Why choose Boise Dumpster Rental? Transparent pricing, on-time delivery, and local service in the Treasure Valley.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/about-us/why-choose-us' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/about-us/why-choose-us' },
 }
 
 export default function WhyChooseUsPage() {

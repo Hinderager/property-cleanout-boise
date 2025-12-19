@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Recycling in Middleton | Boise Tire Removal',
   description: 'Professional tire recycling services in Middleton, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/middleton/tire-recycling' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/middleton/tire-recycling' },
 }
 
 export default function MiddletonTireRecyclingPage() {

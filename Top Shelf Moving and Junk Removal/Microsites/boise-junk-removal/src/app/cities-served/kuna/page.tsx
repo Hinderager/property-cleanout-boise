@@ -8,7 +8,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Junk Removal Kuna Idaho | Top Shelf Junk Removal',
   description: 'Professional junk removal in Kuna, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Kuna, Crimson Point, Indian Creek and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/kuna' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/kuna' },
 }
 
 const neighborhoods = ["Downtown Kuna","Crimson Point","Indian Creek"]

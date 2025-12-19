@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Warehouse Cleanout Boise Idaho | Top Shelf Junk Removal',
   description: 'Large-scale removal of pallets, equipment, and materials from warehouse and industrial spaces. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/commercial/warehouse-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/commercial/warehouse-cleanout' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

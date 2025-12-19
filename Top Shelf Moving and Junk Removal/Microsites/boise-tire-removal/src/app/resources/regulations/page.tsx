@@ -4,7 +4,7 @@ import { Phone, AlertTriangle, FileText, Shield, Scale } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Disposal Regulations in Idaho | Boise Tire Removal',
   description: 'Learn about Idaho tire disposal laws, regulations, and penalties. Stay compliant with state and local requirements.',
-  alternates: { canonical: 'https://boisetireremoval.com/resources/regulations' },
+  alternates: { canonical: 'https://boise-tire-removal.com/resources/regulations' },
 }
 
 export default function RegulationsPage() {

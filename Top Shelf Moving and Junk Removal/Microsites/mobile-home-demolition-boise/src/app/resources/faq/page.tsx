@@ -4,7 +4,7 @@ import { Phone, ChevronDown } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions | Boise Mobile Home Demolition',
   description: 'Common questions about mobile home demolition, removal costs, permits, timeline, and what to expect. Get answers from Treasure Valley demolition experts.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/resources/faq' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/resources/faq' },
 }
 
 export default function FAQPage() {

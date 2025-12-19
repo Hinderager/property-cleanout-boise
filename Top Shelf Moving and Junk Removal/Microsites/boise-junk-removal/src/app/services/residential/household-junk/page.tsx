@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Household Junk Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'General household items, clutter, and unwanted belongings removed quickly and efficiently. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/residential/household-junk' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/residential/household-junk' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

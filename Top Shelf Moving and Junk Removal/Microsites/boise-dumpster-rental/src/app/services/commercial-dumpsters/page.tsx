@@ -5,7 +5,7 @@ import { Phone, Building2 } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Commercial Dumpster Rental | Boise Dumpster Rental',
   description: 'Commercial dumpster rental in Boise for contractors and businesses. Construction, demolition, and commercial cleanouts.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/commercial-dumpsters' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/commercial-dumpsters' },
 }
 
 export default function CommercialDumpstersPage() {

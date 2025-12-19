@@ -4,7 +4,7 @@ import { Phone, Star } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Customer Testimonials | Boise Mobile Home Demolition',
   description: 'Read reviews from satisfied customers. See why property owners across the Treasure Valley trust Boise Mobile Home Demolition for mobile home removal and demolition.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/about-us/testimonials' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/about-us/testimonials' },
 }
 
 export default function TestimonialsPage() {

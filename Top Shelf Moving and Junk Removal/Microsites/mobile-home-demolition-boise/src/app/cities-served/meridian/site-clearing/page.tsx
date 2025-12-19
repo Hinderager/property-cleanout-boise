@@ -3,8 +3,8 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Site Clearing in Meridian | Boise Mobile Home Demolition',
-  description: 'Complete site clearing and grading in Meridian. Licensed professionals serving Idaho's fastest-growing city. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/meridian/site-clearing' },
+  description: 'Complete site clearing and grading in Meridian. Licensed professionals serving the Treasure Valley. Call (208) 505-9352.',
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/meridian/site-clearing' },
 }
 
 export default function MeridianSiteClearingPage() {

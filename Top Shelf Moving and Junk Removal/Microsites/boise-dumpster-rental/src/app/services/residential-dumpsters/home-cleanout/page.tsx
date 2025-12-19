@@ -5,7 +5,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Home Cleanout Dumpster Rental Boise | Top Shelf Dumpster Rental',
   description: 'Rent a dumpster for your home cleanout project in Boise. Perfect for garage, basement, attic, and whole house cleanouts. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/residential-dumpsters/home-cleanout' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/residential-dumpsters/home-cleanout' },
 }
 
 export default function HomeCleanoutDumpsterPage() {

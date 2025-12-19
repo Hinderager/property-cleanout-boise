@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'RV Removal Services | Boise Mobile Home Demolition',
   description: 'Demolition and removal of old RVs and campers. Licensed, insured professionals serving the Treasure Valley. Call (208) 505-9352 for a free quote.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/services/additional/rv-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/services/additional/rv-removal' },
 }
 
 export default function RvRemovalPage() {

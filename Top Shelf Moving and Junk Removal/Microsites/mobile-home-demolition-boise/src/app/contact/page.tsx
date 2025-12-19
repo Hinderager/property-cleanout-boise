@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Contact Us | Boise Mobile Home Demolition',
   description: 'Contact Boise Mobile Home Demolition for demolition services in the Treasure Valley. Call (208) 505-9352 for a free quote.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/contact' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/contact' },
 }
 
 export default function ContactPage() {

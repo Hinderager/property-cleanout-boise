@@ -4,7 +4,7 @@ import { Phone, FileText, MapPin, CheckCircle, AlertTriangle } from 'lucide-reac
 export const metadata: Metadata = {
   title: 'Demolition Permits | Boise Mobile Home Demolition',
   description: 'Learn about mobile home demolition permits in Boise and the Treasure Valley. Requirements vary by city. We help navigate the permit process.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/resources/permits' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/resources/permits' },
 }
 
 export default function PermitsPage() {

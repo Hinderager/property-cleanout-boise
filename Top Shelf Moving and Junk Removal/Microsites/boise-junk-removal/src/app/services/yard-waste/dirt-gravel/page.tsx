@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Dirt & Gravel Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Excess soil, gravel, rocks, and landscaping materials hauled away. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/yard-waste/dirt-gravel' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/yard-waste/dirt-gravel' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Same-Day Tire Removal in Garden City | Boise Tire Removal',
   description: 'Professional same-day tire removal services in Garden City, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/garden-city/same-day-tire-removal' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/garden-city/same-day-tire-removal' },
 }
 
 export default function GardenCitySameDayTireRemovalPage() {

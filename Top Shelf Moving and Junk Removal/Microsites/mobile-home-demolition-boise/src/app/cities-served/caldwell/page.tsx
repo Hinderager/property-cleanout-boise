@@ -5,7 +5,7 @@ import { Phone, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition in Caldwell | Boise Mobile Home Demolition',
   description: 'Professional mobile home demolition services in Caldwell. Licensed, insured, and serving the county seat of Canyon County. Free quotes. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/caldwell' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/caldwell' },
 }
 
 const services = [

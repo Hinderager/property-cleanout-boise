@@ -6,7 +6,7 @@ import { Phone, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Office Cleanout Caldwell Idaho | Commercial Junk Removal',
   description: 'Professional office cleanout in Caldwell, Idaho. Fast commercial junk removal for offices, retail, and warehouses. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/caldwell/office-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/caldwell/office-cleanout' },
 }
 
 export default function CaldwellOfficeCleanoutPage() {

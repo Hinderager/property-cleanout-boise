@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Disposal in Caldwell | Boise Tire Removal',
   description: 'Professional tire disposal services in Caldwell, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/caldwell/tire-disposal' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/caldwell/tire-disposal' },
 }
 
 export default function CaldwellTireDisposalPage() {

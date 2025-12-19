@@ -6,7 +6,7 @@ import { Phone, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Estate Cleanout Caldwell Idaho | Compassionate Service',
   description: 'Professional estate cleanout in Caldwell, Idaho. Compassionate, respectful service for families. Full-house cleanouts. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/caldwell/estate-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/caldwell/estate-cleanout' },
 }
 
 export default function CaldwellEstateCleanoutPage() {

@@ -4,7 +4,7 @@ import { Phone, CheckCircle, Clock, DollarSign, Truck, Recycle, Users } from 'lu
 export const metadata: Metadata = {
   title: 'Why Choose Us | Boise Tire Removal',
   description: 'Why choose Top Shelf Tire Removal? Fast service, fair prices, and responsible disposal. We make tire removal simple.',
-  alternates: { canonical: 'https://boisetireremoval.com/about-us/why-choose-us' },
+  alternates: { canonical: 'https://boise-tire-removal.com/about-us/why-choose-us' },
 }
 
 export default function WhyChooseUsPage() {

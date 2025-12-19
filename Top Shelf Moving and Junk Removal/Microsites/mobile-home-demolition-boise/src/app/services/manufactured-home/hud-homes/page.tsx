@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'HUD Home Removal Services | Boise Mobile Home Demolition',
   description: 'Removal of HUD-certified manufactured homes. Licensed, insured professionals serving the Treasure Valley. Call (208) 505-9352 for a free quote.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/services/manufactured-home/hud-homes' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/services/manufactured-home/hud-homes' },
 }
 
 export default function HudHomesPage() {

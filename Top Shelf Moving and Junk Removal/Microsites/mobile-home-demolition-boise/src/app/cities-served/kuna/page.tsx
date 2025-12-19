@@ -5,7 +5,7 @@ import { Phone, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition in Kuna | Boise Mobile Home Demolition',
   description: 'Professional mobile home demolition services in Kuna. Licensed, insured, and serving a growing community south of Boise. Free quotes. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/kuna' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/kuna' },
 }
 
 const services = [

@@ -4,7 +4,7 @@ import { Phone, Truck, Users, DollarSign } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Career Opportunities | Boise Dumpster Rental',
   description: 'Career Opportunities at Boise Dumpster Rental. Join our team serving the Treasure Valley.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/about-us/careers' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/about-us/careers' },
 }
 
 export default function CareersPage() {

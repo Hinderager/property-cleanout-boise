@@ -8,7 +8,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Junk Removal Meridian Idaho | Top Shelf Junk Removal',
   description: 'Professional junk removal in Meridian, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Meridian, North Meridian, South Meridian and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/meridian' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/meridian' },
 }
 
 const neighborhoods = ["Downtown Meridian","North Meridian","South Meridian","Lochsa Falls","Paramount","Tuscany","Silverstone","Ten Mile"]

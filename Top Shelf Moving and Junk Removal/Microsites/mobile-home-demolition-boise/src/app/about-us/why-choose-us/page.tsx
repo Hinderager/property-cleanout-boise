@@ -4,7 +4,7 @@ import { Phone, CheckCircle, DollarSign, Clock, Shield, Truck, ThumbsUp } from '
 export const metadata: Metadata = {
   title: 'Why Choose Us | Boise Mobile Home Demolition',
   description: 'Learn why property owners choose Boise Mobile Home Demolition. Licensed experts, fair pricing, complete service, and reliable work across the Treasure Valley.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/about-us/why-choose-us' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/about-us/why-choose-us' },
 }
 
 export default function WhyChooseUsPage() {

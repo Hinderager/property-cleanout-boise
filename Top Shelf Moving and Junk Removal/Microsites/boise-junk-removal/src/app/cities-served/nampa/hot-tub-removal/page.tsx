@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Hot Tub Removal Nampa Idaho | Top Shelf Junk Removal',
   description: 'Professional hot tub removal in Nampa, Idaho. Same-day service, upfront pricing. Call (208) 505-9352 for a free estimate.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/nampa/hot-tub-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/nampa/hot-tub-removal' },
 }
 
 export default function NampaHotTubRemovalPage() {

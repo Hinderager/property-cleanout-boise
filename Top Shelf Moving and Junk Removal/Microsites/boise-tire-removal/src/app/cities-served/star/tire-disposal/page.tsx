@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Disposal in Star | Boise Tire Removal',
   description: 'Professional tire disposal services in Star, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/star/tire-disposal' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/star/tire-disposal' },
 }
 
 export default function StarTireDisposalPage() {

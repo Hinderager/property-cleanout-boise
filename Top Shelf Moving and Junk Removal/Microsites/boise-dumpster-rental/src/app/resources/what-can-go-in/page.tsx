@@ -4,7 +4,7 @@ import { Phone, CheckCircle, XCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'What Can Go in a Dumpster | Boise Dumpster Rental',
   description: 'What can and cannot go in a dumpster rental in Boise? Complete list of accepted and prohibited items.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/resources/what-can-go-in' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/resources/what-can-go-in' },
 }
 
 export default function WhatCanGoInPage() {

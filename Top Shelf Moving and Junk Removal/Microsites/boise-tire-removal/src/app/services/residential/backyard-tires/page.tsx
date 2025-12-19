@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Backyard Tire Removal | Boise Tire Removal',
   description: 'Get rid of tires in your yard or garden in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/residential/backyard-tires' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/residential/backyard-tires' },
 }
 
 export default function BackyardTiresPage() {

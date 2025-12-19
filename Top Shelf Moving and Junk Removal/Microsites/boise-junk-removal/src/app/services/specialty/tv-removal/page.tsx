@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'TV & Electronics Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Old TVs, computers, monitors, and electronics responsibly recycled. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/specialty/tv-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/tv-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

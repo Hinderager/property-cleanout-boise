@@ -8,7 +8,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Junk Removal Garden City Idaho | Top Shelf Junk Removal',
   description: 'Professional junk removal in Garden City, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Riverside, Chinden Boulevard, Glenwood Street and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/garden-city' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/garden-city' },
 }
 
 const neighborhoods = ["Riverside","Chinden Boulevard","Glenwood Street","36th Street"]

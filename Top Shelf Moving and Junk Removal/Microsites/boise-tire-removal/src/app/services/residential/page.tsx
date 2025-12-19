@@ -5,7 +5,7 @@ import { Phone, ArrowRight, Home } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Residential Tire Removal Treasure Valley | Boise Tire Removal',
   description: 'Residential tire removal services for homeowners. We pick up old tires from your garage, backyard, or property. Serving Boise, Meridian, Nampa & the Treasure Valley.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/residential' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/residential' },
 }
 
 const services = [

@@ -6,7 +6,7 @@ import { Phone, CheckCircle, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Commercial Junk Removal Boise | Top Shelf Junk Removal',
   description: 'Professional junk removal for businesses, offices, and commercial properties. Serving Boise, Meridian, Nampa, and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/commercial' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/commercial' },
 }
 
 const services = [

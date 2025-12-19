@@ -3,8 +3,8 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Double-Wide Demolition in Meridian | Boise Mobile Home Demolition',
-  description: 'Double-wide mobile home removal in Meridian. Licensed professionals serving Idaho's fastest-growing city. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/meridian/double-wide-demolition' },
+  description: 'Double-wide mobile home removal in Meridian. Licensed professionals serving the Treasure Valley. Call (208) 505-9352.',
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/meridian/double-wide-demolition' },
 }
 
 export default function MeridianDoubleWideDemolitionPage() {

@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Foundation Removal in Kuna | Boise Mobile Home Demolition',
   description: 'Concrete foundation and pier removal in Kuna. Licensed professionals serving a growing community south of Boise. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/kuna/foundation-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/kuna/foundation-removal' },
 }
 
 export default function KunaFoundationRemovalPage() {

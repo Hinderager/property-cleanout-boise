@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Utility Disconnection Services | Boise Mobile Home Demolition',
   description: 'Safe disconnection of water, electric, gas, and septic. Licensed, insured professionals serving the Treasure Valley. Call (208) 505-9352 for a free quote.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/services/site-services/utility-disconnect' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/services/site-services/utility-disconnect' },
 }
 
 export default function UtilityDisconnectPage() {

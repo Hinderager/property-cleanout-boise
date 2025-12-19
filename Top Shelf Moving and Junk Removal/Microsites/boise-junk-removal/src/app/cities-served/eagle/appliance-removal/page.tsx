@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Appliance Removal Eagle Idaho | Top Shelf Junk Removal',
   description: 'Professional appliance removal in Eagle, Idaho. Same-day service, upfront pricing. Call (208) 505-9352 for a free estimate.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/eagle/appliance-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/eagle/appliance-removal' },
 }
 
 export default function EagleApplianceRemovalPage() {

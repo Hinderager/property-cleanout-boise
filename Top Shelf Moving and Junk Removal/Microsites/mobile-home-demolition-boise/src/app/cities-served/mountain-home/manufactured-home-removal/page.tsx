@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Manufactured Home Removal in Mountain Home | Boise Mobile Home Demolition',
   description: 'Manufactured and modular home demolition in Mountain Home. Licensed professionals serving serving the Mountain Home area. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/mountain-home/manufactured-home-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/mountain-home/manufactured-home-removal' },
 }
 
 export default function MountainHomeManufacturedHomeRemovalPage() {

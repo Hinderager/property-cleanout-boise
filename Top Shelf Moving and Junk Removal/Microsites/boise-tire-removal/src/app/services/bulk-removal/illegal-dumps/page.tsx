@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Illegal Dump Cleanup | Boise Tire Removal',
   description: 'Cleanup of illegally dumped tires in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/bulk-removal/illegal-dumps' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/bulk-removal/illegal-dumps' },
 }
 
 export default function IllegalDumpsPage() {

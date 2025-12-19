@@ -5,7 +5,7 @@ import { Phone, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition in Eagle | Boise Mobile Home Demolition',
   description: 'Professional mobile home demolition services in Eagle. Licensed, insured, and serving known for its scenic beauty. Free quotes. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/eagle' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/eagle' },
 }
 
 const services = [

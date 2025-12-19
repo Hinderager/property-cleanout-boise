@@ -4,7 +4,7 @@ import { Phone, Shield, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Licenses & Insurance | Boise Junk Removal Pros',
   description: 'Fully licensed and insured junk removal services in Boise, Idaho. Professional, bonded team protecting your property. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/about-us/licenses-insurance' },
+  alternates: { canonical: 'https://boise-junk-removal.com/about-us/licenses-insurance' },
 }
 
 export default function LicensesInsurancePage() {

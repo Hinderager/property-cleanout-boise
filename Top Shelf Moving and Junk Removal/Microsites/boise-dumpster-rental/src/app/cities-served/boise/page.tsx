@@ -5,7 +5,7 @@ import { Phone, Trash2 } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Dumpster Rental Boise | Boise Dumpster Rental',
   description: 'Dumpster rental in Boise, Idaho. All sizes from 10 to 40 yards. Residential and commercial. Same-day delivery available.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/cities-served/boise' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/cities-served/boise' },
 }
 
 const services = [

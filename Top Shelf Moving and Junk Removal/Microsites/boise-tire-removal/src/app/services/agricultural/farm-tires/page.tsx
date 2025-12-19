@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Farm Tire Removal | Boise Tire Removal',
   description: 'Disposal of agricultural and farm equipment tires in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/agricultural/farm-tires' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/agricultural/farm-tires' },
 }
 
 export default function FarmTiresPage() {

@@ -5,7 +5,7 @@ import { GoogleReviews } from '@/components/GoogleReviews'
 export const metadata: Metadata = {
   title: 'Customer Reviews | Boise Tire Removal',
   description: 'See what Treasure Valley customers say about Top Shelf Tire Removal. Real reviews from real customers.',
-  alternates: { canonical: 'https://boisetireremoval.com/about-us/testimonials' },
+  alternates: { canonical: 'https://boise-tire-removal.com/about-us/testimonials' },
 }
 
 export default function TestimonialsPage() {

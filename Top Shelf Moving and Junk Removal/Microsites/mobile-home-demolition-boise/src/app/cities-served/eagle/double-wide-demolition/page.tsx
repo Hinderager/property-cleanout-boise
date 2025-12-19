@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Double-Wide Demolition in Eagle | Boise Mobile Home Demolition',
   description: 'Double-wide mobile home removal in Eagle. Licensed professionals serving known for its scenic beauty. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/eagle/double-wide-demolition' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/eagle/double-wide-demolition' },
 }
 
 export default function EagleDoubleWideDemolitionPage() {

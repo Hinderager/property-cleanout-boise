@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Estate Cleanout Boise Idaho | Compassionate Service',
   description: 'Professional estate cleanout in Boise, Idaho. Compassionate, respectful service for families. Full-house cleanouts. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/boise/estate-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/boise/estate-cleanout' },
 }
 
 export default function BoiseEstateCleanoutPage() {

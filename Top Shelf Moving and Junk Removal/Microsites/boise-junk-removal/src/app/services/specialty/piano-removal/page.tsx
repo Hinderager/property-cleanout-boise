@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Piano Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Pianos and organs carefully moved out of your home. Uprights and grands. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/specialty/piano-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/piano-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

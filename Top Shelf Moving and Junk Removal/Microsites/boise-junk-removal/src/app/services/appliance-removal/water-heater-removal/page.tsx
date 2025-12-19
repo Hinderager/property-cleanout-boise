@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Water Heater Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Tank and tankless water heaters properly disposed of. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/appliance-removal/water-heater-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/appliance-removal/water-heater-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'RV Removal in Kuna | Boise Mobile Home Demolition',
   description: 'RV and camper removal services in Kuna. Licensed professionals serving a growing community south of Boise. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/kuna/rv-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/kuna/rv-removal' },
 }
 
 export default function KunaRvRemovalPage() {

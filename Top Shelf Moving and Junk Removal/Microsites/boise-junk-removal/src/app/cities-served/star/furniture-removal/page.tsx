@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Furniture Removal Star Idaho | Top Shelf Junk Removal',
   description: 'Professional furniture removal in Star, Idaho. Same-day service, upfront pricing. Call (208) 505-9352 for a free estimate.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/star/furniture-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/star/furniture-removal' },
 }
 
 export default function StarFurnitureRemovalPage() {

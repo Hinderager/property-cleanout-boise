@@ -4,7 +4,7 @@ import { Phone, HardHat, Truck, Users } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Career Opportunities | Boise Mobile Home Demolition',
   description: 'Join our team at Boise Mobile Home Demolition. We\'re looking for skilled demolition workers, equipment operators, and site supervisors in the Treasure Valley.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/about-us/careers' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/about-us/careers' },
 }
 
 export default function CareersPage() {

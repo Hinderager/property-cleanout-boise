@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Fleet Tire Removal | Boise Tire Removal',
   description: 'Tire removal for commercial fleet operations in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/commercial/fleet-vehicles' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/commercial/fleet-vehicles' },
 }
 
 export default function FleetVehiclesPage() {

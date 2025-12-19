@@ -5,7 +5,7 @@ import { Phone, Award, Shield, Users, Recycle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'About Us | Boise Tire Removal',
   description: 'Learn about Top Shelf Tire Removal. Local tire disposal experts serving the Treasure Valley. Licensed, insured, and committed to responsible recycling.',
-  alternates: { canonical: 'https://boisetireremoval.com/about-us' },
+  alternates: { canonical: 'https://boise-tire-removal.com/about-us' },
 }
 
 export default function AboutPage() {

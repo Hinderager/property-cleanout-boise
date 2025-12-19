@@ -5,7 +5,7 @@ import { CheckCircle, Phone, Award, Shield, Users } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'About Us | Boise Mobile Home Demolition',
   description: 'Learn about Boise Mobile Home Demolition. Local demolition experts serving the Treasure Valley. Licensed, insured, and committed to safe, efficient mobile home removal.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/about-us' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/about-us' },
 }
 
 export default function AboutPage() {

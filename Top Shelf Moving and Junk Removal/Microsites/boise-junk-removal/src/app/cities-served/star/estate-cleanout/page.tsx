@@ -6,7 +6,7 @@ import { Phone, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Estate Cleanout Star Idaho | Compassionate Service',
   description: 'Professional estate cleanout in Star, Idaho. Compassionate, respectful service for families. Full-house cleanouts. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/star/estate-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/star/estate-cleanout' },
 }
 
 export default function StarEstateCleanoutPage() {

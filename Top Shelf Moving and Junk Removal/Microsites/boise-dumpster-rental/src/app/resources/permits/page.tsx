@@ -4,7 +4,7 @@ import { Phone, FileText, AlertTriangle, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Dumpster Permit Information | Boise Dumpster Rental',
   description: 'Do you need a permit for a dumpster in Boise? Learn about dumpster permits, when you need one, and how to get one.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/resources/permits' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/resources/permits' },
 }
 
 export default function PermitsPage() {

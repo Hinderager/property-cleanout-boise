@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Trailer Removal in Eagle | Boise Mobile Home Demolition',
   description: 'Old trailer demolition and disposal in Eagle. Licensed professionals serving known for its scenic beauty. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/eagle/trailer-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/eagle/trailer-removal' },
 }
 
 export default function EagleTrailerRemovalPage() {

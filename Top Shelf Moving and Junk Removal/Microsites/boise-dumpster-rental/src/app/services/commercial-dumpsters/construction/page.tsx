@@ -5,7 +5,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Construction Dumpster Rental Boise | Top Shelf Dumpster Rental',
   description: 'Rent construction dumpsters in Boise for contractors and builders. All sizes available, reliable delivery. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/commercial-dumpsters/construction' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/commercial-dumpsters/construction' },
 }
 
 export default function ConstructionDumpsterPage() {

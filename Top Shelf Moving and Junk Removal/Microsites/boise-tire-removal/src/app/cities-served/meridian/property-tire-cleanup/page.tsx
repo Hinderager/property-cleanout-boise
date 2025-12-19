@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Property Tire Cleanup in Meridian | Boise Tire Removal',
   description: 'Professional property tire cleanup services in Meridian, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/meridian/property-tire-cleanup' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/meridian/property-tire-cleanup' },
 }
 
 export default function MeridianPropertyTireCleanupPage() {

@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tractor Tire Removal | Boise Tire Removal',
   description: 'Large tractor tire removal and disposal in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/agricultural/tractor-tires' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/agricultural/tractor-tires' },
 }
 
 export default function TractorTiresPage() {

@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Garage Cleanout Garden City Idaho | Top Shelf Junk Removal',
   description: 'Professional garage cleanout in Garden City, Idaho. Same-day service, upfront pricing. Call (208) 505-9352 for a free estimate.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/garden-city/garage-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/garden-city/garage-cleanout' },
 }
 
 export default function GardenCityGarageCleanoutPage() {

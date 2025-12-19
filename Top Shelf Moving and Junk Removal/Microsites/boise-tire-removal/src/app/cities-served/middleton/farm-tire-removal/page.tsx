@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Farm Tire Removal in Middleton | Boise Tire Removal',
   description: 'Professional farm tire removal services in Middleton, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/middleton/farm-tire-removal' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/middleton/farm-tire-removal' },
 }
 
 export default function MiddletonFarmTireRemovalPage() {

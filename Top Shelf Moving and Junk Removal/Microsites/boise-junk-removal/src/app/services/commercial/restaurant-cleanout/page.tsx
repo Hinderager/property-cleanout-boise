@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Restaurant Cleanout Boise Idaho | Top Shelf Junk Removal',
   description: 'Kitchen equipment, furniture, and fixtures removed from restaurant and food service locations. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/commercial/restaurant-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/commercial/restaurant-cleanout' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

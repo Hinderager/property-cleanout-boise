@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Site Grading Services | Boise Mobile Home Demolition',
   description: 'Final grading and leveling of cleared property. Licensed, insured professionals serving the Treasure Valley. Call (208) 505-9352 for a free quote.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/services/site-services/site-grading' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/services/site-services/site-grading' },
 }
 
 export default function SiteGradingPage() {

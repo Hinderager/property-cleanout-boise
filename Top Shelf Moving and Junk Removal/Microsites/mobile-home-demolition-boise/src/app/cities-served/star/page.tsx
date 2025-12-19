@@ -5,7 +5,7 @@ import { Phone, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition in Star | Boise Mobile Home Demolition',
   description: 'Professional mobile home demolition services in Star. Licensed, insured, and serving a charming small town. Free quotes. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/star' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/star' },
 }
 
 const services = [

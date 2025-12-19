@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Shed & Playhouse Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Old sheds, playhouses, and outdoor structures demolished and removed. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/yard-waste/shed-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/yard-waste/shed-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

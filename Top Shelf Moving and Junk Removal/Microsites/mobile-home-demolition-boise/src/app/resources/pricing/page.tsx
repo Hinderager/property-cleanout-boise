@@ -4,7 +4,7 @@ import { Phone, DollarSign, Home, Wrench, Trash2 } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Pricing Guide | Boise Mobile Home Demolition',
   description: 'Mobile home demolition pricing guide. Learn what affects the cost of removing a mobile home in Boise and the Treasure Valley. Free quotes available.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/resources/pricing' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/resources/pricing' },
 }
 
 export default function PricingPage() {

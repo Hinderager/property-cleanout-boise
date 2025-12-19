@@ -5,7 +5,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Yard Waste Dumpster Rental Boise | Top Shelf Dumpster Rental',
   description: 'Rent yard waste dumpsters in Boise for landscaping debris, brush, branches, and green waste removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/specialty/yard-waste' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/specialty/yard-waste' },
 }
 
 export default function YardWasteDumpsterPage() {

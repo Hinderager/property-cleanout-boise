@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Recycling in Mountain Home | Boise Tire Removal',
   description: 'Professional tire recycling services in Mountain Home, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/mountain-home/tire-recycling' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/mountain-home/tire-recycling' },
 }
 
 export default function MountainHomeTireRecyclingPage() {

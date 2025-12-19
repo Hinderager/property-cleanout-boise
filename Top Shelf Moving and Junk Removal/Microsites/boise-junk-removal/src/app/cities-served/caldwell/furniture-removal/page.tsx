@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Furniture Removal Caldwell Idaho | Top Shelf Junk Removal',
   description: 'Professional furniture removal in Caldwell, Idaho. Same-day service, upfront pricing. Call (208) 505-9352 for a free estimate.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/caldwell/furniture-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/caldwell/furniture-removal' },
 }
 
 export default function CaldwellFurnitureRemovalPage() {

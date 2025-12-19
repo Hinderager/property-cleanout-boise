@@ -4,7 +4,7 @@ import { Phone, Recycle, Trees, Heart, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Eco-Friendly Junk Removal Boise | Recycling & Donation',
   description: 'Responsible junk removal in Boise. We recycle, donate, and dispose properly. Keeping items out of landfills. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/resources/eco-friendly' },
+  alternates: { canonical: 'https://boise-junk-removal.com/resources/eco-friendly' },
 }
 
 export default function EcoFriendlyPage() {

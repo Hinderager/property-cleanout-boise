@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Office Cleanout Boise Idaho | Commercial Junk Removal',
   description: 'Professional office cleanout in Boise, Idaho. Fast commercial junk removal for offices, retail, and warehouses. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/boise/office-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/boise/office-cleanout' },
 }
 
 export default function BoiseOfficeCleanoutPage() {

@@ -5,7 +5,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Business Cleanout Dumpster Rental Boise | Top Shelf Dumpster Rental',
   description: 'Rent dumpsters for business cleanouts in Boise. Office, retail, warehouse, and commercial space cleanouts. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/commercial-dumpsters/business-cleanout' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/commercial-dumpsters/business-cleanout' },
 }
 
 export default function BusinessCleanoutDumpsterPage() {

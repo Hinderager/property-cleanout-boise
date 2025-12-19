@@ -4,7 +4,7 @@ import { Phone, Ruler } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Dumpster Size Guide | Boise Dumpster Rental',
   description: 'What size dumpster do you need? Complete guide to choosing between 10, 15, 20, 30, and 40 yard dumpsters in Boise.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/resources/size-guide' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/resources/size-guide' },
 }
 
 export default function SizeGuidePage() {

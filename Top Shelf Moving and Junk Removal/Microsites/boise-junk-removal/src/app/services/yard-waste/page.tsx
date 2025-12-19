@@ -6,7 +6,7 @@ import { Phone, CheckCircle, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Yard Waste Removal Boise | Top Shelf Junk Removal',
   description: 'Yard debris, brush, and landscaping waste hauled away. Serving Boise, Meridian, Nampa, and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/yard-waste' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/yard-waste' },
 }
 
 const services = [

@@ -5,7 +5,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Concrete Dumpster Rental Boise | Top Shelf Dumpster Rental',
   description: 'Rent concrete dumpsters in Boise for heavy material disposal. Perfect for concrete, brick, and masonry debris. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/specialty/concrete-dumpsters' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/specialty/concrete-dumpsters' },
 }
 
 export default function ConcreteDumpsterPage() {

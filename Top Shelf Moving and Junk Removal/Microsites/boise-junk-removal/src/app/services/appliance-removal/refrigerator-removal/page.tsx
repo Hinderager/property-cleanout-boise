@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Refrigerator Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Refrigerators, freezers, and mini-fridges removed with proper refrigerant handling. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/appliance-removal/refrigerator-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/appliance-removal/refrigerator-removal' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

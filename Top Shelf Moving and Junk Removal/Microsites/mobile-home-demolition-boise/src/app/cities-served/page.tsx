@@ -5,7 +5,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition Service Areas | Treasure Valley Idaho',
   description: 'We provide mobile home demolition services throughout the Treasure Valley including Boise, Meridian, Nampa, Caldwell, and surrounding areas. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served' },
 }
 
 const cities = [

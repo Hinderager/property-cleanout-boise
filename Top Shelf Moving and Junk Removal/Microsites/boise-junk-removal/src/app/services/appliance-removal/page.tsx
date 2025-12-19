@@ -6,7 +6,7 @@ import { Phone, CheckCircle, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Appliance Removal Boise | Top Shelf Junk Removal',
   description: 'Safe removal and disposal of old appliances. Serving Boise, Meridian, Nampa, and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/appliance-removal' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/appliance-removal' },
 }
 
 const services = [

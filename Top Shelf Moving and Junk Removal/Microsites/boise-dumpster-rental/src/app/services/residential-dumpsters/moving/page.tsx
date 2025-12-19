@@ -5,7 +5,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Moving & Downsizing Dumpster Rental Boise | Top Shelf Dumpster Rental',
   description: 'Rent a dumpster for your move or downsizing project in Boise. Perfect for getting rid of unwanted items before you move. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/residential-dumpsters/moving' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/residential-dumpsters/moving' },
 }
 
 export default function MovingDumpsterPage() {

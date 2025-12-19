@@ -5,7 +5,7 @@ import { Phone, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition in Mountain Home | Boise Mobile Home Demolition',
   description: 'Professional mobile home demolition services in Mountain Home. Licensed, insured, and serving serving the Mountain Home area. Free quotes. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/mountain-home' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/mountain-home' },
 }
 
 const services = [

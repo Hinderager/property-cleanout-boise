@@ -4,8 +4,8 @@ import { Phone, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition in Nampa | Boise Mobile Home Demolition',
-  description: 'Professional mobile home demolition services in Nampa. Licensed, insured, and serving Canyon County's largest city. Free quotes. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/nampa' },
+  description: 'Professional mobile home demolition services in Nampa. Licensed, insured, and serving Canyon County largest city. Free quotes. Call (208) 505-9352.',
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/nampa' },
 }
 
 const services = [
@@ -57,7 +57,7 @@ export default function NampaPage() {
       <section className="py-16 bg-gradient-to-b from-dark-blue to-[#1a5a9e]">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Mobile Home Demolition in Nampa</h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto">Professional demolition services serving Canyon County's largest city</p>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto">Professional demolition services serving Canyon County largest city</p>
         </div>
       </section>
       <section className="py-16 bg-white">

@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Lawn Debris Removal Boise Idaho | Top Shelf Junk Removal',
   description: 'Grass clippings, leaves, and general yard waste removed. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/services/yard-waste/lawn-debris' },
+  alternates: { canonical: 'https://boise-junk-removal.com/services/yard-waste/lawn-debris' },
 }
 
 const serviceAreas = ['Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Middleton']

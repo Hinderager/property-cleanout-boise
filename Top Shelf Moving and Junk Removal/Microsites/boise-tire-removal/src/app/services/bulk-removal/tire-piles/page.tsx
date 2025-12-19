@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Pile Cleanup | Boise Tire Removal',
   description: 'Large-scale tire pile removal services in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/bulk-removal/tire-piles' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/bulk-removal/tire-piles' },
 }
 
 export default function TirePilesPage() {

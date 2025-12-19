@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Single-Wide Removal in Star | Boise Mobile Home Demolition',
   description: 'Single-wide mobile home demolition in Star. Licensed professionals serving a charming small town. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/star/single-wide-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/star/single-wide-removal' },
 }
 
 export default function StarSingleWideRemovalPage() {

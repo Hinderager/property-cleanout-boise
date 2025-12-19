@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Triple-Wide Demolition Services | Boise Mobile Home Demolition',
   description: 'Large-scale demolition for triple-wide mobile homes. Licensed, insured professionals serving the Treasure Valley. Call (208) 505-9352 for a free quote.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/services/mobile-home-demolition/triple-wide' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/services/mobile-home-demolition/triple-wide' },
 }
 
 export default function TripleWidePage() {

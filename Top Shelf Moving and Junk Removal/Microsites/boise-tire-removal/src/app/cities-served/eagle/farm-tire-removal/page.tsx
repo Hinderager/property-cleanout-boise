@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Farm Tire Removal in Eagle | Boise Tire Removal',
   description: 'Professional farm tire removal services in Eagle, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/eagle/farm-tire-removal' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/eagle/farm-tire-removal' },
 }
 
 export default function EagleFarmTireRemovalPage() {

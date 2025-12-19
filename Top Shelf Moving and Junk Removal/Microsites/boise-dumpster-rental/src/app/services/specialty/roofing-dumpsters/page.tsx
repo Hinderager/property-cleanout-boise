@@ -5,7 +5,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Roofing Dumpster Rental Boise | Top Shelf Dumpster Rental',
   description: 'Rent heavy-duty roofing dumpsters in Boise for shingle removal and roof tear-offs. Built for heavy loads. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/services/specialty/roofing-dumpsters' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/services/specialty/roofing-dumpsters' },
 }
 
 export default function RoofingDumpsterPage() {

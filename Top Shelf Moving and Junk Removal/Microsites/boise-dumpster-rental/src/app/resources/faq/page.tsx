@@ -5,7 +5,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Dumpster Rental FAQ | Boise Dumpster Rental',
   description: 'Frequently asked questions about dumpster rental in Boise. Get answers about pricing, sizes, delivery, and more.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/resources/faq' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/resources/faq' },
 }
 
 export default function FAQPage() {

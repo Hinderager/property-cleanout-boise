@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Property Tire Cleanup in Garden City | Boise Tire Removal',
   description: 'Professional property tire cleanup services in Garden City, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/garden-city/property-tire-cleanup' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/garden-city/property-tire-cleanup' },
 }
 
 export default function GardenCityPropertyTireCleanupPage() {

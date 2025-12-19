@@ -5,7 +5,7 @@ import { Phone, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Cities Served | Boise Dumpster Rental',
   description: 'Dumpster rental service throughout the Treasure Valley. Boise, Meridian, Nampa, Caldwell, Eagle, and more.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/cities-served' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/cities-served' },
 }
 
 const cities = [

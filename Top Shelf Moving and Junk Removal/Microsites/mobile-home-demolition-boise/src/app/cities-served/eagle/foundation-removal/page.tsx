@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Foundation Removal in Eagle | Boise Mobile Home Demolition',
   description: 'Concrete foundation and pier removal in Eagle. Licensed professionals serving known for its scenic beauty. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/eagle/foundation-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/eagle/foundation-removal' },
 }
 
 export default function EagleFoundationRemovalPage() {

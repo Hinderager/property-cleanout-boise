@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Trailer Removal in Mountain Home | Boise Mobile Home Demolition',
   description: 'Old trailer demolition and disposal in Mountain Home. Licensed professionals serving serving the Mountain Home area. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/mountain-home/trailer-removal' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/mountain-home/trailer-removal' },
 }
 
 export default function MountainHomeTrailerRemovalPage() {

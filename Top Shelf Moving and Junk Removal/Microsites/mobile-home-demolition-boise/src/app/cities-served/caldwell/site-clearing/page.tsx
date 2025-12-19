@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Site Clearing in Caldwell | Boise Mobile Home Demolition',
   description: 'Complete site clearing and grading in Caldwell. Licensed professionals serving the county seat of Canyon County. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/caldwell/site-clearing' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/caldwell/site-clearing' },
 }
 
 export default function CaldwellSiteClearingPage() {

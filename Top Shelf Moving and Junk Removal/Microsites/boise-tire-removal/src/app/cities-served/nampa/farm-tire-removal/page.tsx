@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Farm Tire Removal in Nampa | Boise Tire Removal',
   description: 'Professional farm tire removal services in Nampa, Idaho. Fast, reliable tire removal. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisetireremoval.com/cities-served/nampa/farm-tire-removal' },
+  alternates: { canonical: 'https://boise-tire-removal.com/cities-served/nampa/farm-tire-removal' },
 }
 
 export default function NampaFarmTireRemovalPage() {

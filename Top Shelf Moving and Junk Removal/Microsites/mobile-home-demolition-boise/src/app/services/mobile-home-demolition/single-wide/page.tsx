@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Single-Wide Demolition Services | Boise Mobile Home Demolition',
   description: 'Complete demolition and removal of single-wide mobile homes. Licensed, insured professionals serving the Treasure Valley. Call (208) 505-9352 for a free quote.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/services/mobile-home-demolition/single-wide' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/services/mobile-home-demolition/single-wide' },
 }
 
 export default function SingleWidePage() {

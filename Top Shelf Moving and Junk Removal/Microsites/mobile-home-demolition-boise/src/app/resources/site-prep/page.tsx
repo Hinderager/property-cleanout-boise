@@ -4,7 +4,7 @@ import { Phone, MapPin, Shovel, CheckCircle, AlertTriangle, Hammer } from 'lucid
 export const metadata: Metadata = {
   title: 'Site Preparation After Mobile Home Demolition | Boise',
   description: 'Learn about site preparation and cleanup after mobile home demolition in Boise. Options for foundation removal, grading, and future use.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/resources/site-prep' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/resources/site-prep' },
 }
 
 export default function SitePrepPage() {

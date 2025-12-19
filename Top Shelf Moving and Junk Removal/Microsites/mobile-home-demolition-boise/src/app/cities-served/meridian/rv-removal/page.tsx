@@ -3,8 +3,8 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'RV Removal in Meridian | Boise Mobile Home Demolition',
-  description: 'RV and camper removal services in Meridian. Licensed professionals serving Idaho's fastest-growing city. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/meridian/rv-removal' },
+  description: 'RV and camper removal services in Meridian. Licensed professionals serving the Treasure Valley. Call (208) 505-9352.',
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/meridian/rv-removal' },
 }
 
 export default function MeridianRvRemovalPage() {

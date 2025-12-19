@@ -5,7 +5,7 @@ import { SchedulingForm } from '@/components/SchedulingForm'
 export const metadata: Metadata = {
   title: 'Contact Us | Boise Tire Removal',
   description: 'Contact Top Shelf Tire Removal for fast, affordable tire disposal in the Treasure Valley. Call (208) 505-9352 or request a quote online.',
-  alternates: { canonical: 'https://boisetireremoval.com/contact' },
+  alternates: { canonical: 'https://boise-tire-removal.com/contact' },
 }
 
 export default function ContactPage() {

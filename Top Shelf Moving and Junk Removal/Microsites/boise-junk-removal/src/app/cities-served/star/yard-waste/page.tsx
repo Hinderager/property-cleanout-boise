@@ -6,7 +6,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Yard Waste Removal Star Idaho | Top Shelf Junk Removal',
   description: 'Professional yard waste removal in Star, Idaho. Same-day service, upfront pricing. Call (208) 505-9352 for a free estimate.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/star/yard-waste' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/star/yard-waste' },
 }
 
 export default function StarYardWastePage() {

@@ -8,7 +8,7 @@ import { FAQ } from '@/components/FAQ'
 export const metadata: Metadata = {
   title: 'Junk Removal Star Idaho | Top Shelf Junk Removal',
   description: 'Professional junk removal in Star, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Star, North Star, Lanark and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/star' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/star' },
 }
 
 const neighborhoods = ["Downtown Star","North Star","Lanark"]

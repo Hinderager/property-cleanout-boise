@@ -6,7 +6,7 @@ import { Phone, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Estate Cleanout Kuna Idaho | Compassionate Service',
   description: 'Professional estate cleanout in Kuna, Idaho. Compassionate, respectful service for families. Full-house cleanouts. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/kuna/estate-cleanout' },
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/kuna/estate-cleanout' },
 }
 
 export default function KunaEstateCleanoutPage() {

@@ -3,8 +3,8 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'RV Removal in Nampa | Boise Mobile Home Demolition',
-  description: 'RV and camper removal services in Nampa. Licensed professionals serving Canyon County's largest city. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/nampa/rv-removal' },
+  description: 'RV and camper removal services in Nampa. Licensed professionals serving Canyon County largest city. Call (208) 505-9352.',
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/nampa/rv-removal' },
 }
 
 export default function NampaRvRemovalPage() {

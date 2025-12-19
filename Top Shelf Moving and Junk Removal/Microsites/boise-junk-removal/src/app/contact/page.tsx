@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Contact Us | Top Shelf Junk Removal',
   description: 'Contact Top Shelf Junk Removal for junk removal in Boise and the Treasure Valley. Call (208) 505-9352 or request a free quote online.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/contact' },
+  alternates: { canonical: 'https://boise-junk-removal.com/contact' },
 }
 
 export default function ContactPage() {

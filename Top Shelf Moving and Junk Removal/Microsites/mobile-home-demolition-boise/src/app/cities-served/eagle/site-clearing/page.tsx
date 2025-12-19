@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Site Clearing in Eagle | Boise Mobile Home Demolition',
   description: 'Complete site clearing and grading in Eagle. Licensed professionals serving known for its scenic beauty. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boise-mobile-home-demolition.com/cities-served/eagle/site-clearing' },
+  alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/eagle/site-clearing' },
 }
 
 export default function EagleSiteClearingPage() {

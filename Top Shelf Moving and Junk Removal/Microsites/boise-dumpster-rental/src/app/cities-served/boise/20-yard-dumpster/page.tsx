@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react'
 export const metadata: Metadata = {
   title: '20 Yard Dumpster Rental Boise | Boise Dumpster Rental',
   description: '20 yard dumpster rental in Boise, Idaho. Perfect for renovations, large cleanouts, and roofing projects. Fast delivery.',
-  alternates: { canonical: 'https://boisedumpsterrental.com/cities-served/boise/20-yard-dumpster' },
+  alternates: { canonical: 'https://boise-dumpster-rental.com/cities-served/boise/20-yard-dumpster' },
 }
 
 export default function Boise20YardPage() {
