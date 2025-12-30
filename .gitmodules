@@ -1,0 +1,35 @@
+[submodule "Top Shelf Moving and Junk Removal/Microsites/boise-appliance-removal"]
+	path = Top Shelf Moving and Junk Removal/Microsites/boise-appliance-removal
+	url = https://github.com/Hinderager/boise-appliance-removal.git
+
+[submodule "Top Shelf Moving and Junk Removal/Microsites/boise-carpet-removal"]
+	path = Top Shelf Moving and Junk Removal/Microsites/boise-carpet-removal
+	url = https://github.com/Hinderager/boise-carpet-removal.git
+
+[submodule "Top Shelf Moving and Junk Removal/Microsites/boise-chiropractors"]
+	path = Top Shelf Moving and Junk Removal/Microsites/boise-chiropractors
+	url = https://github.com/Hinderager/boise-chiropractors.git
+
+[submodule "Top Shelf Moving and Junk Removal/Microsites/boise-furniture-removal"]
+	path = Top Shelf Moving and Junk Removal/Microsites/boise-furniture-removal
+	url = https://github.com/Hinderager/boise-furniture-removal.git
+
+[submodule "Top Shelf Moving and Junk Removal/Microsites/boise-roof-repair"]
+	path = Top Shelf Moving and Junk Removal/Microsites/boise-roof-repair
+	url = https://github.com/Hinderager/boise-roof-repair.git
+
+[submodule "Top Shelf Moving and Junk Removal/Microsites/boise-roof-replacement"]
+	path = Top Shelf Moving and Junk Removal/Microsites/boise-roof-replacement
+	url = https://github.com/Hinderager/boise-roof-replacement.git
+
+[submodule "Top Shelf Moving and Junk Removal/Microsites/boise-roofing-company"]
+	path = Top Shelf Moving and Junk Removal/Microsites/boise-roofing-company
+	url = https://github.com/Hinderager/boise-roofing-company.git
+
+[submodule "Top Shelf Moving and Junk Removal/Microsites/boise-shed-removal"]
+	path = Top Shelf Moving and Junk Removal/Microsites/boise-shed-removal
+	url = https://github.com/Hinderager/boise-shed-removal.git
+
+[submodule "Top Shelf Moving and Junk Removal/Microsites/hvac-boise"]
+	path = Top Shelf Moving and Junk Removal/Microsites/hvac-boise
+	url = https://github.com/Hinderager/hvac-boise.git
