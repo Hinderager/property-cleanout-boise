@@ -88,17 +88,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-581QKP6ZE5');
-          `}
-        </Script>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
             gtag('config', 'G-46RY05JDNS');
             gtag('config', 'AW-11134633087');
           `}
