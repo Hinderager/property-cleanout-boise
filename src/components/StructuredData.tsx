@@ -27,7 +27,7 @@ const faqData = [
   },
   {
     question: 'What does a property cleanout cost?',
-    answer: 'Depends on how much is there and how long it takes. Small apartments usually run $300-600. Bigger houses with more stuff can be $800-2,000+. We give free estimates—call us at (208) 505-9352 or send us photos and we\'ll quote it.',
+    answer: 'Depends on how much is there and how long it takes. Small apartments usually run $300-600. Bigger houses with more stuff can be $800-2,000+. We give free estimates—call us at (208) 943-5231 or send us photos and we\'ll quote it.',
   },
   {
     question: 'Do you work with real estate agents and investors?',
@@ -35,11 +35,11 @@ const faqData = [
   },
   {
     question: 'Can you clear a property the same day?',
-    answer: 'Usually, yes. If you call us in the morning and the property isn\'t huge, we can often get a crew out that afternoon. Best bet is to call (208) 505-9352 and we\'ll see what we can do. We\'re pretty flexible when people are in a bind.',
+    answer: 'Usually, yes. If you call us in the morning and the property isn\'t huge, we can often get a crew out that afternoon. Best bet is to call (208) 943-5231 and we\'ll see what we can do. We\'re pretty flexible when people are in a bind.',
   },
   {
     question: 'What areas do you serve for property cleanouts?',
-    answer: 'We provide property cleanout services throughout the Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding communities. If you\'re unsure if we serve your area, give us a call at (208) 505-9352.',
+    answer: 'We provide property cleanout services throughout the Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding communities. If you\'re unsure if we serve your area, give us a call at (208) 943-5231.',
   },
 ]
 
@@ -52,7 +52,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "name": `Boise Property Cleanout - ${city}`,
     "description": `Fast property cleanout services in ${city}, Idaho. Rental turnovers, foreclosure cleanouts, eviction clearing, REO properties. Same-day service available for landlords, property managers, and real estate professionals.`,
     "url": "https://property-cleanout-boise.com",
-    "telephone": "+1-208-505-9352",
+    "telephone": "+1-208-943-5231",
     "email": "info@property-cleanout-boise.com",
     "address": {
       "@type": "PostalAddress",

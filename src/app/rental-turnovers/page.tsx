@@ -5,7 +5,7 @@ import { CheckCircle, Phone, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Rental Turnover Cleanout | Top Shelf Property Cleanout',
-  description: 'Fast rental turnover cleanout in Boise. Get units rent-ready quickly. Same-day service available for landlords. Call (208) 505-9352.',
+  description: 'Fast rental turnover cleanout in Boise. Get units rent-ready quickly. Same-day service available for landlords. Call (208) 943-5231.',
   alternates: { canonical: 'https://property-cleanout-boise.com/rental-turnovers' },
 }
 
@@ -21,8 +21,8 @@ export default function RentalTurnoversPage() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Rental Turnover Cleanout</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Fast, reliable cleanout services to minimize vacancy time and get your rental units back on the market.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -68,8 +68,8 @@ export default function RentalTurnoversPage() {
             <div className="p-8 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need Rental Cleanout?</h3>
               <p className="text-gray-300 mb-6">Call now for same-day or next-day service.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

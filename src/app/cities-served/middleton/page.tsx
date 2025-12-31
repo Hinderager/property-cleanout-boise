@@ -5,7 +5,7 @@ import { CheckCircle, MapPin, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Property Cleanout Middleton Idaho | Middleton Property Cleanout Services',
-  description: 'Professional property cleanout services in Middleton, Idaho. Rental cleanouts, foreclosure cleanouts, estate cleanouts. Fast, reliable service. Call (208) 505-9352.',
+  description: 'Professional property cleanout services in Middleton, Idaho. Rental cleanouts, foreclosure cleanouts, estate cleanouts. Fast, reliable service. Call (208) 943-5231.',
   keywords: ['property cleanout Middleton', 'rental cleanout Middleton Idaho', 'foreclosure cleanout Middleton', 'estate cleanout Middleton'],
   alternates: {
     canonical: 'https://property-cleanout-boise.com/cities-served/middleton',
@@ -40,8 +40,8 @@ export default function MiddletonPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Property Cleanout Services in Middleton</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional property cleanouts for Middleton landlords, property managers, and homeowners. Fast, reliable service you can count on.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -98,8 +98,8 @@ export default function MiddletonPage() {
             <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need a Property Cleanout in Middleton?</h3>
               <p className="text-gray-300 mb-6">Call us for a free estimate. We'll get your property cleaned out fast.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

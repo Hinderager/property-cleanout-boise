@@ -5,7 +5,7 @@ import { CheckCircle, Phone, AlertTriangle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Foreclosure Cleanout Garden City ID | Top Shelf Property Cleanout',
-  description: 'REO and bank-owned property cleanouts in Garden City, Idaho. Fast, professional service. Licensed & insured. Call (208) 505-9352.',
+  description: 'REO and bank-owned property cleanouts in Garden City, Idaho. Fast, professional service. Licensed & insured. Call (208) 943-5231.',
   keywords: ['foreclosure cleanout Garden City', 'property cleanout Garden City'],
   alternates: {
     canonical: 'https://property-cleanout-boise.com/cities-served/garden-city/foreclosure-cleanout',
@@ -30,8 +30,8 @@ export default function GardenCityForeclosureCleanoutPage() {
           <div className="inline-block bg-[#FFC845] text-dark-blue px-4 py-1 rounded-full text-sm font-bold mb-4">Same-Day Service Available</div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Foreclosure Cleanout in Garden City</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">REO and bank-owned property cleanouts. Serving Garden City and the Treasure Valley.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -78,8 +78,8 @@ export default function GardenCityForeclosureCleanoutPage() {
             <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need Foreclosure Cleanout in Garden City?</h3>
               <p className="text-gray-300 mb-6">Call now for fast, professional service.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

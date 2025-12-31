@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: 'Property Cleanout Boise | Rental, Foreclosure & Eviction Cleanout Idaho',
     template: '%s | Boise Property Cleanout',
   },
-  description: 'Fast property cleanout services in Boise, Meridian, Nampa & Caldwell. Rental turnovers, foreclosure cleanouts, eviction clearing, REO properties. Same-day service available. Call (208) 505-9352.',
+  description: 'Fast property cleanout services in Boise, Meridian, Nampa & Caldwell. Rental turnovers, foreclosure cleanouts, eviction clearing, REO properties. Same-day service available. Call (208) 943-5231.',
   keywords: 'property cleanout Boise, rental turnover Boise, foreclosure cleanout Idaho, eviction cleanout, REO cleanout, real estate cleanout, investment property clearing, landlord services Boise',
   authors: [{ name: 'Property Cleanout Pros' }],
   creator: 'Property Cleanout Pros',
@@ -41,6 +41,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <StructuredData />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
       </head>
       <body className="min-h-screen bg-white">
         <Script
@@ -53,17 +57,33 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-581QKP6ZE5');
+            
+            gtag('config', 'AW-11134633087');
           `}
         </Script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS" strategy="afterInteractive" />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-            gtag('config', 'G-46RY05JDNS');gtag('config', 'AW-11134633087');`}
-        </Script>
         <Script id="meta-pixel" strategy="afterInteractive">
-          {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','533217938868618');fbq('track','PageView');`}
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '533217938868618');
+            fbq('track', 'PageView');
+          `}
         </Script>
-        <noscript><img height="1" width="1" style={{display:'none'}} src="https://www.facebook.com/tr?id=533217938868618&ev=PageView&noscript=1" alt="" /></noscript>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{display:'none'}}
+            src="https://www.facebook.com/tr?id=533217938868618&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
         <QuoteFormProvider>
           <Header />
           {children}

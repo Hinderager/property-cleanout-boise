@@ -5,7 +5,7 @@ import { CheckCircle, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Real Estate Cleanout | Top Shelf Property Cleanout',
-  description: 'Real estate property cleanout in Boise. Pre-sale cleanouts, estate cleanouts, and property prep. Fast, professional service. Call (208) 505-9352.',
+  description: 'Real estate property cleanout in Boise. Pre-sale cleanouts, estate cleanouts, and property prep. Fast, professional service. Call (208) 943-5231.',
   alternates: { canonical: 'https://property-cleanout-boise.com/real-estate-cleanouts' },
 }
 
@@ -18,8 +18,8 @@ export default function RealEstateCleanoutsPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Real Estate Cleanout</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional cleanout services for real estate agents, investors, and homeowners throughout the Treasure Valley.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -56,8 +56,8 @@ export default function RealEstateCleanoutsPage() {
             <div className="p-8 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need Real Estate Cleanout?</h3>
               <p className="text-gray-300 mb-6">Call now for professional property cleanout services.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

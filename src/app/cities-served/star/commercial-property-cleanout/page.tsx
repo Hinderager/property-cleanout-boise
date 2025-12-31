@@ -5,7 +5,7 @@ import { CheckCircle, Phone, AlertTriangle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Commercial Property Cleanout Star ID | Top Shelf Property Cleanout',
-  description: 'Office and commercial cleanouts in Star, Idaho. Fast, professional service. Licensed & insured. Call (208) 505-9352.',
+  description: 'Office and commercial cleanouts in Star, Idaho. Fast, professional service. Licensed & insured. Call (208) 943-5231.',
   keywords: ['commercial property cleanout Star', 'property cleanout Star'],
   alternates: {
     canonical: 'https://property-cleanout-boise.com/cities-served/star/commercial-property-cleanout',
@@ -30,8 +30,8 @@ export default function StarCommercialPropertyCleanoutPage() {
           <div className="inline-block bg-[#FFC845] text-dark-blue px-4 py-1 rounded-full text-sm font-bold mb-4">Same-Day Service Available</div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Commercial Property Cleanout in Star</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Office and commercial cleanouts. Serving Star and the Treasure Valley.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -78,8 +78,8 @@ export default function StarCommercialPropertyCleanoutPage() {
             <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need Commercial Property Cleanout in Star?</h3>
               <p className="text-gray-300 mb-6">Call now for fast, professional service.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>
