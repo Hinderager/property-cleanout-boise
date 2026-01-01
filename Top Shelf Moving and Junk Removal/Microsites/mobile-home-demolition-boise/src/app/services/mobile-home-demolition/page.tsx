@@ -4,7 +4,7 @@ import { Phone, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition Services | Boise Mobile Home Demolition',
-  description: 'Complete mobile home demolition services for single-wide, double-wide, and triple-wide homes. Licensed, insured demolition throughout the Treasure Valley. Call (208) 505-9352.',
+  description: 'Complete mobile home demolition services for single-wide, double-wide, and triple-wide homes. Licensed, insured demolition throughout the Treasure Valley. Call (208) 943-5231.',
   alternates: { canonical: 'https://mobile-home-demolition-boise.com/services/mobile-home-demolition' },
 }
 
@@ -21,8 +21,8 @@ export default function MobileHomeDemolitionPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Mobile Home Demolition</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Complete demolition services for mobile homes of all sizes. Safe, efficient, and fully licensed.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -54,8 +54,8 @@ export default function MobileHomeDemolitionPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Remove Your Mobile Home?</h2>
           <p className="text-xl text-gray-300 mb-8">Get a free quote for mobile home demolition services.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

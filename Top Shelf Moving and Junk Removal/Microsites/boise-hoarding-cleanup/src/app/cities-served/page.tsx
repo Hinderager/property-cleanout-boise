@@ -4,7 +4,7 @@ import { MapPin } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Hoarding Cleanup Service Areas | Boise Hoarding Cleanup',
-  description: 'Professional hoarding cleanup serving Boise, Meridian, Nampa, Caldwell, Eagle, and the Treasure Valley. Compassionate, judgment-free service. Call (208) 505-9352.',
+  description: 'Professional hoarding cleanup serving Boise, Meridian, Nampa, Caldwell, Eagle, and the Treasure Valley. Compassionate, judgment-free service. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-hoarding-cleanup.com/cities-served' },
 }
 
@@ -38,7 +38,7 @@ const cities = [
 
 export default function CitiesServedPage() {
   return (
-    <main className="py-16">
+    <main className="pt-20">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-gunmetal mb-6">Service Areas</h1>
         <p className="text-xl text-gray-600 mb-12 max-w-3xl">

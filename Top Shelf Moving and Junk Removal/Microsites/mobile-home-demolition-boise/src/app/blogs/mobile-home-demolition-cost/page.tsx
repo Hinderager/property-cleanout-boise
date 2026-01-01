@@ -294,10 +294,10 @@ export default function MobileHomeDemolitionCost() {
               We'll come look at your mobile home and give you a complete price—no surprises, no hidden fees.
             </p>
             <a
-              href="tel:2083611982"
+              href="tel:2089435231"
               className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
             >
-              Call (208) 361-1982
+              Call (208) 943-5231
             </a>
           </div>
         </div>

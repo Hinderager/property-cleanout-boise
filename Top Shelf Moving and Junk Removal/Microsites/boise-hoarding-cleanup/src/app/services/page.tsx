@@ -4,7 +4,7 @@ import { ArrowRight, Home, Building2, Droplet, Briefcase } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Hoarding Cleanup Services Boise | Professional Cleanup',
-  description: 'Compassionate hoarding cleanup services in Boise, Idaho. Residential, commercial, biohazard, and estate cleanup. Judgment-free service. Call (208) 505-9352.',
+  description: 'Compassionate hoarding cleanup services in Boise, Idaho. Residential, commercial, biohazard, and estate cleanup. Judgment-free service. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-hoarding-cleanup.com/services' },
 }
 
@@ -17,7 +17,7 @@ const serviceCategories = [
 
 export default function ServicesPage() {
   return (
-    <main className="py-16">
+    <main className="pt-20">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-gunmetal mb-6">Our Hoarding Cleanup Services</h1>
         <p className="text-xl text-gray-600 mb-12 max-w-3xl">

@@ -1,42 +1,42 @@
-import { Heart, Shield, Clock, Leaf, Users, Lock, Award, CheckCircle } from 'lucide-react'
+import { Home, Shield, Clock, Leaf, Users, Award, CheckCircle } from 'lucide-react'
 
 const features = [
   {
-    icon: Heart,
-    title: 'We Get It',
-    description: 'Hoarding is a mental health condition, not a choice. Our crew is trained to work with people going through this. No lectures, no dirty looks. Just help.',
+    icon: Home,
+    title: 'Mobile Home Specialists',
+    description: 'We focus on mobile home demolition. Single wides, double wides, manufactured homes - we know how to safely take them down and haul them away. This is what we do.',
   },
   {
     icon: Shield,
     title: 'Licensed & Insured',
-    description: 'Fully licensed with $1M liability coverage. We handle hazardous materials, biohazards, and heavy debris the right way.',
+    description: 'Fully licensed with $1M liability coverage. We handle permits, coordinate utilities, and follow all local regulations. Everything is done right.',
   },
   {
     icon: Clock,
-    title: 'Same-Day If You Need It',
-    description: 'Some situations can\'t wait. We offer same-day service throughout the Treasure Valley when timing is critical.',
+    title: 'Fast Turnaround',
+    description: 'Most mobile home demos are done in 1-3 days. We work efficiently and get the job done quickly so you can move on to the next phase of your project.',
   },
   {
-    icon: Lock,
-    title: 'Nobody Has to Know',
-    description: 'Unmarked trucks. No company logos. We keep things quiet so your neighbors don\'t ask questions.',
+    icon: Award,
+    title: 'Professional Crew',
+    description: 'Our crew is experienced, background-checked, and OSHA trained. They show up on time, work hard, and clean up when they\'re done.',
   },
   {
     icon: Leaf,
-    title: 'We Donate What We Can',
-    description: 'We work with local charities and recyclers. Over 60% of what we remove stays out of the landfill.',
+    title: 'Responsible Disposal',
+    description: 'We recycle metal, donate usable materials, and dispose of debris properly. Over 60% of what we remove stays out of the landfill.',
   },
   {
     icon: Users,
     title: 'Local & Family-Owned',
-    description: 'We\'re based right here in Boise. Been serving the area since 2022. We treat every home like it\'s family.',
+    description: 'We\'re based right here in Boise. Been serving the Treasure Valley since 2022. We treat every property like it\'s our own.',
   },
 ]
 
 const credentials = [
   'Background-checked team',
   'OSHA safety trained',
-  'Biohazard certified',
+  'Licensed demolition contractor',
   'BBB Accredited',
   'Fully bonded',
   '5-star Google rating',
@@ -52,7 +52,7 @@ export function WhyChooseUs() {
             Why Work With Us?
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            We do hoarding cleanup in Boise, Meridian, Nampa, Caldwell, and Eagle. Here&apos;s what makes us different.
+            We do mobile home demolition in Boise, Meridian, Nampa, Caldwell, and Eagle. Here&apos;s what makes us different.
           </p>
         </div>
 
@@ -95,7 +95,7 @@ export function WhyChooseUs() {
         {/* Trust Statement */}
         <div className="mt-12 text-center">
           <p className="text-gray-600 max-w-3xl mx-auto">
-            We&apos;ve helped hundreds of families in the Treasure Valley. Every situation is different, and we work with you to figure out what makes sense.
+            We&apos;ve helped hundreds of property owners in the Treasure Valley. Every project is different, and we work with you to figure out what makes sense.
           </p>
         </div>
       </div>

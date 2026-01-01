@@ -5,6 +5,7 @@ import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const montserrat = Montserrat({
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     default: 'Hoarding Cleanup Services Boise | Professional Hoarder Cleanout Idaho',
     template: '%s | Hoarding Cleanup Boise',
   },
-  description: 'Compassionate hoarding cleanup services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. We help families dealing with hoarding disorder through supportive, professional cleanout services. Licensed & insured. Same-day service available. Call (208) 505-9352.',
+  description: 'Compassionate hoarding cleanup services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. We help families dealing with hoarding disorder through supportive, professional cleanout services. Licensed & insured. Same-day service available. Call (208) 943-5231.',
   keywords: [
     'hoarding cleanup Boise',
     'hoarder cleanout Boise Idaho',
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     'hoarding remediation Treasure Valley',
     'compassionate hoarding cleanup',
     'clutter removal services Idaho',
-    'extreme cleaning services Boise',
+    'thorough cleaning services Boise',
     'hoarder house cleanup',
   ],
   authors: [{ name: 'Boise Hoarding Cleanup' }],
@@ -62,6 +63,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  alternates: {
+    canonical: 'https://boise-hoarding-cleanup.com',
+  },
 }
 
 export const viewport: Viewport = {
@@ -79,6 +83,10 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <StructuredData />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
@@ -93,19 +101,6 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-581QKP6ZE5');
-          `}
-        </Script>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-46RY05JDNS');
-            gtag('config', 'AW-11134633087');
           `}
         </Script>
         <Script id="meta-pixel" strategy="afterInteractive">

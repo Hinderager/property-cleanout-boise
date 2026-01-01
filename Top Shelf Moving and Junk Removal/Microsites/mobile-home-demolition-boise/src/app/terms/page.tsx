@@ -106,7 +106,7 @@ export default function TermsPage() {
               If you have questions about these Terms of Service, please contact us:
             </p>
             <ul>
-              <li><strong>Phone:</strong> (208) 361-1982</li>
+              <li><strong>Phone:</strong> (208) 943-5231</li>
               <li><strong>Email:</strong> info@mobile-home-demolition-boise.com</li>
             </ul>
           </div>

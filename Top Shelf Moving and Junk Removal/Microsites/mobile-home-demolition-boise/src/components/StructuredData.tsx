@@ -35,7 +35,7 @@ const faqData = [
   },
   {
     question: 'What areas do you serve in Idaho?',
-    answer: 'We provide mobile home demolition services in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding Treasure Valley communities. If you\'re not sure if we cover your area, give us a call at (208) 505-9352.',
+    answer: 'We provide mobile home demolition services in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding Treasure Valley communities. If you\'re not sure if we cover your area, give us a call at (208) 943-5231.',
   },
   {
     question: 'Do you work in mobile home parks?',
@@ -52,7 +52,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "name": `Boise Mobile Home Demolition - ${city}`,
     "description": `Professional mobile home and manufactured home demolition services in ${city}, Idaho. Complete teardown, foundation removal, and site cleanup. Licensed and insured.`,
     "url": "https://mobile-home-demolition-boise.com",
-    "telephone": "+1-208-505-9352",
+    "telephone": "+1-208-943-5231",
     "email": "info@mobile-home-demolition-boise.com",
     "address": {
       "@type": "PostalAddress",

@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'RV Removal in Middleton | Boise Mobile Home Demolition',
-  description: 'RV and camper removal services in Middleton. Licensed professionals serving a quiet community in Canyon County. Call (208) 505-9352.',
+  description: 'RV and camper removal services in Middleton. Licensed professionals serving a quiet community in Canyon County. Call (208) 943-5231.',
   alternates: { canonical: 'https://mobile-home-demolition-boise.com/cities-served/middleton/rv-removal' },
 }
 
@@ -27,8 +27,8 @@ export default function MiddletonRvRemovalPage() {
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-white mb-4">Call for Middleton Service</h2>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

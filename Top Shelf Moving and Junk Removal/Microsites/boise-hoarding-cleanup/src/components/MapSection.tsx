@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useEffect, useRef } from 'react'
 import { MapPin, Phone, Mail, Clock } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
@@ -45,8 +46,8 @@ export function MapSection() {
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                <a href="tel:2085059352" className="text-[#0b7fb6] hover:text-[#10477d] font-semibold text-lg transition-colors">
-                  (208) 505-9352
+                <a href="tel:2089435231" className="text-[#0b7fb6] hover:text-[#10477d] font-semibold text-lg transition-colors">
+                  (208) 943-5231
                 </a>
               </div>
             </div>
@@ -57,8 +58,8 @@ export function MapSection() {
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                <a href="mailto:info@boise-hoarding-cleanup.com" className="text-[#0b7fb6] hover:text-[#10477d] transition-colors">
-                  info@boise-hoarding-cleanup.com
+                <a href="mailto:info@topshelfpros.com" className="text-[#0b7fb6] hover:text-[#10477d] transition-colors">
+                  info@topshelfpros.com
                 </a>
               </div>
             </div>
@@ -94,7 +95,7 @@ export function MapSection() {
           {/* Google Map */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185295.55415754188!2d-116.46135044999999!3d43.6150186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef172e947b49d%3A0x9a2c4a71592dee96!2sBoise%2C%20ID!5e0!3m2!1sen!2sus!4v1702500000000!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d185000!2d-116.2806!3d43.6352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s1755+N+Westgate+Dr,+Boise,+ID!5e0!3m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '500px' }}
@@ -109,9 +110,9 @@ export function MapSection() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2085059352">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 505-9352</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>

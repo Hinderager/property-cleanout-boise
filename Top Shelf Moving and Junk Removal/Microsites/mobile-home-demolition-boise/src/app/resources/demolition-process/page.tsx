@@ -33,7 +33,7 @@ export default function DemolitionProcessPage() {
                 <div>
                   <Phone className="w-8 h-8 text-dark-blue mb-3" />
                   <h3 className="text-2xl font-bold text-dark-blue mb-3">Initial Contact & Assessment</h3>
-                  <p className="text-gray-600 mb-3">Call us at (208) 505-9352. We'll ask about the mobile home—size, condition, location, and what you need done.</p>
+                  <p className="text-gray-600 mb-3">Call us at (208) 943-5231. We'll ask about the mobile home—size, condition, location, and what you need done.</p>
                   <p className="text-gray-600">We'll schedule a time to see the property in person (or virtually if you're out of state). This helps us give you an accurate quote.</p>
                 </div>
               </div>
@@ -175,8 +175,8 @@ export default function DemolitionProcessPage() {
             <div className="mt-12 bg-dark-blue p-8 rounded-xl text-center">
               <h2 className="text-2xl font-bold text-white mb-4">Ready to Get Started?</h2>
               <p className="text-gray-300 mb-6">We'll walk you through every step and handle all the details. Call us today.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

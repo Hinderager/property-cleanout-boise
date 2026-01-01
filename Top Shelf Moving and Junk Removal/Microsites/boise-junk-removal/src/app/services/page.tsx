@@ -4,7 +4,7 @@ import { ArrowRight, Trash2, Building2, Sofa, Microwave, TreePine, Sparkles } fr
 
 export const metadata: Metadata = {
   title: 'Junk Removal Services Boise | Top Shelf Junk Removal',
-  description: 'Professional junk removal services in Boise, Idaho. Residential, commercial, furniture, appliance, and yard waste removal. Free estimates. Call (208) 505-9352.',
+  description: 'Professional junk removal services in Boise, Idaho. Residential, commercial, furniture, appliance, and yard waste removal. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services' },
 }
 

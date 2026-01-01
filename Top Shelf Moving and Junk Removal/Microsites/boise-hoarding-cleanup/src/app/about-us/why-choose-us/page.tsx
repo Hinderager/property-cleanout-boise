@@ -44,7 +44,7 @@ const reasons = [
 
 export default function WhyChooseUsPage() {
   return (
-    <main className="py-16">
+    <main className="pt-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-gunmetal mb-6">Why Choose Us</h1>
@@ -90,11 +90,11 @@ export default function WhyChooseUsPage() {
             <h3 className="text-2xl font-bold text-white mb-4">Ready to Work With Us?</h3>
             <p className="text-gray-300 mb-6">Call us for a confidential conversation about how we can help.</p>
             <a
-              href="tel:2085059352"
+              href="tel:2089435231"
               className="inline-flex items-center gap-2 bg-brand-yellow text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
             >
               <Phone className="w-5 h-5" />
-              (208) 505-9352
+              (208) 943-5231
             </a>
           </div>
         </div>

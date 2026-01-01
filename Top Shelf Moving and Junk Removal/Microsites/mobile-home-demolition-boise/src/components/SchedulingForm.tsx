@@ -71,7 +71,7 @@ export function SchedulingForm({ city = 'Boise' }: SchedulingFormProps) {
     setError(null)
 
     try {
-      // Submit to GHL webhook for junk removal calendar
+      // Submit to GHL webhook for mobile home demolition calendar
       const webhookUrl = process.env.NEXT_PUBLIC_GHL_WEBHOOK_URL || 'https://services.leadconnectorhq.com/hooks/YOUR_GHL_WEBHOOK_ID'
       const response = await fetch(webhookUrl, {
         method: 'POST',
@@ -89,9 +89,9 @@ export function SchedulingForm({ city = 'Boise' }: SchedulingFormProps) {
           customField: {
             preferred_date: formData.preferredDate,
             description: formData.description,
-            service_type: 'hoarding_cleanup',
+            service_type: 'mobile_home_demolition',
             source_city: city,
-            source_site: 'boise-hoarding-cleanup.com',
+            source_site: 'mobile-home-demolition-boise.com',
           },
         }),
       })
@@ -103,7 +103,7 @@ export function SchedulingForm({ city = 'Boise' }: SchedulingFormProps) {
       setSubmitted(true)
     } catch (err) {
       console.error('Form submission error:', err)
-      setError('There was an error submitting your request. Please call us at (208) 361-1982.')
+      setError('There was an error submitting your request. Please call us at (208) 943-5231.')
     } finally {
       setIsSubmitting(false)
     }
@@ -125,8 +125,8 @@ export function SchedulingForm({ city = 'Boise' }: SchedulingFormProps) {
             </p>
             <p className="text-gray-600">
               Need immediate assistance? Call us at{' '}
-              <a href="tel:2083611982" className="text-dark-blue font-bold underline hover:text-light-blue">
-                (208) 361-1982
+              <a href="tel:2089435231" className="text-dark-blue font-bold underline hover:text-light-blue">
+                (208) 943-5231
               </a>
             </p>
           </div>
@@ -255,7 +255,7 @@ export function SchedulingForm({ city = 'Boise' }: SchedulingFormProps) {
               {/* Description */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Tell Us About Your Situation (Optional)
+                  Tell Us About Your Project (Optional)
                 </label>
                 <div className="relative">
                   <MessageSquare className="absolute left-3 top-3 w-5 h-5 text-gray-400" />
@@ -264,7 +264,7 @@ export function SchedulingForm({ city = 'Boise' }: SchedulingFormProps) {
                     value={formData.description}
                     onChange={handleChange}
                     rows={4}
-                    placeholder="Describe the scope of work, number of rooms, any special considerations..."
+                    placeholder="Describe the mobile home size (single/double wide), any foundation removal needed, timeline, etc..."
                     className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-light-blue focus:border-transparent outline-none transition-all resize-none"
                   />
                 </div>
