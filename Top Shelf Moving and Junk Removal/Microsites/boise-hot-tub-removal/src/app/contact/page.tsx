@@ -3,8 +3,8 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { SchedulingForm } from '@/components/SchedulingForm'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Boise Hot Tub Removal | (208) 505-9352',
-  description: 'Contact Boise Hot Tub Removal for fast, professional hot tub removal services. Call (208) 505-9352 or request a free quote online.',
+  title: 'Contact Us | Boise Hot Tub Removal | (208) 943-5231',
+  description: 'Contact Boise Hot Tub Removal for fast, professional hot tub removal services. Call (208) 943-5231 or request a free quote online.',
   keywords: ['contact hot tub removal', 'hot tub removal quote', 'schedule hot tub removal'],
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/contact',
@@ -36,8 +36,8 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-[#0b7fb6] flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-bold text-[#0B2F3A] mb-1">Phone</h3>
-                    <a href="tel:2085059352" className="text-[#0b7fb6] hover:underline text-lg">
-                      (208) 505-9352
+                    <a href="tel:2089435231" className="text-[#0b7fb6] hover:underline text-lg">
+                      (208) 943-5231
                     </a>
                     <p className="text-gray-600 text-sm mt-1">Call for immediate assistance</p>
                   </div>

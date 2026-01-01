@@ -5,7 +5,7 @@ import { CheckCircle, Phone, AlertTriangle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'In-Ground Hot Tub Removal | Boise Hot Tub Removal',
-  description: 'Professional in-ground hot tub removal services in Boise and the Treasure Valley. We handle concrete, electrical, and complete demolition. Call (208) 505-9352.',
+  description: 'Professional in-ground hot tub removal services in Boise and the Treasure Valley. We handle concrete, electrical, and complete demolition. Call (208) 943-5231.',
   keywords: ['in-ground hot tub removal', 'built-in hot tub removal Boise', 'hot tub demolition'],
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/services/hot-tub-removal/in-ground',
@@ -37,8 +37,8 @@ export default function InGroundHotTubRemovalPage() {
           <div className="inline-block bg-[#0b7fb6] text-white px-4 py-1 rounded-full text-sm font-bold mb-4">Expert In-Ground Removal</div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">In-Ground Hot Tub Removal</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Complete removal of built-in hot tubs including concrete, electrical, and plumbing work. Professional service throughout the Treasure Valley.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -89,8 +89,8 @@ export default function InGroundHotTubRemovalPage() {
             <div className="p-8 bg-[#0B2F3A] rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need an In-Ground Hot Tub Removed?</h3>
               <p className="text-gray-300 mb-6">Call now for a free estimate on your in-ground hot tub removal.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

@@ -4,7 +4,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Yard Waste Dumpster Rental Boise | Top Shelf Dumpster Rental',
-  description: 'Rent yard waste dumpsters in Boise for landscaping debris, brush, branches, and green waste removal. Call (208) 505-9352.',
+  description: 'Rent yard waste dumpsters in Boise for landscaping debris, brush, branches, and green waste removal. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/services/specialty/yard-waste' },
 }
 
@@ -134,8 +134,8 @@ export default function YardWasteDumpsterPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">Need a Yard Waste Dumpster?</h2>
           <p className="text-gray-300 mb-6">Call us and we'll help you pick the right size for your project.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" /> (208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" /> (208) 943-5231
           </a>
         </div>
       </section>

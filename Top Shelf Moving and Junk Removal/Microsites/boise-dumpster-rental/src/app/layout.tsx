@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import { Montserrat, Open_Sans } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -22,10 +22,10 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-dumpster-rental.com'),
   title: {
-    default: 'Boise Dumpster Rental | Roll-Off Containers Idaho | (208) 505-9352',
+    default: 'Boise Dumpster Rental | Roll-Off Containers Idaho | (208) 943-5231',
     template: '%s | Boise Dumpster Rental',
   },
-  description: 'Need a dumpster in Boise? Same-day delivery on 10, 15, 20, 30, and 40 yard roll-off containers. Fair pricing, no hidden fees. Perfect for construction, cleanouts, and remodels. Call (208) 505-9352 today.',
+  description: 'Need a dumpster in Boise? Same-day delivery on 10, 15, 20, 30, and 40 yard roll-off containers. Fair pricing, no hidden fees. Perfect for construction, cleanouts, and remodels. Call (208) 943-5231 today.',
   keywords: [
     'dumpster rental Boise',
     'roll-off dumpster Boise',
@@ -46,24 +46,13 @@ export const metadata: Metadata = {
   authors: [{ name: 'Boise Dumpster Rental' }],
   creator: 'Boise Dumpster Rental',
   publisher: 'Boise Dumpster Rental',
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://boise-dumpster-rental.com',
     siteName: 'Boise Dumpster Rental',
-    title: 'Boise Dumpster Rental | Roll-Off Containers for Any Project',
-    description: 'Same-day delivery on roll-off dumpsters throughout Boise and the Treasure Valley. 10 to 40 yard sizes available. Fair pricing, no surprises. Licensed and insured.',
+    title: 'Boise Dumpster Rental | Roll-Off Containers Idaho',
+    description: 'Same-day dumpster delivery throughout Boise and the Treasure Valley. 10, 15, 20, 30, and 40 yard roll-off containers available.',
     images: [
       {
         url: '/og-image.jpg',
@@ -107,19 +96,6 @@ export default function RootLayout({
             gtag('config', 'G-581QKP6ZE5');
           `}
         </Script>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-46RY05JDNS');
-            gtag('config', 'AW-11134633087');
-          `}
-        </Script>
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -149,6 +125,10 @@ export default function RootLayout({
           <Footer />
         </QuoteFormProvider>
         <StructuredData />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
       </body>
     </html>
   )

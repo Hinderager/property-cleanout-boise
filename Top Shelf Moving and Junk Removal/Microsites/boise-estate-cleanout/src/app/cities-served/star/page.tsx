@@ -5,7 +5,7 @@ import { CheckCircle, MapPin, Phone, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Estate Cleanout Services Star Idaho | Top Shelf',
-  description: 'Professional estate cleanout services in Star, Idaho. Compassionate, respectful service for families. Licensed & insured. Call (208) 505-9352.',
+  description: 'Professional estate cleanout services in Star, Idaho. Compassionate, respectful service for families. Licensed & insured. Call (208) 943-5231.',
   keywords: ['estate cleanout Star', 'probate cleanout Star Idaho', 'senior downsizing Star', 'property cleanout Star'],
   alternates: {
     canonical: 'https://boise-estate-cleanout.com/cities-served/star',
@@ -38,8 +38,8 @@ export default function StarPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Estate Cleanout Services in Star</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Compassionate estate cleanout services for Star families. Licensed, insured, and here to help during difficult transitions.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -96,8 +96,8 @@ export default function StarPage() {
             <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need Estate Cleanout in Star?</h3>
               <p className="text-gray-300 mb-6">Call us for a free estimate. We'll make this process as easy as possible.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

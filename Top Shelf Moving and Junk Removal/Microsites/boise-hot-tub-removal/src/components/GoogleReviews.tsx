@@ -7,54 +7,10 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 
 // Static reviews for hot tub removal
 const staticReviews = [
-  {
-    author: 'Sarah M.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'Had a 15-year-old hot tub that hadn\'t worked in years. These guys came out, broke it down onsite, and had everything cleaned up in a couple hours. The yard looks so much better now. Fair price too.',
-  },
-  {
-    author: 'David R.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'Bought a house with an old hot tub on the deck. Called these guys and they removed the spa and hauled it away. Quick, professional, and they didn\'t damage the deck at all. Would use again.',
-  },
-  {
-    author: 'Jennifer K.',
-    relative_time: '3 weeks ago',
-    rating: 5,
-    text: 'Our hot tub was in a really tight spot between the house and fence. I didn\'t think they\'d be able to get it out without taking down the fence, but they figured it out. Impressed with their problem-solving.',
-  },
-  {
-    author: 'Michael T.',
-    relative_time: '2 weeks ago',
-    rating: 5,
-    text: 'Same-day service when I needed to get rid of my old spa before a home inspection. They showed up on time, got it done fast, and the price was exactly what they quoted. No surprises.',
-  },
-  {
-    author: 'Lisa H.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'These guys removed an old wooden hot tub from our backyard. It was falling apart and I was worried about injury. They handled it safely and cleaned up all the debris. Very professional.',
-  },
-  {
-    author: 'Robert B.',
-    relative_time: '3 months ago',
-    rating: 5,
-    text: 'The hot tub we inherited was full of stagnant water and who knows what else. They drained it, broke it down, and hauled it off. Even raked the area clean when they were done. Great service.',
-  },
-  {
-    author: 'Amanda C.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'Got quotes from three companies. These guys were the most affordable and could come out the soonest. They answered all my questions about how they\'d remove it and what they\'d do with the materials.',
-  },
-  {
-    author: 'James W.',
-    relative_time: '1 week ago',
-    rating: 5,
-    text: 'Moved into a rental with a broken hot tub. Landlord said I could have it removed if I wanted. One call and it was gone. Easy process and fair price. Would recommend to anyone.',
-  },
+  { author: 'Rachelle Tridle', rating: 5, text: 'Top Shelf Junk Removers were awesome! They showed up on time, took everything that was quoted — plus a few extra items I had on site — with no hassle. Super fast, efficient, affordable, and even had change because I paid with cash!. Great service all around. Highly recommend!' },
+  { author: 'Jeff Rau', rating: 5, text: 'Exceptional service and response from Top Shelf. Cleaning out a family home and we were able to fill a 15 cubic yard dumpster twice! Both deliveries were very timely and working with Top Shelf staff was great! Thank you for helping make our chore easier and efficient. I would easily recommend this business to others.' },
+  { author: 'Katrina Vincent', rating: 5, text: 'We recently hired Top Shelf to assist a client who had been a long time tenant for the company I work for, it was a big project, riddled with challenges. They far exceeded my expectations. Not only did they arrive on time and get right to work, they treated our clients with kindness and respect. They were extremely helpful and hard working. They accommodated our needs for appointment times and seemed to really want to earn our business. I hope to be able to utilize their services again! Would very highly recommend.' },
+  { author: 'Kevin McSpadden', rating: 5, text: 'Eric and Gabe were great. Positive attitude and tackled the job without complaint Pricing was great and will definitely use them again!' },
 ]
 
 export function GoogleReviews() {
@@ -62,7 +18,7 @@ export function GoogleReviews() {
   const [expandedReviews, setExpandedReviews] = useState(false)
   const reviewsPerPage = 4
   const rating = 5.0
-  const totalReviews = 100
+  const totalReviews = 323
 
   const nextSlide = () => {
     setCurrentIndex((prev) =>
@@ -151,7 +107,6 @@ export function GoogleReviews() {
                           <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
                         </svg>
                       </div>
-                      <p className="text-sm text-gray-500">{review.relative_time}</p>
                     </div>
                   </div>
 
@@ -225,9 +180,9 @@ export function GoogleReviews() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2085059352">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 505-9352</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>

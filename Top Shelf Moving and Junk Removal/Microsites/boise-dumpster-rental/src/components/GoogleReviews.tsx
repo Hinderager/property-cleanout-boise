@@ -7,54 +7,10 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 
 // Static reviews for dumpster rental
 const staticReviews = [
-  {
-    author: 'Mark T.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'Rented a 20 yard dumpster for our kitchen remodel. They dropped it off exactly when they said they would and picked it up right on schedule. Price was fair and no hidden fees. Will definitely use again.',
-  },
-  {
-    author: 'Susan R.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'We were cleaning out my parents\' house after 40 years of stuff. The 30 yard dumpster was perfect. They were patient when we needed an extra few days. Great customer service from start to finish.',
-  },
-  {
-    author: 'Jason K.',
-    relative_time: '3 weeks ago',
-    rating: 5,
-    text: 'I\'m a contractor and I use these guys for all my job sites now. Reliable delivery, competitive pricing, and they actually answer the phone when I call. That\'s rare these days.',
-  },
-  {
-    author: 'Michelle P.',
-    relative_time: '2 weeks ago',
-    rating: 5,
-    text: 'Needed a dumpster for a garage cleanout. Called in the morning and they had one in my driveway by lunch. The driver was careful with my concrete and placed it exactly where I wanted. Easy process.',
-  },
-  {
-    author: 'Dave H.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'Used them for a roofing project. The dumpster handled all the old shingles no problem. They swapped it out for a new one the same day when we filled the first one. No delays on our project.',
-  },
-  {
-    author: 'Karen B.',
-    relative_time: '3 months ago',
-    rating: 5,
-    text: 'Best price I found for dumpster rental in Boise. I called around and these guys beat everyone else. Plus the service was better. No brainer for my next project.',
-  },
-  {
-    author: 'Tony C.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'Rented for a bathroom demo. The 10 yard was the perfect size—not too big for my driveway but held everything. Pickup was quick and they swept up after themselves. Impressed.',
-  },
-  {
-    author: 'Lisa W.',
-    relative_time: '1 week ago',
-    rating: 5,
-    text: 'Second time using them and just as good as the first. They remembered me from before and gave me a repeat customer discount. That kind of service keeps me coming back.',
-  },
+  { author: 'Rachelle Tridle', rating: 5, text: 'Top Shelf Junk Removers were awesome! They showed up on time, took everything that was quoted — plus a few extra items I had on site — with no hassle. Super fast, efficient, affordable, and even had change because I paid with cash!. Great service all around. Highly recommend!' },
+  { author: 'Jeff Rau', rating: 5, text: 'Exceptional service and response from Top Shelf. Cleaning out a family home and we were able to fill a 15 cubic yard dumpster twice! Both deliveries were very timely and working with Top Shelf staff was great! Thank you for helping make our chore easier and efficient. I would easily recommend this business to others.' },
+  { author: 'Katrina Vincent', rating: 5, text: 'We recently hired Top Shelf to assist a client who had been a long time tenant for the company I work for, it was a big project, riddled with challenges. They far exceeded my expectations. Not only did they arrive on time and get right to work, they treated our clients with kindness and respect. They were extremely helpful and hard working. They accommodated our needs for appointment times and seemed to really want to earn our business. I hope to be able to utilize their services again! Would very highly recommend.' },
+  { author: 'Kevin McSpadden', rating: 5, text: 'Eric and Gabe were great. Positive attitude and tackled the job without complaint Pricing was great and will definitely use them again!' },
 ]
 
 export function GoogleReviews() {
@@ -62,7 +18,7 @@ export function GoogleReviews() {
   const [expandedReviews, setExpandedReviews] = useState(false)
   const reviewsPerPage = 4
   const rating = 5.0
-  const totalReviews = 100
+  const totalReviews = 323
 
   const nextSlide = () => {
     setCurrentIndex((prev) =>
@@ -151,7 +107,6 @@ export function GoogleReviews() {
                           <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
                         </svg>
                       </div>
-                      <p className="text-sm text-gray-500">{review.relative_time}</p>
                     </div>
                   </div>
 

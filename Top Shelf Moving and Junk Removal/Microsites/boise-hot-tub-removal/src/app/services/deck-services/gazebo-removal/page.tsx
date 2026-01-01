@@ -5,7 +5,7 @@ import { CheckCircle, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Gazebo Removal | Boise Hot Tub Removal',
-  description: 'Gazebo and pergola removal in Boise. We remove all types of outdoor structures. Fast, professional service. Call (208) 505-9352.',
+  description: 'Gazebo and pergola removal in Boise. We remove all types of outdoor structures. Fast, professional service. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-hot-tub-removal.com/services/deck-services/gazebo-removal' },
 }
 
@@ -18,8 +18,8 @@ export default function GazeboRemovalPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Gazebo Removal</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Complete gazebo and pergola removal services in Boise and the Treasure Valley.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -56,8 +56,8 @@ export default function GazeboRemovalPage() {
             <div className="p-8 bg-[#0B2F3A] rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need Gazebo Removal?</h3>
               <p className="text-gray-300 mb-6">Call now for a free estimate.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

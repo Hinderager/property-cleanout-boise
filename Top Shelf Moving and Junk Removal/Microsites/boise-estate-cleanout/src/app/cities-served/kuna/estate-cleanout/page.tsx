@@ -4,7 +4,7 @@ import { CheckCircle, Phone, Clock, Shield } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Estate Cleanout Kuna Idaho | Top Shelf Estate Cleanout',
-  description: 'Complete estate cleanout services in Kuna, Idaho. Fast, compassionate service. Call (208) 505-9352 for a free quote.',
+  description: 'Complete estate cleanout services in Kuna, Idaho. Fast, compassionate service. Call (208) 943-5231 for a free quote.',
   alternates: {
     canonical: 'https://boise-estate-cleanout.com/cities-served/kuna/estate-cleanout',
   },
@@ -72,8 +72,8 @@ export default function KunaEstateCleanoutPage() {
             <div className="bg-dark-blue p-8 rounded-xl text-center">
               <h2 className="text-2xl font-bold text-white mb-4">Serving Kuna Families</h2>
               <p className="text-gray-300 mb-6">Call us today for a free quote on your estate cleanout project.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
 

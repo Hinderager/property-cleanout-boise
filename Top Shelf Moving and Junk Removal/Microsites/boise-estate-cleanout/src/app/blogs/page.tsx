@@ -45,7 +45,7 @@ const blogPosts = [
 
 export default function BlogsPage() {
   return (
-    <main>
+    <main className="pt-20">
       {/* Hero Section */}
       <section className="relative h-[400px] flex items-center">
         <Image
@@ -112,10 +112,10 @@ export default function BlogsPage() {
             Contact us today for a free estimate on your estate cleanout project.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2089435231"
             className="inline-block bg-brand-yellow hover:bg-yellow-400 text-black font-bold text-lg px-8 py-4 rounded-lg transition-colors"
           >
-            Call (208) 505-9352
+            Call (208) 943-5231
           </a>
         </div>
       </section>

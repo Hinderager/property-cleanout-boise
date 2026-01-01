@@ -4,7 +4,7 @@ import { MapPin, Phone, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Cities We Serve | Hot Tub Removal Treasure Valley | Boise Hot Tub Removal',
-  description: 'Professional hot tub removal services throughout the Treasure Valley. Serving Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding cities. Call (208) 505-9352.',
+  description: 'Professional hot tub removal services throughout the Treasure Valley. Serving Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding cities. Call (208) 943-5231.',
   keywords: ['hot tub removal Treasure Valley', 'spa removal Boise area', 'hot tub disposal Idaho'],
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/cities-served',
@@ -76,11 +76,11 @@ export default function CitiesServedPage() {
             Professional hot tub removal services throughout the Treasure Valley. We serve all major cities and surrounding areas.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2089435231"
             className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
           >
             <Phone className="w-5 h-5" />
-            (208) 505-9352
+            (208) 943-5231
           </a>
         </div>
       </section>
@@ -159,11 +159,11 @@ export default function CitiesServedPage() {
             Call us for a free quote. We'll make hot tub removal easy.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2089435231"
             className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
           >
             <Phone className="w-5 h-5" />
-            (208) 505-9352
+            (208) 943-5231
           </a>
         </div>
       </section>

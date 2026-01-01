@@ -3,7 +3,7 @@ import { CheckCircle, Phone, Clock, Shield, Users, DollarSign } from 'lucide-rea
 
 export const metadata: Metadata = {
   title: 'Why Choose Boise Hot Tub Removal | Local & Licensed',
-  description: 'Fast service, fair pricing, full cleanup. Licensed and insured hot tub removal in Boise and the Treasure Valley. Call (208) 505-9352.',
+  description: 'Fast service, fair pricing, full cleanup. Licensed and insured hot tub removal in Boise and the Treasure Valley. Call (208) 943-5231.',
   keywords: ['why choose hot tub removal', 'best hot tub removal Boise', 'licensed hot tub removal'],
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/about-us/why-choose-us',
@@ -97,11 +97,11 @@ export default function WhyChooseUsPage() {
               <h2 className="text-2xl font-bold text-white mb-4">Ready to Get Started?</h2>
               <p className="text-gray-300 mb-6">Call us for a free quote and experience the difference.</p>
               <a
-                href="tel:2085059352"
+                href="tel:2089435231"
                 className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                (208) 505-9352
+                (208) 943-5231
               </a>
             </div>
           </div>

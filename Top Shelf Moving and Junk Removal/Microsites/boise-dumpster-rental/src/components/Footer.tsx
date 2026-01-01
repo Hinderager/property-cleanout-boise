@@ -98,10 +98,10 @@ export function Footer() {
                 <Mail className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <a
-                    href="mailto:info@boise-dumpster-rental.com"
+                    href="mailto:info@topshelfpros.com"
                     className="text-white/80 hover:text-white transition-colors"
                   >
-                    info@boise-dumpster-rental.com
+                    info@topshelfpros.com
                   </a>
                 </div>
               </li>

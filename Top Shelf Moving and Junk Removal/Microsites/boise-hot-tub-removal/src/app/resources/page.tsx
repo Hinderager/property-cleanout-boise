@@ -4,7 +4,7 @@ import { Phone, HelpCircle, DollarSign, Clipboard, Wrench } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Resources | Hot Tub Removal Info | Boise Hot Tub Removal',
-  description: 'Everything you need to know about hot tub removal. FAQs, pricing, process details, and preparation tips. Call (208) 505-9352.',
+  description: 'Everything you need to know about hot tub removal. FAQs, pricing, process details, and preparation tips. Call (208) 943-5231.',
   keywords: ['hot tub removal info', 'hot tub removal guide', 'hot tub disposal resources'],
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/resources',
@@ -50,8 +50,8 @@ export default function ResourcesPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">Still Have Questions?</h2>
           <p className="text-gray-300 mb-6">Give us a call. We're happy to help.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

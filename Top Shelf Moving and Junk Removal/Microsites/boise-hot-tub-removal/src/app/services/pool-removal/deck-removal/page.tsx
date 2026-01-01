@@ -5,7 +5,7 @@ import { CheckCircle, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Pool Deck Removal | Boise Hot Tub Removal',
-  description: 'Pool deck removal and demolition in Boise. Concrete, wood, and composite deck removal. Fast, professional service. Call (208) 505-9352.',
+  description: 'Pool deck removal and demolition in Boise. Concrete, wood, and composite deck removal. Fast, professional service. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-hot-tub-removal.com/services/pool-removal/deck-removal' },
 }
 
@@ -18,8 +18,8 @@ export default function PoolDeckRemovalPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Pool Deck Removal</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Complete pool deck demolition and removal. Concrete, wood, and composite decking.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -56,8 +56,8 @@ export default function PoolDeckRemovalPage() {
             <div className="p-8 bg-[#0B2F3A] rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need Deck Removal?</h3>
               <p className="text-gray-300 mb-6">Call now for a free estimate on pool deck removal.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

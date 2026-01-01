@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: 'How do I schedule a pickup?',
-    answer: "Just call us at (208) 505-9352. We\'ll ask what you\'ve got, give you a price, and set up a time that works for you."
+    answer: "Just call us at (208) 943-5231. We\'ll ask what you\'ve got, give you a price, and set up a time that works for you."
   },
   {
     question: 'What if I have more debris than I thought?',
@@ -79,8 +79,8 @@ export default function FAQPage() {
             <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Talk to a Real Person</h3>
               <p className="text-gray-300 mb-6">No phone trees, no automated systems. Just call and ask.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

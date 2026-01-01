@@ -7,54 +7,10 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 
 // Static reviews for estate cleanout
 const staticReviews = [
-  {
-    author: 'Margaret P.',
-    relative_time: '2 weeks ago',
-    rating: 5,
-    text: 'After my mother passed, I was overwhelmed with cleaning out her home of 45 years. These folks were so compassionate and respectful. They helped us sort through everything, set aside family photos and heirlooms, and donated the rest. Made an incredibly difficult time much easier.',
-  },
-  {
-    author: 'David R.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'We inherited a property from my uncle and needed to clear it out for sale. The team was professional and efficient. They found some valuable items we would have missed and coordinated donations with local charities. The house was spotless when they finished.',
-  },
-  {
-    author: 'Jennifer K.',
-    relative_time: '3 weeks ago',
-    rating: 5,
-    text: 'Working with the probate attorney to settle my father\'s estate was stressful enough. These guys made the cleanout portion so easy. They provided all the documentation we needed and worked around our timeline. Highly recommend for anyone dealing with estate settlement.',
-  },
-  {
-    author: 'Michael T.',
-    relative_time: '2 weeks ago',
-    rating: 5,
-    text: 'Had to clear out my grandmother\'s condo quickly for the new buyers. Called on Monday, they came Tuesday morning, and everything was done by Wednesday afternoon. Fair price, hard workers, and they were so respectful of grandma\'s belongings.',
-  },
-  {
-    author: 'Lisa H.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'The attention to detail was impressive. They didn\'t just throw everything away—they sorted items into keep, donate, and dispose piles. Found my dad\'s military medals mixed in with some old boxes. Can\'t thank them enough for that.',
-  },
-  {
-    author: 'Robert B.',
-    relative_time: '3 months ago',
-    rating: 5,
-    text: 'Dealt with three different estate cleanout companies before finding these guys. They were the only ones who treated the job with the respect it deserved. My late wife\'s things went to people who needed them, not the dump. That matters to me.',
-  },
-  {
-    author: 'Amanda C.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'Estate sale company took what they wanted and left us with a mess. This team came in and cleared everything else professionally. They even swept and mopped the floors when they were done. Property was ready to list that same week.',
-  },
-  {
-    author: 'James W.',
-    relative_time: '1 week ago',
-    rating: 5,
-    text: 'Needed to clear out my in-laws\' home across town while managing everything from Boise. They communicated every step of the way with photos and updates. Couldn\'t have done it without them. Worth every penny.',
-  },
+  { author: 'Rachelle Tridle', rating: 5, text: 'Top Shelf Junk Removers were awesome! They showed up on time, took everything that was quoted — plus a few extra items I had on site — with no hassle. Super fast, efficient, affordable, and even had change because I paid with cash!. Great service all around. Highly recommend!' },
+  { author: 'Jeff Rau', rating: 5, text: 'Exceptional service and response from Top Shelf. Cleaning out a family home and we were able to fill a 15 cubic yard dumpster twice! Both deliveries were very timely and working with Top Shelf staff was great! Thank you for helping make our chore easier and efficient. I would easily recommend this business to others.' },
+  { author: 'Katrina Vincent', rating: 5, text: 'We recently hired Top Shelf to assist a client who had been a long time tenant for the company I work for, it was a big project, riddled with challenges. They far exceeded my expectations. Not only did they arrive on time and get right to work, they treated our clients with kindness and respect. They were extremely helpful and hard working. They accommodated our needs for appointment times and seemed to really want to earn our business. I hope to be able to utilize their services again! Would very highly recommend.' },
+  { author: 'Kevin McSpadden', rating: 5, text: 'Eric and Gabe were great. Positive attitude and tackled the job without complaint Pricing was great and will definitely use them again!' },
 ]
 
 export function GoogleReviews() {
@@ -62,7 +18,7 @@ export function GoogleReviews() {
   const [expandedReviews, setExpandedReviews] = useState(false)
   const reviewsPerPage = 4
   const rating = 5.0
-  const totalReviews = 100
+  const totalReviews = 323
 
   const nextSlide = () => {
     setCurrentIndex((prev) =>
@@ -151,7 +107,6 @@ export function GoogleReviews() {
                           <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
                         </svg>
                       </div>
-                      <p className="text-sm text-gray-500">{review.relative_time}</p>
                     </div>
                   </div>
 
@@ -225,9 +180,9 @@ export function GoogleReviews() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2085059352">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 505-9352</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>

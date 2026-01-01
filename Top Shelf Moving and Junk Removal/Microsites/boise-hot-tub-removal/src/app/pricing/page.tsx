@@ -5,7 +5,7 @@ import { CheckCircle, Phone, DollarSign, AlertCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Pricing Guide | Boise Hot Tub Removal',
-  description: 'Hot tub removal pricing in Boise. Upfront pricing, no hidden fees. Free estimates. Learn what affects cost. Call (208) 505-9352.',
+  description: 'Hot tub removal pricing in Boise. Upfront pricing, no hidden fees. Free estimates. Learn what affects cost. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-hot-tub-removal.com/pricing' },
 }
 
@@ -28,7 +28,7 @@ export default function PricingPage() {
           <div className="inline-block bg-[#0b7fb6] text-white px-4 py-1 rounded-full text-sm font-bold mb-4">Upfront Pricing</div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Pricing Guide</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Transparent pricing for hot tub, pool, and deck removal services in Boise.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
             <Phone className="w-5 h-5" /> Call for Free Estimate
           </a>
         </div>
@@ -71,7 +71,7 @@ export default function PricingPage() {
                 <AlertCircle className="w-6 h-6 text-[#FFC845] flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-bold text-[#0B2F3A] mb-2">Get Your Free Estimate</h4>
-                  <p className="text-gray-700">Every hot tub removal is different. Call us at (208) 505-9352 and we'll give you an upfront price based on your specific situation. No obligation, no pressure.</p>
+                  <p className="text-gray-700">Every hot tub removal is different. Call us at (208) 943-5231 and we'll give you an upfront price based on your specific situation. No obligation, no pressure.</p>
                 </div>
               </div>
             </div>
@@ -103,8 +103,8 @@ export default function PricingPage() {
             <div className="p-8 bg-[#0B2F3A] rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Ready for Your Free Estimate?</h3>
               <p className="text-gray-300 mb-6">Call now and we'll give you an upfront price in minutes.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

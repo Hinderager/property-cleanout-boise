@@ -3,7 +3,7 @@ import { Phone, Truck, Users, DollarSign } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Careers | Join Boise Hot Tub Removal Team',
-  description: 'Looking for hardworking team members in the Treasure Valley. Competitive pay, flexible hours. Call (208) 505-9352 to learn more.',
+  description: 'Looking for hardworking team members in the Treasure Valley. Competitive pay, flexible hours. Call (208) 943-5231 to learn more.',
   keywords: ['hot tub removal jobs', 'junk removal careers Boise', 'labor jobs Treasure Valley'],
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/about-us/careers',
@@ -30,8 +30,8 @@ export default function CareersPage() {
             <div className="bg-[#0B2F3A] p-8 rounded-xl text-center">
               <h2 className="text-2xl font-bold text-white mb-4">Interested?</h2>
               <p className="text-gray-300 mb-6">Give us a call. We'll tell you what the job involves and see if it's a good fit.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

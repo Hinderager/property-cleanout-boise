@@ -5,7 +5,7 @@ import { CheckCircle, Phone, Users, Award, Clock, Shield } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'About Boise Hot Tub Removal | Local Hot Tub Removal Experts',
-  description: 'Learn about Boise Hot Tub Removal. Locally owned, licensed, and insured. Serving the Treasure Valley since day one. Call (208) 505-9352.',
+  description: 'Learn about Boise Hot Tub Removal. Locally owned, licensed, and insured. Serving the Treasure Valley since day one. Call (208) 943-5231.',
   keywords: ['about hot tub removal Boise', 'local hot tub removal company', 'hot tub removal team'],
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/about-us',
@@ -141,11 +141,11 @@ export default function AboutUsPage() {
             Call us today for a free quote. We'll make it easy.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2089435231"
             className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
           >
             <Phone className="w-5 h-5" />
-            (208) 505-9352
+            (208) 943-5231
           </a>
         </div>
       </section>

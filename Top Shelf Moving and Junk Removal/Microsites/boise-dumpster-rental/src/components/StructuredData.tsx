@@ -53,7 +53,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "description": `Affordable dumpster rental in ${city}, Idaho. Same-day delivery, competitive pricing, multiple sizes available. Licensed and insured.`,
     "url": "https://boise-dumpster-rental.com",
     "telephone": "+1-208-361-1982",
-    "email": "info@boise-dumpster-rental.com",
+    "email": "info@topshelfpros.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,

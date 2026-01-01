@@ -5,7 +5,7 @@ import { CheckCircle, Phone, AlertTriangle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Above-Ground Hot Tub Removal | Boise Hot Tub Removal',
-  description: 'Fast, affordable above-ground hot tub removal in Boise and the Treasure Valley. We handle portable spas, jacuzzis, and all equipment. Call (208) 505-9352.',
+  description: 'Fast, affordable above-ground hot tub removal in Boise and the Treasure Valley. We handle portable spas, jacuzzis, and all equipment. Call (208) 943-5231.',
   keywords: ['above-ground hot tub removal', 'portable hot tub removal Boise', 'hot tub haul away'],
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/services/hot-tub-removal/above-ground',
@@ -37,8 +37,8 @@ export default function AboveGroundHotTubRemovalPage() {
           <div className="inline-block bg-[#0b7fb6] text-white px-4 py-1 rounded-full text-sm font-bold mb-4">Same-Day Service Available</div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Above-Ground Hot Tub Removal</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Quick removal of portable hot tubs and spas. We handle all the heavy lifting and hauling.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -93,8 +93,8 @@ export default function AboveGroundHotTubRemovalPage() {
             <div className="p-8 bg-[#0B2F3A] rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Ready to Get Rid of That Hot Tub?</h3>
               <p className="text-gray-300 mb-6">Call now for fast, affordable above-ground hot tub removal.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

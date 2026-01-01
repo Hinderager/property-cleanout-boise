@@ -5,7 +5,7 @@ import { CheckCircle, Phone, Recycle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Recycling Options | Boise Hot Tub Removal',
-  description: 'Hot tub and pool recycling in Boise. We recycle metals, plastics, wood, and more. Environmentally responsible disposal. Call (208) 505-9352.',
+  description: 'Hot tub and pool recycling in Boise. We recycle metals, plastics, wood, and more. Environmentally responsible disposal. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-hot-tub-removal.com/services/disposal/recycling' },
 }
 
@@ -18,8 +18,8 @@ export default function RecyclingPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Recycling Options</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">We recycle hot tub and pool materials whenever possible to reduce landfill waste.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -56,8 +56,8 @@ export default function RecyclingPage() {
             <div className="p-8 bg-[#0B2F3A] rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Choose Recycling</h3>
               <p className="text-gray-300 mb-6">Call now for environmentally responsible hot tub removal.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

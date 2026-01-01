@@ -44,8 +44,8 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "name": `Boise Estate Cleanout - ${city}`,
     "description": `Professional estate cleanout services in ${city}, Idaho. Compassionate property clearing, donation coordination, and complete estate cleanouts. Licensed and insured.`,
     "url": "https://boise-estate-cleanout.com",
-    "telephone": "+1-208-505-9352",
-    "email": "info@boise-estate-cleanout.com",
+    "telephone": "+1-208-943-5231",
+    "email": "info@topshelfpros.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,

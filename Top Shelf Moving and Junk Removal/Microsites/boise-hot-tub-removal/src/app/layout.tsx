@@ -5,6 +5,7 @@ import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const oswald = Oswald({
@@ -69,19 +70,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-581QKP6ZE5');
           `}
         </Script>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-46RY05JDNS');
-            gtag('config', 'AW-11134633087');
-          `}
-        </Script>
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -111,6 +99,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
         </QuoteFormProvider>
         <StructuredData />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
       </body>
     </html>
   )

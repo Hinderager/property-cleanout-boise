@@ -4,7 +4,7 @@ import { Phone, Trash2, Droplets, Hammer, Recycle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Our Services | Hot Tub & Pool Removal | Boise Hot Tub Removal',
-  description: 'Professional hot tub removal, pool removal, deck services, and disposal in Boise and the Treasure Valley. Call (208) 505-9352.',
+  description: 'Professional hot tub removal, pool removal, deck services, and disposal in Boise and the Treasure Valley. Call (208) 943-5231.',
   keywords: ['hot tub removal services', 'pool removal', 'deck removal', 'disposal services'],
   alternates: {
     canonical: 'https://boise-hot-tub-removal.com/services',
@@ -50,8 +50,8 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">Need Service?</h2>
           <p className="text-gray-300 mb-6">Call us for a free quote.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

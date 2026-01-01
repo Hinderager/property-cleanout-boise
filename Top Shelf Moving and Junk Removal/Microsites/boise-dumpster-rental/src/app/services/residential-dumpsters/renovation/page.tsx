@@ -4,7 +4,7 @@ import { Phone, CheckCircle, ArrowLeft } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Renovation Dumpster Rental Boise | Top Shelf Dumpster Rental',
-  description: 'Rent a dumpster for your home renovation in Boise. Perfect for remodels, demolition, and construction debris. Call (208) 505-9352.',
+  description: 'Rent a dumpster for your home renovation in Boise. Perfect for remodels, demolition, and construction debris. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-dumpster-rental.com/services/residential-dumpsters/renovation' },
 }
 
@@ -116,8 +116,8 @@ export default function RenovationDumpsterPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">Ready to Rent a Dumpster?</h2>
           <p className="text-gray-300 mb-6">Call us and we'll help you pick the right size for your renovation.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" /> (208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" /> (208) 943-5231
           </a>
         </div>
       </section>

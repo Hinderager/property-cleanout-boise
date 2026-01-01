@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
+import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
-import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-estate-cleanout.com'),
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: 'Estate Cleanout Services Boise | Professional Estate Clearing Idaho',
     template: '%s | Estate Cleanout Boise',
   },
-  description: 'Professional estate cleanout services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Compassionate estate clearing, donation coordination, and complete property cleanouts. Licensed & insured. Call (208) 505-9352.',
+  description: 'Professional estate cleanout services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Compassionate estate clearing, donation coordination, and complete property cleanouts. Licensed & insured. Call (208) 943-5231.',
   keywords: 'estate cleanout Boise, estate clearing Idaho, property cleanout, probate cleanout, estate sale cleanup, deceased estate cleanout, inheritance cleanout, Meridian estate cleanout, Nampa estate cleanout',
   authors: [{ name: 'Boise Estate Cleanout' }],
   creator: 'Boise Estate Cleanout',
@@ -41,6 +41,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <StructuredData />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
       </head>
       <body className="min-h-screen bg-white">
         <Script
@@ -55,15 +59,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-581QKP6ZE5');
           `}
         </Script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS" strategy="afterInteractive" />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-            gtag('config', 'G-46RY05JDNS');gtag('config', 'AW-11134633087');`}
-        </Script>
         <Script id="meta-pixel" strategy="afterInteractive">
-          {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','533217938868618');fbq('track','PageView');`}
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '533217938868618');
+            fbq('track', 'PageView');
+          `}
         </Script>
-        <noscript><img height="1" width="1" style={{display:'none'}} src="https://www.facebook.com/tr?id=533217938868618&ev=PageView&noscript=1" alt="" /></noscript>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{display:'none'}}
+            src="https://www.facebook.com/tr?id=533217938868618&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
         <QuoteFormProvider>
           <Header />
           {children}
