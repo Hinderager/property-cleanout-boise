@@ -4,7 +4,7 @@ import { SchedulingForm } from '@/components/SchedulingForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Top Shelf Property Cleanout',
-  description: 'Contact Top Shelf Property Cleanout for property cleanouts in Boise and the Treasure Valley. Call (208) 505-9352.',
+  description: 'Contact Top Shelf Property Cleanout for property cleanouts in Boise and the Treasure Valley. Call (208) 943-5231.',
   alternates: { canonical: 'https://property-cleanout-boise.com/contact' },
 }
 
@@ -34,7 +34,7 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-[#FFC845] flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-bold text-dark-blue mb-1">Phone</h3>
-                    <a href="tel:2085059352" className="text-lg text-gray-700 hover:text-[#0b7fb6]">(208) 505-9352</a>
+                    <a href="tel:2089435231" className="text-lg text-gray-700 hover:text-[#0b7fb6]">(208) 943-5231</a>
                   </div>
                 </div>
 

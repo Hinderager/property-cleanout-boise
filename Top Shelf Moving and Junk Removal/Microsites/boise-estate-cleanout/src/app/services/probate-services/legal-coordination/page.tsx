@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { Phone, CheckCircle, Clock, Shield, Heart } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Legal Coordination | Probate Services | Boise',
@@ -17,6 +18,7 @@ export default function LegalCoordinationPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Work with attorneys and courts throughout the Treasure Valley.</p>
         </div>
       </section>
+      <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">

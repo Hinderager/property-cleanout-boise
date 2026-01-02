@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { MapPin, Phone, CheckCircle } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Cities We Serve | Hot Tub Removal Treasure Valley | Boise Hot Tub Removal',
@@ -75,6 +76,8 @@ export default function CitiesServedPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">
             Professional hot tub removal services throughout the Treasure Valley. We serve all major cities and surrounding areas.
           </p>
+
+          <QuickQuoteBar />
           <a
             href="tel:2089435231"
             className="inline-flex items-center gap-2 bg-[#FFC845] text-[#0B2F3A] px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"

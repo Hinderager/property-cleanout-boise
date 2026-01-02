@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Phone, MapPin } from 'lucide-react'
 import Link from 'next/link'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition Service Areas | Treasure Valley Idaho',
@@ -63,6 +64,8 @@ export default function CitiesServedPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Cities We Serve</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Mobile home demolition throughout the Treasure Valley and beyond.</p>
+
+          <QuickQuoteBar />
         </div>
       </section>
 

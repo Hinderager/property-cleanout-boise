@@ -24,7 +24,7 @@ export const faqs = [
   },
   {
     question: 'What does a property cleanout cost?',
-    answer: 'Depends on how much is there and how long it takes. Small apartments usually run $300-600. Bigger houses with more stuff can be $800-2,000+. We give free estimates—call us at (208) 505-9352 or send us photos and we\'ll quote it.'
+    answer: 'Depends on how much is there and how long it takes. Small apartments usually run $300-600. Bigger houses with more stuff can be $800-2,000+. We give free estimates—call us at (208) 943-5231 or send us photos and we\'ll quote it.'
   },
   {
     question: 'Do you work with real estate agents and investors?',
@@ -32,7 +32,7 @@ export const faqs = [
   },
   {
     question: 'Can you clear a property the same day?',
-    answer: 'Usually, yes. If you call us in the morning and the property isn\'t huge, we can often get a crew out that afternoon. Best bet is to call (208) 505-9352 and we\'ll see what we can do. We\'re pretty flexible when people are in a bind.'
+    answer: 'Usually, yes. If you call us in the morning and the property isn\'t huge, we can often get a crew out that afternoon. Best bet is to call (208) 943-5231 and we\'ll see what we can do. We\'re pretty flexible when people are in a bind.'
   }
 ]
 
@@ -89,9 +89,9 @@ export function FAQ() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2085059352">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 505-9352</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>

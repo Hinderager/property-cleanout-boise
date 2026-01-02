@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { Phone } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Disposal Services | Boise Hot Tub Removal',
@@ -15,6 +16,7 @@ export default function DisposalPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-white">Disposal Services</h1>
         </div>
       </section>
+      <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto prose prose-lg">

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { Phone, Trash2, Droplets, Hammer, Recycle } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Our Services | Hot Tub & Pool Removal | Boise Hot Tub Removal',
@@ -18,6 +19,8 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Our Services</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Complete hot tub and pool removal services throughout the Treasure Valley.</p>
+
+          <QuickQuoteBar />
         </div>
       </section>
       <section className="py-16 bg-white">

@@ -2,10 +2,11 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { CheckCircle, MapPin, Phone } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Property Cleanout Kuna Idaho | Kuna Property Cleanout Services',
-  description: 'Professional property cleanout services in Kuna, Idaho. Rental cleanouts, foreclosure cleanouts, estate cleanouts. Fast, reliable service. Call (208) 505-9352.',
+  description: 'Professional property cleanout services in Kuna, Idaho. Rental cleanouts, foreclosure cleanouts, estate cleanouts. Fast, reliable service. Call (208) 943-5231.',
   keywords: ['property cleanout Kuna', 'rental cleanout Kuna Idaho', 'foreclosure cleanout Kuna', 'estate cleanout Kuna'],
   alternates: {
     canonical: 'https://property-cleanout-boise.com/cities-served/kuna',
@@ -40,11 +41,12 @@ export default function KunaPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Property Cleanout Services in Kuna</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional property cleanouts for Kuna landlords, property managers, and homeowners. Fast, reliable service you can count on.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
+      <QuickQuoteBar />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -98,8 +100,8 @@ export default function KunaPage() {
             <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need a Property Cleanout in Kuna?</h3>
               <p className="text-gray-300 mb-6">Call us for a free estimate. We'll get your property cleaned out fast.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

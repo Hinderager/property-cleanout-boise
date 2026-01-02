@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { Phone } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Mobile Home Demolition in Middleton | Boise Mobile Home Demolition',
@@ -16,6 +17,7 @@ export default function MiddletonMobileHomeDemolitionPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Complete mobile home demolition and removal</p>
         </div>
       </section>
+      <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto prose prose-lg">

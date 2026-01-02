@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { CheckCircle, Phone, Clock, Shield } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Full Property Clearing Star Idaho | Top Shelf Estate Cleanout',
@@ -19,6 +20,7 @@ export default function StarFullPropertyClearingPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Complete property clearing services for Star families.</p>
         </div>
       </section>
+      <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">

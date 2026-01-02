@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { Phone } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Deck Services | Boise Hot Tub Removal',
@@ -13,6 +14,7 @@ export default function DeckServicesPage() {
       <section className="py-16 bg-gradient-to-b from-[#0B2F3A] to-[#0b7fb6]">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Deck Services</h1>
+          <QuickQuoteBar />
         </div>
       </section>
       <section className="py-16 bg-white">

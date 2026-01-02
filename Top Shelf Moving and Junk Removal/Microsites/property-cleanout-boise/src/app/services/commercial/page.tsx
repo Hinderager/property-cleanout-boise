@@ -2,10 +2,11 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { CheckCircle, Phone } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Commercial Property Cleanout | Top Shelf Property Cleanout',
-  description: 'Commercial property cleanout services in Boise and the Treasure Valley. Office, retail, and warehouse cleanouts. Fast, professional service. Call (208) 505-9352.',
+  description: 'Commercial property cleanout services in Boise and the Treasure Valley. Office, retail, and warehouse cleanouts. Fast, professional service. Call (208) 943-5231.',
   alternates: { canonical: 'https://property-cleanout-boise.com/services/commercial' },
 }
 
@@ -24,11 +25,12 @@ export default function CommercialCleanoutPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Commercial Property Cleanout</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional cleanout services for offices, retail spaces, and warehouses throughout the Treasure Valley.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
+      <QuickQuoteBar />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -73,8 +75,8 @@ export default function CommercialCleanoutPage() {
             <div className="p-8 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Need Commercial Cleanout?</h3>
               <p className="text-gray-300 mb-6">Call now for a free estimate on your commercial property cleanout.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>
