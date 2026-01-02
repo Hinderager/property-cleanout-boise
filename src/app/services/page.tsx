@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { Phone } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Property Cleanout Services | Top Shelf Property Cleanout',
@@ -50,6 +51,8 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Services</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Complete property cleanout services for the Treasure Valley.</p>
+
+          <QuickQuoteBar />
         </div>
       </section>
 

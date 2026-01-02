@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { MapPin, Phone, CheckCircle } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Cities Served | Top Shelf Property Cleanout',
@@ -66,6 +67,8 @@ export default function CitiesServedPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Cities We Serve</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional property cleanout services throughout the Treasure Valley.</p>
+
+          <QuickQuoteBar />
           <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
             <Phone className="w-5 h-5" />(208) 943-5231
           </a>
