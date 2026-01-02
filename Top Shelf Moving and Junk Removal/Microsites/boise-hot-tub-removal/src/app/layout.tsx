@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: 'Hot Tub Removal Boise | Same-Day Spa Removal | Boise Hot Tub Removal',
     description: 'Professional hot tub removal in Boise and the Treasure Valley. Safe disconnection, demolition, and eco-friendly disposal.',
     url: 'https://boise-hot-tub-removal.com',
-    siteName: 'Boise Hot Tub Removal',
+    siteName: 'Top Shelf Hot Tub Removal',
     locale: 'en_US',
     type: 'website',
   },

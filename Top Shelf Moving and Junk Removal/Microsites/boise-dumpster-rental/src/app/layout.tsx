@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://boise-dumpster-rental.com',
-    siteName: 'Boise Dumpster Rental',
+    siteName: 'Top Shelf Dumpster Rental',
     title: 'Boise Dumpster Rental | Roll-Off Containers Idaho',
     description: 'Same-day dumpster delivery throughout Boise and the Treasure Valley. 10, 15, 20, 30, and 40 yard roll-off containers available.',
     images: [

@@ -41,7 +41,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Boise Estate Cleanout - ${city}`,
+    "name": `Top Shelf Estate Cleanout - ${city}`,
     "description": `Professional estate cleanout services in ${city}, Idaho. Compassionate property clearing, donation coordination, and complete estate cleanouts. Licensed and insured.`,
     "url": "https://boise-estate-cleanout.com",
     "telephone": "+1-208-943-5231",
@@ -95,7 +95,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Estate Cleanout Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Boise Estate Cleanout"
+      "name": "Top Shelf Estate Cleanout"
     },
     "areaServed": {
       "@type": "State",

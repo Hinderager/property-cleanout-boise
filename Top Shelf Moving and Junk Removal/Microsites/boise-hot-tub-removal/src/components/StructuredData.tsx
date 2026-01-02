@@ -45,7 +45,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Boise Hot Tub Removal - ${city}`,
+    "name": `Top Shelf Hot Tub Removal - ${city}`,
     "description": `Professional hot tub and spa removal services in ${city}, Idaho. Safe disconnection, demolition, and eco-friendly disposal. Licensed and insured.`,
     "url": "https://boise-hot-tub-removal.com",
     "telephone": "+1-208-943-5231",
@@ -105,7 +105,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Hot Tub Removal Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Boise Hot Tub Removal"
+      "name": "Top Shelf Hot Tub Removal"
     },
     "areaServed": {
       "@type": "State",

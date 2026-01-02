@@ -49,7 +49,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Boise Mobile Home Demolition - ${city}`,
+    "name": `Top Shelf Mobile Home Demolition - ${city}`,
     "description": `Professional mobile home and manufactured home demolition services in ${city}, Idaho. Complete teardown, foundation removal, and site cleanup. Licensed and insured.`,
     "url": "https://mobile-home-demolition-boise.com",
     "telephone": "+1-208-943-5231",
@@ -103,7 +103,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Mobile Home Demolition Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Boise Mobile Home Demolition"
+      "name": "Top Shelf Mobile Home Demolition"
     },
     "areaServed": {
       "@type": "State",

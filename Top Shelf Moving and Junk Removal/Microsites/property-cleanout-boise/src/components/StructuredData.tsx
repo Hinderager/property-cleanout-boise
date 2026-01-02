@@ -49,7 +49,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Boise Property Cleanout - ${city}`,
+    "name": `Top Shelf Property Cleanout - ${city}`,
     "description": `Fast property cleanout services in ${city}, Idaho. Rental turnovers, foreclosure cleanouts, eviction clearing, REO properties. Same-day service available for landlords, property managers, and real estate professionals.`,
     "url": "https://property-cleanout-boise.com",
     "telephone": "+1-208-943-5231",
@@ -103,7 +103,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Property Cleanout Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Boise Property Cleanout"
+      "name": "Top Shelf Property Cleanout"
     },
     "areaServed": {
       "@type": "State",

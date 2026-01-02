@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://boise-estate-cleanout.com',
-    siteName: 'Boise Estate Cleanout - Boise Idaho',
+    siteName: 'Top Shelf Estate Cleanout',
     title: 'Estate Cleanout Services Boise | Professional Estate Clearing Idaho',
     description: 'Professional estate cleanout services in Boise and the Treasure Valley. Compassionate estate clearing, donation coordination, and complete property cleanouts. Licensed & insured.',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Boise Estate Cleanout - Boise Idaho' }],

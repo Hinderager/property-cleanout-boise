@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://mobile-home-demolition-boise.com',
-    siteName: 'Boise Mobile Home Demolition',
+    siteName: 'Top Shelf Mobile Home Demolition',
     title: 'Mobile Home Demolition Boise | Manufactured Home Removal Idaho',
     description: 'Professional mobile home demolition in Boise and the Treasure Valley. Single wides, double wides, manufactured homes. Complete teardown, foundation removal, and site cleanup.',
     images: [
