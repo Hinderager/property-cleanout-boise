@@ -53,7 +53,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "description": `Fast property cleanout services in ${city}, Idaho. Rental turnovers, foreclosure cleanouts, eviction clearing, REO properties. Same-day service available for landlords, property managers, and real estate professionals.`,
     "url": "https://property-cleanout-boise.com",
     "telephone": "+1-208-943-5231",
-    "email": "info@property-cleanout-boise.com",
+    "email": "info@topshelfpros.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,
