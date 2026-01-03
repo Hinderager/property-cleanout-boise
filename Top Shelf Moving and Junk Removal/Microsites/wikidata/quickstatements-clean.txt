@@ -1,0 +1,222 @@
+CREATE
+LAST	Len	"Top Shelf Junk Removal"
+LAST	Den	"junk removal and hauling service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Junk Removal Boise"
+LAST	Aen	"Boise Junk Removal"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://boise-junk-removal.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Appliance Removal"
+LAST	Den	"appliance removal and disposal service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Appliance Removal Boise"
+LAST	Aen	"Boise Appliance Removal"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://boise-appliance-removal.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Carpet Removal"
+LAST	Den	"carpet removal and disposal service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Carpet Removal Boise"
+LAST	Aen	"Boise Carpet Removal"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://boise-carpet-removal.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Commercial Movers"
+LAST	Den	"commercial moving and office relocation company in Boise, Idaho"
+LAST	Aen	"Top Shelf Commercial Movers Boise"
+LAST	Aen	"Boise Commercial Movers"
+LAST	P31	Q1757263
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q642121
+LAST	P856	"https://boise-commercial-movers.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Construction Debris Removal"
+LAST	Den	"construction debris removal and cleanup service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Construction Debris Removal Boise"
+LAST	Aen	"Boise Construction Debris Removal"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://boise-construction-debris-removal.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Demolition"
+LAST	Den	"demolition contractor and building demolition company in Boise, Idaho"
+LAST	Aen	"Top Shelf Demolition Boise"
+LAST	Aen	"Boise Demolition"
+LAST	P31	Q306847
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q13405640
+LAST	P856	"https://boise-demolition.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Dumpster Rental"
+LAST	Den	"dumpster rental and roll-off container service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Dumpster Rental Boise"
+LAST	Aen	"Boise Dumpster Rental"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://boise-dumpster-rental.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Estate Cleanout"
+LAST	Den	"estate cleanout and property clearing service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Estate Cleanout Boise"
+LAST	Aen	"Boise Estate Cleanout"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q5400671
+LAST	P856	"https://boise-estate-cleanout.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Furniture Removal"
+LAST	Den	"furniture removal and disposal service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Furniture Removal Boise"
+LAST	Aen	"Boise Furniture Removal"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://boise-furniture-removal.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Hoarding Cleanup"
+LAST	Den	"hoarding cleanup and property restoration service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Hoarding Cleanup Boise"
+LAST	Aen	"Boise Hoarding Cleanup"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://boise-hoarding-cleanup.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Hot Tub Removal"
+LAST	Den	"hot tub removal and disposal service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Hot Tub Removal Boise"
+LAST	Aen	"Boise Hot Tub Removal"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://boise-hot-tub-removal.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Movers"
+LAST	Den	"residential and local moving company in Boise, Idaho"
+LAST	Aen	"Top Shelf Movers Boise"
+LAST	Aen	"Boise Movers"
+LAST	Aen	"Top Shelf Moving"
+LAST	P31	Q1757263
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q642121
+LAST	P856	"https://boise-movers.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Roofing"
+LAST	Den	"roofing contractor and roof repair company in Boise, Idaho"
+LAST	Aen	"Top Shelf Roofing Boise"
+LAST	Aen	"Boise Roofing Company"
+LAST	P31	Q27057193
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q13405640
+LAST	P856	"https://boise-roofing-company.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Shed Removal"
+LAST	Den	"shed removal and demolition service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Shed Removal Boise"
+LAST	Aen	"Boise Shed Removal"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://boise-shed-removal.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Boise Chiropractors"
+LAST	Den	"chiropractic directory and referral service in Boise, Idaho"
+LAST	Aen	"Boise Chiropractor Directory"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q658096
+LAST	P856	"https://boise-chiropractors.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9
+
+CREATE
+LAST	Len	"Top Shelf Dumpsters"
+LAST	Den	"dumpster rental and waste container service company in Idaho"
+LAST	Aen	"Top Shelf Dumpsters Idaho"
+LAST	P31	Q4830453
+LAST	P17	Q30
+LAST	P131	Q1221
+LAST	P159	Q35775
+LAST	P452	Q180388
+LAST	P856	"https://topshelfdumpsters.com"
+LAST	P1329	"+1-208-505-9734"
+LAST	P571	+2020-00-00T00:00:00Z/9

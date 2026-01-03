@@ -1,0 +1,262 @@
+// ============================================================================
+// WIKIDATA QUICKSTATEMENTS BATCH IMPORT FILE
+// Top Shelf Local Service Businesses - Boise, Idaho
+// Created: 2026-01-03
+// ============================================================================
+//
+// INSTRUCTIONS:
+// 1. Go to https://quickstatements.toolforge.org/
+// 2. Log in with your Wikidata account
+// 3. Click "New Batch"
+// 4. Select "V1 format"
+// 5. Copy and paste the commands below (excluding comment lines starting with //)
+// 6. Click "Import V1 commands"
+// 7. Review the preview, then click "Run" or "Run in background"
+//
+// NOTE: Each CREATE block creates one new Wikidata item
+// NOTE: Comments (/* ... */) are included for edit summaries
+// ============================================================================
+
+// --- BUSINESS 1: Top Shelf Junk Removal ---
+CREATE
+LAST	Len	"Top Shelf Junk Removal"
+LAST	Den	"junk removal and hauling service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Junk Removal Boise"
+LAST	Aen	"Boise Junk Removal"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://boise-junk-removal.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 2: Top Shelf Appliance Removal ---
+CREATE
+LAST	Len	"Top Shelf Appliance Removal"
+LAST	Den	"appliance removal and disposal service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Appliance Removal Boise"
+LAST	Aen	"Boise Appliance Removal"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://boise-appliance-removal.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 3: Top Shelf Carpet Removal ---
+CREATE
+LAST	Len	"Top Shelf Carpet Removal"
+LAST	Den	"carpet removal and disposal service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Carpet Removal Boise"
+LAST	Aen	"Boise Carpet Removal"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://boise-carpet-removal.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 4: Top Shelf Commercial Movers ---
+CREATE
+LAST	Len	"Top Shelf Commercial Movers"
+LAST	Den	"commercial moving and office relocation company in Boise, Idaho"
+LAST	Aen	"Top Shelf Commercial Movers Boise"
+LAST	Aen	"Boise Commercial Movers"
+LAST	P31	Q1757263	/* instance of: moving company */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q642121	/* industry: relocation service */
+LAST	P856	"https://boise-commercial-movers.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 5: Top Shelf Construction Debris Removal ---
+CREATE
+LAST	Len	"Top Shelf Construction Debris Removal"
+LAST	Den	"construction debris removal and cleanup service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Construction Debris Removal Boise"
+LAST	Aen	"Boise Construction Debris Removal"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://boise-construction-debris-removal.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 6: Top Shelf Demolition ---
+CREATE
+LAST	Len	"Top Shelf Demolition"
+LAST	Den	"demolition contractor and building demolition company in Boise, Idaho"
+LAST	Aen	"Top Shelf Demolition Boise"
+LAST	Aen	"Boise Demolition"
+LAST	P31	Q306847	/* instance of: demolition company */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q13405640	/* industry: construction industry */
+LAST	P856	"https://boise-demolition.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 7: Top Shelf Dumpster Rental ---
+CREATE
+LAST	Len	"Top Shelf Dumpster Rental"
+LAST	Den	"dumpster rental and roll-off container service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Dumpster Rental Boise"
+LAST	Aen	"Boise Dumpster Rental"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://boise-dumpster-rental.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 8: Top Shelf Estate Cleanout ---
+CREATE
+LAST	Len	"Top Shelf Estate Cleanout"
+LAST	Den	"estate cleanout and property clearing service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Estate Cleanout Boise"
+LAST	Aen	"Boise Estate Cleanout"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q5400671	/* industry: estate liquidation */
+LAST	P856	"https://boise-estate-cleanout.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 9: Top Shelf Furniture Removal ---
+CREATE
+LAST	Len	"Top Shelf Furniture Removal"
+LAST	Den	"furniture removal and disposal service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Furniture Removal Boise"
+LAST	Aen	"Boise Furniture Removal"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://boise-furniture-removal.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 10: Top Shelf Hoarding Cleanup ---
+CREATE
+LAST	Len	"Top Shelf Hoarding Cleanup"
+LAST	Den	"hoarding cleanup and property restoration service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Hoarding Cleanup Boise"
+LAST	Aen	"Boise Hoarding Cleanup"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://boise-hoarding-cleanup.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 11: Top Shelf Hot Tub Removal ---
+CREATE
+LAST	Len	"Top Shelf Hot Tub Removal"
+LAST	Den	"hot tub removal and disposal service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Hot Tub Removal Boise"
+LAST	Aen	"Boise Hot Tub Removal"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://boise-hot-tub-removal.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 12: Top Shelf Movers ---
+CREATE
+LAST	Len	"Top Shelf Movers"
+LAST	Den	"residential and local moving company in Boise, Idaho"
+LAST	Aen	"Top Shelf Movers Boise"
+LAST	Aen	"Boise Movers"
+LAST	Aen	"Top Shelf Moving"
+LAST	P31	Q1757263	/* instance of: moving company */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q642121	/* industry: relocation service */
+LAST	P856	"https://boise-movers.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 13: Top Shelf Roofing ---
+CREATE
+LAST	Len	"Top Shelf Roofing"
+LAST	Den	"roofing contractor and roof repair company in Boise, Idaho"
+LAST	Aen	"Top Shelf Roofing Boise"
+LAST	Aen	"Boise Roofing Company"
+LAST	P31	Q27057193	/* instance of: roofing contractor */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q13405640	/* industry: construction industry */
+LAST	P856	"https://boise-roofing-company.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 14: Top Shelf Shed Removal ---
+CREATE
+LAST	Len	"Top Shelf Shed Removal"
+LAST	Den	"shed removal and demolition service company in Boise, Idaho"
+LAST	Aen	"Top Shelf Shed Removal Boise"
+LAST	Aen	"Boise Shed Removal"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://boise-shed-removal.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 15: Boise Chiropractors ---
+CREATE
+LAST	Len	"Boise Chiropractors"
+LAST	Den	"chiropractic directory and referral service in Boise, Idaho"
+LAST	Aen	"Boise Chiropractor Directory"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q658096	/* industry: chiropractic */
+LAST	P856	"https://boise-chiropractors.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// --- BUSINESS 16: Top Shelf Dumpsters ---
+CREATE
+LAST	Len	"Top Shelf Dumpsters"
+LAST	Den	"dumpster rental and waste container service company in Idaho"
+LAST	Aen	"Top Shelf Dumpsters Idaho"
+LAST	P31	Q4830453	/* instance of: business */
+LAST	P17	Q30	/* country: United States */
+LAST	P131	Q1221	/* located in: Idaho */
+LAST	P159	Q35775	/* headquarters: Boise */
+LAST	P452	Q180388	/* industry: waste management */
+LAST	P856	"https://topshelfdumpsters.com"	/* official website */
+LAST	P1329	"+1-208-505-9734"	/* phone number */
+LAST	P571	+2020-00-00T00:00:00Z/9	/* inception: 2020 */
+
+// ============================================================================
+// END OF QUICKSTATEMENTS BATCH FILE
+// Total items to create: 16
+// ============================================================================
