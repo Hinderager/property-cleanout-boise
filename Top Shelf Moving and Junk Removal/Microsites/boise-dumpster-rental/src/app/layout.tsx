@@ -1,28 +1,32 @@
 import type { Metadata } from 'next'
-import { Montserrat, Open_Sans } from 'next/font/google'
+import { Montserrat, Oswald } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  variable: '--font-oswald',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
 
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
-  display: 'swap',
-})
-
-const openSans = Open_Sans({
-  subsets: ['latin'],
-  variable: '--font-open-sans',
+  weight: ['400', '600', '700'],
   display: 'swap',
 })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-dumpster-rental.com'),
   title: {
-    default: 'Boise Dumpster Rental | Roll-Off Containers Idaho | (208) 943-5231',
+    default: 'Boise Dumpster Rental | 10-40 Yard Sizes | Top Shelf',
     template: '%s | Boise Dumpster Rental',
   },
   description: 'Need a dumpster in Boise? Same-day delivery on 10, 15, 20, 30, and 40 yard roll-off containers. Fair pricing, no hidden fees. Perfect for construction, cleanouts, and remodels. Call (208) 943-5231 today.',
@@ -82,11 +86,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${openSans.variable}`}>
-      <head>
-        <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
-      </head>
+    <html lang="en" className={`${oswald.variable} ${montserrat.variable}`}>
       <body className="font-body antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-581QKP6ZE5"
@@ -125,12 +125,17 @@ export default function RootLayout({
         </noscript>
         <QuoteFormProvider>
           <Header />
+          <VisibleBreadcrumb />
           <main>{children}</main>
           <Footer />
         </QuoteFormProvider>
         <StructuredData />
+        <BreadcrumbSchema siteName="Top Shelf Dumpster Rental" siteUrl="https://boise-dumpster-rental.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://www.google.com" />
       </body>

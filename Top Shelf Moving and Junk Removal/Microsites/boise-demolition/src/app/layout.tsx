@@ -1,15 +1,33 @@
 import type { Metadata } from 'next'
+import { Montserrat, Oswald } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
+
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  variable: '--font-oswald',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-demolition.com'),
   title: {
-    default: 'Boise Demolition Services | Interior, Structural & Concrete Demolition',
+    default: 'Boise Demolition Services | Licensed & Insured | Top Shelf',
     template: '%s | Boise Demolition',
   },
   description: 'Professional demolition services in Boise. Interior demolition, structural teardown, concrete removal, deck & shed demolition, garage removal, and complete debris hauling. Licensed and insured.',
@@ -73,16 +91,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <html lang="en" className={`${oswald.variable} ${montserrat.variable}`}>
         <StructuredData />
+        <BreadcrumbSchema siteName="Top Shelf Demolition" siteUrl="https://boise-demolition.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://www.google.com" />
-      </head>
       <body className="min-h-screen bg-white antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-581QKP6ZE5"
@@ -123,6 +141,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </noscript>
         <QuoteFormProvider>
           <Header />
+          <VisibleBreadcrumb />
           <main>
             {children}
           </main>

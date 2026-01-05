@@ -1,29 +1,33 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
-import { Montserrat, Open_Sans } from 'next/font/google'
+import { Montserrat, Oswald } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  variable: '--font-oswald',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
 
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
-  display: 'swap',
-})
-
-const openSans = Open_Sans({
-  subsets: ['latin'],
-  variable: '--font-open-sans',
+  weight: ['400', '600', '700'],
   display: 'swap',
 })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-construction-debris-removal.com'),
   title: {
-    default: 'Construction Debris Removal Boise | Job Site Cleanup Idaho',
-    template: '%s | Construction Debris Removal Boise',
+    default: 'Boise Construction Debris Removal | Same-Day Service | Top Shelf',
+    template: '%s | Boise Debris Removal',
   },
   description: 'Professional construction debris removal in Boise, Idaho. Job site cleanup, renovation debris, and recycling services. Same-day service available. Call (208) 943-5231 for a free quote.',
   keywords: [
@@ -88,11 +92,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${openSans.variable}`}>
-      <head>
-        <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
-      </head>
+    <html lang="en" className={`${oswald.variable} ${montserrat.variable}`}>
       <body className="font-body antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-581QKP6ZE5"
@@ -132,12 +132,17 @@ export default function RootLayout({
         </noscript>
         <QuoteFormProvider>
           <Header />
+          <VisibleBreadcrumb />
           <main>{children}</main>
           <Footer />
         </QuoteFormProvider>
         <StructuredData />
+        <BreadcrumbSchema siteName="Top Shelf Construction Debris Removal" siteUrl="https://boise-construction-debris-removal.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://www.google.com" />
       </body>

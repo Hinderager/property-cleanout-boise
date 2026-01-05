@@ -1,16 +1,33 @@
 import type { Metadata } from 'next'
+import { Montserrat, Oswald } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  variable: '--font-oswald',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  weight: ['400', '600', '700'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-estate-cleanout.com'),
   title: {
-    default: 'Estate Cleanout Services Boise | Professional Estate Clearing Idaho',
-    template: '%s | Estate Cleanout Boise',
+    default: 'Boise Estate Cleanout | Compassionate Service | Top Shelf',
+    template: '%s | Boise Estate Cleanout',
   },
   description: 'Professional estate cleanout services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Compassionate estate clearing, donation coordination, and complete property cleanouts. Licensed & insured. Call (208) 943-5231.',
   keywords: 'estate cleanout Boise, estate clearing Idaho, property cleanout, probate cleanout, estate sale cleanup, deceased estate cleanout, inheritance cleanout, Meridian estate cleanout, Nampa estate cleanout',
@@ -38,16 +55,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <html lang="en" className={`${oswald.variable} ${montserrat.variable}`}>
         <StructuredData />
+        <BreadcrumbSchema siteName="Top Shelf Estate Cleanout" siteUrl="https://boise-estate-cleanout.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://www.google.com" />
-      </head>
       <body className="min-h-screen bg-white">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-581QKP6ZE5"
@@ -86,6 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </noscript>
         <QuoteFormProvider>
           <Header />
+          <VisibleBreadcrumb />
           {children}
           <Footer />
         </QuoteFormProvider>

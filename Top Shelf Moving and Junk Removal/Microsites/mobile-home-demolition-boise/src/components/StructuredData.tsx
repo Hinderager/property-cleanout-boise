@@ -53,7 +53,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "description": `Professional mobile home and manufactured home demolition services in ${city}, Idaho. Complete teardown, foundation removal, and site cleanup. Licensed and insured.`,
     "url": "https://mobile-home-demolition-boise.com",
     "telephone": "+1-208-943-5231",
-    "email": "info@mobile-home-demolition-boise.com",
+    "email": "info@topshelfpros.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,

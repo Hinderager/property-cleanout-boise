@@ -1,21 +1,24 @@
 import type { Metadata } from 'next'
-import { Oswald, Open_Sans } from 'next/font/google'
+import { Montserrat, Oswald } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const oswald = Oswald({
   subsets: ['latin'],
   variable: '--font-oswald',
+  weight: ['400', '600', '700'],
   display: 'swap',
 })
 
-const openSans = Open_Sans({
+const montserrat = Montserrat({
   subsets: ['latin'],
-  variable: '--font-open-sans',
+  variable: '--font-montserrat',
+  weight: ['400', '600', '700'],
   display: 'swap',
 })
 
@@ -55,11 +58,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${oswald.variable} ${openSans.variable}`}>
-      <head>
-        <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
-      </head>
+    <html lang="en" className={`${oswald.variable} ${montserrat.variable}`}>
       <body className="font-body antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-581QKP6ZE5"
@@ -100,6 +99,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </noscript>
         <QuoteFormProvider>
           <Header />
+          <VisibleBreadcrumb />
           {children}
           <Footer />
         </QuoteFormProvider>
