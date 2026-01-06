@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Phone, CheckCircle } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Retail Cleanout | Top Shelf Property Cleanout',
@@ -17,6 +18,7 @@ export default function RetailCleanoutPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mt-4">Professional retail cleanout services throughout the Treasure Valley.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
 
       <section className="py-16 bg-white">

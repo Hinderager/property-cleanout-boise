@@ -4,7 +4,6 @@ import Script from 'next/script'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
-import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 import './globals.css'
 
@@ -101,7 +100,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </noscript>
         <QuoteFormProvider>
           <Header />
-          <VisibleBreadcrumb />
           {children}
           <Footer />
         </QuoteFormProvider>

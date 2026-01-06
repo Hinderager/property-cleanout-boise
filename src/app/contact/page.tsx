@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { SchedulingForm } from '@/components/SchedulingForm'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Top Shelf Property Cleanout',
@@ -17,6 +18,8 @@ export default function ContactPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Get in touch for a free estimate on your property cleanout.</p>
         </div>
       </section>
+
+      <VisibleBreadcrumb />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
