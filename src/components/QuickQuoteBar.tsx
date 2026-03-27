@@ -55,7 +55,8 @@ export function QuickQuoteBar() {
           firstName,
           lastName,
           phone,
-          source: 'ms-property',
+          source: 'microsite - property cleanout',
+          tags: ['microsite', 'property cleanout'],
           message,
           photoUrls
         })
@@ -106,7 +107,7 @@ export function QuickQuoteBar() {
     submitData.append('firstName', firstName)
     submitData.append('lastName', lastName)
     submitData.append('phone', phone.replace(/\D/g, ''))
-    submitData.append('source', 'property-cleanout-boise')
+    submitData.append('source', 'microsite - property cleanout')
     submitData.append('form_type', 'property_cleanout_microsite')
     submitData.append('consent', 'pending')
     submitData.append('status', 'partial')
@@ -159,7 +160,7 @@ export function QuickQuoteBar() {
     submitData.append('phone', phone.replace(/\D/g, ''))
     submitData.append('email', email)
     submitData.append('message', message)
-    submitData.append('source', 'property-cleanout-boise')
+    submitData.append('source', 'microsite - property cleanout')
     submitData.append('form_type', 'property_cleanout_microsite')
     submitData.append('consent', hasConsent ? 'true' : 'false')
     submitData.append('status', 'complete')
