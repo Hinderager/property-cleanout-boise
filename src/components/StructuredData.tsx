@@ -27,7 +27,7 @@ const faqData = [
   },
   {
     question: 'What does a property cleanout cost?',
-    answer: 'Depends on how much is there and how long it takes. Small apartments usually run $300-600. Bigger houses with more stuff can be $800-2,000+. We give free estimates—call us at (208) 943-5231 or send us photos and we\'ll quote it.',
+    answer: 'Cost depends on the size of the property, how much stuff is inside, the condition (light cleanout vs. hoarding), accessibility, and how much can be donated vs. landfilled. Small apartments are the easiest end of the range; large homes or hoarding situations are the most involved. We give free estimates—call us at (208) 943-5231 or send us photos and we\'ll quote it.',
   },
   {
     question: 'Do you work with real estate agents and investors?',
@@ -80,7 +80,6 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
       "Real Estate Property Clearing",
       "Investment Property Cleanout"
     ],
-    "priceRange": "$$",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

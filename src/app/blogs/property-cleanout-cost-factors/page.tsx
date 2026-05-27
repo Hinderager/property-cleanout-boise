@@ -263,27 +263,27 @@ export default function PropertyCleanoutCostFactors() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-gunmetal mb-6">
-              Typical Price Ranges in Boise
+              Project Sizes We Handle in Boise
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              General pricing for property cleanouts in the Treasure Valley:
+              Property cleanouts in the Treasure Valley fall into a few common scopes:
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Small apartment or light cleanout:</strong> $300-$800. Minimal contents, quick turnaround.
+              <strong>Small apartment or light cleanout:</strong> Minimal contents, quick turnaround. The most budget-friendly end of the range.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Average home cleanout:</strong> $1,000-$3,000. Typical rental turnover or estate situation with moderate contents.
+              <strong>Average home cleanout:</strong> Typical rental turnover or estate situation with moderate contents.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Large home or full cleanout:</strong> $3,000-$5,000. Multiple rooms fully furnished, garage and storage areas included.
+              <strong>Large home or full cleanout:</strong> Multiple rooms fully furnished, garage and storage areas included.
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              <strong>Hoarding or extreme situations:</strong> $5,000-$15,000+. Multi-day projects requiring extensive labor.
+              <strong>Hoarding or extreme situations:</strong> Multi-day projects requiring extensive labor. The most involved scope.
             </p>
           </div>
         </div>

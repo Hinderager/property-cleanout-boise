@@ -244,15 +244,15 @@ export default function ForeclosureCleanoutProcess() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Light cleanouts:</strong> $500-$1,500. Partial contents, minimal trash, standard house size.
+              <strong>Light cleanouts:</strong> Partial contents, minimal trash, standard house size. The most budget-friendly end.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Full-house cleanouts:</strong> $1,500-$3,500. Complete household contents, multiple rooms, typical foreclosure situation.
+              <strong>Full-house cleanouts:</strong> Complete household contents, multiple rooms, typical foreclosure situation.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Heavy cleanouts:</strong> $3,500-$6,000+. Hoarding conditions, large homes, extensive debris, or hazardous materials requiring special handling.
+              <strong>Heavy cleanouts:</strong> Hoarding conditions, large homes, extensive debris, or hazardous materials requiring special handling—the most involved scope.
             </p>
 
             <p className="text-gray-600 leading-relaxed">
