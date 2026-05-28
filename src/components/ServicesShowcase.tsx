@@ -6,28 +6,28 @@ const services = [
     title: 'Foreclosure Cleanouts',
     description: 'We specialize in clearing bank-owned and REO properties quickly and thoroughly. From abandoned furniture to personal belongings, we remove everything so the property is ready for sale. We work with banks, asset managers, and real estate agents on tight timelines.',
     image: '/generated/rental-cleanout.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Rental Property Turnovers',
     description: 'Get your rental property ready for the next tenant fast. We clear out abandoned belongings, furniture, appliances, and debris left behind. Our team works efficiently to minimize vacancy time and maximize your return on investment.',
     image: '/generated/foreclosure-cleanup.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Eviction Cleanouts',
     description: 'When tenants leave suddenly or are evicted, they often leave behind significant belongings. We handle the entire cleanout process—documenting items as required, storing valuables per legal requirements, and clearing the property for your next tenant.',
     image: '/generated/eviction-cleanout.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Code Violation Cleanouts',
     description: 'Got a notice from the city? We help property owners clear violations quickly. Whether it\'s overgrown yards, accumulated debris, junk vehicles, or interior cleanup requirements, we work fast to get your property back into compliance and avoid fines.',
     image: '/generated/code-violation.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
 ]
@@ -96,9 +96,9 @@ export function ServicesShowcase() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-16">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>

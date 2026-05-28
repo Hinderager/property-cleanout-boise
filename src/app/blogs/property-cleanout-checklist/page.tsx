@@ -285,10 +285,10 @@ export default function PropertyCleanoutChecklist() {
               We handle complete property cleanouts throughout Boise, Meridian, Nampa, and the Treasure Valley. Thorough, documented, and efficient.
             </p>
             <a
-              href="tel:2083611982"
+              href="tel:2089435231"
               className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
             >
-              Call (208) 361-1982
+              Call (208) 943-5231
             </a>
           </div>
         </div>

@@ -323,10 +323,10 @@ export default function PropertyCleanoutCostFactors() {
               We'll look at your specific property and give you a firm price. No surprises, no hidden fees.
             </p>
             <a
-              href="tel:2083611982"
+              href="tel:2089435231"
               className="inline-block bg-dark-blue hover:bg-light-blue text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
             >
-              Call (208) 361-1982
+              Call (208) 943-5231
             </a>
           </div>
         </div>
