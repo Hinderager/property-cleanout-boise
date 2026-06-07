@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Phone, Award, Shield, Users, Heart } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Us | Top Shelf Property Cleanout',
+  title: 'About Us | Property Cleanout Boise',
   description: 'Learn about Top Shelf Property Cleanout. Local property cleanout experts serving the Treasure Valley. Licensed, insured, and committed to quality service.',
   alternates: { canonical: 'https://property-cleanout-boise.com/about-us' },
 }

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Rental Property Cleanout Garden City ID | Top Shelf Property Cleanout',
+  title: 'Rental Property Cleanout Garden City ID | Property Cleanout Boise',
   description: 'Complete rental property cleanouts in Garden City, Idaho. Fast, professional service. Licensed & insured. Call (208) 943-5231.',
   keywords: ['rental property cleanout Garden City', 'property cleanout Garden City'],
   alternates: {

@@ -4,7 +4,7 @@ import { SchedulingForm } from '@/components/SchedulingForm'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Top Shelf Property Cleanout',
+  title: 'Contact Us | Property Cleanout Boise',
   description: 'Contact Top Shelf Property Cleanout for property cleanouts in Boise and the Treasure Valley. Call (208) 943-5231.',
   alternates: { canonical: 'https://property-cleanout-boise.com/contact' },
 }

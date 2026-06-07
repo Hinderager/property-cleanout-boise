@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Commercial Property Cleanout Mountain Home ID | Top Shelf Property Cleanout',
+  title: 'Commercial Property Cleanout Mountain Home ID | Property Cleanout Boise',
   description: 'Office and commercial cleanouts in Mountain Home, Idaho. Fast, professional service. Licensed & insured. Call (208) 943-5231.',
   keywords: ['commercial property cleanout Mountain Home', 'property cleanout Mountain Home'],
   alternates: {

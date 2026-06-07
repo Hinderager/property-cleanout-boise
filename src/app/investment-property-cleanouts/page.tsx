@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { CheckCircle, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Investment Property Cleanout | Top Shelf Property Cleanout',
+  title: 'Investment Property Cleanout | Property Cleanout Boise',
   description: 'Investment property cleanout in Boise. Fast turnaround for real estate investors. Rental turnovers, flip prep, and more. Call (208) 943-5231.',
   alternates: { canonical: 'https://property-cleanout-boise.com/investment-property-cleanouts' },
 }

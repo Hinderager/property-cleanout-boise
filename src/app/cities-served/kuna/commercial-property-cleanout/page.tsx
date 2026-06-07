@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Commercial Property Cleanout Kuna ID | Top Shelf Property Cleanout',
+  title: 'Commercial Property Cleanout Kuna ID | Property Cleanout Boise',
   description: 'Office and commercial cleanouts in Kuna, Idaho. Fast, professional service. Licensed & insured. Call (208) 943-5231.',
   keywords: ['commercial property cleanout Kuna', 'property cleanout Kuna'],
   alternates: {

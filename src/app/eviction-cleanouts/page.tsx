@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { CheckCircle, Phone, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Eviction Cleanout Services | Top Shelf Property Cleanout',
+  title: 'Eviction Cleanout Services | Property Cleanout Boise',
   description: 'Fast eviction cleanout in Boise. Same-day service available. Get rental units rent-ready quickly after evictions. Call (208) 943-5231.',
   alternates: { canonical: 'https://property-cleanout-boise.com/eviction-cleanouts' },
 }

@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://property-cleanout-boise.com',
-    siteName: 'Top Shelf Property Cleanout',
+    siteName: 'Property Cleanout Boise',
     title: 'Property Cleanout Boise | Rental, Foreclosure & Eviction Cleanout Idaho',
     description: 'Fast property cleanout in Boise and Treasure Valley. Rental turnovers, foreclosure clearing, eviction cleanouts. Same-day service. Licensed & insured.',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Boise Property Cleanout - Idaho' }],

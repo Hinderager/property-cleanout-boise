@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Middleton ID | Top Shelf Property Cleanout',
+  title: 'Junk Removal Middleton ID | Property Cleanout Boise',
   description: 'General junk and debris removal in Middleton, Idaho. Fast, professional service. Licensed & insured. Call (208) 943-5231.',
   keywords: ['junk removal Middleton', 'property cleanout Middleton'],
   alternates: {

@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Asset Preservation | Top Shelf Property Cleanout',
+  title: 'Asset Preservation | Property Cleanout Boise',
   description: 'Asset Preservation services in Boise and the Treasure Valley. Professional, fast, and affordable.',
   alternates: { canonical: 'https://property-cleanout-boise.com/services/foreclosure/asset-preservation' },
 }

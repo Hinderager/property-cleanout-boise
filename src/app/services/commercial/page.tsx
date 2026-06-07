@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Commercial Property Cleanout | Top Shelf Property Cleanout',
+  title: 'Commercial Property Cleanout | Property Cleanout Boise',
   description: 'Commercial property cleanout services in Boise and the Treasure Valley. Office, retail, and warehouse cleanouts. Fast, professional service. Call (208) 943-5231.',
   alternates: { canonical: 'https://property-cleanout-boise.com/services/commercial' },
 }

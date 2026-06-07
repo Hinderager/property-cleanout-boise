@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Tenant Cleanout | Top Shelf Property Cleanout',
+  title: 'Tenant Cleanout | Property Cleanout Boise',
   description: 'Tenant Cleanout services in Boise and the Treasure Valley. Professional, fast, and affordable.',
   alternates: { canonical: 'https://property-cleanout-boise.com/services/rental-property/tenant-cleanout' },
 }

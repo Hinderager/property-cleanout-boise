@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Why Choose Us | Top Shelf Property Cleanout',
+  title: 'Why Choose Us | Property Cleanout Boise',
   description: 'Why choose Top Shelf Property Cleanout for your property cleanout needs in Boise and the Treasure Valley.',
   alternates: { canonical: 'https://property-cleanout-boise.com/about-us/why-choose-us' },
 }

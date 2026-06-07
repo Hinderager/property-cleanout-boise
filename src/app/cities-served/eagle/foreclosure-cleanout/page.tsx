@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Foreclosure Cleanout Eagle ID | Top Shelf Property Cleanout',
+  title: 'Foreclosure Cleanout Eagle ID | Property Cleanout Boise',
   description: 'REO and bank-owned property cleanouts in Eagle, Idaho. Fast, professional service. Licensed & insured. Call (208) 943-5231.',
   keywords: ['foreclosure cleanout Eagle', 'property cleanout Eagle'],
   alternates: {

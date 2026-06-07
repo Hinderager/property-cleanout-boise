@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Foreclosure Cleanout Middleton ID | Top Shelf Property Cleanout',
+  title: 'Foreclosure Cleanout Middleton ID | Property Cleanout Boise',
   description: 'REO and bank-owned property cleanouts in Middleton, Idaho. Fast, professional service. Licensed & insured. Call (208) 943-5231.',
   keywords: ['foreclosure cleanout Middleton', 'property cleanout Middleton'],
   alternates: {

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Cities Served | Top Shelf Property Cleanout',
+  title: 'Cities Served | Property Cleanout Boise',
   description: 'Property cleanout services throughout the Treasure Valley. Serving Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding areas. Call (208) 943-5231.',
   alternates: { canonical: 'https://property-cleanout-boise.com/cities-served' },
 }

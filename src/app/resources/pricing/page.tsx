@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Pricing Information | Top Shelf Property Cleanout',
+  title: 'Pricing Information | Property Cleanout Boise',
   description: 'Learn about property cleanout pricing in Boise and the Treasure Valley.',
   alternates: { canonical: 'https://property-cleanout-boise.com/resources/pricing' },
 }

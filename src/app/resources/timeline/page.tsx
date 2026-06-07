@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Property Cleanout Timeline | Top Shelf Property Cleanout',
+  title: 'Property Cleanout Timeline | Property Cleanout Boise',
   description: 'How long does a property cleanout take? Timeline and process information.',
   alternates: { canonical: 'https://property-cleanout-boise.com/resources/timeline' },
 }

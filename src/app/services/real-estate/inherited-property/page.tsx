@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Inherited Property Cleanout | Top Shelf Property Cleanout',
+  title: 'Inherited Property Cleanout | Property Cleanout Boise',
   description: 'Inherited Property Cleanout services in Boise and the Treasure Valley. Professional, fast, and affordable.',
   alternates: { canonical: 'https://property-cleanout-boise.com/services/real-estate/inherited-property' },
 }
