@@ -53,7 +53,7 @@ export default function ContactPage() {
                   <Clock className="w-6 h-6 text-[#FFC845] flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-bold text-dark-blue mb-1">Hours</h3>
-                    <p className="text-gray-700">Monday - Saturday: 7:00 AM - 7:00 PM<br/>Sunday: By appointment</p>
+                    <p className="text-gray-700">Monday - Sunday: 8:00 AM - 9:00 PM</p>
                   </div>
                 </div>
               </div>
